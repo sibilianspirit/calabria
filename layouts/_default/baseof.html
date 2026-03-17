@@ -5,13 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ .Site.Title }} – {{ if eq .Lang "pl" }}Kompletny przewodnik po Kalabrii{{ else }}Complete Guide to Calabria{{ end }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+  <!-- Calabrian color accent bar -->
+  <div class="accent-bar"></div>
+
   <header class="site-header">
     <div class="container-wide">
-      <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">Best of Calabria</a>
-      <button class="mobile-toggle" aria-label="Menu">&#9776;</button>
+      <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">
+        <img src="/images/logo.webp" alt="Best of Calabria" class="logo-img">
+      </a>
+      <button class="mobile-toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
       <nav class="site-nav" id="site-nav">
         {{ if eq .Lang "en" }}
         <div class="nav-item has-mega">
@@ -154,10 +162,13 @@
           <a href="/pl/praktyczne/">Praktyczne</a>
         </div>
         {{ end }}
+        {{/* Language flags */}}
         {{ if .Translations }}
           {{ range .Translations }}
-            <div class="nav-item">
-              <a href="{{ .RelPermalink }}" class="lang-switch">{{ .Language.LanguageName }}</a>
+            <div class="nav-item nav-lang">
+              <a href="{{ .RelPermalink }}" class="lang-switch" title="{{ .Language.LanguageName }}">
+                {{ if eq .Lang "pl" }}&#127477;&#127473;{{ else }}&#127468;&#127463;{{ end }}
+              </a>
             </div>
           {{ end }}
         {{ end }}
@@ -171,12 +182,64 @@
 
   <footer class="site-footer">
     <div class="container-wide">
-      <p>&copy; {{ now.Year }} Best of Calabria</p>
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="/images/logo.webp" alt="Best of Calabria" class="footer-logo">
+          <p>{{ if eq .Lang "pl" }}Kompletny przewodnik po południowych Włoszech{{ else }}The complete guide to southern Italy{{ end }}</p>
+        </div>
+        <div class="footer-links">
+          {{ if eq .Lang "en" }}
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <a href="/destinations/">Destinations</a>
+            <a href="/nature/">Nature</a>
+            <a href="/cuisine/">Cuisine</a>
+            <a href="/culture/">Culture</a>
+          </div>
+          <div class="footer-col">
+            <h4>Plan</h4>
+            <a href="/practical/getting-there/">Getting There</a>
+            <a href="/practical/accommodation/">Where to Stay</a>
+            <a href="/practical/itinerary-7-days/">7-Day Itinerary</a>
+          </div>
+          <div class="footer-col">
+            <h4>Info</h4>
+            <a href="/about/">About</a>
+            <a href="/contact/">Contact</a>
+            <a href="/partnership/">Partnership</a>
+          </div>
+          {{ else }}
+          <div class="footer-col">
+            <h4>Odkrywaj</h4>
+            <a href="/pl/kierunki/">Kierunki</a>
+            <a href="/pl/natura/">Natura</a>
+            <a href="/pl/kuchnia/">Kuchnia</a>
+            <a href="/pl/kultura/">Kultura</a>
+          </div>
+          <div class="footer-col">
+            <h4>Planuj</h4>
+            <a href="/pl/praktyczne/jak-dojechac/">Jak dojechać</a>
+            <a href="/pl/praktyczne/noclegi/">Noclegi</a>
+            <a href="/pl/praktyczne/plan-7-dni/">Plan na 7 dni</a>
+          </div>
+          <div class="footer-col">
+            <h4>Info</h4>
+            <a href="/pl/o-nas/">O nas</a>
+            <a href="/pl/kontakt/">Kontakt</a>
+            <a href="/pl/wspolpraca/">Współpraca</a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; {{ now.Year }} Best of Calabria</p>
+      </div>
     </div>
   </footer>
 
   <script>
     document.querySelector('.mobile-toggle').addEventListener('click', function() {
+      this.classList.toggle('is-open');
       document.getElementById('site-nav').classList.toggle('is-open');
     });
   </script>

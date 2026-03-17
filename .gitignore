@@ -15,6 +15,9 @@ Thumbs.db
 *.jpeg
 *.jpg
 
+# But keep the logo
+!static/images/logo.png
+
 # Python
 __pycache__/
 *.pyc

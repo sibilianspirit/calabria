@@ -1,9 +1,139 @@
 {{ define "main" }}
-<div class="hero">
+<!-- Hero -->
+<section class="hero">
   <div class="container">
-    <h1>{{ .Site.Title }}</h1>
-    <p>{{ .Site.Params.description }}</p>
+    {{ if eq .Lang "pl" }}
+    <div class="hero-kicker">KOMPLETNY PRZEWODNIK PO KALABRII</div>
+    <h1>Odkryj prawdziwą Kalabrię</h1>
+    <p>Plaże, góry, starożytne miasteczka i najlepsza kuchnia południowych Włoch &ndash; wszystko w jednym miejscu.</p>
+    {{ else }}
+    <div class="hero-kicker">THE COMPLETE GUIDE TO CALABRIA</div>
+    <h1>Discover the Real Calabria</h1>
+    <p>Stunning beaches, wild mountains, ancient Greek heritage, and the most authentic Italian food &ndash; southern Italy's best-kept secret.</p>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Category Grid -->
+<div class="container-wide">
+  <div class="category-grid">
+    {{ if eq .Lang "pl" }}
+    <a href="/pl/natura/" class="category-card">
+      <img src="/images/wp-uploads/2026/02/calabria-beach.webp" alt="Plaże Kalabrii" loading="lazy">
+      <span>Natura i plaże</span>
+    </a>
+    <a href="/pl/kierunki/" class="category-card">
+      <img src="/images/wp-uploads/2026/02/calabria-destinations.webp" alt="Kierunki w Kalabrii" loading="lazy">
+      <span>Kierunki</span>
+    </a>
+    <a href="/pl/kuchnia/" class="category-card">
+      <img src="/images/wp-uploads/2026/02/kuchnia-kalabryjska.webp" alt="Kuchnia kalabryjska" loading="lazy">
+      <span>Kuchnia</span>
+    </a>
+    <a href="/pl/kultura/" class="category-card">
+      <img src="/images/wp-uploads/2026/02/capo-colonna.webp" alt="Kultura Kalabrii" loading="lazy">
+      <span>Historia i kultura</span>
+    </a>
+    {{ else }}
+    <a href="/nature/" class="category-card">
+      <img src="/images/wp-uploads/2026/02/calabria-beach.webp" alt="Calabria beaches" loading="lazy">
+      <span>Nature &amp; Beaches</span>
+    </a>
+    <a href="/destinations/" class="category-card">
+      <img src="/images/wp-uploads/2026/02/calabria-destinations.webp" alt="Calabria destinations" loading="lazy">
+      <span>Destinations</span>
+    </a>
+    <a href="/cuisine/" class="category-card">
+      <img src="/images/wp-uploads/2026/02/kuchnia-kalabryjska.webp" alt="Calabrian cuisine" loading="lazy">
+      <span>Cuisine</span>
+    </a>
+    <a href="/culture/" class="category-card">
+      <img src="/images/wp-uploads/2026/02/capo-colonna.webp" alt="Calabria culture" loading="lazy">
+      <span>Culture &amp; History</span>
+    </a>
+    {{ end }}
   </div>
 </div>
-{{ .Content }}
+
+<!-- Intro section -->
+<div class="boc-homepage-intro">
+  {{ if eq .Lang "pl" }}
+  <div class="boc-intro-kicker">DLACZEGO KALABRIA?</div>
+  <h2 class="boc-intro-title">Czubek włoskiego buta, który skrywa największe skarby</h2>
+  <p class="boc-intro-text">Kalabria to region, który zaskakuje na każdym kroku &ndash; od turkusowych plaż Morza Tyrreńskiego, przez dzikie szczyty Aspromonte, po starożytne miasteczka zawieszone na klifach. Tutaj tradycja spotyka się z naturą w najbardziej autentycznej formie.</p>
+  <div class="boc-intro-pillars">
+    <a href="/pl/kierunki/" class="boc-intro-pillar"><span class="boc-intro-num">10+</span>Miasteczek do odkrycia</a>
+    <a href="/pl/natura/" class="boc-intro-pillar"><span class="boc-intro-num">3</span>Parki Narodowe</a>
+    <a href="/pl/kuchnia/" class="boc-intro-pillar"><span class="boc-intro-num">800+</span>km wybrzeża</a>
+    <a href="/pl/kultura/" class="boc-intro-pillar"><span class="boc-intro-num">3000</span>lat historii</a>
+  </div>
+  {{ else }}
+  <div class="boc-intro-kicker">WHY CALABRIA?</div>
+  <h2 class="boc-intro-title">The toe of Italy's boot hides its greatest treasures</h2>
+  <p class="boc-intro-text">Calabria is a region that surprises at every turn &ndash; from the turquoise beaches of the Tyrrhenian Sea, through the wild peaks of Aspromonte, to ancient cliff-top towns. Here tradition meets nature in its most authentic form.</p>
+  <div class="boc-intro-pillars">
+    <a href="/destinations/" class="boc-intro-pillar"><span class="boc-intro-num">10+</span>Towns to discover</a>
+    <a href="/nature/" class="boc-intro-pillar"><span class="boc-intro-num">3</span>National Parks</a>
+    <a href="/nature/beaches/" class="boc-intro-pillar"><span class="boc-intro-num">800+</span>km of coastline</a>
+    <a href="/culture/" class="boc-intro-pillar"><span class="boc-intro-num">3000</span>years of history</a>
+  </div>
+  {{ end }}
+</div>
+
+<!-- Featured Destinations -->
+<section class="featured-section">
+  <div class="container-wide">
+    {{ if eq .Lang "pl" }}
+    <h2>Popularne kierunki</h2>
+    <div class="featured-grid">
+      <a href="/pl/kierunki/tropea/" class="featured-card">
+        <img src="/images/wp-uploads/2026/03/boc-tropea.webp" alt="Tropea" loading="lazy">
+        <div class="featured-card-body">
+          <h3>Tropea</h3>
+          <p>Perła Kalabrii na klifie nad Morzem Tyrreńskim z kultowym kościołem Santa Maria dell'Isola.</p>
+        </div>
+      </a>
+      <a href="/pl/kierunki/scilla/" class="featured-card">
+        <img src="/images/wp-uploads/2026/03/boc-scilla-chianalea-lodzie.webp" alt="Scilla" loading="lazy">
+        <div class="featured-card-body">
+          <h3>Scilla</h3>
+          <p>Dzielnica rybacka Chianalea, zamek Ruffo i legendarny Cieśnina Mesyńska.</p>
+        </div>
+      </a>
+      <a href="/pl/kierunki/reggio-calabria/" class="featured-card">
+        <img src="/images/wp-uploads/2026/03/boc-catanzaro.webp" alt="Reggio Calabria" loading="lazy">
+        <div class="featured-card-body">
+          <h3>Reggio Calabria</h3>
+          <p>Brązy z Riace, najpiękniejszy kilometr Włoch i widok na Sycylię.</p>
+        </div>
+      </a>
+    </div>
+    {{ else }}
+    <h2>Featured Destinations</h2>
+    <div class="featured-grid">
+      <a href="/destinations/tropea/" class="featured-card">
+        <img src="/images/wp-uploads/2026/03/boc-tropea.webp" alt="Tropea" loading="lazy">
+        <div class="featured-card-body">
+          <h3>Tropea</h3>
+          <p>The pearl of Calabria perched on a cliff above the Tyrrhenian Sea with the iconic Santa Maria dell'Isola.</p>
+        </div>
+      </a>
+      <a href="/destinations/scilla/" class="featured-card">
+        <img src="/images/wp-uploads/2026/03/boc-scilla-chianalea-lodzie.webp" alt="Scilla" loading="lazy">
+        <div class="featured-card-body">
+          <h3>Scilla</h3>
+          <p>The Chianalea fishing quarter, Ruffo Castle, and the legendary Strait of Messina.</p>
+        </div>
+      </a>
+      <a href="/destinations/reggio-calabria/" class="featured-card">
+        <img src="/images/wp-uploads/2026/03/boc-catanzaro.webp" alt="Reggio Calabria" loading="lazy">
+        <div class="featured-card-body">
+          <h3>Reggio Calabria</h3>
+          <p>Home to the Bronzi di Riace, the most beautiful kilometer in Italy, and views of Sicily.</p>
+        </div>
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</section>
 {{ end }}

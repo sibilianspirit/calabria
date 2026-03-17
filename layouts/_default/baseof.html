@@ -3,15 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ .Title }} – {{ .Site.Title }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }} – {{ if eq .Lang "pl" }}Kompletny przewodnik po Kalabrii{{ else }}Complete Guide to Calabria{{ end }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
+    <div class="container-wide">
       <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">Best of Calabria</a>
       <nav class="site-nav">
+        {{ if eq .Lang "en" }}
+          <a href="/destinations/">Destinations</a>
+          <a href="/nature/">Nature</a>
+          <a href="/cuisine/">Cuisine</a>
+          <a href="/culture/">Culture</a>
+          <a href="/practical/">Practical</a>
+        {{ else }}
+          <a href="/pl/kierunki/">Kierunki</a>
+          <a href="/pl/natura/">Natura</a>
+          <a href="/pl/kuchnia/">Kuchnia</a>
+          <a href="/pl/kultura/">Kultura</a>
+          <a href="/pl/praktyczne/">Praktyczne</a>
+        {{ end }}
         {{ if .Translations }}
           {{ range .Translations }}
             <a href="{{ .RelPermalink }}" class="lang-switch">{{ .Language.LanguageName }}</a>
@@ -26,7 +39,7 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container-wide">
       <p>&copy; {{ now.Year }} Best of Calabria</p>
     </div>
   </footer>

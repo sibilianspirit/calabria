@@ -126,9 +126,7 @@ img { max-width: 100%; height: auto; }
 /* Lang switch (flag) */
 .nav-lang { align-items: center; margin-left: 0.5rem; }
 .lang-switch {
-  font-size: 1.4rem !important;
-  line-height: 1;
-  padding: 0.4rem 0.5rem !important;
+  padding: 0.5rem 0.6rem !important;
   border-radius: 6px;
   text-decoration: none !important;
   transition: background 0.2s;
@@ -137,6 +135,13 @@ img { max-width: 100%; height: auto; }
 }
 .lang-switch:hover {
   background: #F5F1EB;
+}
+.flag-icon {
+  width: 24px;
+  height: 18px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  display: block;
 }
 
 /* ── MEGA MENU ── */
@@ -886,12 +891,12 @@ img { max-width: 100%; height: auto; }
   padding: 3rem 0 2rem;
 }
 .footer-brand { max-width: 280px; }
-.footer-logo {
-  height: 50px;
-  width: auto;
-  margin-bottom: 0.8rem;
-  filter: brightness(0) invert(1);
-  opacity: 0.9;
+.footer-logo-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
 }
 .footer-brand p { font-size: 0.9rem; line-height: 1.5; }
 .footer-links { display: flex; gap: 3rem; }

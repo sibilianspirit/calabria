@@ -5,18 +5,6 @@
 <div class="content-with-sidebar container-wide">
   <article class="page-content">
     {{ .Content }}
-    {{ if .Pages }}
-    <div class="page-list">
-      {{ range .Pages }}
-      <div class="page-card">
-        <a href="{{ .RelPermalink }}">
-          <h2>{{ .Title }}</h2>
-          {{ with .Description }}<p>{{ . }}</p>{{ end }}
-        </a>
-      </div>
-      {{ end }}
-    </div>
-    {{ end }}
   </article>
 
   {{ partial "sidebar.html" . }}

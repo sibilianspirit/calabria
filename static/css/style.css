@@ -504,7 +504,9 @@ img { max-width: 100%; height: auto; }
   font-style: italic;
   color: #5A524A;
 }
-.page-content a { color: #1B4D6E; text-decoration: underline; text-underline-offset: 2px; }
+.page-content a { color: #1B4D6E; text-decoration: none; }
+.page-content p a, .page-content li a { text-decoration: underline; text-underline-offset: 2px; }
+.page-content p a:hover, .page-content li a:hover { color: #C75B39; }
 .page-content a:hover { color: #C75B39; }
 
 /* Images in articles */
@@ -648,7 +650,7 @@ img { max-width: 100%; height: auto; }
   border: 1px solid #E0D8CE;
   border-radius: 8px;
   transition: all 0.3s ease;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .boc-attraction-card:hover {
   background: #FAF8F5;
@@ -679,6 +681,7 @@ img { max-width: 100%; height: auto; }
   line-height: 1.2;
   border-left: none;
   padding-left: 0;
+  text-decoration: none;
 }
 .boc-attraction-card:hover h3 { color: #C75B39; }
 .boc-attraction-card p {

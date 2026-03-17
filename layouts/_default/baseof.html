@@ -11,23 +11,154 @@
   <header class="site-header">
     <div class="container-wide">
       <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">Best of Calabria</a>
-      <nav class="site-nav">
+      <button class="mobile-toggle" aria-label="Menu">&#9776;</button>
+      <nav class="site-nav" id="site-nav">
         {{ if eq .Lang "en" }}
+        <div class="nav-item has-mega">
           <a href="/destinations/">Destinations</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Popular</h4>
+              <a href="/destinations/tropea/">Tropea</a>
+              <a href="/destinations/scilla/">Scilla</a>
+              <a href="/destinations/reggio-calabria/">Reggio Calabria</a>
+              <a href="/destinations/pizzo/">Pizzo</a>
+            </div>
+            <div class="mega-col">
+              <h4>Explore</h4>
+              <a href="/destinations/bova/">Bova</a>
+              <a href="/destinations/cosenza/">Cosenza</a>
+              <a href="/destinations/catanzaro/">Catanzaro</a>
+              <a href="/destinations/gerace/">Gerace</a>
+            </div>
+            <div class="mega-col">
+              <h4>More</h4>
+              <a href="/destinations/stilo/">Stilo</a>
+              <a href="/destinations/locri/">Locri</a>
+              <a href="/destinations/">All destinations &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item has-mega">
           <a href="/nature/">Nature</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>National Parks</h4>
+              <a href="/nature/aspromonte/">Aspromonte</a>
+              <a href="/nature/sila/">Sila</a>
+              <a href="/nature/pollino/">Pollino</a>
+            </div>
+            <div class="mega-col">
+              <h4>Coast</h4>
+              <a href="/nature/beaches/">Best Beaches</a>
+              <a href="/nature/capo-vaticano/">Capo Vaticano</a>
+              <a href="/nature/costa-viola/">Costa Viola</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item has-mega">
           <a href="/cuisine/">Cuisine</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Specialties</h4>
+              <a href="/cuisine/nduja/">'Nduja</a>
+              <a href="/cuisine/bergamot/">Bergamot</a>
+              <a href="/cuisine/fileja-pasta/">Fileja Pasta</a>
+              <a href="/cuisine/calabrian-wine/">Wine</a>
+              <a href="/cuisine/street-food/">Street Food</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item has-mega">
           <a href="/culture/">Culture</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Heritage</h4>
+              <a href="/culture/magna-graecia/">Magna Graecia</a>
+              <a href="/culture/byzantine-heritage/">Byzantine Heritage</a>
+              <a href="/culture/traditions-festivals/">Traditions &amp; Festivals</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item">
           <a href="/practical/">Practical</a>
+        </div>
         {{ else }}
+        <div class="nav-item has-mega">
           <a href="/pl/kierunki/">Kierunki</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Popularne</h4>
+              <a href="/pl/kierunki/tropea/">Tropea</a>
+              <a href="/pl/kierunki/scilla/">Scilla</a>
+              <a href="/pl/kierunki/reggio-calabria/">Reggio Calabria</a>
+              <a href="/pl/kierunki/pizzo/">Pizzo</a>
+            </div>
+            <div class="mega-col">
+              <h4>Odkrywaj</h4>
+              <a href="/pl/kierunki/bova/">Bova</a>
+              <a href="/pl/kierunki/cosenza/">Cosenza</a>
+              <a href="/pl/kierunki/catanzaro/">Catanzaro</a>
+              <a href="/pl/kierunki/gerace/">Gerace</a>
+            </div>
+            <div class="mega-col">
+              <h4>Więcej</h4>
+              <a href="/pl/kierunki/stilo/">Stilo</a>
+              <a href="/pl/kierunki/locri/">Locri</a>
+              <a href="/pl/kierunki/">Wszystkie kierunki &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item has-mega">
           <a href="/pl/natura/">Natura</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Parki Narodowe</h4>
+              <a href="/pl/natura/aspromonte/">Aspromonte</a>
+              <a href="/pl/natura/sila/">Sila</a>
+              <a href="/pl/natura/pollino/">Pollino</a>
+            </div>
+            <div class="mega-col">
+              <h4>Wybrzeże</h4>
+              <a href="/pl/plaze/">Najlepsze plaże</a>
+              <a href="/pl/natura/capo-vaticano/">Capo Vaticano</a>
+              <a href="/pl/natura/costa-viola/">Costa Viola</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item has-mega">
           <a href="/pl/kuchnia/">Kuchnia</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Specjały</h4>
+              <a href="/pl/kuchnia/nduja/">'Nduja</a>
+              <a href="/pl/kuchnia/bergamotka/">Bergamotka</a>
+              <a href="/pl/kuchnia/makaron-fileja/">Makaron Fileja</a>
+              <a href="/pl/kuchnia/wino-kalabryjskie/">Wino</a>
+              <a href="/pl/kuchnia/street-food/">Street Food</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item has-mega">
           <a href="/pl/kultura/">Kultura</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Dziedzictwo</h4>
+              <a href="/pl/kultura/magna-graecia/">Magna Graecia</a>
+              <a href="/pl/kultura/dziedzictwo-bizantyjskie/">Bizantyjskie</a>
+              <a href="/pl/kultura/tradycje-i-festiwale/">Tradycje i festiwale</a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-item">
           <a href="/pl/praktyczne/">Praktyczne</a>
+        </div>
         {{ end }}
         {{ if .Translations }}
           {{ range .Translations }}
-            <a href="{{ .RelPermalink }}" class="lang-switch">{{ .Language.LanguageName }}</a>
+            <div class="nav-item">
+              <a href="{{ .RelPermalink }}" class="lang-switch">{{ .Language.LanguageName }}</a>
+            </div>
           {{ end }}
         {{ end }}
       </nav>
@@ -43,5 +174,11 @@
       <p>&copy; {{ now.Year }} Best of Calabria</p>
     </div>
   </footer>
+
+  <script>
+    document.querySelector('.mobile-toggle').addEventListener('click', function() {
+      document.getElementById('site-nav').classList.toggle('is-open');
+    });
+  </script>
 </body>
 </html>

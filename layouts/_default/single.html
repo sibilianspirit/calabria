@@ -1,8 +1,12 @@
 {{ define "main" }}
-<article class="page-content">
-  <div class="container">
-    <h1>{{ .Title }}</h1>
+<!-- Page Hero -->
+{{ partial "page-hero.html" . }}
+
+<div class="content-with-sidebar container-wide">
+  <article class="page-content">
     {{ .Content }}
-  </div>
-</article>
+  </article>
+
+  {{ partial "sidebar.html" . }}
+</div>
 {{ end }}

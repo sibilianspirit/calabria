@@ -1,0 +1,52 @@
+<aside class="sidebar">
+  {{/* Section navigation */}}
+  {{ $parent := .Parent }}
+  {{ if $parent }}
+  <div class="sidebar-box">
+    <h3 class="sidebar-title">
+      {{ if eq .Lang "pl" }}W tej sekcji{{ else }}In this section{{ end }}
+    </h3>
+    <ul class="sidebar-links">
+      {{ range $parent.Pages }}
+      <li{{ if eq $.RelPermalink .RelPermalink }} class="is-active"{{ end }}>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{/* Siblings' children (sub-attractions) if parent has children */}}
+  {{ if .Pages }}
+  <div class="sidebar-box">
+    <h3 class="sidebar-title">
+      {{ if eq .Lang "pl" }}Odkryj tutaj{{ else }}Explore here{{ end }}
+    </h3>
+    <ul class="sidebar-links">
+      {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{/* Quick info box */}}
+  <div class="sidebar-box sidebar-cta">
+    <h3 class="sidebar-title">
+      {{ if eq .Lang "pl" }}Planuj wyjazd{{ else }}Plan your trip{{ end }}
+    </h3>
+    <ul class="sidebar-links">
+      {{ if eq .Lang "pl" }}
+      <li><a href="/pl/praktyczne/jak-dojechac/">Jak dojechać</a></li>
+      <li><a href="/pl/praktyczne/noclegi/">Noclegi</a></li>
+      <li><a href="/pl/praktyczne/wynajem-samochodu/">Wynajem samochodu</a></li>
+      <li><a href="/pl/praktyczne/plan-7-dni/">Plan na 7 dni</a></li>
+      {{ else }}
+      <li><a href="/practical/getting-there/">Getting There</a></li>
+      <li><a href="/practical/accommodation/">Where to Stay</a></li>
+      <li><a href="/practical/car-rental/">Car Rental</a></li>
+      <li><a href="/practical/itinerary-7-days/">7-Day Itinerary</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</aside>

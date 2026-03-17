@@ -1,0 +1,60 @@
+{{/* Page Hero — city/section pages */}}
+{{ $section := "" }}
+{{ $sectionPL := "" }}
+{{ $heroImage := "" }}
+{{ $pageSlug := .Slug }}
+
+{{/* Image map */}}
+{{ $imageMap := dict
+  "tropea" "/images/wp-uploads/2026/03/boc-tropea.webp"
+  "scilla" "/images/wp-uploads/2026/03/boc-scilla-chianalea-lodzie.webp"
+  "bova" "/images/wp-uploads/2026/03/boc-bova.webp"
+  "catanzaro" "/images/wp-uploads/2026/03/boc-catanzaro.webp"
+  "cosenza" "/images/wp-uploads/2026/03/boc-cosenza-1.webp"
+  "pizzo" "/images/wp-uploads/2026/03/boc-pizzo.webp"
+  "gerace" "/images/wp-uploads/2026/03/boc-gerace-1.webp"
+  "locri" "/images/wp-uploads/2026/03/boc-locri-epizefiri-ruiny.webp"
+  "stilo" "/images/wp-uploads/2026/03/boc-stilo.webp"
+  "reggio-calabria" "/images/wp-uploads/2026/03/boc-catanzaro.webp"
+  "aspromonte" "/images/wp-uploads/2026/03/boc-aspromonte-park.webp"
+  "sila" "/images/wp-uploads/2026/03/boc-sila-park.webp"
+  "pollino" "/images/wp-uploads/2026/03/boc-pollino-park.webp"
+  "costa-viola" "/images/wp-uploads/2026/03/boc-costa-viola-1.webp"
+  "capo-vaticano" "/images/wp-uploads/2026/03/boc-capo-vaticano-1.webp"
+  "beaches" "/images/wp-uploads/2026/03/boc-plaze-kalabrii-tropea.webp"
+  "plaze" "/images/wp-uploads/2026/03/boc-plaze-kalabrii-tropea.webp"
+}}
+
+{{/* Determine section from current section */}}
+{{ $sectionName := .Section }}
+{{ if or (eq $sectionName "destinations") (eq $sectionName "kierunki") }}
+  {{ $section = "DESTINATIONS" }}
+  {{ $sectionPL = "KIERUNKI" }}
+{{ else if or (eq $sectionName "nature") (eq $sectionName "natura") }}
+  {{ $section = "NATURE" }}
+  {{ $sectionPL = "NATURA" }}
+{{ else if or (eq $sectionName "cuisine") (eq $sectionName "kuchnia") }}
+  {{ $section = "CUISINE" }}
+  {{ $sectionPL = "KUCHNIA" }}
+{{ else if or (eq $sectionName "culture") (eq $sectionName "kultura") }}
+  {{ $section = "CULTURE" }}
+  {{ $sectionPL = "KULTURA" }}
+{{ else if or (eq $sectionName "practical") (eq $sectionName "praktyczne") }}
+  {{ $section = "PRACTICAL" }}
+  {{ $sectionPL = "PRAKTYCZNE" }}
+{{ end }}
+
+{{/* Find hero image */}}
+{{ with index $imageMap $pageSlug }}
+  {{ $heroImage = . }}
+{{ end }}
+
+<section class="page-hero{{ if $heroImage }} has-bg{{ end }}"{{ if $heroImage }} style="--hero-bg: url('{{ $heroImage }}')"{{ end }}>
+  <div class="container-wide">
+    {{ if $section }}
+    <div class="page-hero-kicker">{{ if eq $.Lang "pl" }}{{ $sectionPL }}{{ else }}{{ $section }}{{ end }} &middot; CALABRIA</div>
+    {{ end }}
+    <h1>{{ .Title }}</h1>
+    <div class="page-hero-line"></div>
+  </div>
+</section>

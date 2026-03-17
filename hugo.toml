@@ -9,11 +9,13 @@ defaultContentLanguageInSubdir = false
     weight = 1
     title = "Best of Calabria"
     languageCode = "en"
+    contentDir = "content/en"
   [languages.pl]
     languageName = "Polski"
     weight = 2
     title = "Best of Calabria"
     languageCode = "pl"
+    contentDir = "content/pl"
 
 [markup]
   [markup.goldmark]

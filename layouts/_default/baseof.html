@@ -8,11 +8,11 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
+<body{{ if not .IsHome }} class="has-light-hero"{{ end }}>
   <!-- Calabrian color accent bar -->
   <div class="accent-bar"></div>
 
-  <header class="site-header">
+  <header class="site-header{{ if not .IsHome }} is-scrolled{{ end }}">
     <div class="container-wide">
       <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">
         <img src="/images/logo.png" alt="Best of Calabria" class="logo-img">
@@ -238,10 +238,23 @@
   </footer>
 
   <script>
+    // Mobile menu toggle
     document.querySelector('.mobile-toggle').addEventListener('click', function() {
       this.classList.toggle('is-open');
       document.getElementById('site-nav').classList.toggle('is-open');
     });
+
+    // Header scroll effect: transparent → solid
+    const header = document.querySelector('.site-header');
+    function updateHeader() {
+      if (window.scrollY > 60) {
+        header.classList.add('is-scrolled');
+      } else {
+        header.classList.remove('is-scrolled');
+      }
+    }
+    window.addEventListener('scroll', updateHeader, { passive: true });
+    updateHeader();
   </script>
 </body>
 </html>

@@ -27,18 +27,29 @@ img { max-width: 100%; height: auto; }
   height: 4px;
   background: linear-gradient(90deg, #D4432A 0%, #E8A838 25%, #6B4C8A 50%, #0E7490 75%, #D4432A 100%);
   background-size: 200% 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
 }
 
 /* ── HEADER ── */
 .site-header {
-  background: #fff;
-  color: #2A2520;
-  padding: 0;
-  border-bottom: 1px solid #E8E2D9;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 4px; /* below accent bar */
+  left: 0;
+  right: 0;
   z-index: 1000;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  background: transparent;
+  padding: 0;
+  transition: all 0.35s ease;
+}
+.site-header.is-scrolled {
+  background: rgba(255,255,255,0.97);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+  top: 0;
 }
 .site-header .container-wide {
   display: flex;
@@ -48,13 +59,22 @@ img { max-width: 100%; height: auto; }
 .site-logo {
   display: flex;
   align-items: center;
-  padding: 0.6rem 0;
+  padding: 0.5rem 0;
   text-decoration: none;
   gap: 0.6rem;
 }
 .logo-img {
-  height: 62px;
+  height: 56px;
   width: auto;
+  filter: brightness(0) invert(1);
+  transition: filter 0.35s ease;
+}
+.is-scrolled .logo-img {
+  filter: none;
+}
+/* On non-home pages, header is always solid */
+.has-light-hero .site-header {
+  top: 0;
 }
 
 /* Mobile toggle (hamburger) */
@@ -75,9 +95,12 @@ img { max-width: 100%; height: auto; }
   display: block;
   width: 24px;
   height: 2px;
-  background: #2A2520;
+  background: #fff;
   border-radius: 2px;
   transition: all 0.3s;
+}
+.is-scrolled .mobile-toggle span {
+  background: #2A2520;
 }
 .mobile-toggle.is-open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
 .mobile-toggle.is-open span:nth-child(2) { opacity: 0; }
@@ -95,31 +118,39 @@ img { max-width: 100%; height: auto; }
   align-items: stretch;
 }
 .nav-item > a {
-  color: #3D3A36;
+  color: rgba(255,255,255,0.9);
   text-decoration: none;
   font-size: 0.92rem;
   font-weight: 600;
   letter-spacing: 0.01em;
-  transition: all 0.2s;
+  transition: all 0.3s;
   padding: 1.3rem 1.1rem;
   display: flex;
   align-items: center;
   gap: 0.3rem;
   position: relative;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.is-scrolled .nav-item > a {
+  color: #3D3A36;
+  text-shadow: none;
 }
 /* Chevron arrow for items with mega menu */
 .has-mega > a::before {
   content: '▾';
   order: 1;
   font-size: 0.65rem;
-  opacity: 0.4;
+  opacity: 0.5;
   transition: all 0.25s;
   margin-top: 1px;
 }
 .has-mega:hover > a::before {
   opacity: 1;
-  color: #D4432A;
+  color: #E8A838;
   transform: rotate(180deg);
+}
+.is-scrolled .has-mega:hover > a::before {
+  color: #D4432A;
 }
 .nav-item > a::after {
   content: '';
@@ -133,31 +164,47 @@ img { max-width: 100%; height: auto; }
   transition: background 0.2s;
 }
 .nav-item:hover > a::after {
+  background: #E8A838;
+}
+.is-scrolled .nav-item:hover > a::after {
   background: #D4432A;
 }
 .nav-item > a:hover,
 .nav-item:hover > a {
+  color: #fff;
+}
+.is-scrolled .nav-item > a:hover,
+.is-scrolled .nav-item:hover > a {
   color: #D4432A;
 }
 
 /* Lang switch (flag) */
 .nav-lang { align-items: center; margin-left: 0.5rem; }
 .lang-switch {
-  padding: 0.5rem 0.6rem !important;
-  border-radius: 6px;
+  padding: 0.5rem 0.7rem !important;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255,255,255,0.4);
   text-decoration: none !important;
-  transition: background 0.2s;
+  transition: all 0.3s;
   display: flex;
   align-items: center;
 }
 .lang-switch:hover {
+  background: rgba(255,255,255,0.15);
+  border-color: rgba(255,255,255,0.7);
+}
+.is-scrolled .lang-switch {
+  border-color: #E8E2D9;
+}
+.is-scrolled .lang-switch:hover {
   background: #F5F1EB;
+  border-color: #D4432A;
 }
 .flag-icon {
-  width: 24px;
-  height: 18px;
+  width: 26px;
+  height: 19px;
   border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
   display: block;
 }
 
@@ -273,7 +320,7 @@ img { max-width: 100%; height: auto; }
 .hero {
   background: linear-gradient(160deg, #0F2E42 0%, #1B4D6E 50%, #2a6a8f 100%);
   color: #fff;
-  padding: 5rem 0;
+  padding: 7rem 0 5rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -283,7 +330,7 @@ img { max-width: 100%; height: auto; }
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
   background: url('/images/wp-uploads/2026/02/calabria.webp') center/cover;
-  opacity: 0.25;
+  opacity: 0.3;
 }
 .hero .container { position: relative; z-index: 1; }
 .hero-kicker {
@@ -419,14 +466,14 @@ img { max-width: 100%; height: auto; }
 .page-hero {
   background: linear-gradient(160deg, #F5F1EB 0%, #FDFCFA 70%, #fff 100%);
   border-bottom: 1px solid #E8E2D9;
-  padding: 3rem 0 2.5rem;
+  padding: 5rem 0 2.5rem;
   position: relative;
   overflow: hidden;
 }
 .page-hero.has-bg {
   background: linear-gradient(160deg, #0F2E42 0%, #1B4D6E 60%, #2a6a8f 100%);
   color: #fff;
-  padding: 4rem 0 3rem;
+  padding: 6rem 0 3rem;
 }
 .page-hero.has-bg::before {
   content: '';

@@ -1,0 +1,24 @@
+baseURL = "https://bestofcalabria.com/"
+title = "Best of Calabria"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Best of Calabria"
+    languageCode = "en"
+  [languages.pl]
+    languageName = "Polski"
+    weight = 2
+    title = "Best of Calabria"
+    languageCode = "pl"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Discover the best of Calabria – stunning beaches, ancient towns, and authentic Italian cuisine in southern Italy's hidden gem."

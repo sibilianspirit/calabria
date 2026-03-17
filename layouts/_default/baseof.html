@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} – {{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">Best of Calabria</a>
+      <nav class="site-nav">
+        {{ if .Translations }}
+          {{ range .Translations }}
+            <a href="{{ .RelPermalink }}" class="lang-switch">{{ .Language.LanguageName }}</a>
+          {{ end }}
+        {{ end }}
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ now.Year }} Best of Calabria</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -6,7 +6,7 @@
   <title>{{ if .IsHome }}{{ .Site.Title }} – {{ if eq .Lang "pl" }}Kompletny przewodnik po Kalabrii{{ else }}Complete Guide to Calabria{{ end }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/style.css?v=4">
+  <link rel="stylesheet" href="/css/style.css?v=5">
 </head>
 <body>
   <!-- Calabrian color accent bar -->
@@ -192,16 +192,22 @@
           </div>
         </div>
         {{ end }}
-        {{/* Language flags */}}
-        {{ if .Translations }}
-          {{ range .Translations }}
-            <div class="nav-item nav-lang">
-              <a href="{{ .RelPermalink }}" class="lang-switch" title="{{ .Language.LanguageName }}">
-                {{ if eq .Lang "pl" }}<svg class="flag-icon" viewBox="0 0 640 480"><rect width="640" height="240" fill="#fff"/><rect y="240" width="640" height="240" fill="#dc143c"/></svg>{{ else }}<svg class="flag-icon" viewBox="0 0 640 480"><rect width="640" height="480" fill="#012169"/><path d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z" fill="#fff"/><path d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z" fill="#C8102E"/><path d="M241 0v480h160V0H241zM0 160v160h640V160H0z" fill="#fff"/><path d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z" fill="#C8102E"/></svg>{{ end }}
+        {{/* Language switcher dropdown */}}
+        <div class="nav-item has-lang-dropdown">
+          <button class="lang-current" aria-label="{{ if eq .Lang "pl" }}Zmień język{{ else }}Change language{{ end }}">
+            {{ if eq .Lang "pl" }}<svg class="flag-icon" viewBox="0 0 640 480"><rect width="640" height="240" fill="#fff"/><rect y="240" width="640" height="240" fill="#dc143c"/></svg><span class="lang-label">PL</span>{{ else }}<svg class="flag-icon" viewBox="0 0 640 480"><rect width="640" height="480" fill="#012169"/><path d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z" fill="#fff"/><path d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z" fill="#C8102E"/><path d="M241 0v480h160V0H241zM0 160v160h640V160H0z" fill="#fff"/><path d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z" fill="#C8102E"/></svg><span class="lang-label">EN</span>{{ end }}
+            <svg class="lang-chevron" viewBox="0 0 10 6" width="10" height="6"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+          </button>
+          <div class="lang-dropdown">
+            {{ if .Translations }}
+              {{ range .Translations }}
+              <a href="{{ .RelPermalink }}" class="lang-option">
+                {{ if eq .Lang "pl" }}<svg class="flag-icon" viewBox="0 0 640 480"><rect width="640" height="240" fill="#fff"/><rect y="240" width="640" height="240" fill="#dc143c"/></svg><span>Polski</span>{{ else }}<svg class="flag-icon" viewBox="0 0 640 480"><rect width="640" height="480" fill="#012169"/><path d="m75 0 244 181L562 0h78v62L400 241l240 178v61h-80L320 301 81 480H0v-60l239-178L0 64V0h75z" fill="#fff"/><path d="m424 281 216 159v40L369 281h55zm-184 20 6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z" fill="#C8102E"/><path d="M241 0v480h160V0H241zM0 160v160h640V160H0z" fill="#fff"/><path d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z" fill="#C8102E"/></svg><span>English</span>{{ end }}
               </a>
-            </div>
-          {{ end }}
-        {{ end }}
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -300,6 +306,16 @@
         clearTimeout(timeout);
       });
     });
+
+    // Language switcher: toggle on mobile click
+    var langBtn = document.querySelector('.lang-current');
+    if (langBtn) {
+      langBtn.addEventListener('click', function() {
+        if (window.innerWidth <= 768) {
+          this.parentElement.classList.toggle('is-open');
+        }
+      });
+    }
   </script>
 </body>
 </html>

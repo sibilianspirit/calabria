@@ -141,24 +141,82 @@ img { max-width: 100%; height: auto; }
 }
 
 /* Lang switch (flag) */
-.nav-lang { align-items: center; margin-left: 0.5rem; }
-.lang-switch {
-  padding: 0.5rem 0.6rem !important;
-  border-radius: 6px;
-  text-decoration: none !important;
-  transition: background 0.2s;
+/* Language switcher dropdown */
+.has-lang-dropdown {
+  position: relative;
+  margin-left: 0.5rem;
+}
+.lang-current {
   display: flex;
   align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #e0dcd6;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text);
 }
-.lang-switch:hover {
+.lang-current:hover {
+  background: #F5F1EB;
+}
+.lang-label {
+  letter-spacing: 0.5px;
+}
+.lang-chevron {
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+.has-lang-dropdown:hover .lang-chevron {
+  transform: rotate(180deg);
+}
+.lang-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  background: #fff;
+  border: 1px solid #e0dcd6;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  min-width: 140px;
+  padding: 0.4rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+  z-index: 1001;
+}
+.has-lang-dropdown:hover .lang-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: background 0.15s;
+}
+.lang-option:hover {
   background: #F5F1EB;
 }
 .flag-icon {
-  width: 24px;
-  height: 18px;
+  width: 22px;
+  height: 16px;
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.15);
   display: block;
+  flex-shrink: 0;
 }
 
 /* ── MEGA MENU ── */
@@ -1141,7 +1199,19 @@ img { max-width: 100%; height: auto; }
   .has-mega:hover::after { display: none; }
   /* Header decor hidden on mobile */
   .header-decor { display: none; }
-  .nav-lang { padding: 0.5rem 2rem; }
+  .has-lang-dropdown { margin-left: 0; padding: 0.5rem 2rem; }
+  .lang-dropdown {
+    position: static !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    box-shadow: none;
+    border: none;
+    background: #FAF8F5;
+    padding: 0.4rem 0;
+    display: none;
+  }
+  .has-lang-dropdown.is-open .lang-dropdown { display: block; }
   .footer-content { flex-direction: column; gap: 2rem; }
   .footer-links { gap: 2rem; }
 

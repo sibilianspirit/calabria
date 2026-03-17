@@ -1,0 +1,9 @@
+{{- $months := dict "January" "stycznia" "February" "lutego" "March" "marca" "April" "kwietnia" "May" "maja" "June" "czerwca" "July" "lipca" "August" "sierpnia" "September" "września" "October" "października" "November" "listopada" "December" "grudnia" -}}
+{{- $day := .Date.Format "2" -}}
+{{- $monthEN := .Date.Format "January" -}}
+{{- $year := .Date.Format "2006" -}}
+{{- if eq .Lang "pl" -}}
+  {{- $day }} {{ index $months $monthEN }} {{ $year -}}
+{{- else -}}
+  {{- .Date.Format "January 2, 2006" -}}
+{{- end -}}

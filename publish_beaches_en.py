@@ -1,0 +1,222 @@
+import json, urllib.request, ssl, base64
+
+ctx = ssl.create_default_context()
+
+content = r"""<!-- wp:paragraph -->
+<p>Calabria, located at the southern tip of Italy, offers tourists over 800 km of diverse coastline. This region, commonly referred to as the <strong>toe of the Italian boot</strong>, is one of the most geomorphologically varied areas of the Mediterranean basin. It is a true paradise for beach lovers &ndash; from the sandy plains of the Tyrrhenian Coast to the rocky yet picturesque shores of the <a href="#hidden-charms-of-the-ionian-coast">Ionian Coast</a>. A visit to places like <a href="#tropea-jewel-of-calabria">Tropea</a> or Capo Vaticano guarantees unforgettable views and experiences that will stay with you forever. Discover every corner of Calabria's beaches, their unique features, and their hidden secrets.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="tyrrhenian-coast">Tyrrhenian Coast &ndash; hidden beauty of Calabria's beaches</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading -->
+<h2>Characteristics of the Tyrrhenian Coast</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The Tyrrhenian Coast, stretching along the western part of the region, is known for its remarkable diversity of coastline and <strong>crystal-clear water with turquoise hues</strong>. Although pebbly and rocky beaches dominate in many places, relaxation seekers will also find surprisingly peaceful coves. This body of water features deep bays such as Policastro and Gioia Tauro, where the seabed often drops steeply, reaching an average depth of around 3,800 metres. The cliffs and rock formations deserve special attention, as they create stunning, almost dramatic views when combined with the transparent water.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Sandy exceptions on the Tyrrhenian Coast</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In contrast to the predominantly rocky shores, Calabria also offers sandy spots that are a real treat for tourists. Although <a href="https://en.wikipedia.org/wiki/Sardinia">Sardinia</a> is the most famous destination for sandy beaches on the Tyrrhenian Sea, Calabria has its own unique gems. <strong>Tropea delights with its light sand</strong>, which in places mixes with fine gravel, ensuring excellent underwater visibility. This small town, besides its historic architecture, attracts visitors with panoramic views of Stromboli island, creating postcard-worthy scenery.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Costa degli Dei &ndash; a paradise for explorers</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Costa degli Dei, or the Coast of the Gods, is a fascinating 55-kilometre stretch in the province of Vibo Valentia, extending from Pizzo to Nicotera. The name refers to the enchanting natural beauty that emanates from every corner of this region. While it largely consists of granite cliffs, small beaches with wonderfully soft sand hide between them, offering peaceful retreats. <strong>Spiaggia di Michelino in Parghelia</strong> is considered one of the most pristine spots, accessible via more than 210 steps carved into the rock.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Although Calabria may not always be the first choice for fans of exclusively sandy plains, its Tyrrhenian coastline offers unforgettable experiences. Fascinating rock formations, idyllic coves, and breathtaking landscapes await discovery as part of a unique Italian holiday. <strong>Marinella di Zambrone, known as the Diver's Paradise</strong>, attracts snorkelling enthusiasts with its abundance of marine life hidden just below the water's surface.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="tropea-jewel-of-calabria">Tropea &ndash; jewel of Calabria on the Tyrrhenian Coast</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="/destinations/tropea/">Tropea</a>, a picturesque town perched on a monumental sandstone cliff, is considered the Pearl of the Tyrrhenian Sea. It enchants tourists with turquoise waters and a historic centre situated vertically above the sea surface. A labyrinth of narrow streets leads to charming squares where locals gather in neighbourhood cafes. The town is rich in landmarks, including the imposing Castello Ruffo fortress and the <strong>medieval Norman cathedral</strong>, a testament to the region's rich past.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tropea is also a paradise for lovers of local cuisine, where the sweet red onion &ndash; cipolla rossa &ndash; reigns supreme. This unique product, along with fiery peperoncino peppers, forms the basis of many traditional dishes. <strong>Tasting nduja in one of the local trattorias</strong> is a must-do for every food lover visiting this enchanting clifftop town.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The town offers access to several exceptional beaches, reached via stairway systems. The most famous, Marina dell'Isola, stretches at the foot of the rock with the Santa Maria dell'Isola sanctuary, creating one of the most photographed panoramas in Italy. Rotonda Beach is known for excellent snorkelling conditions, while <strong>the hidden Spiaggia del Cannone</strong> attracts those seeking intimacy away from the main tourist trails.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tropea serves as an excellent base for exploring the surrounding attractions along Costa degli Dei. The proximity of spectacular Capo Vaticano and charming towns like Nicotera and <a href="/destinations/scilla/">Scilla</a> makes it an ideal place for an extended stay. Travellers can choose from a variety of accommodation options, enjoying the <strong>hospitality of southern Italian residents</strong> and the unspoilt nature of this corner of Europe.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="hidden-charms-of-the-ionian-coast">Hidden charms of the Ionian Coast &ndash; Calabria's wild beauty</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Calabria is a unique region whose Ionian Coast offers a magical blend of wild nature and calmer, open waters. Unlike the west, the eastern shores feature <strong>wide, sandy beaches with gentle entry into the water</strong>, making them ideal for families. The Ionian Sea here is a deeper body of water on a macro scale, reaching over 5,000 metres in depth, yet the coastal zone is characterised by extensive shallows.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<table><colgroup><col /><col /><col /></colgroup>
+<tbody>
+<tr>
+<th><p>Parameter</p></th>
+<th><p>Tyrrhenian Coast (West)</p></th>
+<th><p>Ionian Coast (East)</p></th>
+</tr>
+<tr>
+<td><p>Dominant terrain</p></td>
+<td><p>Cliffs, caves, steep mountains</p></td>
+<td><p>Wide beaches, low hills</p></td>
+</tr>
+<tr>
+<td><p>Seabed gradient</p></td>
+<td><p>Steep (rapid depth increase)</p></td>
+<td><p>Gentle (wide shallows)</p></td>
+</tr>
+<tr>
+<td><p>Water temperature (August)</p></td>
+<td><p>approx. 25-26&deg;C</p></td>
+<td><p>approx. 26-27&deg;C</p></td>
+</tr>
+<tr>
+<td><p>Sediment character</p></td>
+<td><p>Coarse sand, gravel, rocks</p></td>
+<td><p>Fine sand, occasionally pebbles</p></td>
+</tr>
+</tbody>
+</table>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>The Ionian Coast offers diverse attractions, including Soverato, known as the Pearl of the Ionian Sea. The town boasts remarkably light sand and crystal-clear water in the Baia dell&rsquo;Ippocampo bay, home to rare seahorse populations. History enthusiasts will find ruins of ancient settlements and <strong>medieval watchtowers</strong> that once guarded the coastline against pirate raids.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>One of the most renowned spots is Capo Vaticano, though geographically situated at the junction, its white rocks and turquoise water are a symbol of the entire region. Travellers can discover hidden coves, such as those near Caminia, where the <strong>water is exceptionally warm and calm</strong>. History fans should visit the Vasche di Cassiodoro &ndash; ancient fish-farming tanks carved into the rocks back in the 6th century.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Active recreation on the Ionian Coast also includes hiking near Aspromonte National Park, which combines lush vegetation with views of the maritime horizon. Thanks to convenient access from Lamezia Terme airport, tourists can easily reach resorts such as Roccella Ionica. To avoid the peak heat and crowds, <strong>it is best to plan your visit in September</strong>, when the sea is at its warmest and the sun is gentler.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Guide to Calabria's beaches &ndash; practical tips for tourists</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Calabria offers some of Europe's most beautiful corners, but planning a holiday requires considering local logistics. Most beaches have free sections (<em>spiaggia libera</em>) and paid bathing areas (<em>lidos</em>). <strong>Renting a set of sun loungers costs an average of 10&ndash;15 euros</strong>, significantly less than in northern Italian regions such as Liguria or Tuscany.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul>
+<li><strong>Water shoes</strong> &ndash; essential on Tyrrhenian Coast beaches, where stones and gravel dominate.</li>
+<li><strong>Green Flag certification</strong> &ndash; look for it in resorts like Soverato or Nicotera if travelling with children.</li>
+<li><strong>Car rental</strong> &ndash; a key element for reaching wild coves not served by public transport.</li>
+<li><strong>Avoiding August</strong> &ndash; this is Ferragosto time, when beaches are most crowded with vacationing Italians.</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Cirella Beach is an excellent choice for history lovers, combining sea bathing with exploring the ruins of an ancient town. For those seeking spectacular landscapes, <strong>Grotticelle at Capo Vaticano</strong> is recommended, where viewpoints offer vistas of three adjacent bays. Remember that parking in popular resorts can be challenging, so using the EasyPark app and arriving before 9:00 AM is advisable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>Flavours of Calabria &ndash; culinary journeys along the coasts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Exploring Calabria's beaches is also an extraordinary culinary journey, built on intensely aromatic products and traditional recipes. The Calabrian speciality, <a href="https://en.wikipedia.org/wiki/%27Nduja">Nduja di Calabria</a>, is a spicy, spreadable sausage that has become a symbol of the region. Its fiery flavour comes from generous amounts of peperoncino, making it a perfect pairing with crusty bread during a dinner by the Tyrrhenian Sea.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Beyond the famous nduja, the region is renowned for its cured meats and local cheeses such as Caciocavallo Silano. During a visit to Costa degli Dei, it is worth trying <strong>swordfish (pesce spada) grilled</strong> with lemon and olive oil. Desserts featuring bergamot, a citrus fruit grown almost exclusively in the province of Reggio Calabria, provide a refreshing conclusion to any meal on a hot day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A culinary journey is best complemented by tasting local wines such as Cir&ograve;, which has a long history dating back to ancient Greece. Every coastal excursion should include a moment of respite in a local enoteca, where <strong>authentic Calabrian culture</strong> reveals itself through the hospitality of the hosts. It is precisely these small flavour details that make a holiday in southern Italy a complete experience for all the senses.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="landmarks-and-natural-wonders">Landmarks and natural wonders along the Calabrian coast</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Calabria's coastline is a treasure trove of fascinating places where nature intertwines with history. In the north, on the Riviera dei Cedri, lies the spectacular Arcomagno &ndash; a natural rock arch in San Nicola Arcella. <strong>Swimming in the hidden lagoon beneath the arch</strong> is an experience that attracts photographers from around the world, eager to capture the play of light on crystalline water.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Another gem is Dino Island in Praia a Mare, known for its sea caves including the Grotta Azzurra. Its rich history is tied to defence against Turkish pirates, while today's natural assets make it a diver's paradise. Travelling along Costa Viola, one cannot miss <strong><a href="/destinations/scilla/">Scilla</a> and its Chianalea district</strong>, where fishermen's houses stand directly in the water, earning it the nickname of the Little Venice of the south.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For lovers of defensive architecture, the Le Castella fortress in Isola di Capo Rizzuto is an essential stop. This Aragonese castle, built on a small island connected to the mainland by a narrow isthmus, looks like something from a film set. <strong>Aspromonte National Park in the south</strong> offers a contrast of green forests and waterfalls, providing an excellent escape from the sunny beaches and azure sea.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="boc-faq-box">
+<h2 class="boc-section-title">Best beaches in Calabria &ndash; frequently asked questions</h2>
+<details>
+<summary>What are the most beautiful beaches in Calabria?</summary>
+<p>The absolute top picks include Spiaggia della Rotonda in Tropea, Grotticelle in Capo Vaticano, and the stunning Arcomagno rock arch. Each offers crystal-clear water and unique rock formations.</p>
+</details>
+<details>
+<summary>Which beach in Calabria is best for families with children?</summary>
+<p>The best choices are the beaches in Soverato and Nicotera. They feature fine sand, gentle entry into the water, and hold the Green Flag certification awarded by paediatricians.</p>
+</details>
+<details>
+<summary>When is the best time to visit Calabria's beaches?</summary>
+<p>The optimal time is June or September. The water is very warm (around 24-26 degrees), and you will avoid the biggest crowds and highest prices typical of August.</p>
+</details>
+<details>
+<summary>Are Calabria's beaches free or paid?</summary>
+<p>Most beaches have publicly accessible free areas (spiaggia libera). There are also paid lidos, where for around 10-15 euros you can rent a sun lounger, umbrella, and use sanitary facilities.</p>
+</details>
+<details>
+<summary>What sea is in Calabria &ndash; Tyrrhenian or Ionian?</summary>
+<p>Calabria lies on two seas: the Tyrrhenian to the west (cliffs, turquoise water, deep seabed) and the Ionian to the east (wide sandy beaches, warmer and calmer water).</p>
+</details>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div class="boc-nearby-box">
+<h2 class="boc-section-title">Discover more places in Calabria</h2>
+<div class="boc-nearby-grid">
+<a href="/destinations/tropea/" class="boc-nearby-pill">Tropea</a>
+<a href="/destinations/scilla/" class="boc-nearby-pill">Scilla</a>
+<a href="/destinations/pizzo/" class="boc-nearby-pill">Pizzo</a>
+<a href="/destinations/reggio-calabria/" class="boc-nearby-pill">Reggio Calabria</a>
+<a href="/destinations/catanzaro/" class="boc-nearby-pill">Catanzaro</a>
+<a href="/destinations/gerace/" class="boc-nearby-pill">Gerace</a>
+<a href="/destinations/locri/" class="boc-nearby-pill">Locri</a>
+</div>
+</div>
+<!-- /wp:html -->"""
+
+data = json.dumps({"content": content, "status": "publish"}).encode('utf-8')
+
+req = urllib.request.Request(
+    "https://bestofcalabria.com/wp-json/wp/v2/pages/2058",
+    data=data,
+    method='PUT',
+    headers={
+        'Content-Type': 'application/json',
+        'Authorization': 'Basic ' + base64.b64encode(b'admin:JwGw oBQ1 yaHo hXeg oadm Kx86').decode()
+    }
+)
+
+resp = urllib.request.urlopen(req, context=ctx)
+result = json.loads(resp.read())
+print(f"Updated EN page ID: {result['id']}, status: {result['status']}")
+print(f"Link: {result['link']}")

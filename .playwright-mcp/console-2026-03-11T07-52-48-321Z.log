@@ -1,0 +1,2 @@
+[     417ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bestofcalabria.com/favicon.ico:0
+[   12543ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://bestofcalabria.com/?customize_changeset_uuid=e5a11f93-27ec-4663-b406-bd6e2ac5145f&customize_theme=generatepress&customize_messenger_channel=preview-0:0

@@ -15,8 +15,9 @@ Thumbs.db
 *.jpeg
 *.jpg
 
-# But keep the logo
+# But keep specific images
 !static/images/logo.png
+!static/images/blog/*.jpg
 
 # Python
 __pycache__/

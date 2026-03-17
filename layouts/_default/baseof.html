@@ -6,7 +6,7 @@
   <title>{{ if .IsHome }}{{ .Site.Title }} – {{ if eq .Lang "pl" }}Kompletny przewodnik po Kalabrii{{ else }}Complete Guide to Calabria{{ end }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/style.css?v=3">
+  <link rel="stylesheet" href="/css/style.css?v=4">
 </head>
 <body>
   <!-- Calabrian color accent bar -->
@@ -17,13 +17,6 @@
       <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">
         <img src="/images/logo.png" alt="Best of Calabria" class="logo-img">
       </a>
-      <!-- Decorative peppers between logo and nav -->
-      <div class="header-decor" aria-hidden="true">
-        <svg class="pepper-1" viewBox="0 0 24 24"><path d="M12 4c-2 3-3 7 0 12s3 6 2 8c-1-2-4-4-5-8S8 6 12 4z" fill="#D4432A"/><path d="M12 4c1-2 3-2 3-1s-1 2-2 2" fill="#4CAF50"/></svg>
-        <svg class="sun-ray" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5" fill="#E8A838" opacity="0.5"/><g stroke="#E8A838" stroke-width="1" opacity="0.3"><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="5" y1="5" x2="7" y2="7"/><line x1="17" y1="17" x2="19" y2="19"/><line x1="5" y1="19" x2="7" y2="17"/><line x1="17" y1="7" x2="19" y2="5"/></g></svg>
-        <svg class="pepper-2" viewBox="0 0 24 24"><path d="M12 4c-2 3-3 7 0 12s3 6 2 8c-1-2-4-4-5-8S8 6 12 4z" fill="#D4432A"/><path d="M12 4c1-2 3-2 3-1s-1 2-2 2" fill="#4CAF50"/></svg>
-        <svg class="pepper-3" viewBox="0 0 24 24"><path d="M12 4c-2 3-3 7 0 12s3 6 2 8c-1-2-4-4-5-8S8 6 12 4z" fill="#E8A838"/><path d="M12 4c1-2 3-2 3-1s-1 2-2 2" fill="#4CAF50"/></svg>
-      </div>
       <button class="mobile-toggle" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -98,6 +91,21 @@
         <div class="nav-item">
           <a href="/practical/">Practical</a>
         </div>
+        <div class="nav-item has-mega">
+          <a href="/blog/">Blog</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Latest</h4>
+              <a href="/blog/best-beaches-calabria/"><strong>Best Beaches</strong><span>Top 10 coastal picks</span></a>
+              <a href="/blog/reggio-calabria-weekend-guide/"><strong>Weekend in Reggio</strong><span>2-day itinerary</span></a>
+              <a href="/blog/calabrian-food-guide/"><strong>Calabrian Food</strong><span>7 must-try dishes</span></a>
+            </div>
+            <div class="mega-col mega-col-cta">
+              <h4>Browse</h4>
+              <a href="/blog/" class="mega-cta">All posts &rarr;</a>
+            </div>
+          </div>
+        </div>
         {{ else }}
         <div class="nav-item has-mega">
           <a href="/pl/kierunki/">Kierunki</a>
@@ -166,7 +174,22 @@
           </div>
         </div>
         <div class="nav-item">
-          <a href="/pl/praktyczne/">Praktyczne</a>
+          <a href="/pl/praktyczne/">Informacje praktyczne</a>
+        </div>
+        <div class="nav-item has-mega">
+          <a href="/pl/blog/">Blog</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Najnowsze</h4>
+              <a href="/pl/blog/najlepsze-plaze-kalabrii/"><strong>Najlepsze plaże</strong><span>Top 10 wybrzeży</span></a>
+              <a href="/pl/blog/weekend-w-reggio-calabria/"><strong>Weekend w Reggio</strong><span>Plan na 2 dni</span></a>
+              <a href="/pl/blog/kuchnia-kalabryjska-przewodnik/"><strong>Kuchnia kalabryjska</strong><span>7 dań do spróbowania</span></a>
+            </div>
+            <div class="mega-col mega-col-cta">
+              <h4>Przeglądaj</h4>
+              <a href="/pl/blog/" class="mega-cta">Wszystkie wpisy &rarr;</a>
+            </div>
+          </div>
         </div>
         {{ end }}
         {{/* Language flags */}}

@@ -136,4 +136,79 @@
     {{ end }}
   </div>
 </section>
+
+<!-- Latest Blog Posts -->
+<section class="latest-posts">
+  <div class="container-wide">
+    {{ if eq .Lang "pl" }}
+    <h2>Najnowsze wpisy</h2>
+    <div class="blog-grid">
+      <a href="/pl/blog/najlepsze-plaze-kalabrii/" class="blog-card">
+        <img src="/images/blog/calabria-coast.webp" alt="Plaże Kalabrii" loading="lazy">
+        <div class="blog-card-body">
+          <div class="blog-card-date">15 marca 2026</div>
+          <h3>10 najlepszych plaż w Kalabrii</h3>
+          <p>Odkryj najpiękniejsze plaże kalabryjskiego wybrzeża &ndash; od ukrytych zatoczek po szerokie piaszczyste plaże.</p>
+          <span class="read-more">Czytaj dalej &rarr;</span>
+        </div>
+      </a>
+      <a href="/pl/blog/weekend-w-reggio-calabria/" class="blog-card">
+        <img src="/images/blog/reggio-calabria.jpg" alt="Reggio Calabria" loading="lazy">
+        <div class="blog-card-body">
+          <div class="blog-card-date">10 marca 2026</div>
+          <h3>Weekend w Reggio Calabria &ndash; co zobaczyć</h3>
+          <p>Jak spędzić idealny weekend w Reggio Calabria &ndash; od Brązów z Riace po Lungomare.</p>
+          <span class="read-more">Czytaj dalej &rarr;</span>
+        </div>
+      </a>
+      <a href="/pl/blog/kuchnia-kalabryjska-przewodnik/" class="blog-card">
+        <img src="/images/blog/calabria-village.jpg" alt="Kuchnia kalabryjska" loading="lazy">
+        <div class="blog-card-body">
+          <div class="blog-card-date">5 marca 2026</div>
+          <h3>Kuchnia kalabryjska &ndash; 7 dań, które musisz spróbować</h3>
+          <p>Przewodnik po najbardziej kultowych daniach Kalabrii &ndash; od 'ndui po makaron fileja.</p>
+          <span class="read-more">Czytaj dalej &rarr;</span>
+        </div>
+      </a>
+    </div>
+    <div class="latest-posts-cta">
+      <a href="/pl/blog/">Wszystkie wpisy &rarr;</a>
+    </div>
+    {{ else }}
+    <h2>Latest from the Blog</h2>
+    <div class="blog-grid">
+      <a href="/blog/best-beaches-calabria/" class="blog-card">
+        <img src="/images/blog/calabria-coast.webp" alt="Calabria beaches" loading="lazy">
+        <div class="blog-card-body">
+          <div class="blog-card-date">March 15, 2026</div>
+          <h3>10 Best Beaches in Calabria You Can't Miss</h3>
+          <p>Discover the most stunning beaches along Calabria's coastline, from hidden coves to wide sandy stretches.</p>
+          <span class="read-more">Read more &rarr;</span>
+        </div>
+      </a>
+      <a href="/blog/reggio-calabria-weekend-guide/" class="blog-card">
+        <img src="/images/blog/reggio-calabria.jpg" alt="Reggio Calabria" loading="lazy">
+        <div class="blog-card-body">
+          <div class="blog-card-date">March 10, 2026</div>
+          <h3>A Weekend in Reggio Calabria &ndash; What to See</h3>
+          <p>How to spend a perfect weekend in Reggio Calabria, from the Bronzi di Riace to the Lungomare.</p>
+          <span class="read-more">Read more &rarr;</span>
+        </div>
+      </a>
+      <a href="/blog/calabrian-food-guide/" class="blog-card">
+        <img src="/images/blog/calabria-village.jpg" alt="Calabrian food" loading="lazy">
+        <div class="blog-card-body">
+          <div class="blog-card-date">March 5, 2026</div>
+          <h3>Calabrian Food &ndash; 7 Dishes You Must Try</h3>
+          <p>A guide to Calabria's most iconic dishes, from 'nduja to fileja pasta and tartufo gelato.</p>
+          <span class="read-more">Read more &rarr;</span>
+        </div>
+      </a>
+    </div>
+    <div class="latest-posts-cta">
+      <a href="/blog/">All blog posts &rarr;</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
 {{ end }}

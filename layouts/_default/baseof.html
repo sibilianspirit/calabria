@@ -7,16 +7,13 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="robots" content="noindex, nofollow">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/style.css?v=6">
+  <link rel="stylesheet" href="/css/style.css?v=8">
 </head>
-<body>
-  <!-- Calabrian color accent bar -->
-  <div class="accent-bar"></div>
-
-  <header class="site-header">
+<body{{ if .IsHome }} class="is-home"{{ end }}>
+  <header class="site-header" id="site-header">
     <div class="container-wide">
       <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">
-        <img src="/images/logo.png" alt="Best of Calabria" class="logo-img">
+        <img src="/images/logo-bergamot.svg" alt="Best of Calabria" class="logo-img">
       </a>
       <button class="mobile-toggle" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -24,7 +21,7 @@
       <nav class="site-nav" id="site-nav">
         {{ if eq .Lang "en" }}
         <div class="nav-item has-mega">
-          <a href="/destinations/">Destinations</a>
+          <a href="/destinations/">Discover</a>
           <div class="mega-menu">
             <div class="mega-col">
               <h4>Popular</h4>
@@ -66,7 +63,7 @@
           </div>
         </div>
         <div class="nav-item has-mega">
-          <a href="/cuisine/">Cuisine</a>
+          <a href="/cuisine/">Flavours</a>
           <div class="mega-menu">
             <div class="mega-col">
               <h4>Specialties</h4>
@@ -89,8 +86,17 @@
             </div>
           </div>
         </div>
-        <div class="nav-item">
-          <a href="/practical/">Practical</a>
+        <div class="nav-item has-mega">
+          <a href="/practical/">Guides</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Plan Your Trip</h4>
+              <a href="/practical/getting-there/"><strong>Getting There</strong><span>Flights, car, train</span></a>
+              <a href="/practical/accommodation/"><strong>Where to Stay</strong><span>Hotels &amp; apartments</span></a>
+              <a href="/practical/car-rental/">Car Rental</a>
+              <a href="/practical/itinerary-7-days/">7-Day Itinerary</a>
+            </div>
+          </div>
         </div>
         <div class="nav-item has-mega">
           <a href="/blog/">Blog</a>
@@ -109,7 +115,7 @@
         </div>
         {{ else }}
         <div class="nav-item has-mega">
-          <a href="/pl/kierunki/">Kierunki</a>
+          <a href="/pl/kierunki/">Odkrywaj</a>
           <div class="mega-menu">
             <div class="mega-col">
               <h4>Popularne</h4>
@@ -151,7 +157,7 @@
           </div>
         </div>
         <div class="nav-item has-mega">
-          <a href="/pl/kuchnia/">Kuchnia</a>
+          <a href="/pl/kuchnia/">Smaki</a>
           <div class="mega-menu">
             <div class="mega-col">
               <h4>Specjały</h4>
@@ -174,8 +180,17 @@
             </div>
           </div>
         </div>
-        <div class="nav-item">
-          <a href="/pl/praktyczne/">Informacje praktyczne</a>
+        <div class="nav-item has-mega">
+          <a href="/pl/praktyczne/">Przewodniki</a>
+          <div class="mega-menu">
+            <div class="mega-col">
+              <h4>Planuj wyjazd</h4>
+              <a href="/pl/praktyczne/jak-dojechac/"><strong>Jak dojechać</strong><span>Samolot, auto, pociąg</span></a>
+              <a href="/pl/praktyczne/noclegi/"><strong>Noclegi</strong><span>Gdzie spać w Kalabrii</span></a>
+              <a href="/pl/praktyczne/wynajem-samochodu/">Wynajem samochodu</a>
+              <a href="/pl/praktyczne/plan-7-dni/">Plan na 7 dni</a>
+            </div>
+          </div>
         </div>
         <div class="nav-item has-mega">
           <a href="/pl/blog/">Blog</a>
@@ -193,6 +208,14 @@
           </div>
         </div>
         {{ end }}
+        {{/* CTA button */}}
+        <div class="nav-cta">
+          {{ if eq .Lang "pl" }}
+          <a href="/pl/praktyczne/plan-7-dni/">Zaplanuj wyjazd</a>
+          {{ else }}
+          <a href="/practical/itinerary-7-days/">Plan Your Trip</a>
+          {{ end }}
+        </div>
         {{/* Language switcher dropdown */}}
         <div class="nav-item has-lang-dropdown">
           <button class="lang-current" aria-label="{{ if eq .Lang "pl" }}Zmień język{{ else }}Change language{{ end }}">
@@ -275,48 +298,75 @@
   </footer>
 
   <script>
-    // Mobile menu toggle
-    document.querySelector('.mobile-toggle').addEventListener('click', function() {
-      this.classList.toggle('is-open');
-      document.getElementById('site-nav').classList.toggle('is-open');
-    });
+    (function() {
+      var header = document.getElementById('site-header');
+      var isHome = document.querySelector('.hero') !== null;
 
-    // Mobile: toggle mega menu sub-items on click
-    document.querySelectorAll('.has-mega > a').forEach(function(link) {
-      link.addEventListener('click', function(e) {
-        if (window.innerWidth <= 768) {
-          e.preventDefault();
-          this.parentElement.classList.toggle('is-open');
-          // Close other open megas
-          document.querySelectorAll('.has-mega.is-open').forEach(function(el) {
-            if (el !== link.parentElement) el.classList.remove('is-open');
-          });
+      // Non-homepage: always scrolled (solid) header
+      if (!isHome) {
+        header.classList.add('scrolled');
+      }
+
+      // Scroll handler: toggle scrolled class
+      window.addEventListener('scroll', function() {
+        if (isHome) {
+          if (window.scrollY > 60) {
+            header.classList.add('scrolled');
+          } else {
+            header.classList.remove('scrolled');
+          }
+        }
+      }, { passive: true });
+
+      // Mobile menu toggle
+      document.querySelector('.mobile-toggle').addEventListener('click', function() {
+        this.classList.toggle('is-open');
+        document.getElementById('site-nav').classList.toggle('is-open');
+        // Force scrolled state when mobile menu is open
+        if (document.getElementById('site-nav').classList.contains('is-open')) {
+          header.classList.add('scrolled');
+        } else if (isHome && window.scrollY <= 60) {
+          header.classList.remove('scrolled');
         }
       });
-    });
 
-    // Desktop: close mega menu when mouse leaves the nav-item area
-    document.querySelectorAll('.has-mega').forEach(function(item) {
-      var timeout;
-      item.addEventListener('mouseleave', function() {
-        timeout = setTimeout(function() {
-          item.querySelector('.mega-menu').style.pointerEvents = '';
-        }, 100);
+      // Mobile: toggle mega menu sub-items on click
+      document.querySelectorAll('.has-mega > a').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            this.parentElement.classList.toggle('is-open');
+            document.querySelectorAll('.has-mega.is-open').forEach(function(el) {
+              if (el !== link.parentElement) el.classList.remove('is-open');
+            });
+          }
+        });
       });
-      item.addEventListener('mouseenter', function() {
-        clearTimeout(timeout);
-      });
-    });
 
-    // Language switcher: toggle on mobile click
-    var langBtn = document.querySelector('.lang-current');
-    if (langBtn) {
-      langBtn.addEventListener('click', function() {
-        if (window.innerWidth <= 768) {
-          this.parentElement.classList.toggle('is-open');
-        }
+      // Desktop: close mega menu when mouse leaves
+      document.querySelectorAll('.has-mega').forEach(function(item) {
+        var timeout;
+        item.addEventListener('mouseleave', function() {
+          timeout = setTimeout(function() {
+            var mm = item.querySelector('.mega-menu');
+            if (mm) mm.style.pointerEvents = '';
+          }, 100);
+        });
+        item.addEventListener('mouseenter', function() {
+          clearTimeout(timeout);
+        });
       });
-    }
+
+      // Language switcher: toggle on mobile click
+      var langBtn = document.querySelector('.lang-current');
+      if (langBtn) {
+        langBtn.addEventListener('click', function() {
+          if (window.innerWidth <= 768) {
+            this.parentElement.classList.toggle('is-open');
+          }
+        });
+      }
+    })();
   </script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<!-- Page Hero -->
+{{ partial "page-hero.html" . }}
+{{ partial "breadcrumbs.html" . }}
+
+<div class="content-with-sidebar container-wide">
+  <article class="page-content">
+    <div class="blog-post-meta">
+      <time>{{ partial "date-format.html" . }}</time>
+    </div>
+    {{ .Content }}
+    {{ partial "author-box.html" . }}
+  </article>
+
+  {{ partial "sidebar.html" . }}
+</div>
+{{ end }}

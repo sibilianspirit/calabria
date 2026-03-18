@@ -723,6 +723,67 @@ body:not(.is-home) .site-main {
   color: #fff;
 }
 
+/* ── BLOG POST ── */
+.blog-post-meta {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #E8E2D9;
+}
+.blog-post-meta time {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #C8B99A;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ── AUTHOR BOX ── */
+.author-box {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: #FAF8F5;
+  border: 1px solid #E8E2D9;
+  border-radius: 10px;
+}
+.author-avatar {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+}
+.author-avatar svg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.author-info {
+  flex: 1;
+  min-width: 0;
+}
+.author-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #C8B99A;
+  margin-bottom: 0.2rem;
+}
+.author-name {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0F2E42;
+  margin-bottom: 0.4rem;
+}
+.author-box p {
+  font-size: 0.82rem;
+  color: #7A7067;
+  line-height: 1.5;
+  margin: 0;
+}
+
 /* ── BREADCRUMBS ── */
 .breadcrumbs {
   background: #FAF8F5;

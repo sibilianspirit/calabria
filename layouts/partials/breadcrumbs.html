@@ -1,0 +1,17 @@
+{{/* Breadcrumbs — auto-generated from page hierarchy */}}
+{{ if not .IsHome }}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <div class="container-wide">
+    <ol class="breadcrumb-list">
+      <li><a href="{{ .Site.Home.RelPermalink }}">{{ if eq .Lang "pl" }}Strona główna{{ else }}Home{{ end }}</a></li>
+      {{- $ancestors := .Ancestors.Reverse -}}
+      {{- range $ancestors -}}
+        {{- if not .IsHome -}}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end -}}
+      {{- end -}}
+      <li aria-current="page">{{ .Title }}</li>
+    </ol>
+  </div>
+</nav>
+{{ end }}

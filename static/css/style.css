@@ -304,28 +304,30 @@ body:not(.is-home) .site-main {
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50%) translateY(-8px);
-  background: #FDFBF8;
-  border: 1px solid #E8E2D9;
-  border-top: 3px solid #D4432A;
-  border-radius: 0 0 12px 12px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.15), 0 4px 12px rgba(0,0,0,0.06);
-  padding: 1.8rem 2.2rem 1.5rem;
+  transform: translateX(-50%) translateY(-6px);
+  background: rgba(20, 18, 15, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.05) inset;
+  padding: 2rem 2.5rem 1.8rem;
   min-width: 420px;
   z-index: 100;
-  gap: 2.5rem;
+  gap: 3rem;
   opacity: 0;
   visibility: hidden;
-  transition: all 0.25s ease;
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
   pointer-events: none;
 }
 .has-mega:hover .mega-menu {
+  display: flex;
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(0);
   pointer-events: auto;
 }
-/* Backdrop overlay when mega menu is open — pointer-events none so it doesn't block mouse */
+/* Backdrop overlay when mega menu is open */
 .has-mega:hover::after {
   content: '';
   position: fixed;
@@ -333,7 +335,7 @@ body:not(.is-home) .site-main {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.06);
+  background: rgba(0,0,0,0.15);
   z-index: -1;
   pointer-events: none;
   animation: fadeIn 0.3s ease;
@@ -343,63 +345,63 @@ body:not(.is-home) .site-main {
   to { opacity: 1; }
 }
 .mega-col {
-  min-width: 150px;
+  min-width: 160px;
 }
 .mega-col h4 {
-  font-family: 'Bodoni Moda', serif;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #D4432A;
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #F0E6D9;
+  color: #C5B347;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 .mega-col a {
   display: block;
-  color: #3D3A36;
-  font-size: 0.9rem;
-  font-weight: 500;
-  padding: 0.45rem 0.7rem;
-  margin: 0.1rem -0.7rem;
-  border-radius: 6px;
+  color: rgba(255,255,255,0.8);
+  font-size: 0.88rem;
+  font-weight: 400;
+  padding: 0.5rem 0.8rem;
+  margin: 0.1rem -0.8rem;
+  border-radius: 8px;
   text-decoration: none;
-  transition: all 0.15s;
-  border-left: 2px solid transparent;
+  transition: all 0.2s;
 }
 .mega-col a:hover {
-  color: #D4432A;
-  background: #FFF5F2;
-  border-left-color: #D4432A;
-  padding-left: 0.9rem;
+  color: #fff;
+  background: rgba(255,255,255,0.08);
 }
 /* Mega menu links with descriptions */
 .mega-col a strong {
   display: block;
   font-weight: 600;
-  font-size: 0.9rem;
-  color: #2A2520;
+  font-size: 0.88rem;
+  color: #fff;
 }
 .mega-col a span {
   display: block;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 400;
-  color: #8A8278;
-  margin-top: 0.1rem;
+  color: rgba(255,255,255,0.45);
+  margin-top: 0.15rem;
 }
-.mega-col a:hover strong { color: #D4432A; }
-.mega-col a:hover span { color: #C75B39; }
+.mega-col a:hover strong { color: #fff; }
+.mega-col a:hover span { color: rgba(255,255,255,0.7); }
 /* Links with descriptions need more padding */
 .mega-col a:has(strong) {
-  padding: 0.55rem 0.7rem;
-  margin-bottom: 0.15rem;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.1rem;
 }
 /* CTA link in mega menu */
 .mega-cta {
   font-weight: 600 !important;
-  color: #D4432A !important;
+  color: #C5B347 !important;
   margin-top: 0.5rem;
+}
+.mega-cta:hover {
+  color: #fff !important;
 }
 .mega-col-cta {
   display: flex;
@@ -1272,7 +1274,8 @@ body:not(.is-home) .site-main {
     border-top: 1px solid #E8E2D9;
     border-radius: 0;
     box-shadow: none;
-    background: #FAF8F5;
+    background: #FAF8F5 !important;
+    backdrop-filter: none !important;
     padding: 0.8rem 2rem 1rem;
     flex-direction: column;
     gap: 0.8rem;
@@ -1282,6 +1285,12 @@ body:not(.is-home) .site-main {
     pointer-events: auto !important;
     min-width: 0 !important;
   }
+  .mega-col h4 { color: #D4432A; border-bottom-color: #E8E2D9; }
+  .mega-col a { color: #3D3A36; }
+  .mega-col a strong { color: #2A2520; }
+  .mega-col a span { color: #8A8278; }
+  .mega-col a:hover { background: #FFF5F2; color: #D4432A; }
+  .mega-cta { color: #D4432A !important; }
   .has-mega.is-open .mega-menu { display: flex !important; }
   .has-mega:hover .mega-menu { display: none !important; }
   .has-mega.is-open:hover .mega-menu { display: flex !important; }

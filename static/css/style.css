@@ -556,7 +556,7 @@ body:not(.is-home) .site-main {
 .editorial-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 1fr;
   gap: 1.2rem;
 }
 .editorial-card {
@@ -566,11 +566,10 @@ body:not(.is-home) .site-main {
   text-decoration: none;
   display: flex;
   align-items: flex-end;
-  min-height: 340px;
+  min-height: 300px;
 }
 .editorial-card.card-tall {
   grid-row: span 2;
-  min-height: 700px;
 }
 .editorial-card img {
   position: absolute;
@@ -624,64 +623,6 @@ body:not(.is-home) .site-main {
 }
 .editorial-card p {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.75);
-  line-height: 1.5;
-  margin: 0;
-}
-
-/* ── NATURE DUO (two square cards) ── */
-.nature-duo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.2rem;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 2rem 4rem;
-}
-.nature-duo-card {
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-  text-decoration: none;
-  display: flex;
-  align-items: flex-end;
-  min-height: 360px;
-}
-.nature-duo-card img {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-.nature-duo-card:hover img {
-  transform: scale(1.04);
-}
-.nature-duo-card::after {
-  content: '';
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 65%;
-  background: linear-gradient(transparent, rgba(0,0,0,0.75));
-  pointer-events: none;
-}
-.nature-duo-body {
-  position: relative;
-  z-index: 1;
-  padding: 1.8rem;
-  width: 100%;
-}
-.nature-duo-card h3 {
-  font-family: 'Bodoni Moda', serif;
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1.2;
-  margin-bottom: 0.4rem;
-}
-.nature-duo-card p {
-  font-size: 0.88rem;
   color: rgba(255,255,255,0.75);
   line-height: 1.5;
   margin: 0;
@@ -1448,10 +1389,8 @@ body:not(.is-home) .site-main {
   .category-card { min-height: 140px; }
   .editorial-grid { grid-template-columns: 1fr; }
   .editorial-card { min-height: 260px; }
-  .editorial-card.card-tall { grid-row: span 1; min-height: 320px; }
+  .editorial-card.card-tall { grid-row: span 1; min-height: 280px; }
   .editorial-card.card-tall h3 { font-size: 1.4rem; }
-  .nature-duo { grid-template-columns: 1fr; }
-  .nature-duo-card { min-height: 280px; }
   .blog-grid { grid-template-columns: 1fr; }
   .logo-img { height: 70px; }
   .boc-transport-grid { grid-template-columns: repeat(2, 1fr); }

@@ -83,22 +83,43 @@
     {{ end }}
 </section>
 
-<!-- Nature Banner (full-width) -->
-<section class="nature-banner">
-  <img src="/images/wp-uploads/2026/02/calabria-beach.webp" alt="Aspromonte National Park" loading="lazy">
-  <div class="nature-banner-body">
-    {{ if eq .Lang "pl" }}
-    <div class="nature-banner-kicker">Natura i parki</div>
-    <h2>Góry Aspromonte</h2>
-    <p>Trzy parki narodowe, 800 km dzikiego wybrzeża i ekosystem, jakiego nie znajdziesz nigdzie indziej w Europie.</p>
-    <a href="/pl/natura/" class="btn-outline">Odkryj naturę &rarr;</a>
-    {{ else }}
-    <div class="nature-banner-kicker">Nature &amp; Parks</div>
-    <h2>Aspromonte Mountains</h2>
-    <p>Three national parks, 800 km of wild coastline, and an ecosystem found nowhere else in Europe.</p>
-    <a href="/nature/" class="btn-outline">Explore nature &rarr;</a>
-    {{ end }}
-  </div>
+<!-- Nature Duo -->
+<section class="nature-duo">
+  {{ if eq .Lang "pl" }}
+  <a href="/pl/natura/aspromonte/" class="nature-duo-card">
+    <img src="/images/wp-uploads/2026/02/calabria-destinations.webp" alt="Park Narodowy Aspromonte" loading="lazy">
+    <div class="nature-duo-body">
+      <div class="editorial-tag">Parki Narodowe</div>
+      <h3>Góry Aspromonte</h3>
+      <p>Dzikie serce Kalabrii &ndash; wodospady, wilki i tysiącletnie drzewa.</p>
+    </div>
+  </a>
+  <a href="/pl/natura/capo-vaticano/" class="nature-duo-card">
+    <img src="/images/wp-uploads/2026/02/calabria-beach.webp" alt="Capo Vaticano" loading="lazy">
+    <div class="nature-duo-body">
+      <div class="editorial-tag">Wybrzeże</div>
+      <h3>Capo Vaticano</h3>
+      <p>Spektakularne klify i turkusowe zatoki Wybrzeża Bogów.</p>
+    </div>
+  </a>
+  {{ else }}
+  <a href="/nature/aspromonte/" class="nature-duo-card">
+    <img src="/images/wp-uploads/2026/02/calabria-destinations.webp" alt="Aspromonte National Park" loading="lazy">
+    <div class="nature-duo-body">
+      <div class="editorial-tag">National Parks</div>
+      <h3>Aspromonte Mountains</h3>
+      <p>The wild heart of Calabria &ndash; waterfalls, wolves and ancient trees.</p>
+    </div>
+  </a>
+  <a href="/nature/capo-vaticano/" class="nature-duo-card">
+    <img src="/images/wp-uploads/2026/02/calabria-beach.webp" alt="Capo Vaticano" loading="lazy">
+    <div class="nature-duo-body">
+      <div class="editorial-tag">Coastline</div>
+      <h3>Capo Vaticano</h3>
+      <p>Dramatic cliffs and turquoise bays of the Coast of the Gods.</p>
+    </div>
+  </a>
+  {{ end }}
 </section>
 
 <!-- Latest Blog Posts -->

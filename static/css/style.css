@@ -65,28 +65,35 @@ img { max-width: 100%; height: auto; }
   width: auto;
   transition: filter 0.3s;
 }
-/* Logo SVG coloring via filter — white by default on transparent header */
-.site-header:not(.scrolled) .logo-img {
-  filter: brightness(0) invert(1);
+/* Logo SVG text color — white on transparent header, dark on scrolled */
+.site-header:not(.scrolled) .logo-text {
+  fill: #fff;
+  transition: fill 0.3s;
+}
+.site-header.scrolled .logo-text {
+  fill: #2A2520;
+  transition: fill 0.3s;
 }
 /* CTA button in nav */
 .nav-cta {
   display: flex;
   align-items: center;
   margin-left: 0.8rem;
+  flex-shrink: 0;
 }
 .nav-cta a {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0.6rem 1.4rem;
+  padding: 0.5rem 1.2rem;
   border: 2px solid #fff;
   border-radius: 0;
   color: #fff;
   transition: all 0.3s;
+  white-space: nowrap;
 }
 .site-header.scrolled .nav-cta a {
   border-color: #D4432A;

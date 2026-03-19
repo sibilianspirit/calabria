@@ -262,28 +262,20 @@ async function main() {
     await processImage(tmpJpg, tmpWebp);
     fs.unlinkSync(tmpJpg);
 
-    // 5. Upload do WP
-    console.log('→ Uploading do WordPress...');
-    const media = await uploadToWP(tmpWebp, slug);
+    // 5. Kopiuj do static/images (Hugo)
+    const destDir = path.join(__dirname, 'static', 'images', 'wp-uploads', '2026', '03');
+    const destFile = path.join(destDir, `${slug}.webp`);
+    fs.mkdirSync(destDir, { recursive: true });
+    fs.copyFileSync(tmpWebp, destFile);
+    console.log('→ Skopiowano do:', destFile);
 
-    // 6. Pobierz sizes (large URL)
-    const mediaData = await getMediaSizes(media.id);
-    const largeUrl  = mediaData.media_details?.sizes?.large?.source_url
-                   || mediaData.media_details?.sizes?.full?.source_url
-                   || mediaData.source_url;
-
-    // 7. Wypisz blok Gutenberg
-    const block = buildGutenbergBlock(media.id, largeUrl, alt, caption);
+    const hugoUrl = `/images/wp-uploads/2026/03/${slug}.webp`;
 
     console.log('\n✅ GOTOWE');
-    console.log('   Media ID:', media.id);
-    console.log('   URL:', largeUrl);
-    console.log('\n── BLOK GUTENBERG ──────────────────────────────────────');
-    console.log(block);
-    console.log('────────────────────────────────────────────────────────\n');
-
-    // Sprzątanie
-    try { fs.unlinkSync(tmpWebp); } catch {}
+    console.log('   Plik:', destFile);
+    console.log('   URL:', hugoUrl);
+    if (caption) console.log('   Podpis:', caption);
+    console.log('');
 
   } catch (err) {
     console.error('❌ Błąd:', err.message);

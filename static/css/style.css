@@ -1306,8 +1306,8 @@ body:not(.is-home) .site-main {
 .boc-faq-box details { border-bottom: 1px solid #E0D8CE; margin-bottom: 0.5rem; }
 .boc-faq-box summary {
   padding: 1rem 0;
-  font-weight: 600;
-  font-size: 0.95rem;
+  font-weight: 700;
+  font-size: 1.15rem;
   color: #2A2520;
   cursor: pointer;
   list-style: none;

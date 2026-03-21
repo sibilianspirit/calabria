@@ -631,7 +631,7 @@ body:not(.is-home) .site-main {
 /* ── BLOG / LATEST POSTS ── */
 .latest-posts {
   padding: 6rem 0;
-  background: #fff;
+  background: #FAF8F5;
 }
 .latest-posts-header {
   display: flex;

@@ -282,7 +282,7 @@ body:not(.is-home) .site-main {
   padding: 0.5rem 0.75rem;
   border-radius: 5px;
   text-decoration: none;
-  color: var(--text);
+  color: #3D3A36;
   font-size: 0.9rem;
   font-weight: 400;
   transition: background 0.15s;

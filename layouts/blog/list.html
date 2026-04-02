@@ -6,9 +6,10 @@
 <div class="container-wide">
   <div class="blog-grid" style="padding: 3rem 0;">
     {{ range .Pages.ByDate.Reverse }}
+    {{ $postTitle := .Title }}
     <a href="{{ .RelPermalink }}" class="blog-card">
       {{ with .Params.image }}
-      <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+      <img src="{{ . }}" alt="{{ $postTitle }}" loading="lazy">
       {{ end }}
       <div class="blog-card-body">
         <div class="blog-card-date">{{ partial "date-format.html" . }}</div>

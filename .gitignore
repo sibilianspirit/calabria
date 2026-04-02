@@ -19,6 +19,7 @@ Thumbs.db
 # But keep specific images
 !static/images/logo.png
 !static/images/blog/*.jpg
+!static/images/blog/*.webp
 !static/images/hero-calabria.webp
 !static/images/wp-uploads/**/*.webp
 !static/images/logo-bergamot.svg

@@ -1,10 +1,10 @@
-{{/* Page Hero — city/section pages */}}
+{{/* Page Hero — city/section/article pages */}}
 {{ $section := "" }}
 {{ $sectionPL := "" }}
 {{ $heroImage := "" }}
 {{ $pageSlug := .Slug }}
 
-{{/* Image map */}}
+{{/* Image map — cities and section hubs */}}
 {{ $imageMap := dict
   "tropea" "/images/wp-uploads/2026/03/boc-tropea.webp"
   "scilla" "/images/wp-uploads/2026/03/boc-scilla-chianalea-lodzie.webp"
@@ -36,6 +36,21 @@
   "kierunki" "/images/wp-uploads/2026/03/boc-tropea.webp"
 }}
 
+{{/* Section fallback map */}}
+{{ $sectionFallback := dict
+  "destinations" "/images/wp-uploads/2026/03/boc-tropea.webp"
+  "kierunki" "/images/wp-uploads/2026/03/boc-tropea.webp"
+  "nature" "/images/wp-uploads/2026/03/boc-aspromonte-park.webp"
+  "natura" "/images/wp-uploads/2026/03/boc-aspromonte-park.webp"
+  "cuisine" "/images/wp-uploads/2026/03/kuchnia-kalabryjska-blog.webp"
+  "kuchnia" "/images/wp-uploads/2026/03/kuchnia-kalabryjska-blog.webp"
+  "culture" "/images/wp-uploads/2026/03/magna-graecia-kalabria.webp"
+  "kultura" "/images/wp-uploads/2026/03/magna-graecia-kalabria.webp"
+  "practical" "/images/wp-uploads/2026/03/jak-dojechac-kalabria.webp"
+  "praktyczne" "/images/wp-uploads/2026/03/jak-dojechac-kalabria.webp"
+  "blog" "/images/wp-uploads/2026/03/najlepsze-plaze-blog.webp"
+}}
+
 {{/* Determine section from current section */}}
 {{ $sectionName := .Section }}
 {{ if or (eq $sectionName "destinations") (eq $sectionName "kierunki") }}
@@ -53,11 +68,41 @@
 {{ else if or (eq $sectionName "practical") (eq $sectionName "praktyczne") }}
   {{ $section = "PRACTICAL" }}
   {{ $sectionPL = "PRAKTYCZNE" }}
+{{ else if eq $sectionName "blog" }}
+  {{ $section = "BLOG" }}
+  {{ $sectionPL = "BLOG" }}
 {{ end }}
 
-{{/* Find hero image */}}
+{{/* 1. Try exact slug match in imageMap */}}
 {{ with index $imageMap $pageSlug }}
   {{ $heroImage = . }}
+{{ end }}
+
+{{/* 2. If no match, try to extract first <img> src from page content */}}
+{{ if not $heroImage }}
+  {{ $content := .RawContent }}
+  {{ if findRE `<img[^>]+src="([^"]+)"` $content }}
+    {{ $match := index (findRE `src="(/images/[^"]+)"` $content) 0 }}
+    {{ if $match }}
+      {{ $heroImage = replaceRE `src="([^"]+)"` "$1" $match }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* 3. If still no match, try parent page slug (for attraction subpages under cities) */}}
+{{ if not $heroImage }}
+  {{ if .Parent }}
+    {{ with index $imageMap .Parent.Slug }}
+      {{ $heroImage = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* 4. Last fallback: section default image */}}
+{{ if not $heroImage }}
+  {{ with index $sectionFallback $sectionName }}
+    {{ $heroImage = . }}
+  {{ end }}
 {{ end }}
 
 <section class="page-hero{{ if $heroImage }} has-bg{{ end }}"{{ if $heroImage }} style="--hero-bg: url('{{ $heroImage }}')"{{ end }}>

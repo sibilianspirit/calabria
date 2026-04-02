@@ -2,6 +2,7 @@ baseURL = "https://bestofcalabria.com/"
 title = "Best of Calabria"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
 
 [languages]
   [languages.en]

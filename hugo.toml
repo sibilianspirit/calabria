@@ -17,6 +17,8 @@ enableRobotsTXT = true
     title = "Best of Calabria"
     languageCode = "pl"
     contentDir = "content/pl"
+    [languages.pl.params]
+      description = "Odkryj najlepsze miejsca Kalabrii – piękne plaże, starożytne miasteczka i autentyczną kuchnię południowych Włoch."
 
 [markup]
   [markup.goldmark]

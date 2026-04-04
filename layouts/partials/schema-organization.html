@@ -1,0 +1,12 @@
+{{/* Schema.org Organization JSON-LD — global, once per page */}}
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "name" "Best of Calabria"
+  "url" .Site.BaseURL
+  "logo" (printf "%simages/logo.png" .Site.BaseURL)
+  "description" (cond (eq .Lang "pl") "Kompletny przewodnik po Kalabrii – południowe Włochy" "The complete guide to Calabria – southern Italy")
+}}
+<script type="application/ld+json">
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
+</script>

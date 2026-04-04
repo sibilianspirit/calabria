@@ -1,0 +1,12 @@
+{{/* Schema.org WebSite JSON-LD — global, once per page */}}
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "WebSite"
+  "name" .Site.Title
+  "url" .Site.BaseURL
+  "inLanguage" .Lang
+  "description" .Site.Params.description
+}}
+<script type="application/ld+json">
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
+</script>

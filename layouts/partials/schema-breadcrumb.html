@@ -1,0 +1,23 @@
+{{/* Schema.org BreadcrumbList JSON-LD */}}
+{{ if not .IsHome }}
+{{ $items := slice }}
+{{ $pos := 1 }}
+{{ $items = $items | append (dict "@type" "ListItem" "position" $pos "name" (cond (eq .Lang "pl") "Strona główna" "Home") "item" (printf "%s" (.Site.Home.Permalink))) }}
+{{ $ancestors := .Ancestors.Reverse }}
+{{ range $ancestors }}
+  {{ if not .IsHome }}
+    {{ $pos = add $pos 1 }}
+    {{ $items = $items | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) }}
+  {{ end }}
+{{ end }}
+{{ $pos = add $pos 1 }}
+{{ $items = $items | append (dict "@type" "ListItem" "position" $pos "name" .Title) }}
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "BreadcrumbList"
+  "itemListElement" $items
+}}
+<script type="application/ld+json">
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}

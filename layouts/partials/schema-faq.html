@@ -1,0 +1,30 @@
+{{/* Schema.org FAQPage JSON-LD — extracts Q&A from boc-faq-box in content */}}
+{{ $content := .Content }}
+{{ if findRE `boc-faq-box` $content }}
+{{ $questions := findRE `<summary[^>]*>(.*?)</summary>` $content }}
+{{ $answers := findRE `<div class="boc-faq-answer"[^>]*>([\s\S]*?)</div>` $content }}
+{{/* Build FAQ entries from <details> blocks */}}
+{{ $details := findRE `<details[^>]*>[\s\S]*?</details>` $content }}
+{{ if $details }}
+{{ $faqItems := slice }}
+{{ range $details }}
+  {{ $q := index (findRE `<summary[^>]*>(.*?)</summary>` .) 0 }}
+  {{ $q = replaceRE `</?summary[^>]*>` "" $q }}
+  {{ $q = $q | plainify }}
+  {{ $a := replaceRE `(?s).*</summary>` "" . }}
+  {{ $a = replaceRE `</details>` "" $a }}
+  {{ $a = strings.TrimSpace $a }}
+  {{ $faqItems = $faqItems | append (dict "@type" "Question" "name" $q "acceptedAnswer" (dict "@type" "Answer" "text" $a)) }}
+{{ end }}
+{{ if $faqItems }}
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "FAQPage"
+  "mainEntity" $faqItems
+}}
+<script type="application/ld+json">
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{ end }}
+{{ end }}
+{{ end }}

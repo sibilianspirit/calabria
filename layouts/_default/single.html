@@ -1,4 +1,10 @@
 {{ define "main" }}
+{{ partial "schema-breadcrumb.html" . }}
+{{ partial "schema-faq.html" . }}
+{{/* TouristDestination for destination, nature, culture sections */}}
+{{ if or (eq .Section "destinations") (eq .Section "kierunki") (eq .Section "nature") (eq .Section "natura") (eq .Section "culture") (eq .Section "kultura") }}
+{{ partial "schema-place.html" . }}
+{{ end }}
 <!-- Page Hero -->
 {{ partial "page-hero.html" . }}
 {{ partial "breadcrumbs.html" . }}

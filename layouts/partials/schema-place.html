@@ -1,0 +1,21 @@
+{{/* Schema.org TouristDestination JSON-LD for destination/nature/culture pages */}}
+{{ $description := .Description }}
+{{ if not $description }}{{ $description = .Summary | plainify | truncate 160 }}{{ end }}
+{{ $image := "" }}
+{{ with .Params.image }}{{ $image = printf "%s%s" ($.Site.BaseURL | strings.TrimRight "/") . }}{{ end }}
+{{ $schema := dict
+  "@context" "https://schema.org"
+  "@type" "TouristDestination"
+  "name" .Title
+  "description" $description
+  "url" .Permalink
+  "inLanguage" .Lang
+  "touristType" "Sightseeing"
+  "containedInPlace" (dict "@type" "AdministrativeArea" "name" "Calabria, Italy")
+}}
+{{ if $image }}
+  {{ $schema = merge $schema (dict "image" $image) }}
+{{ end }}
+<script type="application/ld+json">
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
+</script>

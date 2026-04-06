@@ -1061,6 +1061,19 @@ body:not(.is-home) .site-main {
 }
 
 /* Tables */
+.page-content .wp-block-table {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.5rem 0;
+}
+.page-content .boc-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1.5rem 0;
+}
+.page-content .boc-table-wrap table {
+  margin: 0;
+}
 .page-content table {
   width: 100%;
   border-collapse: collapse;
@@ -1639,6 +1652,9 @@ body:not(.is-home) .site-main {
   .boc-nearby-pill { width: 100%; flex: 1 1 auto; }
   .boc-info-table td { display: block; width: 100% !important; }
   .boc-info-table td:first-child { background: #FAF8F5; color: #1B4D6E; font-size: 0.8rem; text-transform: uppercase; }
+  .page-content table th,
+  .page-content table td { padding: 0.5rem 0.6rem; font-size: 0.8rem; }
+  .page-content table th { font-size: 0.7rem; }
   .page-list { grid-template-columns: 1fr; }
   .boc-homepage-intro { padding: 3rem 1.5rem 2rem; }
   .boc-intro-title { font-size: 1.8rem; }

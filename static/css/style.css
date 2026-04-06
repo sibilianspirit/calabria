@@ -1006,6 +1006,14 @@ body:not(.is-home) .site-main {
   margin: 3rem 0 1.2rem;
   border-bottom: 2px solid #C8B99A;
   padding-bottom: 0.5rem;
+  scroll-margin-top: 110px;
+}
+.page-content .boc-section-title {
+  font-size: 0.85rem;
+  color: #8C7B6B;
+  border-bottom: 1px solid #D6CFC5;
+  margin: 0 0 1.2rem;
+  padding-bottom: 0.6rem;
 }
 .page-content h3 {
   font-family: 'Bodoni Moda', serif;

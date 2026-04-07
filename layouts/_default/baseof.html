@@ -6,6 +6,7 @@
   <title>{{ if .IsHome }}{{ .Site.Title }} – {{ if eq .Lang "pl" }}Kompletny przewodnik po Kalabrii{{ else }}Complete Guide to Calabria{{ end }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ .Permalink }}">
   <meta name="google-site-verification" content="c2RDmRK6ok8KM46aO7ftlzPvl2RN5ZyyJ9UvK_fVh5w" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/css/style.css?v=31">
@@ -38,14 +39,14 @@
           <a href="/destinations/">Discover</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Popular</h4>
+              <span class="mega-col-heading">Popular</span>
               <a href="/destinations/tropea/"><strong>Tropea</strong><span>Pearl of the Tyrrhenian</span></a>
               <a href="/destinations/scilla/"><strong>Scilla</strong><span>Chianalea &amp; the Strait</span></a>
               <a href="/destinations/reggio-calabria/"><strong>Reggio Calabria</strong><span>Bronzi di Riace</span></a>
               <a href="/destinations/pizzo/"><strong>Pizzo</strong><span>Tartufo ice cream town</span></a>
             </div>
             <div class="mega-col">
-              <h4>Explore</h4>
+              <span class="mega-col-heading">Explore</span>
               <a href="/destinations/bova/">Bova</a>
               <a href="/destinations/cosenza/">Cosenza</a>
               <a href="/destinations/catanzaro/">Catanzaro</a>
@@ -54,7 +55,7 @@
               <a href="/destinations/locri/">Locri</a>
             </div>
             <div class="mega-col mega-col-cta">
-              <h4>Discover</h4>
+              <span class="mega-col-heading">Discover</span>
               <a href="/destinations/" class="mega-cta">All destinations &rarr;</a>
             </div>
           </div>
@@ -63,13 +64,13 @@
           <a href="/nature/">Nature</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>National Parks</h4>
+              <span class="mega-col-heading">National Parks</span>
               <a href="/nature/aspromonte/"><strong>Aspromonte</strong><span>Wild mountain heart</span></a>
               <a href="/nature/sila/"><strong>Sila</strong><span>Calabria's green plateau</span></a>
               <a href="/nature/pollino/"><strong>Pollino</strong><span>Italy's largest park</span></a>
             </div>
             <div class="mega-col">
-              <h4>Coast</h4>
+              <span class="mega-col-heading">Coast</span>
               <a href="/nature/beaches/"><strong>Best Beaches</strong><span>Top coastal picks</span></a>
               <a href="/nature/capo-vaticano/"><strong>Capo Vaticano</strong><span>Dramatic cliffs</span></a>
               <a href="/nature/costa-viola/"><strong>Costa Viola</strong><span>The violet coast</span></a>
@@ -80,7 +81,7 @@
           <a href="/cuisine/">Flavours</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Specialties</h4>
+              <span class="mega-col-heading">Specialties</span>
               <a href="/cuisine/nduja/"><strong>'Nduja</strong><span>Famous spicy spread</span></a>
               <a href="/cuisine/bergamot/">Bergamot</a>
               <a href="/cuisine/fileja-pasta/">Fileja Pasta</a>
@@ -93,7 +94,7 @@
           <a href="/culture/">Culture</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Heritage</h4>
+              <span class="mega-col-heading">Heritage</span>
               <a href="/culture/magna-graecia/"><strong>Magna Graecia</strong><span>Ancient Greek legacy</span></a>
               <a href="/culture/byzantine-heritage/">Byzantine Heritage</a>
               <a href="/culture/traditions-festivals/">Traditions &amp; Festivals</a>
@@ -104,7 +105,7 @@
           <a href="/practical/">Guides</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Plan Your Trip</h4>
+              <span class="mega-col-heading">Plan Your Trip</span>
               <a href="/practical/getting-there/"><strong>Getting There</strong><span>Flights, car, train</span></a>
               <a href="/practical/accommodation/"><strong>Where to Stay</strong><span>Hotels &amp; apartments</span></a>
               <a href="/practical/car-rental/">Car Rental</a>
@@ -116,13 +117,13 @@
           <a href="/blog/">Blog</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Latest</h4>
+              <span class="mega-col-heading">Latest</span>
               <a href="/blog/best-beaches-calabria/"><strong>Best Beaches</strong><span>Top 10 coastal picks</span></a>
               <a href="/blog/reggio-calabria-weekend-guide/"><strong>Weekend in Reggio</strong><span>2-day itinerary</span></a>
               <a href="/blog/calabrian-food-guide/"><strong>Calabrian Food</strong><span>7 must-try dishes</span></a>
             </div>
             <div class="mega-col mega-col-cta">
-              <h4>Browse</h4>
+              <span class="mega-col-heading">Browse</span>
               <a href="/blog/" class="mega-cta">All posts &rarr;</a>
             </div>
           </div>
@@ -132,14 +133,14 @@
           <a href="/pl/kierunki/">Odkrywaj</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Popularne</h4>
+              <span class="mega-col-heading">Popularne</span>
               <a href="/pl/kierunki/tropea/"><strong>Tropea</strong><span>Perła Morza Tyrreńskiego</span></a>
               <a href="/pl/kierunki/scilla/"><strong>Scilla</strong><span>Chianalea i Cieśnina</span></a>
               <a href="/pl/kierunki/reggio-calabria/"><strong>Reggio Calabria</strong><span>Brązy z Riace</span></a>
               <a href="/pl/kierunki/pizzo/"><strong>Pizzo</strong><span>Miasto lodów tartufo</span></a>
             </div>
             <div class="mega-col">
-              <h4>Odkrywaj</h4>
+              <span class="mega-col-heading">Odkrywaj</span>
               <a href="/pl/kierunki/bova/">Bova</a>
               <a href="/pl/kierunki/cosenza/">Cosenza</a>
               <a href="/pl/kierunki/catanzaro/">Catanzaro</a>
@@ -148,7 +149,7 @@
               <a href="/pl/kierunki/locri/">Locri</a>
             </div>
             <div class="mega-col mega-col-cta">
-              <h4>Więcej</h4>
+              <span class="mega-col-heading">Więcej</span>
               <a href="/pl/kierunki/" class="mega-cta">Wszystkie kierunki &rarr;</a>
             </div>
           </div>
@@ -157,13 +158,13 @@
           <a href="/pl/natura/">Natura</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Parki Narodowe</h4>
+              <span class="mega-col-heading">Parki Narodowe</span>
               <a href="/pl/natura/aspromonte/"><strong>Aspromonte</strong><span>Dzikie serce Kalabrii</span></a>
               <a href="/pl/natura/sila/"><strong>Sila</strong><span>Zielony płaskowyż</span></a>
               <a href="/pl/natura/pollino/"><strong>Pollino</strong><span>Największy park Włoch</span></a>
             </div>
             <div class="mega-col">
-              <h4>Wybrzeże</h4>
+              <span class="mega-col-heading">Wybrzeże</span>
               <a href="/pl/plaze/"><strong>Najlepsze plaże</strong><span>Topowe wybrzeża</span></a>
               <a href="/pl/natura/capo-vaticano/"><strong>Capo Vaticano</strong><span>Spektakularne klify</span></a>
               <a href="/pl/natura/costa-viola/"><strong>Costa Viola</strong><span>Fioletowe wybrzeże</span></a>
@@ -174,7 +175,7 @@
           <a href="/pl/kuchnia/">Smaki</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Specjały</h4>
+              <span class="mega-col-heading">Specjały</span>
               <a href="/pl/kuchnia/nduja/"><strong>'Nduja</strong><span>Słynna ostra pasta</span></a>
               <a href="/pl/kuchnia/bergamotka/">Bergamotka</a>
               <a href="/pl/kuchnia/makaron-fileja/">Makaron Fileja</a>
@@ -187,7 +188,7 @@
           <a href="/pl/kultura/">Kultura</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Dziedzictwo</h4>
+              <span class="mega-col-heading">Dziedzictwo</span>
               <a href="/pl/kultura/magna-graecia/"><strong>Magna Graecia</strong><span>Greckie dziedzictwo</span></a>
               <a href="/pl/kultura/dziedzictwo-bizantyjskie/">Bizantyjskie</a>
               <a href="/pl/kultura/tradycje-i-festiwale/">Tradycje i festiwale</a>
@@ -198,7 +199,7 @@
           <a href="/pl/praktyczne/">Przewodniki</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Planuj wyjazd</h4>
+              <span class="mega-col-heading">Planuj wyjazd</span>
               <a href="/pl/praktyczne/jak-dojechac/"><strong>Jak dojechać</strong><span>Samolot, auto, pociąg</span></a>
               <a href="/pl/praktyczne/noclegi/"><strong>Noclegi</strong><span>Gdzie spać w Kalabrii</span></a>
               <a href="/pl/praktyczne/wynajem-samochodu/">Wynajem samochodu</a>
@@ -210,13 +211,13 @@
           <a href="/pl/blog/">Blog</a>
           <div class="mega-menu">
             <div class="mega-col">
-              <h4>Najnowsze</h4>
+              <span class="mega-col-heading">Najnowsze</span>
               <a href="/pl/blog/najlepsze-plaze-kalabrii/"><strong>Najlepsze plaże</strong><span>Top 10 wybrzeży</span></a>
               <a href="/pl/blog/weekend-w-reggio-calabria/"><strong>Weekend w Reggio</strong><span>Plan na 2 dni</span></a>
               <a href="/pl/blog/kuchnia-kalabryjska-przewodnik/"><strong>Kuchnia kalabryjska</strong><span>7 dań do spróbowania</span></a>
             </div>
             <div class="mega-col mega-col-cta">
-              <h4>Przeglądaj</h4>
+              <span class="mega-col-heading">Przeglądaj</span>
               <a href="/pl/blog/" class="mega-cta">Wszystkie wpisy &rarr;</a>
             </div>
           </div>
@@ -264,40 +265,40 @@
         <div class="footer-links">
           {{ if eq .Lang "en" }}
           <div class="footer-col">
-            <h4>Explore</h4>
+            <span class="mega-col-heading">Explore</span>
             <a href="/destinations/">Destinations</a>
             <a href="/nature/">Nature</a>
             <a href="/cuisine/">Cuisine</a>
             <a href="/culture/">Culture</a>
           </div>
           <div class="footer-col">
-            <h4>Plan</h4>
+            <span class="mega-col-heading">Plan</span>
             <a href="/practical/getting-there/">Getting There</a>
             <a href="/practical/accommodation/">Where to Stay</a>
             <a href="/practical/itinerary-7-days/">7-Day Itinerary</a>
           </div>
           <div class="footer-col">
-            <h4>Info</h4>
+            <span class="mega-col-heading">Info</span>
             <a href="/about/">About</a>
             <a href="/contact/">Contact</a>
             <a href="/partnership/">Partnership</a>
           </div>
           {{ else }}
           <div class="footer-col">
-            <h4>Odkrywaj</h4>
+            <span class="mega-col-heading">Odkrywaj</span>
             <a href="/pl/kierunki/">Kierunki</a>
             <a href="/pl/natura/">Natura</a>
             <a href="/pl/kuchnia/">Kuchnia</a>
             <a href="/pl/kultura/">Kultura</a>
           </div>
           <div class="footer-col">
-            <h4>Planuj</h4>
+            <span class="mega-col-heading">Planuj</span>
             <a href="/pl/praktyczne/jak-dojechac/">Jak dojechać</a>
             <a href="/pl/praktyczne/noclegi/">Noclegi</a>
             <a href="/pl/praktyczne/plan-7-dni/">Plan na 7 dni</a>
           </div>
           <div class="footer-col">
-            <h4>Info</h4>
+            <span class="mega-col-heading">Info</span>
             <a href="/pl/o-nas/">O nas</a>
             <a href="/pl/kontakt/">Kontakt</a>
             <a href="/pl/wspolpraca/">Współpraca</a>

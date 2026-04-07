@@ -347,7 +347,8 @@ body:not(.is-home) .site-main {
 .mega-col {
   min-width: 160px;
 }
-.mega-col h4 {
+.mega-col-heading {
+  display: block;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.65rem;
   font-weight: 600;
@@ -1543,7 +1544,8 @@ body:not(.is-home) .site-main {
 }
 .footer-brand p { font-size: 0.9rem; line-height: 1.5; }
 .footer-links { display: flex; gap: 3rem; }
-.footer-col h4 {
+.footer-col .mega-col-heading {
+  display: block;
   font-family: 'Bodoni Moda', serif;
   font-size: 0.7rem;
   font-weight: 700;
@@ -1608,7 +1610,7 @@ body:not(.is-home) .site-main {
     pointer-events: auto !important;
     min-width: 0 !important;
   }
-  .mega-col h4 { color: #D4432A; border-bottom-color: #E8E2D9; }
+  .mega-col-heading { color: #D4432A; border-bottom-color: #E8E2D9; }
   .mega-col a { color: #3D3A36; }
   .mega-col a strong { color: #2A2520; }
   .mega-col a span { color: #8A8278; }

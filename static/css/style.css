@@ -882,7 +882,7 @@ body:not(.is-home) .site-main {
 /* ── CONTENT + SIDEBAR LAYOUT ── */
 .content-with-sidebar {
   display: grid;
-  grid-template-columns: 1fr 280px;
+  grid-template-columns: minmax(0, 1fr) 280px;
   gap: 3rem;
   padding-top: 2rem;
   padding-bottom: 3rem;
@@ -1572,7 +1572,7 @@ body:not(.is-home) .site-main {
 
 /* ── MEDIA QUERIES ── */
 @media (max-width: 960px) {
-  .content-with-sidebar { grid-template-columns: 1fr; }
+  .content-with-sidebar { grid-template-columns: minmax(0, 1fr); }
   .sidebar { position: static; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
 }
 @media (max-width: 768px) {

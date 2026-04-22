@@ -112,18 +112,31 @@ Struktura (pseudokod w sekcjach):
 - `BASE_URL = "https://bestofcalabria.com"`
 - `CONTENT_DIR = "content/pl"`
 - `TRACKING_FILE = ".fb-published.json"`
-- Wyklucz katalogi utility: `{kontakt, o-nas, wspolpraca}` oraz section-listing `_index.html` na głębokości 2 (`content/pl/<section>/_index.html`)
-- Minimalna długość body: 1500 znaków (filtruje krótkie listingi, ale akceptuje city `_index.html` jak tropea które ma dużo treści)
+- Kwalifikują się wszystkie strony contentowe (miasta, atrakcje, natura, kuchnia, kultura, blog, praktyczne, plaze).
+- Wykluczamy tylko **strony techniczne**:
+  - `content/pl/_index.html` (homepage)
+  - Section-listing `_index.html` na głębokości 2 (`content/pl/kierunki/_index.html`, `.../blog/_index.html`, `.../kuchnia/_index.html` itd.)
+  - Strony utility: `content/pl/{kontakt, o-nas, wspolpraca}/**`
+- Safety net: min. długość body 1500 znaków + wymagane `title` i `description` w frontmatterze.
+
+Przy 90 plikach HTML i ~10 wykluczeniach zostaje **~80 kandydatów** (≈2.5 miesiąca przy 1/dzień).
 
 **Kandydaci (scan_candidates):**
 ```python
+UTILITY_DIRS = {"kontakt", "o-nas", "wspolpraca"}
+
 def scan_candidates():
     for path in Path("content/pl").rglob("*.html"):
         rel = path.relative_to("content/pl")
-        if str(rel.parent).split("/")[0] in {"kontakt", "o-nas", "wspolpraca"}:
+        # Skip homepage
+        if str(rel) == "_index.html":
             continue
+        # Skip utility pages (kontakt, o-nas, wspolpraca)
+        if rel.parts[0] in UTILITY_DIRS:
+            continue
+        # Skip section-listing pages: content/pl/<section>/_index.html
         if len(rel.parts) == 2 and rel.name == "_index.html":
-            continue  # section listing page
+            continue
         fm, body = parse_frontmatter(path)
         if not fm.get("title") or not fm.get("description"):
             continue

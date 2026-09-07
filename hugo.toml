@@ -3,6 +3,11 @@ title = "Best of Calabria"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
+enableGitInfo = true
+
+[frontmatter]
+  date = ["date", "publishDate"]
+  lastmod = ["lastmod", ":git", "date"]
 
 [languages]
   [languages.en]

@@ -1684,3 +1684,12 @@ body:not(.is-home) .site-main {
   .boc-toc { padding: 1.2rem 1.2rem; }
   .boc-toc .boc-toc-wiki { display: none; }
 }
+
+/* Data ostatniej aktualizacji strony */
+.page-content .boc-updated {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  font-size: 0.85rem;
+  color: #6b6b6b;
+}

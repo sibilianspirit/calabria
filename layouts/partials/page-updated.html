@@ -1,0 +1,4 @@
+{{- if not .Lastmod.IsZero -}}
+{{- $months := dict "January" "stycznia" "February" "lutego" "March" "marca" "April" "kwietnia" "May" "maja" "June" "czerwca" "July" "lipca" "August" "sierpnia" "September" "września" "October" "października" "November" "listopada" "December" "grudnia" -}}
+<p class="boc-updated">{{ if eq .Lang "pl" }}Ostatnia aktualizacja: {{ else }}Last updated: {{ end }}<time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ if eq .Lang "pl" }}{{ .Lastmod.Format "2" }} {{ index $months (.Lastmod.Format "January") }} {{ .Lastmod.Format "2006" }}{{ else }}{{ .Lastmod.Format "January 2, 2006" }}{{ end }}</time></p>
+{{- end -}}

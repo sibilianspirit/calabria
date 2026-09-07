@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ partial "schema-breadcrumb.html" . }}
 {{ partial "schema-faq.html" . }}
+{{ partial "schema-webpage.html" . }}
 {{ if or (eq .Section "destinations") (eq .Section "kierunki") (eq .Section "nature") (eq .Section "natura") (eq .Section "culture") (eq .Section "kultura") }}
 {{ partial "schema-place.html" . }}
 {{ end }}
@@ -11,6 +12,7 @@
 <div class="content-with-sidebar container-wide">
   <article class="page-content">
     {{ .Content }}
+    {{ partial "page-updated.html" . }}
   </article>
 
   {{ partial "sidebar.html" . }}

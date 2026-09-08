@@ -23,6 +23,7 @@ Thumbs.db
 !static/images/hero-calabria.webp
 !static/images/wp-uploads/**/*.webp
 !static/images/commons/*.webp
+!static/images/own/*.webp
 !static/images/logo-bergamot.svg
 
 # Python

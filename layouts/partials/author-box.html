@@ -1,11 +1,7 @@
-{{/* Author box for blog posts */}}
+{{/* Author box – shown on all content pages (E-E-A-T) */}}
 <div class="author-box">
   <div class="author-avatar">
-    <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="40" cy="40" r="40" fill="#E8E2D9"/>
-      <circle cx="40" cy="32" r="12" fill="#C8B99A"/>
-      <ellipse cx="40" cy="62" rx="20" ry="14" fill="#C8B99A"/>
-    </svg>
+    <img src="/images/karina-avatar.webp" alt="{{ if eq .Lang "pl" }}Karina – autorka Best of Calabria{{ else }}Karina – author of Best of Calabria{{ end }}" width="56" height="56" loading="lazy">
   </div>
   <div class="author-info">
     {{ if eq .Lang "pl" }}

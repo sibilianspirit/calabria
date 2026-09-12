@@ -47,6 +47,7 @@ jobs:
           FB_WEBHOOK_URL: ${{ secrets.FB_WEBHOOK_URL }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           DRY_RUN: ${{ inputs.dry_run == true && 'true' || 'false' }}

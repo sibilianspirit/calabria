@@ -8,10 +8,11 @@ Przebieg:
   5. dopisuje wpis do .fb-published.json i commituje.
 
 Zmienne środowiskowe:
-  OPENAI_API_KEY     – wymagany
+  OPENROUTER_API_KEY – wymagany (generowanie tekstu przez OpenRouter, endpoint chat completions)
+  OPENAI_API_KEY     – alternatywnie: bezpośrednio OpenAI (gdy brak klucza OpenRouter)
   FB_WEBHOOK_URL     – wariant A: webhook Make.com, który publikuje na stronie (bez konta dewelopera Meta)
   FB_PAGE_ACCESS_TOKEN, FB_PAGE_ID – wariant B: bezpośrednio Graph API (gdy jest token strony)
-  OPENAI_MODEL       – domyślnie gpt-5.4
+  OPENAI_MODEL       – domyślnie openai/gpt-5.6-luna (OpenRouter) lub gpt-5.4 (OpenAI)
   DRY_RUN=true       – bez publikacji i bez commitu (wypisuje wybraną stronę i tekst)
   PICK=<ścieżka>     – wymuś konkretną stronę (np. kierunki/tropea/_index.html) zamiast losowania
   GITHUB_TOKEN, GITHUB_REPOSITORY – do założenia Issue po wyczerpaniu puli
@@ -39,8 +40,10 @@ TRACKING_FILE = Path(".fb-published.json")
 UTILITY_DIRS = {"kontakt", "o-nas", "wspolpraca"}
 MIN_BODY_CHARS = 1500
 FB_API_VERSION = "v21.0"
-OPENAI_URL = "https://api.openai.com/v1/responses"
-DEFAULT_MODEL = "gpt-5.4"
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+OPENROUTER_DEFAULT_MODEL = "openai/gpt-5.6-luna"
+OPENAI_URL = "https://api.openai.com/v1/chat/completions"
+OPENAI_DEFAULT_MODEL = "gpt-5.4"
 
 SYSTEM_PROMPT = (
     "Jesteś redaktorem social media portalu bestofcalabria.com o podróżach po Kalabrii. "
@@ -171,41 +174,46 @@ def _with_retry(fn, attempts: int = 3, delays=(2, 4, 10)):
     raise last
 
 
+def llm_config() -> tuple[str, str, str, dict]:
+    """Zwraca (url, api_key, model, dodatkowe nagłówki). OpenRouter ma pierwszeństwo."""
+    if os.environ.get("OPENROUTER_API_KEY"):
+        model = os.environ.get("OPENAI_MODEL") or OPENROUTER_DEFAULT_MODEL
+        headers = {"HTTP-Referer": BASE_URL, "X-Title": "bestofcalabria FB publisher"}
+        return OPENROUTER_URL, os.environ["OPENROUTER_API_KEY"], model, headers
+    model = os.environ.get("OPENAI_MODEL") or OPENAI_DEFAULT_MODEL
+    return OPENAI_URL, os.environ["OPENAI_API_KEY"], model, {}
+
+
 def generate_fb_text(title: str, description: str, body: str, *, model: str | None = None) -> str:
-    api_key = os.environ["OPENAI_API_KEY"]
-    model = model or os.environ.get("OPENAI_MODEL") or DEFAULT_MODEL
+    url, api_key, cfg_model, extra_headers = llm_config()
+    model = model or cfg_model
     payload = {
         "model": model,
-        "reasoning": {"effort": "low"},
-        "max_output_tokens": 400,
-        "input": [
+        "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {
                 "role": "user",
                 "content": USER_PROMPT.format(title=title, description=description, excerpt=body[:1200]),
             },
         ],
+        "max_tokens": 400,
+        "reasoning": {"effort": "low"},
     }
 
     def call():
         r = requests.post(
-            OPENAI_URL,
-            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
+            url,
+            headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json", **extra_headers},
             json=payload,
             timeout=120,
         )
         if r.status_code >= 400:
-            print(f"[openai] HTTP {r.status_code} (model={model}): {r.text[:500]}", file=sys.stderr)
+            print(f"[llm] HTTP {r.status_code} (model={model}): {r.text[:500]}", file=sys.stderr)
         r.raise_for_status()
         data = r.json()
         if data.get("error"):
             raise RuntimeError(data["error"])
-        text = "".join(
-            c.get("text", "")
-            for o in data.get("output", [])
-            if o.get("type") == "message"
-            for c in o.get("content", [])
-        )
+        text = data["choices"][0]["message"]["content"] or ""
         return clean_message(text)
 
     return _with_retry(call)

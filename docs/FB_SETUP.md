@@ -8,7 +8,7 @@ publikuje na stronie Facebook jedną losową polską stronę serwisu. Publikowa�
 - **Wariant B – Graph API bezpośrednio.** Wymaga konta dewelopera Meta i tokenu strony.
   Sekrety: `FB_PAGE_ACCESS_TOKEN`, `FB_PAGE_ID`. Opis w dalszej części.
 
-W obu wariantach potrzebny jest `OPENAI_API_KEY` (już ustawiony).
+W obu wariantach potrzebny jest klucz do modelu językowego: `OPENROUTER_API_KEY` (OpenRouter, model domyślny `openai/gpt-5.6-luna`) albo `OPENAI_API_KEY` (bezpośrednio OpenAI). Model zmienia się zmienną repozytorium `OPENAI_MODEL`.
 
 ## Wariant A – Make.com krok po kroku
 
@@ -101,16 +101,16 @@ Repo → **Settings → Secrets and variables → Actions → New repository sec
 |---|---|
 | `FB_PAGE_ACCESS_TOKEN` | token strony z kroku 4 |
 | `FB_PAGE_ID` | id strony z kroku 4 |
-| `OPENAI_API_KEY` | klucz OpenAI (ten sam, którego używa fact-checker) |
+| `OPENROUTER_API_KEY` | klucz OpenRouter (dedykowany dla publikatora) |
 
-Opcjonalnie w zakładce **Variables**: `OPENAI_MODEL` (domyślnie `gpt-5.4`).
+Opcjonalnie w zakładce **Variables**: `OPENAI_MODEL` (domyślnie `openai/gpt-5.6-luna`).
 
 Z terminala to samo:
 
 ```
 gh secret set FB_PAGE_ACCESS_TOKEN
 gh secret set FB_PAGE_ID
-gh secret set OPENAI_API_KEY < fact-checker/api-key.txt
+gh secret set OPENROUTER_API_KEY
 ```
 
 ## 7. Pierwsze uruchomienie
@@ -133,7 +133,7 @@ gh secret set OPENAI_API_KEY < fact-checker/api-key.txt
 ```
 pip install -r scripts/requirements.txt
 python -m pytest scripts/ -q
-DRY_RUN=true OPENAI_API_KEY=$(cat fact-checker/api-key.txt) python scripts/fb_publish.py
+DRY_RUN=true OPENROUTER_API_KEY=sk-or-... python scripts/fb_publish.py
 ```
 
 ## Gdy coś się psuje

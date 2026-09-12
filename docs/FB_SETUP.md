@@ -1,8 +1,48 @@
-# FB Daily Post – konfiguracja po stronie Meta i GitHub
+# FB Daily Post – konfiguracja
 
 Automat (`.github/workflows/fb-daily-post.yml` + `scripts/fb_publish.py`) codziennie o 18:00 UTC
-publikuje na stronie Facebook jedną losową polską stronę serwisu. Do działania potrzebuje
-trzech sekretów w GitHubie. Poniżej jak je zdobyć. Żadnego z tych tokenów nie wklejaj do repo.
+publikuje na stronie Facebook jedną losową polską stronę serwisu. Publikować może na dwa sposoby:
+
+- **Wariant A – Make.com (zalecany, bez konta dewelopera Meta).** Skrypt wysyła gotowy post na
+  webhook, a Make publikuje go na stronie przez własną aplikację Meta. Potrzebny sekret: `FB_WEBHOOK_URL`.
+- **Wariant B – Graph API bezpośrednio.** Wymaga konta dewelopera Meta i tokenu strony.
+  Sekrety: `FB_PAGE_ACCESS_TOKEN`, `FB_PAGE_ID`. Opis w dalszej części.
+
+W obu wariantach potrzebny jest `OPENAI_API_KEY` (już ustawiony).
+
+## Wariant A – Make.com krok po kroku
+
+1. Załóż konto na https://www.make.com (e-mail, plan Free: 1000 operacji/mies., nam wystarczy ok. 90).
+2. **Create a new scenario**.
+3. Pierwszy moduł: **Webhooks → Custom webhook → Add**, nazwa np. `bestofcalabria-fb`.
+   Skopiuj adres `https://hook.eu2.make.com/...` – to będzie `FB_WEBHOOK_URL`.
+4. Kliknij **Run once** w Make, a w terminalu wyślij próbkę, żeby Make poznał strukturę danych:
+   ```
+   curl -X POST -H "Content-Type: application/json" \
+     -d '{"message":"test","link":"https://bestofcalabria.com/pl/"}' \
+     https://hook.eu2.make.com/TWOJ_ADRES
+   ```
+5. Drugi moduł: **Facebook Pages → Create a Post**. Kliknij **Add** przy Connection, zaloguj się
+   kontem FB, które administruje stroną *Poznaj Kalabrię*, i zezwól na dostęp do tej strony.
+6. W module wybierz Page: *Poznaj Kalabrię*. W pole **Message** przeciągnij `1. message`,
+   w pole **Link** przeciągnij `1. link`.
+7. Zapisz scenariusz (ikona dyskietki), włącz przełącznik **Scheduling ON** (u dołu, ustawienie
+   „Immediately as data arrives”).
+8. Sekret w GitHubie:
+   ```
+   gh secret set FB_WEBHOOK_URL
+   ```
+   (wklej adres webhooka i Enter).
+9. Test z GitHuba – publikuje Tropeę na stronie:
+   ```
+   gh workflow run fb-daily-post.yml -f pick=kierunki/tropea/_index.html
+   gh run watch
+   ```
+   Jeśli post pojawił się na FB, a w repo jest commit `fb: ...`, cron przejmuje resztę.
+
+Uwaga: przy webhooku skrypt nie zna id posta na FB, w `.fb-published.json` zapisuje `Accepted`.
+
+## Wariant B – Graph API (gdy uda się założyć konto dewelopera)
 
 ## 1. Aplikacja Meta
 

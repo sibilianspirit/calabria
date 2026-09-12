@@ -44,6 +44,7 @@ jobs:
       - name: Publikacja
         run: python scripts/fb_publish.py
         env:
+          FB_WEBHOOK_URL: ${{ secrets.FB_WEBHOOK_URL }}
           FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

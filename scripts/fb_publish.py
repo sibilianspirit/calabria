@@ -8,7 +8,9 @@ Przebieg:
   5. dopisuje wpis do .fb-published.json i commituje.
 
 Zmienne środowiskowe:
-  FB_PAGE_ACCESS_TOKEN, FB_PAGE_ID, OPENAI_API_KEY – wymagane do realnej publikacji
+  OPENAI_API_KEY     – wymagany
+  FB_WEBHOOK_URL     – wariant A: webhook Make.com, który publikuje na stronie (bez konta dewelopera Meta)
+  FB_PAGE_ACCESS_TOKEN, FB_PAGE_ID – wariant B: bezpośrednio Graph API (gdy jest token strony)
   OPENAI_MODEL       – domyślnie gpt-5.4
   DRY_RUN=true       – bez publikacji i bez commitu (wypisuje wybraną stronę i tekst)
   PICK=<ścieżka>     – wymuś konkretną stronę (np. kierunki/tropea/_index.html) zamiast losowania
@@ -224,6 +226,28 @@ def clean_message(text: str) -> str:
 # Facebook
 # ---------------------------------------------------------------------------
 def publish_to_fb(message: str, link: str) -> str:
+    """Webhook (Make.com) ma pierwszeństwo; bez niego – Graph API."""
+    if os.environ.get("FB_WEBHOOK_URL"):
+        return publish_via_webhook(message, link)
+    return publish_via_graph(message, link)
+
+
+def publish_via_webhook(message: str, link: str) -> str:
+    url = os.environ["FB_WEBHOOK_URL"]
+
+    def call():
+        r = requests.post(url, json={"message": message, "link": link}, timeout=60)
+        if r.status_code >= 400:
+            print(f"[webhook] HTTP {r.status_code}: {r.text[:300]}", file=sys.stderr)
+        r.raise_for_status()
+        body = r.text.strip()
+        # Make odpowiada "Accepted" albo tym, co ustawimy w Webhook response (np. id posta)
+        return body if body and len(body) < 120 else "webhook"
+
+    return _with_retry(call)
+
+
+def publish_via_graph(message: str, link: str) -> str:
     page_id = os.environ["FB_PAGE_ID"]
     token = os.environ["FB_PAGE_ACCESS_TOKEN"]
 

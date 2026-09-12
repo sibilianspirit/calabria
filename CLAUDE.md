@@ -220,3 +220,9 @@ No text, no watermarks, no people in foreground.
 - Zdjęcie podane jako URL lokalny → najpierw uploaduj do WP media, żeby dostać publiczny URL dla kie.ai
 - Przy edycji zdjęcia ze stocków (Dreamstime itp.) — lepiej użyć czystego źródła (np. calabriastraordinaria.it)
 - Badolato (prowincja Catanzaro) — dobre zdjęcie reprezentatywne dla regionu Catanzaro
+
+## Stan 2026-09-12
+- Każda strona contentowa (PL+EN, 160 plików) kończy się ramką `boc-sources-box` (Źródła) – generator `fact-checker/gen_sources.py` (katalog fact-checker/ poza repo)
+- 15 stron miast/parków ma planer dojazdu `boc-transport-box boc-planner` (select „Skąd jedziesz?”: lotniska SUF/REG, Polska, Rzym/Neapol, sąsiedzi) zamiast statycznej siatki – dane `fact-checker/planner/*.json`, skrypty `planner_gen.py` i `planner_apply.py`; JS w baseof.html
+- Ikony transportu wg klas `boc-t-plane|car|train|bus|ferry|walk|taxi`, nie wg pozycji
+- Hero strony głównej = własne zdjęcie Scilli; karty na homepage = realne zdjęcia (own/commons)

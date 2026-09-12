@@ -9,7 +9,7 @@
   <link rel="canonical" href="{{ .Permalink }}">
   <meta name="google-site-verification" content="c2RDmRK6ok8KM46aO7ftlzPvl2RN5ZyyJ9UvK_fVh5w" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/style.css?v=38">
+  <link rel="stylesheet" href="/css/style.css?v=39">
   {{ partial "schema-website.html" . }}
   {{ partial "schema-organization.html" . }}
 </head>
@@ -406,6 +406,73 @@
         show(this.value);
         try { localStorage.setItem('bocOrigin', this.value); } catch (e) {}
       });
+    })();
+    // Widget pogodowy (Open-Meteo, bez klucza; cache 30 min w sessionStorage)
+    (function() {
+      var box = document.querySelector('.boc-weather');
+      if (!box || !window.fetch) return;
+      var lat = box.getAttribute('data-lat'), lon = box.getAttribute('data-lon');
+      var sea = box.getAttribute('data-sea') === '1', pl = box.getAttribute('data-lang') === 'pl';
+      var body = box.querySelector('.boc-weather-body');
+      var T = pl ? {
+        c: ['bezchmurnie','przeważnie słonecznie','częściowe zachmurzenie','pochmurno','mgła','mżawka','marznąca mżawka','deszcz','marznący deszcz','śnieg','przelotny deszcz','przelotny śnieg','burza','burza z gradem'],
+        days: ['nd','pn','wt','śr','cz','pt','sb'], today: 'Dziś', wind: 'wiatr', seaT: 'Woda', err: 'Prognoza chwilowo niedostępna.', feel: 'Odczuwalna'
+      } : {
+        c: ['clear sky','mainly sunny','partly cloudy','overcast','fog','drizzle','freezing drizzle','rain','freezing rain','snow','rain showers','snow showers','thunderstorm','thunderstorm with hail'],
+        days: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'], today: 'Today', wind: 'wind', seaT: 'Sea', err: 'Forecast temporarily unavailable.', feel: 'Feels like'
+      };
+      // Kod WMO -> [indeks opisu, ikona]
+      function cls(code) {
+        if (code === 0) return [0,'sun']; if (code === 1) return [1,'sun']; if (code === 2) return [2,'partly'];
+        if (code === 3) return [3,'cloud']; if (code <= 48) return [4,'fog'];
+        if (code <= 55) return [5,'drizzle']; if (code <= 57) return [6,'drizzle'];
+        if (code <= 65) return [7,'rain']; if (code <= 67) return [8,'rain'];
+        if (code <= 77) return [9,'snow']; if (code <= 82) return [10,'rain']; if (code <= 86) return [11,'snow'];
+        if (code === 95) return [12,'storm']; return [13,'storm'];
+      }
+      var ICON = {
+        sun: '<circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/>',
+        partly: '<circle cx="8.5" cy="8.5" r="3.2"/><path d="M8.5 2.5v1.6M2.5 8.5h1.6M4.3 4.3l1.1 1.1M12.7 4.3l-1.1 1.1"/><path d="M9 20h9a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6-1.3A4.2 4.2 0 0 0 9 20z"/>',
+        cloud: '<path d="M7 19h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.5-1.5A4.8 4.8 0 0 0 7 19z"/>',
+        fog: '<path d="M7 14h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.5-1.5A4.8 4.8 0 0 0 7 14z"/><path d="M4 18h16M6 21h12"/>',
+        drizzle: '<path d="M7 15h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.5-1.5A4.8 4.8 0 0 0 7 15z"/><path d="M9 18v2M13 18v2M17 18v2"/>',
+        rain: '<path d="M7 15h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.5-1.5A4.8 4.8 0 0 0 7 15z"/><path d="M8 18l-1 3M12 18l-1 3M16 18l-1 3"/>',
+        snow: '<path d="M7 15h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.5-1.5A4.8 4.8 0 0 0 7 15z"/><path d="M8 18.5h.01M12 20.5h.01M16 18.5h.01M10 21.5h.01M14 18h.01"/>',
+        storm: '<path d="M7 14h10a4 4 0 0 0 .5-8 6 6 0 0 0-11.5-1.5A4.8 4.8 0 0 0 7 14z"/><path d="M13 14l-2.5 4H14l-2.5 4"/>'
+      };
+      function svg(k) { return '<svg class="boc-wi boc-wi-' + k + '" viewBox="0 0 24 24" aria-hidden="true">' + ICON[k] + '</svg>'; }
+      function r(n) { return Math.round(n); }
+      function render(d) {
+        var cur = d.f.current, c = cls(cur.weather_code), h = '';
+        h += '<div class="boc-weather-now">' + svg(c[1]) + '<div><span class="boc-weather-temp">' + r(cur.temperature_2m) + '°</span><span class="boc-weather-desc">' + T.c[c[0]] + '</span></div></div>';
+        h += '<ul class="boc-weather-meta"><li>' + T.feel + ' ' + r(cur.apparent_temperature) + '°</li><li>' + T.wind + ' ' + r(cur.wind_speed_10m) + ' km/h</li>';
+        if (d.sea != null) h += '<li class="boc-weather-sea">' + T.seaT + ' ' + r(d.sea) + '°</li>';
+        h += '</ul><ol class="boc-weather-days">';
+        var dl = d.f.daily;
+        for (var i = 0; i < dl.time.length; i++) {
+          var dc = cls(dl.weather_code[i]), dt = new Date(dl.time[i] + 'T12:00:00');
+          h += '<li title="' + T.c[dc[0]] + '"><span class="boc-weather-day">' + (i === 0 ? T.today : T.days[dt.getDay()]) + '</span>' + svg(dc[1]) + '<span class="boc-weather-hi">' + r(dl.temperature_2m_max[i]) + '°</span><span class="boc-weather-lo">' + r(dl.temperature_2m_min[i]) + '°</span></li>';
+        }
+        h += '</ol>';
+        body.innerHTML = h;
+        box.classList.add('is-loaded');
+      }
+      var key = 'bocWx:' + lat + ',' + lon;
+      try {
+        var c = JSON.parse(sessionStorage.getItem(key));
+        if (c && Date.now() - c.t < 1800000) { render(c.d); return; }
+      } catch (e) {}
+      var fu = 'https://api.open-meteo.com/v1/forecast?latitude=' + lat + '&longitude=' + lon +
+        '&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=Europe%2FRome&forecast_days=6';
+      var pf = fetch(fu).then(function(x) { return x.json(); });
+      var ps = sea ? fetch('https://marine-api.open-meteo.com/v1/marine?latitude=' + lat + '&longitude=' + lon + '&current=sea_surface_temperature')
+        .then(function(x) { return x.json(); }).then(function(m) { return m && m.current ? m.current.sea_surface_temperature : null; }).catch(function() { return null; }) : Promise.resolve(null);
+      Promise.all([pf, ps]).then(function(res) {
+        if (!res[0] || !res[0].current) throw new Error('bad');
+        var d = { f: res[0], sea: res[1] };
+        render(d);
+        try { sessionStorage.setItem(key, JSON.stringify({ t: Date.now(), d: d })); } catch (e) {}
+      }).catch(function() { body.innerHTML = '<p class="boc-weather-loading">' + T.err + '</p>'; });
     })();
   </script>
 </body>

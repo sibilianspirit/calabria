@@ -16,6 +16,9 @@
 {{ if $image }}
   {{ $schema = merge $schema (dict "image" $image) }}
 {{ end }}
+{{ with .Params.geo }}
+  {{ $schema = merge $schema (dict "geo" (dict "@type" "GeoCoordinates" "latitude" (index . 0) "longitude" (index . 1))) }}
+{{ end }}
 <script type="application/ld+json">
 {{ $schema | jsonify (dict "indent" "  ") | safeJS }}
 </script>

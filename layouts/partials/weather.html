@@ -1,0 +1,15 @@
+{{/* Widget pogodowy (Open-Meteo). Współrzędne z frontmatteru `geo` strony lub rodzica (podstrony atrakcji). */}}
+{{ $geo := .Params.geo }}
+{{ $sea := .Params.sea }}
+{{ $name := .Params.weatherLabel | default (index (split .Title " – ") 0) }}
+{{ if not $geo }}{{ with .Parent }}{{ $geo = .Params.geo }}{{ $sea = .Params.sea }}{{ $name = .Params.weatherLabel | default (index (split .Title " – ") 0) }}{{ end }}{{ end }}
+{{ if $geo }}
+{{ $pl := eq .Lang "pl" }}
+<div class="sidebar-box boc-weather" data-lat="{{ index $geo 0 }}" data-lon="{{ index $geo 1 }}" data-sea="{{ if $sea }}1{{ else }}0{{ end }}" data-lang="{{ .Lang }}">
+  <h3 class="sidebar-title">{{ if $pl }}Pogoda: {{ $name }}{{ else }}Weather: {{ $name }}{{ end }}</h3>
+  <div class="boc-weather-body">
+    <p class="boc-weather-loading">{{ if $pl }}Ładowanie prognozy…{{ else }}Loading forecast…{{ end }}</p>
+  </div>
+  <p class="boc-weather-credit">{{ if $pl }}Dane{{ else }}Data{{ end }}: <a href="https://open-meteo.com/" rel="noopener nofollow" target="_blank">Open-Meteo</a></p>
+</div>
+{{ end }}

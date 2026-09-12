@@ -1793,3 +1793,31 @@ body:not(.is-home) .site-main {
 .boc-planner-steps li.boc-t-taxi::before { content: '\01F695'; }
 .boc-planner-note { font-size: 0.78rem; color: #8C7B6B; margin: 0.9rem 0 0; }
 
+
+/* ── Widget pogodowy (boc-weather) ── */
+.boc-weather-loading { font-size: 0.82rem; color: #8C7B6B; margin: 0; }
+.boc-weather-now { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 0.6rem; }
+.boc-weather-now .boc-wi { width: 46px; height: 46px; flex: 0 0 46px; }
+.boc-weather-now > div { display: flex; flex-direction: column; line-height: 1.1; }
+.boc-weather-temp { font-family: 'Bodoni Moda', serif; font-size: 2rem; font-weight: 700; color: #1B4D6E; }
+.boc-weather-desc { font-size: 0.82rem; color: #2A2520; margin-top: 0.15rem; }
+.boc-weather-meta { list-style: none; padding: 0; margin: 0 0 0.8rem; display: flex; flex-wrap: wrap; gap: 0.3rem 0.5rem; font-size: 0.75rem; color: #5a4f45; }
+.boc-weather-meta li { background: #fff; border: 1px solid #E0D8CE; border-radius: 999px; padding: 0.15rem 0.55rem; white-space: nowrap; }
+.boc-weather-meta .boc-weather-sea { color: #1B4D6E; border-color: #B9D2E0; background: #EEF5F9; font-weight: 600; }
+.boc-weather-days { list-style: none; padding: 0.6rem 0 0; margin: 0; display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.2rem; border-top: 1px solid #E0D8CE; }
+.boc-weather-days li { display: flex; flex-direction: column; align-items: center; gap: 0.15rem; font-size: 0.72rem; line-height: 1.2; }
+.boc-weather-days .boc-wi { width: 22px; height: 22px; }
+.boc-weather-day { color: #8C7B6B; text-transform: uppercase; letter-spacing: 0.04em; font-size: 0.64rem; }
+.boc-weather-hi { font-weight: 700; color: #2A2520; }
+.boc-weather-lo { color: #8C7B6B; }
+.boc-wi { fill: none; stroke: #1B4D6E; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.boc-wi-sun circle, .boc-wi-partly circle { fill: #F2C14E; stroke: #D9A62E; }
+.boc-wi-sun path, .boc-wi-partly path:nth-of-type(1) { stroke: #D9A62E; }
+.boc-wi-cloud path, .boc-wi-fog path:first-child, .boc-wi-rain path:first-child, .boc-wi-drizzle path:first-child, .boc-wi-snow path:first-child, .boc-wi-storm path:first-child, .boc-wi-partly path:nth-of-type(2) { fill: #fff; }
+.boc-wi-storm path:last-child { stroke: #D9A62E; stroke-width: 2; }
+.boc-weather-credit { font-size: 0.66rem; color: #A89A8C; margin: 0.7rem 0 0; }
+.boc-weather-credit a { color: #A89A8C; text-decoration: underline; }
+@media (max-width: 960px) {
+  .boc-weather { grid-column: 1 / -1; }
+  .boc-weather-days { grid-template-columns: repeat(6, 1fr); max-width: 420px; }
+}

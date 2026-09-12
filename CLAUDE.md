@@ -226,3 +226,9 @@ No text, no watermarks, no people in foreground.
 - 15 stron miast/parków ma planer dojazdu `boc-transport-box boc-planner` (select „Skąd jedziesz?”: lotniska SUF/REG, Polska, Rzym/Neapol, sąsiedzi) zamiast statycznej siatki – dane `fact-checker/planner/*.json`, skrypty `planner_gen.py` i `planner_apply.py`; JS w baseof.html
 - Ikony transportu wg klas `boc-t-plane|car|train|bus|ferry|walk|taxi`, nie wg pozycji
 - Hero strony głównej = własne zdjęcie Scilli; karty na homepage = realne zdjęcia (own/commons)
+
+## Stan 2026-09-12 (2) – widget pogodowy
+- Sidebar zaczyna się od ramki `boc-weather` (partial `layouts/partials/weather.html`): teraz + odczuwalna + wiatr + temperatura morza (strony z `sea: true`) + prognoza 6 dni; dane Open-Meteo bez klucza, wołane z przeglądarki, cache 30 min w sessionStorage; JS w baseof.html, CSS v=39
+- Współrzędne w frontmatterze: `geo: [lat, lon]`, `sea: true|false`, opcjonalnie `weatherLabel:` (parki górskie – miejscowość i wysokość). 15 stron PL+EN (10 miast, 5 natura); podstrony atrakcji dziedziczą z `.Parent`
+- `geo` trafia też do schema TouristDestination jako GeoCoordinates
+- Licencja Open-Meteo: darmowa do użytku niekomercyjnego – przy wdrożeniu AdSense/affiliate rozważyć plan płatny albo Cloudflare Worker z cache

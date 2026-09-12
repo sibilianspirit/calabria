@@ -1696,3 +1696,42 @@ body:not(.is-home) .site-main {
   font-size: 0.85rem;
   color: #6b6b6b;
 }
+
+/* Źródła / Sources */
+.boc-sources-box {
+  margin: 2.5rem 0 0;
+  padding: 1.5rem 1.6rem;
+  background: #FAF8F5;
+  border: 1px solid #E0D8CE;
+  border-radius: 8px;
+}
+.boc-sources-box .boc-section-title { margin-bottom: 0.8rem; }
+.boc-sources-intro {
+  font-size: 0.9rem;
+  color: #6b6b6b;
+  margin: 0 0 0.8rem;
+}
+.boc-sources-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+.boc-sources-list li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin: 0 0 0.45rem;
+}
+.boc-sources-list li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0.6em;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: #1B4D6E;
+}
+.boc-sources-list a { color: #1B4D6E; text-decoration: underline; text-underline-offset: 2px; }
+.boc-sources-list a:hover { color: #2A2520; }
+.boc-source-note { color: #8C7B6B; }
+

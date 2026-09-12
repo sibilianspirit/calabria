@@ -9,7 +9,7 @@
   <link rel="canonical" href="{{ .Permalink }}">
   <meta name="google-site-verification" content="c2RDmRK6ok8KM46aO7ftlzPvl2RN5ZyyJ9UvK_fVh5w" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/style.css?v=39">
+  <link rel="stylesheet" href="/css/style.css?v=40">
   {{ partial "schema-website.html" . }}
   {{ partial "schema-organization.html" . }}
 </head>
@@ -348,7 +348,7 @@
       // Mobile: toggle mega menu sub-items on click
       document.querySelectorAll('.has-mega > a').forEach(function(link) {
         link.addEventListener('click', function(e) {
-          if (window.innerWidth <= 768) {
+          if (window.innerWidth <= 960) {
             e.preventDefault();
             this.parentElement.classList.toggle('is-open');
             document.querySelectorAll('.has-mega.is-open').forEach(function(el) {
@@ -376,7 +376,7 @@
       var langBtn = document.querySelector('.lang-current');
       if (langBtn) {
         langBtn.addEventListener('click', function() {
-          if (window.innerWidth <= 768) {
+          if (window.innerWidth <= 960) {
             this.parentElement.classList.toggle('is-open');
           }
         });

@@ -161,27 +161,100 @@ description: "Capo Vaticano to wyjątkowy zakątek Kalabrii, który swoim urokie
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Lamezia Terme (SUF) – ok. 65 km, ok. 1 godz. 15 min autem</span> <span><em>Stacja kolejowa:</em> Ricadi-Capo Vaticano – stacja na linii przez Tropeę</span> <span><em>Samochodem:</em> Z Lamezia przez A2, zjazd Pizzo Calabro – ok. 1 godz. 15 min</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Najwygodniejszym lotniskiem jest Lamezia Terme (SUF), oddalone od Capo Vaticano o ok. 65 km – przejazd autem zajmuje zwykle ok. 1 godz. 15 min. Latem 2026 Ryanair lata tu z Krakowa, Wrocławia, Warszawy-Modlin i Katowic, a Wizz Air z Katowic oraz Warszawy-Chopina; zimą podróż z Polski zwykle wymaga przesiadki w Rzymie, Mediolanie lub Bergamo. Z lotniska można wynająć samochód albo dojechać autobusem Lamezia Airlink do Lamezia Terme Centrale – kursuje co ok. 30 min, a dopłata do biletu kolejowego wynosi 1,80 €.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Jadąc od Lamezia Terme, wybierz A2 Autostrada del Mediterraneo i zjedź na Pizzo Calabro, potem jedź przez Tropeę w kierunku Ricadi i Capo Vaticano. Od południa wygodniejszy jest zjazd Rosarno i trasa przez Nicoterę; dojazd zależy od wybranej plaży lub noclegu. Przy punkcie widokowym Belvedere del Faro di Capo Vaticano znajduje się piazzale z miejscami postojowymi – latem warto przyjechać rano, a na plaże wpisywać w nawigacji ich konkretną nazwę, np. Grotticelle.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>Pociągiem</strong>
-    <p>Jedź pociągiem Trenitalia do stacji Ricadi-Capo Vaticano, położonej na trasie regionalnej Lamezia Terme Centrale – Rosarno/Reggio Calabria przez Tropeę. Z Lamezia Terme Centrale przejazd regionalnym pociągiem do Ricadi-Capo Vaticano trwa orientacyjnie około godziny. Stacja jest dobrym punktem dojazdu do części noclegów, ale do latarni, punktów widokowych i różnych plaż najczęściej potrzebny jest transfer, taksówka lub auto.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>Autobusem</strong>
-    <p>Bezpośrednie połączenie z lotniska Lamezia Terme do Capo Vaticano działało jako letnia linia L1 operatora Ferrovie della Calabria, przez Pizzo, Vibo Marina, Tropeę i Ricadi. W opublikowanym rozkładzie na lato 2025 autobus odjeżdżał z lotniska trzy razy dziennie, a przejazd do przystanku Contrada Capo Vaticano trwał ok. 1 godz. 30 min. Jest to usługa sezonowa – poza latem praktyczniejsza jest podróż przez Lamezia Terme Centrale pociągiem do Ricadi-Capo Vaticano.</p>
-  </div>
+<p class="boc-planner-summary">Najbliższe lotnisko to Lamezia Terme (SUF), ok. 65 km i ok. 1 godz. 15 min autem; najbliższa stacja: Ricadi-Capo Vaticano.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-natura-capo-vaticano-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-natura-capo-vaticano-index-html" class="boc-planner-select">
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-tropea">Z Tropei</option>
+    <option value="nb-pizzo">Z Pizzo</option>
+    <option value="nb-vibo-valentia">Z Vibo Valentia</option>
+    <option value="nb-costa-viola">Z Costa Viola</option>
+    <option value="nb-reggio-calabria">Z Reggio Calabria</option>
+    <option value="nb-wyspy-liparyjskie">Z Wysp Liparyjskich</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 przez Pizzo</strong><span>Ok. 65 km i 1 godz. 15 min: A2, zjazd Pizzo Calabro, dalej przez Tropeę do Ricadi. Parking jest przy Belvedere del Faro.</span></li>
+      <li class="boc-t-train"><strong>Airlink + pociąg regionalny</strong><span>Lamezia Airlink do Lamezia Terme Centrale co ok. 30 min (+1,80 € do biletu), potem regionalny do Ricadi-Capo Vaticano: ok. 1 godz.</span></li>
+      <li class="boc-t-bus"><strong>Letnia linia L1</strong><span>Latem działała linia L1 Ferrovie della Calabria przez Tropeę i Ricadi; do przystanku Contrada Capo Vaticano ok. 1 godz. 30 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 przez Rosarno</strong><span>Ok. 90 km i ok. 1 godz. 40 min: A2 na Rosarno, dalej przez Nicoterę do Ricadi i Capo Vaticano.</span></li>
+      <li class="boc-t-train"><strong>Aeroporto + regionalny</strong><span>Regionalnym ze stacji Reggio Calabria Aeroporto do Centrale, następnie pociągiem w stronę Ricadi-Capo Vaticano. Łącznie orientacyjnie ok. 2 godz.</span></li>
+      <li class="boc-t-taxi"><strong>Taksówka z lotniska</strong><span>Najwygodniejsza opcja przy późnym przylocie lub dużym bagażu; bezpośrednio do wybranego noclegu albo plaży.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Wybierz lotnisko SUF</strong><span>SUF jest bliżej: ok. 65 km. Latem 2026 latają Ryanair z KRK, WRO, WMI i KTW oraz Wizz Air z KTW i WAW.</span></li>
+      <li class="boc-t-plane"><strong>Dni lotów z Polski</strong><span>KTW–SUF: Ryanair i Wizz Air wt/czw/sob; WAW–SUF Wizz Air pn/śr/pt. Zimą zwykle potrzebna jest przesiadka.</span></li>
+      <li class="boc-t-car"><strong>Dalej jak z SUF</strong><span>Najszybciej wypożyczonym autem: A2, zjazd Pizzo Calabro, dalej przez Tropeę; ok. 1 godz. 15 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Pociąg do Lamezia</strong><span>Frecciarossa lub Intercity do Lamezia Terme Centrale: z Rzymu ok. 4–4,5 godz., z Neapolu około 2 godz. krócej.</span></li>
+      <li class="boc-t-train"><strong>Regionalny przez Tropeę</strong><span>Z Lamezia Terme Centrale regionalnym do Ricadi-Capo Vaticano przez Tropeę, orientacyjnie ok. 1 godz. Potem transfer lub taksówka.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-tropea">
+    <h3 class="boc-planner-origin">Z Tropei</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Lokalną drogą na południe</strong><span>Ok. 10 km i ok. 20 min lokalnymi drogami przez Santa Domenica i Ricadi; wybierz w nawigacji konkretną plażę lub nocleg.</span></li>
+      <li class="boc-t-train"><strong>Regionalny do Ricadi</strong><span>Pociąg Trenitalia ze stacji Tropea do Ricadi-Capo Vaticano jedzie orientacyjnie ok. 10 min. Do plaż i latarni potrzebny jest transfer.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-pizzo">
+    <h3 class="boc-planner-origin">Z Pizzo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Przez Vibo i Tropeę</strong><span>Ok. 40 km i ok. 1 godz. lokalnymi drogami przez Vibo Marina i Tropeę, dalej do Ricadi i Capo Vaticano.</span></li>
+      <li class="boc-t-train"><strong>Regionalny przez Tropeę</strong><span>Ze stacji Pizzo regionalnym Trenitalia przez Tropeę do Ricadi-Capo Vaticano, orientacyjnie ok. 1 godz. Do celu potrzebny transfer.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-vibo-valentia">
+    <h3 class="boc-planner-origin">Z Vibo Valentia</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Przez Tropeę</strong><span>Ok. 30 km i ok. 45 min drogą w kierunku Vibo Marina i Tropei, następnie przez Ricadi do Capo Vaticano.</span></li>
+      <li class="boc-t-train"><strong>Vibo Valentia-Pizzo + regionalny</strong><span>Ze stacji Vibo Valentia-Pizzo regionalnym przez Tropeę do Ricadi-Capo Vaticano, ok. 40 min; z centrum Vibo potrzebny dojazd do stacji.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-costa-viola">
+    <h3 class="boc-planner-origin">Z Costa Viola</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 przez Rosarno</strong><span>Ok. 60 km i ok. 1 godz. 15 min: A2 w kierunku Rosarno, następnie przez Nicoterę do Ricadi i Capo Vaticano.</span></li>
+      <li class="boc-t-train"><strong>Pociąg ze Scilli lub Bagnary</strong><span>Ze Scilli albo Bagnary regionalnym w stronę Ricadi-Capo Vaticano, orientacyjnie ok. 1 godz. Do plaż potrzebny jest transfer.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">Z Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 przez Rosarno</strong><span>Ok. 90 km i ok. 1 godz. 40 min: A2 do Rosarno, dalej przez Nicoterę do Ricadi i Capo Vaticano.</span></li>
+      <li class="boc-t-train"><strong>Regionalny do Ricadi</strong><span>Ze stacji Reggio Calabria Centrale regionalnym w kierunku Ricadi-Capo Vaticano; podróż trwa orientacyjnie ok. 1 godz. 30 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-wyspy-liparyjskie">
+    <h3 class="boc-planner-origin">Z Wysp Liparyjskich</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-ferry"><strong>Rejs do Tropei</strong><span>W przekazanych materiałach brak zweryfikowanych godzin i operatora rejsów z Wysp Liparyjskich do Tropei.</span></li>
+      <li class="boc-t-car"><strong>Z Tropei przez Ricadi</strong><span>Z portu w Tropei do Capo Vaticano jest ok. 10 km; lokalnymi drogami przez Ricadi jedzie się zwykle ok. 20 min.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <div class="boc-nearby-box">

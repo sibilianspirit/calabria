@@ -145,27 +145,94 @@ description: "Park Narodowy Aspromonte (Parco Nazionale dell'Aspromonte) to jedn
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Lamezia Terme (SUF) – ok. 120 km i ok. 1 godz. 30 min autem do Gambarie; bliżej leży Reggio Calabria (REG) – ok. 30 km i ok. 40 min.</span> <span><em>Stacja kolejowa:</em> Reggio Calabria Centrale – przy Piazza Garibaldi; stąd odjeżdża autobus ATAM 319 do Gambarie.</span> <span><em>Samochodem:</em> Z Lamezia przez A2 do zjazdu Reggio Calabria–Gallico, dalej SS 184 / Gallico–Gambarie.</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Lamezia Terme (SUF) jest głównym lotniskiem Kalabrii i leży ok. 120 km od Gambarie – samochodem jedzie się zwykle ok. 1 godz. 30 min. Latem 2026 Ryanair lata tu z Krakowa, Wrocławia i Warszawy-Modlina sezonowo oraz z Katowic od 2 czerwca we wtorki, czwartki i soboty; Wizz Air lata z Katowic od 31 marca we wtorki, czwartki i soboty oraz z Warszawy-Chopina od kwietnia w poniedziałki, środy i piątki. Zimą połączenia z Polski wymagają zwykle przesiadki w Rzymie, Mediolanie lub Bergamo. Bliższe lotnisko Reggio Calabria „Tito Minniti” (REG) jest ok. 30 km od Gambarie – Ryanair lata tam z Katowic tylko latem, we wtorki i soboty, a ostatni lot w sezonie 2026 przypada 22 października; przez zimę 2026/27 nie ma tej trasy. Z lotniska SUF do stacji Lamezia Terme Centrale dojeżdża co ok. 30 min autobus Lamezia Airlink; przy bilecie łączonym Trenitalia dopłata wynosi 1,80 €, a jako stację należy wybrać „Lamezia Terme Aeroporto”.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Samochód jest zdecydowanie najpraktyczniejszy, ponieważ park obejmuje rozległy górski obszar, a wiele szlaków i atrakcji nie ma dogodnego transportu publicznego. Z Lamezia Terme jedź A2 na południe do zjazdu Reggio Calabria–Gallico, a następnie drogą SS 184 / Gallico–Gambarie; do centrum Gambarie jest ok. 120 km i ok. 1 godz. 30 min. Z Reggio Calabria trasa do Gambarie zajmuje zwykle ok. 40 min. Najlepiej zostawić auto na publicznych miejscach w centrum Gambarie, w rejonie Piazza Mangeruca, i dalej ruszyć pieszo na pobliskie trasy.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>Pociągiem</strong>
-    <p>Park nie ma stacji kolejowej – dla Gambarie najwygodniejszą bramą kolejową jest Reggio Calabria Centrale, przy Piazza Garibaldi. Do Reggio dojeżdżają pociągi Trenitalia z Lamezia Terme Centrale oraz połączenia dalekobieżne z głównych miast Włoch. Ze stacji przesiądź się na autobus ATAM 319 do Gambarie; Bova Marina leży na linii jońskiej, ale nie jest praktycznym punktem przesiadkowym do Gambarie.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>Autobusem</strong>
-    <p>Z Reggio Calabria do Gambarie kursuje autobus ATAM 319 na trasie Piazza Garibaldi – Santo Stefano in Aspromonte – Gambarie. Przystanek początkowy jest przy Piazza Garibaldi, obok stacji Reggio Calabria Centrale, a przejazd trwa orientacyjnie 1 godz. 15–30 min. Połączeń jest niewiele i nie kursują w każdym dniu, dlatego przed wyjazdem sprawdź aktualne godziny w aplikacji lub na stronie ATAM. Ferrovie della Calabria obsługuje także linię 1112 Melicuccà – Sinopoli – Sant’Eufemia d’Aspromonte – Gambarie, przydatną głównie dla dojazdu od zachodniej strony masywu.</p>
-  </div>
+<p class="boc-planner-summary">Najbliższe lotnisko to Reggio Calabria (REG) – ok. 30 km i 40 min do Gambarie; park nie ma stacji kolejowej, a bramą kolejową jest Reggio Calabria Centrale.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-natura-aspromonte-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-natura-aspromonte-index-html" class="boc-planner-select">
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-reggio-calabria">Z Reggio Calabria</option>
+    <option value="nb-bova">Z Bovy</option>
+    <option value="nb-scilla">Ze Scilli</option>
+    <option value="nb-locri">Z Locri</option>
+    <option value="nb-gerace">Z Gerace</option>
+    <option value="nb-stilo">Ze Stilo</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do Gambarie</strong><span>Ok. 40 min do centrum Gambarie. Auto zostaw na publicznych miejscach przy Piazza Mangeruca.</span></li>
+      <li class="boc-t-train"><strong>Aeroporto → Centrale</strong><span>Pociągiem regionalnym ze stacji Reggio Calabria Aeroporto do Reggio Calabria Centrale przy Piazza Garibaldi.</span></li>
+      <li class="boc-t-bus"><strong>ATAM 319</strong><span>Z Piazza Garibaldi autobus ATAM 319 przez Santo Stefano in Aspromonte do Gambarie – ok. 1 godz. 15–30 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 i SS 184</strong><span>Ok. 120 km i 1 godz. 30 min: A2 na południe, zjazd Reggio Calabria–Gallico, potem SS 184 / Gallico–Gambarie.</span></li>
+      <li class="boc-t-bus"><strong>Lamezia Airlink</strong><span>Autobus Lamezia Airlink kursuje z lotniska do Lamezia Terme Centrale co ok. 30 min; przy bilecie Trenitalia dopłata wynosi 1,80 €.</span></li>
+      <li class="boc-t-train"><strong>Pociąg + ATAM 319</strong><span>Z Lamezia Terme Centrale jedź Trenitalia do Reggio Calabria Centrale, potem przesiądź się przy Piazza Garibaldi na ATAM 319 do Gambarie.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Katowice → REG</strong><span>Najbliżej jest REG: Ryanair lata z Katowic we wtorki i soboty tylko latem; ostatni lot sezonu 2026 przypada 22 października.</span></li>
+      <li class="boc-t-plane"><strong>Loty do SUF</strong><span>Z Krakowa, Wrocławia i Warszawy-Modlina lata sezonowo Ryanair do SUF; Wizz Air: Katowice wt./czw./sob., Warszawa-Chopin pn./śr./pt.</span></li>
+      <li class="boc-t-car"><strong>Dalej jak z REG</strong><span>Dalej jak z lotniska REG – najszybciej autem, ok. 40 min do Gambarie.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Frecciarossa / Intercity</strong><span>Z Rzymu do Reggio Calabria Centrale linią tyrreńską jedzie się ok. 5–5,5 godz.; z Neapolu ok. 2 godz. krócej.</span></li>
+      <li class="boc-t-bus"><strong>ATAM 319 z Centrale</strong><span>Przy Piazza Garibaldi, obok stacji, wsiądź w ATAM 319 do Gambarie – orientacyjnie 1 godz. 15–30 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">Z Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do Gambarie</strong><span>Ok. 30 km i 40 min do Gambarie; parkuj na publicznych miejscach w centrum, w rejonie Piazza Mangeruca.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-bova">
+    <h3 class="boc-planner-origin">Z Bovy</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem przez Aspromonte</strong><span>Ok. 50 km autem do Gambarie. Park nie ma stacji kolejowej, dlatego samochód jest najpraktyczniejszą opcją.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-scilla">
+    <h3 class="boc-planner-origin">Ze Scilli</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem przez Aspromonte</strong><span>Ok. 65 km autem do Gambarie. Park nie ma stacji kolejowej, dlatego samochód jest najpraktyczniejszą opcją.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-locri">
+    <h3 class="boc-planner-origin">Z Locri</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem przez Aspromonte</strong><span>Ok. 85 km autem do Gambarie. Park nie ma stacji kolejowej, dlatego samochód jest najpraktyczniejszą opcją.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-gerace">
+    <h3 class="boc-planner-origin">Z Gerace</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem przez Aspromonte</strong><span>Ok. 90 km autem do Gambarie. Park nie ma stacji kolejowej, dlatego samochód jest najpraktyczniejszą opcją.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-stilo">
+    <h3 class="boc-planner-origin">Ze Stilo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem przez Aspromonte</strong><span>Ok. 105 km autem do Gambarie. Park nie ma stacji kolejowej, dlatego samochód jest najpraktyczniejszą opcją.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <div class="boc-nearby-box">

@@ -222,27 +222,97 @@ description: "Locri, w starożytności funkcjonujące pod dumną nazwą Lokroi E
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Lamezia Terme (SUF) – ok. 120 km, ok. 1 godz. 30 min autem</span> <span><em>Stacja kolejowa:</em> Locri – stacja na linii jońskiej; ok. 4 km od Museo e Parco Archeologico w Contrada Marasà</span> <span><em>Samochodem:</em> Z SUF: A2 do zjazdu Rosarno, następnie SS682 i SS106 – ok. 1 godz. 30 min</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Najpraktyczniejszym lotniskiem dla podróżujących z Polski jest Lamezia Terme (SUF), oddalone od Locri o ok. 120 km – autem jedzie się zwykle ok. 1 godz. 30 min. Latem 2026 Ryanair lata tu z Krakowa, Wrocławia i Warszawy-Modlin oraz z Katowic od 2 czerwca (wt./czw./sob.), a Wizz Air z Katowic (wt./czw./sob.) i Warszawy-Chopina (pon./śr./pt.). Bliższe Reggio Calabria „Tito Minniti” (REG) leży ok. 100 km od Locri – Ryanair z Katowic lata tam we wtorki i soboty tylko do 22 października 2026; zimą pozostają połączenia krajowe przez Rzym Fiumicino lub Mediolan.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Z lotniska Lamezia Terme jedź autostradą A2 na południe do zjazdu Rosarno, dalej drogą SS682 Jonio–Tirreno do Marina di Gioiosa Ionica i SS106 do Locri – trasa ma ok. 120 km i zajmuje ok. 1 godz. 30 min. Z lotniska REG najprościej jechać na północ SS106 wzdłuż wybrzeża jońskiego – ok. 100 km i ok. 1 godz. 30 min. Przy plaży korzystaj z oznakowanych miejsc postojowych przy Lungomare Zaleuco; muzeum i park archeologiczny znajdują się przy Contrada Marasà.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>Pociągiem</strong>
-    <p>Stacja Locri leży na linii jońskiej Trenitalia. Z Reggio Calabria Centrale kursują bezpośrednie pociągi regionalne do Locri; przejazd trwa zwykle ok. 1 godz. 15 min. Z lotniska REG najpierw dojedź pociągiem regionalnym ze stacji Reggio Calabria Aeroporto do Reggio Calabria Centrale, a tam przesiądź się na pociąg w kierunku Locri, Roccella Jonica lub Catanzaro Lido. Do Museo e Parco Archeologico w Contrada Marasà jest ze stacji ok. 4 km – wygodniej dojechać taksówką lub samochodem.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>Autobusem</strong>
-    <p>Autolinee Federico zapewnia bezpośrednie połączenia między lotniskiem Lamezia Terme a Locri; w Locri korzystaj z przystanku przy stacji kolejowej. Ten sam operator obsługuje połączenia Locri–Gerace; przy podróży koleją bilet łączony pociąg + autobus do Gerace można kupić w kanałach sprzedaży Trenitalia, wybierając jako cel Gerace. Autobus jest szczególnie przydatny na dojazd do Gerace, którego nie obsługuje kolej.</p>
-  </div>
+<p class="boc-planner-summary">Najbliżej jest lotnisko Reggio Calabria (REG): ok. 100 km i 1 godz. 30 min autem; Locri ma stację na linii jońskiej Trenitalia.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-locri-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-kierunki-locri-index-html" class="boc-planner-select">
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-gerace">Gerace</option>
+    <option value="nb-siderno">Siderno</option>
+    <option value="nb-roccella-ionica">Roccella Ionica</option>
+    <option value="nb-stilo">Stilo</option>
+    <option value="nb-caulonia">Caulonia</option>
+    <option value="nb-reggio-calabria">Reggio Calabria</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem SS106</strong><span>Ok. 100 km i 1 godz. 30 min na północ drogą SS106. Parkuj na oznakowanych miejscach przy Lungomare Zaleuco.</span></li>
+      <li class="boc-t-train"><strong>Aeroporto + regionalny</strong><span>Regionalnym Reggio Calabria Aeroporto → Centrale, potem bezpośrednio do Locri. Z Centrale przejazd trwa zwykle ok. 1 godz. 15 min.</span></li>
+      <li class="boc-t-taxi"><strong>Taksówką SS106</strong><span>Bezpośrednio z terminalu trasą SS106: ok. 100 km i zwykle ok. 1 godz. 30 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 + SS682 + SS106</strong><span>Ok. 120 km i 1 godz. 30 min: A2 na południe, zjazd Rosarno, potem SS682 do Marina di Gioiosa Ionica i SS106.</span></li>
+      <li class="boc-t-bus"><strong>Autolinee Federico</strong><span>Bezpośredni autobus z lotniska do Locri; wysiądź przy stacji kolejowej.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Polska → SUF</strong><span>Wybierz SUF: ma najszerszą siatkę lotów. Ryanair: KRK, WRO, WMI oraz KTW wt./czw./sob.; Wizz Air: KTW wt./czw./sob. i WAW pn./śr./pt.</span></li>
+      <li class="boc-t-car"><strong>Dalej jak z SUF</strong><span>Najszybciej autem: ok. 1 godz. 30 min trasą A2, SS682 i SS106.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Pociąg do Reggio</strong><span>Frecciarossa lub Intercity do Reggio Calabria Centrale: z Rzymu ok. 5–5,5 godz., z Neapolu ok. 2 godz. krócej.</span></li>
+      <li class="boc-t-train"><strong>Regionalny do Locri</strong><span>Z Reggio Calabria Centrale jedzie bezpośredni pociąg regionalny do Locri; zwykle ok. 1 godz. 15 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-gerace">
+    <h3 class="boc-planner-origin">Gerace</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drogą lokalną</strong><span>Ok. 10 km z Locri drogą lokalną w górę do historycznego centrum Gerace.</span></li>
+      <li class="boc-t-bus"><strong>Autolinee Federico</strong><span>Bezpośredni autobus Locri–Gerace. Przy podróży koleją bilet pociąg + autobus do Gerace kupisz w kanałach Trenitalia.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-siderno">
+    <h3 class="boc-planner-origin">Siderno</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS106</strong><span>Ok. 5 km drogą SS106 na południe, wzdłuż wybrzeża jońskiego.</span></li>
+      <li class="boc-t-train"><strong>Regionalny jonicki</strong><span>Bezpośrednim pociągiem regionalnym ze stacji Locri do Siderno: ok. 5 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-roccella-ionica">
+    <h3 class="boc-planner-origin">Roccella Ionica</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS106</strong><span>Ok. 15 km drogą SS106 na północ, w kierunku Roccella Jonica.</span></li>
+      <li class="boc-t-train"><strong>Regionalny jonicki</strong><span>Bezpośrednim pociągiem regionalnym z Locri do Roccella Jonica: zwykle ok. 20–25 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-stilo">
+    <h3 class="boc-planner-origin">Stilo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drogami lokalnymi</strong><span>Ok. 40 km z Locri, drogami lokalnymi w głąb lądu.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-caulonia">
+    <h3 class="boc-planner-origin">Caulonia</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS106 i drogi lokalne</strong><span>Ok. 20 km z Locri drogą SS106, dalej drogami lokalnymi do Caulonii.</span></li>
+      <li class="boc-t-train"><strong>Regionalny jonicki</strong><span>Bezpośrednim pociągiem regionalnym z Locri do stacji Caulonia: orientacyjnie ok. 50 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS106</strong><span>Ok. 90 km drogą SS106 na południe, wzdłuż wybrzeża jońskiego.</span></li>
+      <li class="boc-t-train"><strong>Regionalny do Centrale</strong><span>Bezpośrednim pociągiem regionalnym z Locri do Reggio Calabria Centrale: zwykle ok. 1 godz. 15 min.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <div class="boc-nearby-box">

@@ -181,27 +181,80 @@ description: "Catanzaro is a city full of history, culture and natural beauty, s
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Getting there</h2>
-<p class="boc-transport-summary"><span><em>Nearest airport:</em> Lamezia Terme (SUF) – Calabria’s main airport, about 35 km and 35–40 minutes by car from Catanzaro</span> <span><em>Railway station:</em> Catanzaro Lido – the station on the line from Lamezia Terme Centrale; Ferrovie della Calabria trains continue towards the city centre</span> <span><em>By car:</em> From the airport or the A2: take the Lamezia Terme–Catanzaro exit, then the SS 280 dei Due Mari</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>By plane</strong>
-    <p>The most convenient airport is Lamezia Terme (SUF), Calabria’s main airport, around 35 km from Catanzaro. In the 2026 summer season, Ryanair flies there from Kraków, Wrocław, Warsaw-Modlin and, from 2 June, from Katowice on Tuesdays, Thursdays and Saturdays; Wizz Air serves Katowice from 31 March on Tuesdays, Thursdays and Saturdays, and Warsaw-Chopin from April on Mondays, Wednesdays and Fridays. In winter, travel usually requires a connection in Rome, Milan or Bergamo. The Lamezia Airlink bus runs from the airport to Lamezia Terme Centrale about every 30 minutes – select “Lamezia Terme Aeroporto” in the Trenitalia journey planner; the supplement to a rail ticket is €1.80.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>By car</strong>
-    <p>The drive from Lamezia Terme Airport to Catanzaro usually takes about 35–40 minutes via the SS 280 dei Due Mari. From the A2 motorway, take the “Lamezia Terme–Catanzaro” exit and follow the SS 280 towards Catanzaro. The historic centre has traffic restrictions and occasional pedestrian areas around Corso Mazzini – do not enter a signed ZTL without authorisation; use paid blue-line spaces, including those around Piazza Basilica Immacolata.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>By train</strong>
-    <p>Regionale trains run from Lamezia Terme Centrale to Catanzaro Lido, with a journey time of usually around 45–50 minutes. Some services also call earlier at Catanzaro station, but for the historic centre it is also practical to change at Catanzaro Lido for a Ferrovie della Calabria train to Catanzaro P.zza Matteotti. Catanzaro Lido is the best station for the beach and the city’s seafront district.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>By bus</strong>
-    <p>A direct alternative from the airport is Ferrovie della Calabria bus line 384, running on the Catanzaro – Cittadella Regionale – Aeroporto di Lamezia Terme – Falerna – Cosenza route. It is especially convenient for Cittadella Regionale and Germaneto; for the historic centre, the rail route via Lamezia Terme Centrale is usually more practical. Line 384 is less frequent than Airlink, so check the exact departure time on the Ferrovie della Calabria website.</p>
-  </div>
+<p class="boc-planner-summary">The nearest airport is Lamezia Terme (SUF): about 35 km and 35–40 minutes by car; the main rail station is Catanzaro Lido, with Ferrovie della Calabria connections to Catanzaro P.zza Matteotti.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-catanzaro-index-html">Where are you coming from?</label>
+  <select id="planner-content-pl-kierunki-catanzaro-index-html" class="boc-planner-select">
+    <option value="suf">Lamezia Terme airport (SUF)</option>
+    <option value="reg">Reggio Calabria airport (REG)</option>
+    <option value="poland">From Poland – direct flights</option>
+    <option value="rome">From Rome or Naples</option>
+    <option value="nb-catanzaro">From Catanzaro Lido</option>
+    <option value="nb-pizzo">From Pizzo</option>
+    <option value="nb-sila">From the Sila Plateau</option>
+    <option value="nb-reggio-calabria">From Reggio Calabria</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="suf">
+    <h3 class="boc-planner-origin">Lamezia Terme airport (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via SS 280</strong><span>About 35–40 minutes via the SS 280 dei Due Mari; from the A2 take the “Lamezia Terme–Catanzaro” exit. Avoid the signed ZTL in the centre.</span></li>
+      <li class="boc-t-bus"><strong>Airlink to Centrale</strong><span>Lamezia Airlink runs to Lamezia Terme Centrale about every 30 minutes; select “Lamezia Terme Aeroporto” in Trenitalia’s journey planner.</span></li>
+      <li class="boc-t-train"><strong>Regionale + Ferrovie Calabria</strong><span>From Lamezia Terme Centrale, take a Regionale train to Catanzaro Lido, usually 45–50 minutes; then use Ferrovie della Calabria to Catanzaro P.zza Matteotti.</span></li>
+      <li class="boc-t-bus"><strong>Bus 384</strong><span>Ferrovie della Calabria route 384: Lamezia Terme Airport – Cittadella Regionale – Catanzaro. This is the most convenient option for Germaneto.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="reg">
+    <h3 class="boc-planner-origin">Reggio Calabria airport (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car to Catanzaro</strong><span>About 1 hour 30 minutes to Catanzaro. Do not enter the signed ZTL in the historic centre; use paid on-street spaces marked with blue lines.</span></li>
+      <li class="boc-t-taxi"><strong>Taxi from the terminal</strong><span>A direct taxi from the terminal is convenient for late arrivals or larger luggage; the journey takes about 1 hour 30 minutes.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">From Poland – direct flights</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Poland → SUF</strong><span>In summer 2026, choose SUF, the closest airport to Catanzaro: Ryanair flies from KRK, WRO, WMI and KTW (from 2 June: Tue/Thu/Sat); Wizz Air from KTW (Tue/Thu/Sat) and WAW (Mon/Wed/Fri).</span></li>
+      <li class="boc-t-car"><strong>Continue as from SUF</strong><span>Then continue as from SUF: the fastest option is by car, about 35–40 minutes via the SS 280 dei Due Mari.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">From Rome or Naples</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Frecciarossa or Intercity</strong><span>Travel on the Tyrrhenian line to Lamezia Terme Centrale: about 4–4.5 hours from Rome, and roughly 2 hours less from Naples.</span></li>
+      <li class="boc-t-train"><strong>Regionale via Lido</strong><span>From Lamezia Terme Centrale, take a Regionale train to Catanzaro Lido, usually 45–50 minutes; then continue with Ferrovie della Calabria to P.zza Matteotti.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-catanzaro">
+    <h3 class="boc-planner-origin">From Catanzaro Lido</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive to the centre</strong><span>About 15 minutes from the seafront district to central Catanzaro; watch for the signed ZTL around Corso Mazzini.</span></li>
+      <li class="boc-t-train"><strong>Ferrovie della Calabria</strong><span>Direct Ferrovie della Calabria trains run from Catanzaro Lido to Catanzaro P.zza Matteotti station, near the historic centre.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-pizzo">
+    <h3 class="boc-planner-origin">From Pizzo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive eastwards</strong><span>About 45 minutes by car from Pizzo to Catanzaro. Do not enter the signed ZTL in the historic centre.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-sila">
+    <h3 class="boc-planner-origin">From the Sila Plateau</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive from the mountains</strong><span>About 1 hour by car from the Sila Plateau to Catanzaro. Central parking spaces are paid and marked with blue lines.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">From Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive to Catanzaro</strong><span>About 1 hour 30 minutes by car from Reggio Calabria to Catanzaro; do not enter the signed ZTL around Corso Mazzini.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Journey times are approximate. Timetables: Trenitalia, Ferrovie della Calabria, local operators.</p>
 </div>
 
 <div class="boc-nearby-box">

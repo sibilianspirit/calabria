@@ -172,27 +172,101 @@ description: "Costa Viola, znane jako Fioletowe Wybrzeże Kalabrii, to jeden z n
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Lamezia Terme (SUF) – 80 km / ok. 55 min do Palmi; 120 km / ok. 1 godz. 30 min do Scilli</span> <span><em>Stacja kolejowa:</em> Palmi, Bagnara, Scilla i Villa San Giovanni – stacje na linii tyrreńskiej Trenitalia</span> <span><em>Samochodem:</em> A2 Autostrada del Mediterraneo – zjazdy Palmi Costa Viola, Bagnara Calabra, Scilla i Villa San Giovanni</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Lamezia Terme (SUF) to główne lotnisko Kalabrii. Latem 2026 Ryanair lata tu z Krakowa, Wrocławia i Warszawy-Modlina oraz z Katowic od 2 czerwca we wtorki, czwartki i soboty; Wizz Air – z Katowic od 31 marca we wtorki, czwartki i soboty oraz z Warszawy-Chopina od kwietnia w poniedziałki, środy i piątki. Zimą zwykle trzeba lecieć z przesiadką w Rzymie, Mediolanie lub Bergamo. Bliższe Scilli lotnisko Reggio Calabria „Tito Minniti” (REG) ma letnią trasę Ryanair z Katowic tylko we wtorki i soboty – ostatni lot zaplanowano na 22 października 2026; przez zimę 2026/27 nie ma tej trasy, pozostają całoroczne loty krajowe z Rzymu Fiumicino i Mediolanu.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Od lotniska SUF jedź A2 Autostrada del Mediterraneo na południe – do zjazdu Palmi Costa Viola jest ok. 80 km i 55 minut, a do Scilli ok. 120 km i 1 godz. 30 min. Wybierz zjazd Palmi Costa Viola dla północnej części wybrzeża, Bagnara Calabra dla Bagnary, Scilla dla Scilli albo Villa San Giovanni przy podróży od strony Reggio i Sycylii. W Scilli nie wjeżdżaj bez potrzeby do Chianalei objętej ZTL; płatne parkowanie w Marina Grande i Chianalei działa w 2026 r. od 5 kwietnia do 31 października.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>Pociągiem</strong>
-    <p>Z Lamezia Terme Centrale jedź pociągiem Trenitalia w kierunku Reggio Calabria Centrale, Villa San Giovanni lub Messiny. Na Costa Viola wysiada się na stacjach Palmi, Bagnara, Scilla albo Villa San Giovanni – ta ostatnia jest również węzłem dla promów do Messyny. Z Rzymu kursują także nocne Intercity Notte zatrzymujące się m.in. w Palmi, Bagnarze, Scilli i Villa San Giovanni.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>Autobusem</strong>
-    <p>Lokalnym przewoźnikiem jest Costa Viola Bus: autobusy obsługują m.in. Scilla Stazione FS, Piazza Matrice i Quadrivio Santa Croce, Bagnarę Calabra oraz Palmi – capolinea przy Via Veneto. Przykładowe połączenie Scilla Quadrivio Santa Croce – Palmi Via Veneto zajmuje ok. 55 minut. Dawna linia R1 z lotniska REG przez Villa San Giovanni, Scillę i Bagnarę do Palmi była oficjalnie rozkładem sezonowym, a nie stałym połączeniem – jej dostępność na konkretny termin należy potwierdzić u Costa Viola Bus.</p>
-  </div>
+<p class="boc-planner-summary">Najbliższe lotnisko to Reggio Calabria (REG) – ok. 25 km i 30 min do Scilli; Costa Viola ma stacje Trenitalia w Palmi, Bagnarze, Scilli i Villa San Giovanni.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-natura-costa-viola-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-natura-costa-viola-index-html" class="boc-planner-select">
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-scilla">Scilla</option>
+    <option value="nb-reggio-calabria">Reggio Calabria</option>
+    <option value="nb-tropea">Tropea</option>
+    <option value="nb-bova">Bova</option>
+    <option value="nb-aspromonte">Aspromonte</option>
+    <option value="nb-sicily-punta-faro">Sycylia / Punta Faro</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 i SS18</strong><span>Ok. 30 min do Scilli drogą A2/SS18; dalej na północ SS18 do Bagnary i Palmi. W Scilli płatny parking działa 5 IV–31 X.</span></li>
+      <li class="boc-t-train"><strong>Regionale przez Centrale</strong><span>Ze stacji Reggio Calabria Aeroporto jedź regionalnym do Centrale, potem pociągiem w stronę Lamezia lub Messyny. Scilla jest ok. 25 min od Centrale.</span></li>
+      <li class="boc-t-bus"><strong>ATAM do Centrale</strong><span>Autobusem miejskim ATAM do Reggio Calabria Centrale, następnie regionalnym do Scilli, Bagnary, Palmi albo Villa San Giovanni.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 na południe</strong><span>80 km, 55 min do Palmi; 120 km, 1,5 h do Scilli. Zjazdy A2: Palmi Costa Viola, Bagnara Calabra, Scilla lub Villa San Giovanni.</span></li>
+      <li class="boc-t-bus"><strong>Lamezia Airlink</strong><span>Autobusem Trenitalia Lamezia Airlink do Lamezia Terme Centrale co ok. 30 min; dopłata do biletu wynosi 1,80 €.</span></li>
+      <li class="boc-t-train"><strong>Pociąg tyrreński</strong><span>Z Lamezia Terme Centrale jedź Trenitalia w stronę Reggio, Villa San Giovanni lub Messyny. Wysiądź w Palmi, Bagnarze, Scilli albo Villa San Giovanni.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Katowice → REG</strong><span>Najbliżej Scilli i Bagnary: Ryanair z Katowic we wtorki i soboty, tylko do 22 października 2026.</span></li>
+      <li class="boc-t-plane"><strong>Polska → SUF</strong><span>Do Palmi lub poza tymi dniami wybierz SUF: Ryanair z KRK, WRO i WMI; Wizz Air z KTW wt./czw./sob. oraz WAW pn./śr./pt.</span></li>
+      <li class="boc-t-car"><strong>Dalej jak z REG</strong><span>Z REG najszybciej autem A2/SS18: do Scilli ok. 30 min, dalej wybrzeżem do Bagnary i Palmi.</span></li>
+      <li class="boc-t-train"><strong>Dalej jak z SUF</strong><span>Z SUF dojedź Airlinkiem do Lamezia Terme Centrale, potem pociągiem Trenitalia do wybranej stacji Costa Viola.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Intercity do wybrzeża</strong><span>Intercity z Rzymu zatrzymuje się w Palmi, Bagnarze, Scilli i Villa San Giovanni: ok. 5–5,5 h. Z Neapolu podróż jest ok. 2 h krótsza.</span></li>
+      <li class="boc-t-train"><strong>Frecciarossa + Regionale</strong><span>Frecciarossą do Villa San Giovanni lub Reggio Calabria Centrale, a następnie pociągiem regionalnym na właściwą stację Costa Viola.</span></li>
+      <li class="boc-t-bus"><strong>Autobus do Reggio</strong><span>FlixBus i MarinoBus łączą Rzym oraz Neapol z Reggio Calabria; z Reggio Centrale kontynuuj pociągiem regionalnym na Costa Viola.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-scilla">
+    <h3 class="boc-planner-origin">Scilla</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Lokalnie drogą SS18</strong><span>Z Bagnary do Scilli jest ok. 10 min, a z Palmi ok. 30 min drogą SS18. Nie wjeżdżaj bez potrzeby do strefy ZTL w Chianalei.</span></li>
+      <li class="boc-t-train"><strong>Regionale do Scilli</strong><span>Pociągi regionalne Trenitalia łączą Scillę z Palmi, Bagnarą i Villa San Giovanni; przejazd z sąsiednich stacji trwa zwykle 10–35 min.</span></li>
+      <li class="boc-t-bus"><strong>Costa Viola Bus</strong><span>Costa Viola Bus obsługuje Scilla Stazione FS, Piazza Matrice i Quadrivio Santa Croce oraz połączenia z Bagnarą i Palmi.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 i SS18</strong><span>Ok. 25 km i 30 min drogą A2/SS18 do południowej części Costa Viola, czyli Scilli; na Palmi jedź dalej na północ.</span></li>
+      <li class="boc-t-train"><strong>Regionale z Centrale</strong><span>Z Reggio Calabria Centrale jedź regionalnym w stronę Lamezia lub Messyny. Do Scilli jest ok. 25 min, dalej są Bagnara i Palmi.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-tropea">
+    <h3 class="boc-planner-origin">Tropea</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS18 na północ</strong><span>Ok. 1 godz. 20 min drogą SS18 przez Bagnarę, Palmi i Vibo Valentia w kierunku Tropei.</span></li>
+      <li class="boc-t-train"><strong>Regionale przez Palmi</strong><span>Pociągi regionalne linii tyrreńskiej łączą Tropeę ze Scillą, Bagnarą i Palmi. Ze Scilli podróż trwa zwykle ok. 1 godz. 20 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-bova">
+    <h3 class="boc-planner-origin">Bova</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Przez Aspromonte</strong><span>Ok. 1 godz. 45 min przez Reggio Calabria, A2 i drogi Aspromonte na jońską stronę masywu. Bova leży wysoko nad wybrzeżem.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-aspromonte">
+    <h3 class="boc-planner-origin">Aspromonte</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drogami górskimi</strong><span>Ok. 20 km do najbliższych wjazdów w Aspromonte; dalej czas zależy od wybranego szlaku i miejscowości. Dojazd wyłącznie autem.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-sicily-punta-faro">
+    <h3 class="boc-planner-origin">Sycylia / Punta Faro</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Do Villa San Giovanni</strong><span>Ze Scilli do Villa San Giovanni jedź ok. 15 min drogą SS18; z pozostałej części Costa Viola dołącz A2 lub SS18 w kierunku portu.</span></li>
+      <li class="boc-t-ferry"><strong>Prom do Messyny</strong><span>Prom Caronte &amp; Tourist lub Bluferries z Villa San Giovanni do Messyny płynie ok. 20 min, przez całą dobę, zwykle co 20–40 min w dzień.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <div class="boc-nearby-box">

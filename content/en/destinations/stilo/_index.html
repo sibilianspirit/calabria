@@ -151,27 +151,115 @@ description: "Stilo, known as the Città del Sole (City of the Sun), is a pictur
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Getting there</h2>
-<p class="boc-transport-summary"><span><em>Nearest airport:</em> Lamezia Terme (SUF) – about 145 km from Stilo</span> <span><em>Railway station:</em> Monasterace-Stilo in Monasterace Marina – about 15 km from Stilo</span> <span><em>By car:</em> about 2 hr 30 min by car from Lamezia airport</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>By plane</strong>
-    <p>The most practical airport is Lamezia Terme (SUF), about 145 km from Stilo. In summer 2026, Ryanair flies there from Kraków, Wrocław and Warsaw-Modlin, and from Katowice from 2 June as well (Tue/Thu/Sat); Wizz Air serves Katowice from 31 March (Tue/Thu/Sat) and Warsaw-Chopin from April (Mon/Wed/Fri). In winter, a connection in Rome, Milan or Bergamo is usually necessary. Reggio Calabria (REG), about 150 km from Stilo, is an alternative; Ryanair operates the Katowice route only seasonally, until 22 October 2026.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>By car</strong>
-    <p>From Lamezia airport, take the SS280 towards Catanzaro, then the SS106 south to Monasterace and the uphill SP9 to Stilo – allow roughly 2 hr 30 min. If arriving from the north on the A2 motorway, leave at the Lamezia Terme exit and continue via the SS280 and SS106. It is best to leave the car at the parking area on the SP9 before the historic built-up area, then explore the steep lanes on foot.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>By train</strong>
-    <p>The nearest station is Monasterace-Stilo in Monasterace Marina, about 15 km from central Stilo, on the Ionian Reggio Calabria–Taranto line. It is served by regional trains from Reggio Calabria Centrale – a journey of about 2 hours – and from Catanzaro Lido; selected Intercity services from Bari and Lecce also stop here. From SUF airport, enter “Lamezia Terme Aeroporto” as the departure station in Trenitalia’s journey planner: the ticket includes the Lamezia Airlink bus to Lamezia Terme Centrale, with a €1.80 supplement, followed by a rail journey with a change.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>By bus</strong>
-    <p>Autolinee Federico regional buses link Monasterace-Stilo station with Stilo – the stop is called Monasterace FS, and the bus stops in Stilo. The same operator runs the Reggio Calabria–Catanzaro route via Stilo and Monasterace FS, so a direct bus from Reggio Calabria is possible. Timetables on this local route depend on the day of operation, so check the specific service on the Autolinee Federico website before travelling.</p>
-  </div>
+<p class="boc-planner-summary">The nearest airport is Lamezia Terme (SUF) – about 145 km and 2 hr 30 min by car; the nearest station is Monasterace-Stilo, 15 km from Stilo centre.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-stilo-index-html">Where are you coming from?</label>
+  <select id="planner-content-pl-kierunki-stilo-index-html" class="boc-planner-select">
+    <option value="suf">Lamezia Terme airport (SUF)</option>
+    <option value="reg">Reggio Calabria airport (REG)</option>
+    <option value="poland">From Poland – direct flights</option>
+    <option value="rome">From Rome or Naples</option>
+    <option value="nb-bivongi">From Bivongi</option>
+    <option value="nb-monasterace-kaulon">From Monasterace (Kaulon)</option>
+    <option value="nb-locri">From Locri</option>
+    <option value="nb-gerace">From Gerace</option>
+    <option value="nb-siderno">From Siderno</option>
+    <option value="nb-parco-delle-serre">From Parco delle Serre</option>
+    <option value="nb-reggio-calabria">From Reggio Calabria</option>
+    <option value="nb-catanzaro">From Catanzaro</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="suf">
+    <h3 class="boc-planner-origin">Lamezia Terme airport (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS280, SS106 and SP9</strong><span>About 145 km and 2 hr 30 min via Catanzaro and Monasterace. Park on SP9 before the historic centre and continue on foot.</span></li>
+      <li class="boc-t-train"><strong>Airlink + train</strong><span>In Trenitalia search, choose “Lamezia Terme Aeroporto”: Airlink to Lamezia Terme Centrale runs about every 30 min, with a €1.80 supplement; then take a connecting train to Monasterace-Stilo.</span></li>
+      <li class="boc-t-bus"><strong>Federico from the station</strong><span>From the Monasterace FS stop, take an Autolinee Federico bus to Stilo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="reg">
+    <h3 class="boc-planner-origin">Reggio Calabria airport (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car – about 150 km</strong><span>About 150 km to Stilo. Leave the car at the SP9 parking area before the historic centre and continue on foot through the steep lanes.</span></li>
+      <li class="boc-t-train"><strong>Airport station + regional train</strong><span>Take a regional train from Reggio Calabria Aeroporto to Centrale, then continue to Monasterace-Stilo – the trip from Centrale takes about 2 hr. Then take a Federico bus to Stilo.</span></li>
+      <li class="boc-t-bus"><strong>Autolinee Federico</strong><span>Autolinee Federico operates the Reggio Calabria–Catanzaro route via Stilo and Monasterace FS – choose a service stopping in Stilo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">From Poland – direct flights</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Ryanair flights to SUF</strong><span>Choose SUF – it is closer to Stilo than REG. In summer 2026, Ryanair flies from Kraków, Wrocław and Warsaw-Modlin, plus Katowice from 2 June: Tue, Thu and Sat.</span></li>
+      <li class="boc-t-plane"><strong>Wizz Air flights to SUF</strong><span>Wizz Air serves Katowice from 31 March 2026: Tue, Thu and Sat, and Warsaw-Chopin from April: Mon, Wed and Fri.</span></li>
+      <li class="boc-t-car"><strong>Then as from SUF</strong><span>The fastest option is by car: about 145 km and 2 hr 30 min via SS280, SS106 and SP9.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">From Rome or Naples</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Train to Lamezia</strong><span>Frecciarossa or Intercity from Rome to Lamezia Terme Centrale takes about 4–4.5 hr; from Naples it is about 2 hr faster.</span></li>
+      <li class="boc-t-car"><strong>Car hire from the station</strong><span>From Lamezia Terme Centrale, the quickest option is by car: about 2 hr 30 min via SS280, SS106 and SP9 to the parking area before Stilo centre.</span></li>
+      <li class="boc-t-bus"><strong>Long-distance coach</strong><span>Alternatively, take FlixBus or MarinoBus from Rome or Naples to Lamezia Terme, then continue to Stilo via Monasterace-Stilo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-bivongi">
+    <h3 class="boc-planner-origin">From Bivongi</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Local road</strong><span>About 10 km on the local road through the valleys; in Stilo, park on SP9 before the historic centre.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-monasterace-kaulon">
+    <h3 class="boc-planner-origin">From Monasterace (Kaulon)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SP9 uphill</strong><span>About 15 km on SP9 from Monasterace Marina to Stilo. Parking is available on SP9 before the historic centre.</span></li>
+      <li class="boc-t-bus"><strong>Autolinee Federico</strong><span>Regional Autolinee Federico buses run from the Monasterace FS stop to Stilo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-locri">
+    <h3 class="boc-planner-origin">From Locri</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS106 + SP9</strong><span>About 30 km via SS106 to Monasterace, then uphill on SP9 to Stilo. Park before the historic centre.</span></li>
+      <li class="boc-t-train"><strong>Regional train + bus</strong><span>Regional trains from Locri to Monasterace-Stilo take roughly 45–60 min. From Monasterace FS, change to a Federico bus for Stilo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-gerace">
+    <h3 class="boc-planner-origin">From Gerace</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Via the Ionian coast</strong><span>About 35 km via the Locri area and towards Monasterace; the final stretch climbs to Stilo on SP9.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-siderno">
+    <h3 class="boc-planner-origin">From Siderno</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS106 + SP9</strong><span>About 25 km on SS106 to Monasterace, then SP9 to Stilo. Park on SP9 before the historic centre.</span></li>
+      <li class="boc-t-train"><strong>Regional train + bus</strong><span>Regional trains from Siderno to Monasterace-Stilo take roughly 30–45 min. Then take a Federico bus from Monasterace FS to Stilo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-parco-delle-serre">
+    <h3 class="boc-planner-origin">From Parco delle Serre</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Local roads</strong><span>About 20 km on local roads to Stilo. Leave the car at the SP9 parking area before the historic centre.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">From Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS106 + SP9</strong><span>About 90 km on SS106 towards Monasterace, then uphill on SP9 to Stilo. Parking is available before the historic centre.</span></li>
+      <li class="boc-t-train"><strong>Regional train + bus</strong><span>Regional trains from Reggio Calabria Centrale to Monasterace-Stilo take about 2 hr. From Monasterace FS, take a Federico bus to Stilo.</span></li>
+      <li class="boc-t-bus"><strong>Autolinee Federico</strong><span>Direct Autolinee Federico services run on the Reggio Calabria–Catanzaro route and stop in Stilo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-catanzaro">
+    <h3 class="boc-planner-origin">From Catanzaro</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Towards SS106</strong><span>About 80 km towards the Ionian coast and Monasterace, then uphill on SP9 to Stilo. Parking is available before the centre.</span></li>
+      <li class="boc-t-bus"><strong>Autolinee Federico</strong><span>Autolinee Federico operates the Catanzaro–Reggio Calabria route via Stilo and Monasterace FS – choose a service stopping in Stilo.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Journey times are approximate. Timetables: Trenitalia, Ferrovie della Calabria, local operators.</p>
 </div>
 
 <div class="boc-nearby-box">

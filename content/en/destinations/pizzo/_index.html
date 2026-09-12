@@ -171,27 +171,96 @@ description: "Pizzo Calabro, picturesquely perched on a steep volcanic tuff clif
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Getting there</h2>
-<p class="boc-transport-summary"><span><em>Nearest airport:</em> Lamezia Terme (SUF) – 30 km, around 25 minutes by car</span> <span><em>Railway station:</em> Pizzo – around 2 km from the historic centre</span> <span><em>By car:</em> Around 25 minutes from Lamezia airport – south on the A2, Pizzo exit</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>By plane</strong>
-    <p>The nearest and most convenient airport is Lamezia Terme (SUF), around 30 km from Pizzo. In summer 2026, Ryanair flies here from Kraków, Wrocław, Warsaw Modlin and Katowice, while Wizz Air operates flights from Katowice and Warsaw Chopin; in winter, a connection in Rome, Milan or Bergamo is usually needed. The drive from the airport to Pizzo takes around 25 minutes.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>By car</strong>
-    <p>From the airport, take the A2 Autostrada del Mediterraneo towards Reggio Calabria and leave at the Pizzo exit – the road then descends towards the town and coast. For the historic centre, use Parcheggio Papa on Via Marcello Salomone, listed as the closest car park to Piazza della Repubblica; the old town is reachable on foot from there.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>By train</strong>
-    <p>From Lamezia Terme Centrale, take a direct Trenitalia regional train to Pizzo – the journey usually takes around 20 minutes. Lamezia Airlink buses connect the airport with Lamezia Terme Centrale დაახლოებით every 30 minutes; the supplement is €1.80 when buying a rail ticket from or to “Lamezia Terme Aeroporto”. Pizzo station is around 2 km from the historic centre, so a taxi or the FdC route 248 bus may be more convenient for hotels in the upper part of town.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>By bus</strong>
-    <p>Ferrovie della Calabria operates route 237 on the Lamezia Terme Aeroporto – Pizzo – Vibo Marina – Parghelia – Tropea – Ricadi/Spilinga corridor, making it an alternative to the train from the airport and for travel from the Tropea area. Route 248 also links Pizzo station with the town, while route 240 connects Pizzo with Tropea. FdC buses generally run from Monday to Saturday, excluding Sundays and public holidays.</p>
-  </div>
+<p class="boc-planner-summary">The nearest airport is Lamezia Terme (SUF), 30 km away and about 25 minutes by car; Pizzo station is around 2 km from the historic centre.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-pizzo-index-html">Where are you coming from?</label>
+  <select id="planner-content-pl-kierunki-pizzo-index-html" class="boc-planner-select">
+    <option value="suf">Lamezia Terme airport (SUF)</option>
+    <option value="reg">Reggio Calabria airport (REG)</option>
+    <option value="poland">From Poland – direct flights</option>
+    <option value="rome">From Rome or Naples</option>
+    <option value="nb-acconia-di-curinga-termy">From Acconia di Curinga</option>
+    <option value="nb-vibo-valentia">From Vibo Valentia</option>
+    <option value="nb-tropea">From Tropea</option>
+    <option value="nb-capo-vaticano">From Capo Vaticano</option>
+    <option value="nb-lamezia-terme">From Lamezia Terme</option>
+    <option value="nb-catanzaro">From Catanzaro</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="suf">
+    <h3 class="boc-planner-origin">Lamezia Terme airport (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2</strong><span>About 30 km and 25 minutes via the A2 towards Reggio Calabria, taking the Pizzo exit. Use Parcheggio Papa on Via Marcello Salomone near the old town.</span></li>
+      <li class="boc-t-train"><strong>Airlink + regional train</strong><span>Take Airlink to Lamezia Terme Centrale every 30 minutes (+€1.80 on the rail ticket), then a Trenitalia regional train to Pizzo: about 20 minutes. From the station, use a taxi or FdC 248.</span></li>
+      <li class="boc-t-bus"><strong>FdC bus 237</strong><span>FdC line 237 runs from the airport via Pizzo, providing an alternative to the train. Buses usually run Monday to Saturday, excluding Sundays and public holidays.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="reg">
+    <h3 class="boc-planner-origin">Reggio Calabria airport (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2</strong><span>About 106 km and 1 hour 15 minutes north on the A2, taking the Pizzo exit. For the historic centre, use Parcheggio Papa on Via Marcello Salomone.</span></li>
+      <li class="boc-t-train"><strong>Regional train via Centrale</strong><span>Take a regional train from Reggio Calabria Aeroporto to Reggio Calabria Centrale, then a Trenitalia regional service to Pizzo. The full trip usually takes around 2.5–3 hours.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">From Poland – direct flights</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Choose SUF airport</strong><span>Choose SUF, the closest airport to Pizzo. In summer 2026: Ryanair flies from KRK, WRO, WMI and KTW Tue/Thu/Sat; Wizz Air from KTW Tue/Thu/Sat and WAW Mon/Wed/Fri.</span></li>
+      <li class="boc-t-car"><strong>Continue as from SUF</strong><span>Then follow the SUF route: the fastest option is a rental car via the A2 to the Pizzo exit, about 25 minutes.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">From Rome or Naples</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Train to Lamezia</strong><span>Take a Frecciarossa or Intercity from Rome to Lamezia Terme Centrale: about 4–4.5 hours; from Naples, around 2 hours less.</span></li>
+      <li class="boc-t-train"><strong>Regional train to Pizzo</strong><span>From Lamezia Terme Centrale, a direct Trenitalia regional train to Pizzo usually takes about 20 minutes.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-acconia-di-curinga-termy">
+    <h3 class="boc-planner-origin">From Acconia di Curinga</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car on local roads</strong><span>About 18 km to Pizzo on local roads.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-vibo-valentia">
+    <h3 class="boc-planner-origin">From Vibo Valentia</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car on local roads</strong><span>About 20 km to Pizzo on local roads.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-tropea">
+    <h3 class="boc-planner-origin">From Tropea</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via SS522</strong><span>About 25 km via the coastal SS522 to Pizzo.</span></li>
+      <li class="boc-t-train"><strong>Trenitalia regional train</strong><span>A direct Trenitalia regional train from Tropea to Pizzo takes about 30 minutes.</span></li>
+      <li class="boc-t-bus"><strong>FdC bus 240</strong><span>FdC line 240 connects Tropea with Pizzo; buses generally run Monday to Saturday.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-capo-vaticano">
+    <h3 class="boc-planner-origin">From Capo Vaticano</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via SS522</strong><span>About 35 km via the coastal SS522 to Pizzo.</span></li>
+      <li class="boc-t-train"><strong>Regional train from Ricadi</strong><span>From Ricadi–Capo Vaticano station, take a direct Trenitalia regional train to Pizzo; the journey takes about 40 minutes.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-lamezia-terme">
+    <h3 class="boc-planner-origin">From Lamezia Terme</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2</strong><span>About 30 km and 25 minutes via the A2 towards Reggio Calabria, taking the Pizzo exit.</span></li>
+      <li class="boc-t-train"><strong>Trenitalia regional train</strong><span>A direct Trenitalia regional train from Lamezia Terme Centrale to Pizzo usually takes about 20 minutes.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-catanzaro">
+    <h3 class="boc-planner-origin">From Catanzaro</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2 and SS280</strong><span>About 60 km to Pizzo via the A2 and SS280.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Journey times are approximate. Timetables: Trenitalia, Ferrovie della Calabria, local operators.</p>
 </div>
 
 <div class="boc-nearby-box">

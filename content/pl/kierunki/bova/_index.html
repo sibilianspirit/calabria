@@ -167,27 +167,83 @@ description: "Bova, malownicza miejscowość w Kalabrii, to miejsce pełne histo
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Reggio Calabria (REG) – 49 km, ok. 1 godz. autem</span> <span><em>Stacja kolejowa:</em> Bova Marina – na linii Reggio Calabria–Metaponto; dalej autobusem Federico do Bovy</span> <span><em>Samochodem:</em> Z REG ok. 1 godz. – SS106, następnie SP24 Bova Marina–Bova</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Lamezia Terme (SUF), główne lotnisko Kalabrii, leży ok. 2 godz. jazdy autem od Bovy. W sezonie letnim 2026 Ryanair lata tam z Krakowa, Wrocławia i Warszawy-Modlin, a z Katowic od 2 czerwca we wtorki, czwartki i soboty; Wizz Air lata z Katowic od 31 marca we wtorki, czwartki i soboty oraz z Warszawy-Chopina od kwietnia w poniedziałki, środy i piątki. Zimą zwykle potrzebna jest przesiadka w Rzymie, Mediolanie lub Bergamo. Bliższe lotnisko Reggio Calabria „Tito Minniti” (REG) jest 49 km od Bovy – Ryanair lata z Katowic tylko latem, we wtorki i soboty, a ostatni lot w 2026 r. przypada 22 października; zimą 2026/27 tej trasy nie ma, pozostają całoroczne loty krajowe z Rzymu Fiumicino i Mediolanu.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Z lotniska REG jedź drogą SS106 w kierunku Taranto, zjedź na Bova Marina, a następnie przejedź dawną SS106 za Capo San Giovanni i skręć na SP24 Bova Marina–Bova. Ostatni odcinek ma 14 km i prowadzi krętą drogą pod górę; z lotniska podróż trwa ok. godziny. Jadąc autostradą A2, dojedź do Reggio Calabria i dalej wybierz SS106 w kierunku Bova Marina – nie ma osobnego zjazdu z A2 bezpośrednio do Bovy. Przed przyjazdem ustal miejsce postoju z noclegiem, ponieważ nie znaleźliśmy oficjalnie opublikowanej mapy parkingów dla centrum Bovy.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>Autobusem</strong>
-    <p>Najpierw dojedź pociągiem Regionale z Reggio Calabria Centrale do stacji Bova Marina na linii Reggio Calabria–Metaponto; przejazd trwa zwykle ok. 30–35 minut. Z przystanku Bova Marina Stazione Ferroviaria jedź autobusem Autolinee Federico, linią 283, do Bova Superiore – Municipio lub Bova San Pasquale. Kursy zależą od dnia roboczego, okresu szkolnego i świąt, dlatego przy tak rzadkim połączeniu sprawdź konkretny kurs w wyszukiwarce Autolinee Federico.</p>
-  </div>
-  <div class="boc-transport-item boc-t-walk">
-    <strong>Pieszo</strong>
-    <p>Bova leży na siedmioetapowym Sentiero dell’Inglese w Parku Narodowym Aspromonte, a nie na trasie prowadzącej bezpośrednio z wybrzeża Morza Jońskiego. Trzeci etap prowadzi z Amendolei do Bovy przez Gallicianò, a z Bovy zaczyna się także ok. 6-godzinna pętla na punkt widokowy Monte Grosso i z powrotem.</p>
-  </div>
+<p class="boc-planner-summary">Najbliższe lotnisko to Reggio Calabria (REG), 49 km i ok. 1 godz. autem; Bova nie ma stacji kolejowej, najbliższa leży w Bova Marina.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-bova-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-kierunki-bova-index-html" class="boc-planner-select">
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-bova">Z Bova Marina</option>
+    <option value="nb-aspromonte">Z Parku Aspromonte</option>
+    <option value="nb-reggio-calabria">Z Reggio Calabria</option>
+    <option value="nb-gerace">Z Gerace</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem SS106 i SP24</strong><span>Ok. 1 godz., 49 km: SS106 w kierunku Taranto, zjazd na Bova Marina, potem SP24 pod górę do Bovy.</span></li>
+      <li class="boc-t-car"><strong>Ostatni odcinek SP24</strong><span>Od Bova Marina pozostaje 14 km krętą SP24. Parking w centrum ustal wcześniej z obiektem noclegowym.</span></li>
+      <li class="boc-t-train"><strong>Regionale + Federico</strong><span>Ze stacji Reggio Calabria Aeroporto jedź do Centrale, potem Regionale do Bova Marina (30–35 min) i autobusem Federico 283 do Bovy.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem na południe</strong><span>Ok. 2 godz. jazdy do Bovy; najwygodniejsza opcja po przylocie to wynajęte auto.</span></li>
+      <li class="boc-t-car"><strong>Przez Bova Marina</strong><span>Końcowy dojazd prowadzi przez Bova Marina i 14 km krętą SP24 do położonej wysoko Bovy.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Katowice → REG latem</strong><span>Wybierz bliższe REG: Ryanair lata z Katowic we wtorki i soboty tylko latem; ostatni lot w 2026 r. jest 22 października.</span></li>
+      <li class="boc-t-plane"><strong>Więcej lotów do SUF</strong><span>SUF ma szerszą siatkę: Ryanair z KRK, WRO i WMI, a Wizz Air z Katowic oraz Warszawy-Chopina w sezonie letnim 2026.</span></li>
+      <li class="boc-t-car"><strong>Dalej jak z REG</strong><span>Z REG najszybciej autem: ok. 1 godz., 49 km drogami SS106 i SP24 przez Bova Marina.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Pociąg do Reggio</strong><span>Frecciarossa lub Intercity do Reggio Calabria Centrale: z Rzymu ok. 5–5,5 godz., z Neapolu ok. 2 godz. krócej.</span></li>
+      <li class="boc-t-train"><strong>Regionale do Bova Marina</strong><span>Z Reggio Calabria Centrale jedź pociągiem Regionale do Bova Marina; przejazd trwa zwykle ok. 30–35 min.</span></li>
+      <li class="boc-t-bus"><strong>Autobus Federico 283</strong><span>Z przystanku Bova Marina Stazione Ferroviaria jedź linią 283 do Bova Superiore – Municipio lub Bova San Pasquale.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-bova">
+    <h3 class="boc-planner-origin">Z Bova Marina</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem SP24</strong><span>Ok. 15 min krętą drogą SP24 Bova Marina–Bova; to 14-kilometrowy podjazd do historycznego centrum.</span></li>
+      <li class="boc-t-bus"><strong>Autobus Federico 283</strong><span>Z Bova Marina Stazione Ferroviaria jedź linią 283 do Bova Superiore – Municipio lub Bova San Pasquale.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-aspromonte">
+    <h3 class="boc-planner-origin">Z Parku Aspromonte</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem z parku</strong><span>Ok. 30 min autem. Bova leży na obrzeżu Aspromonte; w miejscowości nie ma stacji kolejowej.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">Z Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem SS106 i SP24</strong><span>Ok. 1 godz. drogą SS106 w kierunku Taranto, przez Bova Marina, a następnie pod górę SP24 do Bovy.</span></li>
+      <li class="boc-t-train"><strong>Regionale do Bova Marina</strong><span>Z Reggio Calabria Centrale do Bova Marina jedź pociągiem Regionale; podróż trwa zwykle ok. 30–35 min.</span></li>
+      <li class="boc-t-bus"><strong>Autobus Federico 283</strong><span>Z Bova Marina Stazione Ferroviaria linia 283 dojeżdża do Bova Superiore – Municipio lub Bova San Pasquale.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-gerace">
+    <h3 class="boc-planner-origin">Z Gerace</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem przez wybrzeże jońskie</strong><span>Ok. 1 godz. 15 min autem. Bova i Gerace są położone w głębi lądu, bez bezpośredniego połączenia kolejowego.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <div class="boc-nearby-box">

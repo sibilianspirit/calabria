@@ -178,27 +178,80 @@ description: "Reggio Calabria, the largest city in the Calabria region and guard
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Getting there</h2>
-<p class="boc-transport-summary"><span><em>Nearest airport:</em> Lamezia Terme (SUF) – approx. 130 km from Reggio Calabria; Reggio Calabria (REG) – approx. 4 km from the city centre</span> <span><em>Railway station:</em> Reggio Calabria Centrale – the main station, close to the city centre and Lungomare Falcomatà</span> <span><em>By car:</em> From Lamezia Terme to Reggio Calabria – approx. 130 km, usually 1 hr 20 min–1 hr 40 min by car</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>By plane</strong>
-    <p>Calabria’s main airport is Lamezia Terme (SUF), around 130 km from Reggio Calabria. In summer 2026, Ryanair flies there from Kraków, Wrocław, Warsaw-Modlin and – from 2 June – Katowice, while Wizz Air serves the airport from Katowice and Warsaw-Chopin; in winter, a connection in Rome, Milan or Bergamo is usually needed. Reggio Calabria Airport (REG, “Tito Minniti”) is closer, around 4 km from the centre: Ryanair flies from Katowice on Tuesdays and Saturdays only until 22 October 2026, while domestic flights from Rome Fiumicino and Milan operate year-round.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>By car</strong>
-    <p>From Lamezia Terme Airport, take SS280 to the Lamezia Terme junction, then follow the A2 motorway south; Reggio Calabria is around 130 km away and the drive usually takes 1 hr 20 min–1 hr 40 min. Use the Reggio Centro/Calopinace exit for the city centre. Parcheggio Stazione Lido Nord, close to Lungomare Falcomatà, is a convenient option for visiting the centre; temporary access and parking restrictions may apply during city events.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>By train</strong>
-    <p>When arriving at SUF, buy a ticket to “Reggio Calabria Centrale” and select “Lamezia Terme Aeroporto” as your departure station. The Lamezia Airlink bus runs between the airport and Lamezia Terme Centrale roughly every 30 minutes; its stop on Viale Rodolfo Imbrogno is around 50 m from the arrivals exit, and the supplement to a rail ticket is €1.80. Regional, Intercity and Frecce trains run from Lamezia Terme Centrale to Reggio Calabria Centrale – regional services usually take around 2 hrs 40 min, while faster trains take less; direct Frecciarossa and Intercity services are available from Roma Termini.</p>
-  </div>
-  <div class="boc-transport-item boc-t-ferry">
-    <strong>By ferry</strong>
-    <p>To reach Messina in Sicily, take a ferry from Villa San Giovanni, north of Reggio Calabria. Caronte &amp; Tourist operates around the clock, with guaranteed departures every 40 minutes, and the crossing takes around 20 minutes. Bluferries also operates on the route.</p>
-  </div>
+<p class="boc-planner-summary">The nearest airport is Reggio Calabria (REG): about 4 km and around 10 minutes from the centre; the main rail station is Reggio Calabria Centrale, by the Lungomare Falcomatà.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-reggio-calabria-index-html">Where are you coming from?</label>
+  <select id="planner-content-pl-kierunki-reggio-calabria-index-html" class="boc-planner-select">
+    <option value="reg">Reggio Calabria airport (REG)</option>
+    <option value="suf">Lamezia Terme airport (SUF)</option>
+    <option value="poland">From Poland – direct flights</option>
+    <option value="rome">From Rome or Naples</option>
+    <option value="nb-scilla">From Scilla</option>
+    <option value="nb-bova">From Bova</option>
+    <option value="nb-aspromonte">From Aspromonte National Park</option>
+    <option value="nb-gerace">From Gerace</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="reg">
+    <h3 class="boc-planner-origin">Reggio Calabria airport (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-taxi"><strong>Taxi to the centre</strong><span>About 4 km and usually around 10 minutes to central Reggio Calabria.</span></li>
+      <li class="boc-t-train"><strong>Regional train</strong><span>Take a regional train from Reggio Calabria Aeroporto station to Reggio Calabria Centrale, by the centre and Lungomare.</span></li>
+      <li class="boc-t-bus"><strong>ATAM city buses</strong><span>ATAM city buses link the airport with town; get off near the centre or Centrale station.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="suf">
+    <h3 class="boc-planner-origin">Lamezia Terme airport (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via SS280 and A2</strong><span>About 130 km and 1 hr 20 min–1 hr 40 min via SS280 and the southbound A2; exit at Reggio Centro/Calopinace.</span></li>
+      <li class="boc-t-car"><strong>Lungomare parking</strong><span>For the historic centre, use Parcheggio Stazione Lido Nord by Lungomare Falcomatà; events can bring temporary restrictions.</span></li>
+      <li class="boc-t-train"><strong>Airlink + train</strong><span>Lamezia Airlink runs to Centrale about every 30 minutes; then take a train to Reggio Calabria Centrale. Regional trains usually take about 2 hr 40 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">From Poland – direct flights</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Katowice → REG</strong><span>Choose REG: it is closest to the centre. Ryanair flies from Katowice on Tuesdays and Saturdays until 22 October 2026.</span></li>
+      <li class="boc-t-taxi"><strong>Continue as from REG</strong><span>Continue as from REG airport: the quickest option is a taxi, around 10 minutes to the centre.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">From Rome or Naples</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Frecciarossa or Intercity</strong><span>Direct to Reggio Calabria Centrale: around 5–5.5 hours from Rome, and roughly 2 hours less from Naples.</span></li>
+      <li class="boc-t-bus"><strong>FlixBus or MarinoBus</strong><span>FlixBus and MarinoBus run from Rome and Naples to Reggio Calabria.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-scilla">
+    <h3 class="boc-planner-origin">From Scilla</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2 or SS18</strong><span>Around 20 minutes via the A2 motorway or SS18 towards Reggio Calabria.</span></li>
+      <li class="boc-t-train"><strong>Regional train</strong><span>From Scilla station to Reggio Calabria Centrale on the same Tyrrhenian line; usually around 25–35 minutes.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-bova">
+    <h3 class="boc-planner-origin">From Bova</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car to Reggio</strong><span>Around 45 minutes by car from Bova to central Reggio Calabria.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-aspromonte">
+    <h3 class="boc-planner-origin">From Aspromonte National Park</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car from Aspromonte</strong><span>Around 30 minutes by car from the nearest park access points to Reggio Calabria; the park has no rail station.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-gerace">
+    <h3 class="boc-planner-origin">From Gerace</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via the Ionian coast</strong><span>Around 1.5 hours by car from Gerace to Reggio Calabria. Gerace has no rail station.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Journey times are approximate. Timetables: Trenitalia, Ferrovie della Calabria, local operators.</p>
 </div>
 
 <div class="boc-nearby-box">

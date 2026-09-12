@@ -145,27 +145,96 @@ description: "Park Narodowy Pollino, największy park narodowy we Włoszech, zac
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Lamezia Terme (SUF) – ok. 140 km i ok. 1 godz. 45 min autem do Castrovillari</span> <span><em>Stacja kolejowa:</em> Sibari – ok. 30 km drogą od Castrovillari; dla Rotondy najbliższa jest Sapri</span> <span><em>Samochodem:</em> Z SUF do Castrovillari przez SS280 i A2; zjazd Castrovillari-Frascineto lub Morano Calabro-Castrovillari</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Najpraktyczniejszym lotniskiem jest Lamezia Terme (SUF), główny port lotniczy Kalabrii – do Castrovillari jest stąd ok. 140 km i ok. 1 godz. 45 min jazdy samochodem. W sezonie letnim 2026 Ryanair lata do SUF z Krakowa, Wrocławia, Warszawy-Modlin (sezonowo) oraz z Katowic od 2 czerwca – we wtorki, czwartki i soboty; Wizz Air lata z Katowic od 31 marca – we wtorki, czwartki i soboty – oraz z Warszawy-Chopina od kwietnia – w poniedziałki, środy i piątki. Zimą loty z Polski zwykle wymagają przesiadki w Rzymie, Mediolanie lub Bergamo.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Z lotniska Lamezia Terme jedź drogą SS280 do A2 Autostrada del Mediterraneo, następnie na północ. Do Castrovillari i Morano Calabro wybierz zjazd Castrovillari-Frascineto albo Morano Calabro-Castrovillari; do Rotondy wygodne są zjazdy Lauria Sud, Laino Borgo lub Campotenese. Park nie ma jednego centralnego parkingu – auto zostaw na oznaczonym parkingu przy wybranym punkcie startowym szlaku lub w miejscowości noclegowej.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>Pociągiem</strong>
-    <p>W samym parku ani w Castrovillari nie ma stacji Trenitalia. Dla Castrovillari najwygodniejszą bramą kolejową jest Sibari, oddalone o ok. 30 km drogą; dla Rotondy najbliższą stacją jest Sapri. Z lotniska SUF dojedź autobusem Lamezia Airlink do Lamezia Terme Centrale – przystanek jest przy Viale Rodolfo Imbrogno, ok. 50 m od wyjścia z przylotów; wybierając w Trenitalia stację „Lamezia Terme Aeroporto”, kupisz bilet łączony z dopłatą 1,80 € za autobus.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>Autobusem</strong>
-    <p>Na odcinku Sibari–Castrovillari kursuje Busitalia na trasie Crotone–Salerno – są cztery kursy dziennie, z przystankami w obu miejscowościach. Z Cosenzy do Castrovillari jeździ także Ferrovie della Calabria, linia 377; podstawowy rozkład FdC obejmuje poniedziałki–soboty, bez niedziel i świąt. Autobusy dojeżdżają do miejscowości, a nie do wysokogórskich szlaków – do wejść w wyższe partie masywu potrzebny jest samochód albo wcześniej umówiony transfer.</p>
-  </div>
+<p class="boc-planner-summary">Najbliższe lotnisko to Lamezia Terme (SUF): ok. 140 km i 1 godz. 45 min autem do Castrovillari. W parku nie ma stacji kolejowej; bramy kolejowe to Sibari dla Castrovillari i Sapri dla Rotondy.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-natura-pollino-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-natura-pollino-index-html" class="boc-planner-select">
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-cosenza">Z Cosenzy</option>
+    <option value="nb-castrovillari">Z Castrovillari</option>
+    <option value="nb-morano-calabro">Z Morano Calabro</option>
+    <option value="nb-civita">Z Civita</option>
+    <option value="nb-rotonda">Z Rotondy</option>
+    <option value="nb-maratea">Z Maratei</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem SS280 i A2</strong><span>Ok. 140 km i 1 godz. 45 min do Castrovillari. SS280 → A2 na północ; zjazd Castrovillari-Frascineto lub Morano Calabro-Castrovillari.</span></li>
+      <li class="boc-t-car"><strong>Zjazdy do Rotondy</strong><span>Do Rotondy wybierz zjazd Lauria Sud, Laino Borgo lub Campotenese. Parkuj na oznaczonym parkingu przy szlaku albo w miejscowości noclegowej.</span></li>
+      <li class="boc-t-bus"><strong>Airlink do stacji</strong><span>Lamezia Airlink łączy terminal z Lamezia Terme Centrale co ok. 30 min. W Trenitalia wybierz „Lamezia Terme Aeroporto” – dopłata za autobus wynosi 1,80 €.</span></li>
+      <li class="boc-t-bus"><strong>Sibari – Castrovillari</strong><span>Jedź koleją do Sibari, potem Busitalia na trasie Crotone–Salerno do Castrovillari. Są cztery kursy dziennie; wyżej w góry potrzebny jest transfer lub auto.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Aeroporto → Centrale</strong><span>Ze stacji Reggio Calabria Aeroporto kursują pociągi regionalne do Reggio Calabria Centrale. Stamtąd najlepiej kontynuować wynajętym autem.</span></li>
+      <li class="boc-t-bus"><strong>ATAM do centrum</strong><span>Autobusy miejskie ATAM oraz taksówki łączą lotnisko z Reggio Calabria. Na dalszy dojazd w Pollino wybierz samochód.</span></li>
+      <li class="boc-t-car"><strong>Autem A2 na północ</strong><span>Jedź A2 na północ: do Castrovillari i Morano wybierz zjazd Castrovillari-Frascineto lub Morano Calabro-Castrovillari; do Rotondy Lauria Sud, Laino Borgo albo Campotenese.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Loty do SUF</strong><span>Latem 2026 Ryanair lata do SUF z KRK, WRO, WMI i KTW wt/czw/sob; Wizz Air z KTW wt/czw/sob oraz WAW pn/śr/pt.</span></li>
+      <li class="boc-t-car"><strong>Dalej jak z SUF</strong><span>Wybierz Lamezia Terme, bo to najbliższe lotnisko: najszybciej autem, ok. 140 km i 1 godz. 45 min do Castrovillari przez SS280 i A2.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Pociąg do Lamezi</strong><span>Frecciarossa lub Intercity do Lamezia Terme Centrale: z Rzymu ok. 4–4,5 godz., z Neapolu ok. 2 godz. krócej.</span></li>
+      <li class="boc-t-car"><strong>A2 do Castrovillari</strong><span>Ze stacji najpraktyczniej wynajętym autem: A2 na północ, zjazd Castrovillari-Frascineto lub Morano Calabro-Castrovillari.</span></li>
+      <li class="boc-t-bus"><strong>Autobus przez Cosenzę</strong><span>Alternatywnie FlixBus lub MarinoBus do Cosenzy, potem Ferrovie della Calabria, linia 377, do Castrovillari. Linia kursuje pn–sob., bez niedziel i świąt.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-cosenza">
+    <h3 class="boc-planner-origin">Z Cosenzy</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 do Castrovillari</strong><span>Jedź A2 na północ i wybierz zjazd Castrovillari-Frascineto lub Morano Calabro-Castrovillari. Do wyższych punktów parku kontynuuj autem.</span></li>
+      <li class="boc-t-bus"><strong>FdC, linia 377</strong><span>Ferrovie della Calabria, linia 377, łączy Cosenzę z Castrovillari od poniedziałku do soboty. Do szlaków wysokogórskich potrzebny jest samochód lub transfer.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-castrovillari">
+    <h3 class="boc-planner-origin">Z Castrovillari</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Parking przy szlaku</strong><span>Castrovillari jest jedną z głównych bram parku. Do wybranego punktu startowego jedź autem i zostaw je na oznaczonym parkingu przy szlaku.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-morano-calabro">
+    <h3 class="boc-planner-origin">Z Morano Calabro</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Lokalnie do szlaku</strong><span>Morano Calabro leży przy jednej z bram Pollino. Do wybranego wejścia w masyw dojedź autem i korzystaj z oznaczonych parkingów.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-civita">
+    <h3 class="boc-planner-origin">Z Civita</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Lokalnie do szlaku</strong><span>Z Civita do dalszych punktów Parku Narodowego Pollino najwygodniej dojechać autem. Parkuj wyłącznie na oznaczonych parkingach przy trasach i szlakach.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-rotonda">
+    <h3 class="boc-planner-origin">Z Rotondy</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Lokalnie do szlaku</strong><span>Rotonda jest siedzibą parku i dogodną bazą dla zachodniej części masywu. Do wejść na szlaki dojedź autem; korzystaj z parkingów przy punktach startowych.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-maratea">
+    <h3 class="boc-planner-origin">Z Maratei</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do Rotondy</strong><span>Najwygodniej jedź autem w stronę Rotondy i zachodnich wejść do Pollino. Na dalsze dojścia w wyższe partie masywu potrzebny jest samochód.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <div class="boc-nearby-box">

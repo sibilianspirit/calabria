@@ -150,27 +150,108 @@ description: "Cosenza, określana często jako Ateny Kalabrii, to miejsce o niez
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Lamezia Terme (SUF) – główne lotnisko Kalabrii, ok. 65 km od Cosenzy</span> <span><em>Stacja kolejowa:</em> Cosenza (Vaglio Lise) – stacja Trenitalia na północy miasta, z połączeniem Ferrovie della Calabria do Cosenza Centro</span> <span><em>Samochodem:</em> Z lotniska Lamezia Terme ok. 50–60 min autem przez A2, zjazd Cosenza Sud</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Najwygodniejszym lotniskiem jest Lamezia Terme (SUF), główny port lotniczy Kalabrii, oddalony od Cosenzy o ok. 65 km. W sezonie letnim 2026 Ryanair lata tu z Krakowa, Wrocławia, Warszawy–Modlin i Katowic, a Wizz Air z Katowic oraz Warszawy–Chopina; zimą połączenia z Polski zwykle wymagają przesiadki w Rzymie, Mediolanie lub Bergamo. Alternatywą jest Reggio Calabria (REG), dokąd Ryanair lata z Katowic tylko latem 2026, natomiast Crotone (CRV) obsługuje wyłącznie loty krajowe i nie ma połączeń z Polski.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Z lotniska Lamezia Terme jedź drogą do A2 w kierunku Salerno i zjedź na Cosenza Sud – do centrum oraz Cosenzy Vecchii dojedziesz zwykle w 50–60 min. Zamiast szukać miejsca przy stadionie, wybierz płatny parking Saba I Due Fiumi, dogodny dla Corso Mazzini i centrum historycznego. Nie wjeżdżaj bez uprawnienia w strefy ZTL – od lipca 2026 w mieście działają elektroniczne bramki kontrolne.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>Pociągiem</strong>
-    <p>Z lotniska dojedź autobusem Lamezia Airlink do stacji Lamezia Terme Centrale – kursuje mniej więcej co 30 min, a przystanek przy Viale Rodolfo Imbrogno leży ok. 50 m od wyjścia z przylotów. Bilet łączony kupisz w Trenitalia, wybierając „Lamezia Terme Aeroporto”; dopłata za odcinek autobusowy wynosi 1,80 €. Z Lamezia Terme Centrale do stacji Cosenza kursują bezpośrednie pociągi regionalne Trenitalia, najszybsze jadą ok. 1 godz. 5–15 min; ze stacji Cosenza (Vaglio Lise) można przesiąść się na pociąg Ferrovie della Calabria do Cosenza Centro.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>Autobusem</strong>
-    <p>FlixBus ma połączenia z Cosenzy m.in. do Rzymu i Neapolu, a MarinoBus obsługuje dalekobieżne trasy m.in. do Bolonii, Mediolanu i Turynu. Najważniejsze przystanki to Cosenza (Riforma) przy Piazza della Riforma oraz Autostazione, Viale delle Medaglie d’Oro 11 – MarinoBus zatrzymuje się tam na stanowisku 1. FlixBus korzysta w Cosenzy z kilku przystanków, dlatego kieruj się dokładnym miejscem podanym na bilecie.</p>
-  </div>
+<p class="boc-planner-summary">Najbliższe lotnisko: Lamezia Terme (SUF), ok. 65 km i 50–60 min autem; stacja Cosenza (Vaglio Lise) łączy miasto z siecią Trenitalia i Ferrovie della Calabria.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-cosenza-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-kierunki-cosenza-index-html" class="boc-planner-select">
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-rende">Z Rende</option>
+    <option value="nb-camigliatello-silano">Z Camigliatello Silano</option>
+    <option value="nb-park-narodowy-sila">Z Parku Narodowego Sila</option>
+    <option value="nb-paola">Z Paoli</option>
+    <option value="nb-altomonte">Z Altomonte</option>
+    <option value="nb-diamante">Z Diamante</option>
+    <option value="nb-morano-calabro">Z Morano Calabro</option>
+    <option value="nb-tropea">Z Tropei</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2</strong><span>Ok. 65 km i 50–60 min: A2 w kierunku Salerno, zjazd Cosenza Sud. Wybierz parking Saba I Due Fiumi; unikaj stref ZTL.</span></li>
+      <li class="boc-t-train"><strong>Airlink + pociąg</strong><span>Airlink do Lamezia Terme Centrale co ok. 30 min, potem bezpośredni regionalny do Cosenzy: najszybciej 1 godz. 5–15 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2</strong><span>Ok. 160 km i 1 godz. 50 min drogą A2 w kierunku Salerno, zjazd Cosenza Sud. Parking Saba I Due Fiumi leży blisko centrum.</span></li>
+      <li class="boc-t-train"><strong>Regionalny przez Centrale</strong><span>Ze stacji Reggio Calabria Aeroporto jedź regionalnym do Reggio Calabria Centrale, następnie pociągiem do Cosenzy; całość ok. 2 godz. 20–40 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Loty do SUF</strong><span>Wybierz SUF – jest bliżej Cosenzy. Latem 2026 latają Ryanair z KRK, WRO, WMI i KTW (wt/czw/sob) oraz Wizz Air z KTW (wt/czw/sob) i WAW (pn/śr/pt).</span></li>
+      <li class="boc-t-car"><strong>Dalej z SUF</strong><span>Dalej jak z lotniska Lamezia Terme: najszybciej autem A2 do Cosenza Sud, ok. 65 km i 50–60 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Pociąg przez Lamezię</strong><span>Frecciarossa lub Intercity do Lamezia Terme Centrale, potem regionalny do Cosenzy. Z Rzymu ok. 5–5,5 godz.; z Neapolu ok. 3–3,5 godz.</span></li>
+      <li class="boc-t-bus"><strong>FlixBus lub MarinoBus</strong><span>Dostępne są połączenia dalekobieżne z Rzymu i Neapolu do Cosenzy. MarinoBus zatrzymuje się przy Autostazione, Viale delle Medaglie d’Oro 11.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-rende">
+    <h3 class="boc-planner-origin">Z Rende</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Lokalnymi drogami</strong><span>Ok. 5 km i 10–15 min lokalnymi drogami między Rende a Cosenza (Vaglio Lise).</span></li>
+      <li class="boc-t-train"><strong>Castiglione + autobus</strong><span>Regionalnym do Castiglione Cosentino, ok. 7–10 min, następnie autobusem do Rende lub kampusu UniCal.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-camigliatello-silano">
+    <h3 class="boc-planner-origin">Z Camigliatello Silano</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drogą SS107</strong><span>Ok. 30 km i 40–45 min drogą SS107 w kierunku Cosenzy.</span></li>
+      <li class="boc-t-bus"><strong>Bus Ferrovie della Calabria</strong><span>Z Camigliatello do stacji Cosenza kursuje autobus Ferrovie della Calabria, dostępny także jako połączenie Trenitalia treno + bus.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-park-narodowy-sila">
+    <h3 class="boc-planner-origin">Z Parku Narodowego Sila</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drogą SS107</strong><span>Ok. 35 km i 50–60 min drogą SS107; czas zależy od punktu startu w rozległym parku.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-paola">
+    <h3 class="boc-planner-origin">Z Paoli</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drogą SS107</strong><span>Ok. 40 km i 45 min drogą SS107 przez przełęcz w kierunku Cosenzy.</span></li>
+      <li class="boc-t-train"><strong>Regionalny Trenitalia</strong><span>Bezpośredni pociąg regionalny z Paoli do stacji Cosenza (Vaglio Lise) jedzie zwykle ok. 20–30 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-altomonte">
+    <h3 class="boc-planner-origin">Z Altomonte</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 na południe</strong><span>Ok. 60 km i 1 godz. drogą A2 na południe, dalej lokalnymi drogami do Cosenzy.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-diamante">
+    <h3 class="boc-planner-origin">Z Diamante</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>SS18 i SS107</strong><span>Ok. 55 km i 1 godz. 10 min: SS18 do Paoli, następnie SS107 przez góry do Cosenzy.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-morano-calabro">
+    <h3 class="boc-planner-origin">Z Morano Calabro</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 na południe</strong><span>Ok. 75 km i 1 godz. 10 min drogą A2 na południe, następnie do centrum Cosenzy.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-tropea">
+    <h3 class="boc-planner-origin">Z Tropei</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 i drogi lokalne</strong><span>Ok. 100 km i 1 godz. 40 min: drogami lokalnymi do A2, następnie na północ do zjazdu Cosenza Sud.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <div class="boc-nearby-box">

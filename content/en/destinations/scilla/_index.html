@@ -197,27 +197,96 @@ description: "Scilla, often called the “Pearl of the Costa Viola”, is a pict
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Getting there</h2>
-<p class="boc-transport-summary"><span><em>Nearest airport:</em> Lamezia Terme (SUF) – 105 km, about 1 hr 10 min by car</span> <span><em>Railway station:</em> Scilla – in Marina Grande, beside the beach</span> <span><em>By car:</em> From SUF via the A2, Scilla exit and SS 737 – about 1 hr 10 min</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>By plane</strong>
-    <p>The most practical airport is Lamezia Terme (SUF), around 105 km from Scilla – the drive usually takes about 1 hr 10 min. In the summer 2026 season, Ryanair flies here from Kraków, Wrocław, Warsaw–Modlin and Katowice, while Wizz Air flies from Katowice and Warsaw–Chopin; in winter, flights from Poland usually require a connection in Rome, Milan or Bergamo. The closer Reggio Calabria airport (REG) is about 27 km from Scilla – Ryanair operates Katowice flights only on Tuesdays and Saturdays until 22 October 2026, with no winter service afterwards; domestic flights from Rome Fiumicino and Milan operate year-round.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>By car</strong>
-    <p>From Lamezia Terme airport, take the A2 towards Reggio Calabria, leave at the Scilla exit, then follow SS 737 to SS 18 and the town – the route is about 105 km and usually takes around 1 hr 10 min. From 5 April to 31 October 2026, paid parking operates in the Marina Grande and Chianalea districts; payment is also available via the MYCICERO app.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>By train</strong>
-    <p>From SUF airport, select “Lamezia Terme Aeroporto” as your starting station in Trenitalia’s booking system: the Lamezia Airlink bus to Lamezia Terme Centrale runs about every 30 minutes, with a €1.80 supplement added to the train ticket. Direct trains from Lamezia Terme Centrale to Scilla usually take about 1 hr–1 hr 20 min. From Reggio Calabria Centrale, take a regional train towards Rosarno, Lamezia Terme Centrale or Paola; Scilla is about 25–30 minutes away. Scilla station is in Marina Grande, right beside the beach.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>By bus</strong>
-    <p>A less frequent alternative is Costa Viola Bus: selected services from Reggio Calabria, near Piazza Garibaldi by Centrale station, reach the Scilla Quadrivio Santa Croce stop in around 50 minutes. Line R1 also runs from Reggio Calabria airport via Villa San Giovanni to the Scilla Castello Ruffo stop near Chianalea, but services are limited – check the Costa Viola Bus timetable for your travel date.</p>
-  </div>
+<p class="boc-planner-summary">The nearest airport is Reggio Calabria (REG), 27 km away and about 30 minutes by car; Scilla station is in Marina Grande, by the beach.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-scilla-index-html">Where are you coming from?</label>
+  <select id="planner-content-pl-kierunki-scilla-index-html" class="boc-planner-select">
+    <option value="reg">Reggio Calabria airport (REG)</option>
+    <option value="suf">Lamezia Terme airport (SUF)</option>
+    <option value="poland">From Poland – direct flights</option>
+    <option value="rome">From Rome or Naples</option>
+    <option value="nb-reggio-calabria">Reggio Calabria</option>
+    <option value="nb-villa-san-giovanni">Villa San Giovanni</option>
+    <option value="nb-bagnara-calabra">Bagnara Calabra</option>
+    <option value="nb-palmi">Palmi</option>
+    <option value="nb-pentedattilo">Pentedattilo</option>
+    <option value="nb-punta-pezzo">Punta Pezzo</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="reg">
+    <h3 class="boc-planner-origin">Reggio Calabria airport (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2 and SS18</strong><span>About 27 km and 30 minutes via the A2 motorway; take the Scilla exit, then SS 737 and SS 18. Paid parking is available in Marina Grande and Chianalea in summer.</span></li>
+      <li class="boc-t-train"><strong>Train via Centrale</strong><span>Take a regional train from Reggio Calabria Aeroporto to Centrale, then a train towards Rosarno, Lamezia or Paola. The Centrale–Scilla leg takes about 25–30 minutes.</span></li>
+      <li class="boc-t-bus"><strong>Costa Viola Bus R1</strong><span>Route R1 runs from the airport via Villa San Giovanni to the Scilla Castello Ruffo stop by Chianalea; services are limited.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="suf">
+    <h3 class="boc-planner-origin">Lamezia Terme airport (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2 and SS18</strong><span>About 105 km and 1 hour 10 minutes on the A2 towards Reggio Calabria; take the Scilla exit, then SS 737 and SS 18. Parking is available in Marina Grande and Chianalea.</span></li>
+      <li class="boc-t-train"><strong>Airlink + train</strong><span>In Trenitalia, select “Lamezia Terme Aeroporto”: Lamezia Airlink runs to Centrale about every 30 minutes, then direct trains to Scilla take around 1 hour to 1 hour 20 minutes.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">From Poland – direct flights</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>REG or SUF</strong><span>REG is the closest option: Ryanair flies from Katowice on Tue/Sat until 22 October 2026. On other dates choose SUF: Ryanair and Wizz Air from Katowice, plus Wizz Air from Warsaw.</span></li>
+      <li class="boc-t-car"><strong>Then as from REG</strong><span>Then continue as from REG airport: the fastest option is about 30 minutes by car via the A2 and SS18, taking the Scilla exit.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">From Rome or Naples</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Intercity to Scilla</strong><span>Intercity trains on the Tyrrhenian line stop in Scilla. Rome to southern Calabria takes about 5–5.5 hours; Naples is around 2 hours shorter.</span></li>
+      <li class="boc-t-train"><strong>Frecciarossa + regional train</strong><span>Frecciarossa trains run to Villa San Giovanni or Reggio Calabria Centrale; from there, regional trains take about 10 minutes from Villa or 25–30 minutes from Reggio.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2 and SS18</strong><span>About 20 km via the A2 motorway and SS18, taking the Scilla exit.</span></li>
+      <li class="boc-t-train"><strong>Regional train</strong><span>From Reggio Calabria Centrale, take a regional train towards Rosarno, Lamezia Terme Centrale or Paola; Scilla is about 25–30 minutes away.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-villa-san-giovanni">
+    <h3 class="boc-planner-origin">Villa San Giovanni</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via SS18</strong><span>About 10 km via SS18 along the Costa Viola coast.</span></li>
+      <li class="boc-t-train"><strong>Regional train</strong><span>Take a regional train from Villa San Giovanni to Scilla station in Marina Grande; the journey takes about 10 minutes.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-bagnara-calabra">
+    <h3 class="boc-planner-origin">Bagnara Calabra</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via SS18</strong><span>About 12 km via SS18 along the Costa Viola coast.</span></li>
+      <li class="boc-t-train"><strong>Regional train</strong><span>From Bagnara station, take a regional train towards Reggio Calabria; Scilla is usually about 8–10 minutes away.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-palmi">
+    <h3 class="boc-planner-origin">Palmi</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2 and SS18</strong><span>About 25 km via the A2 motorway and SS18, taking the Scilla exit.</span></li>
+      <li class="boc-t-train"><strong>Regional train</strong><span>From Palmi station, take a regional train towards Reggio Calabria; Scilla is usually about 20–25 minutes away.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-pentedattilo">
+    <h3 class="boc-planner-origin">Pentedattilo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via Reggio</strong><span>About 53 km by road, usually around 45–50 minutes by car.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-punta-pezzo">
+    <h3 class="boc-planner-origin">Punta Pezzo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via SS18</strong><span>About 8 km via SS18 towards Villa San Giovanni and Scilla.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Journey times are approximate. Timetables: Trenitalia, Ferrovie della Calabria, local operators.</p>
 </div>
 
 <div class="boc-nearby-box">

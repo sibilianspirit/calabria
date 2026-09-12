@@ -9,7 +9,7 @@
   <link rel="canonical" href="{{ .Permalink }}">
   <meta name="google-site-verification" content="c2RDmRK6ok8KM46aO7ftlzPvl2RN5ZyyJ9UvK_fVh5w" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/style.css?v=37">
+  <link rel="stylesheet" href="/css/style.css?v=38">
   {{ partial "schema-website.html" . }}
   {{ partial "schema-organization.html" . }}
 </head>
@@ -381,6 +381,31 @@
           }
         });
       }
+    })();
+    // Planer dojazdu: wybór punktu startu
+    (function() {
+      var box = document.querySelector('.boc-planner');
+      if (!box) return;
+      var sel = box.querySelector('.boc-planner-select');
+      var panels = box.querySelectorAll('.boc-planner-panel');
+      if (!sel || !panels.length) return;
+      box.classList.add('is-js');
+      function show(key) {
+        var found = false;
+        panels.forEach(function(p) {
+          var on = p.getAttribute('data-origin') === key;
+          p.classList.toggle('is-active', on); if (on) found = true;
+        });
+        if (!found) { panels[0].classList.add('is-active'); key = panels[0].getAttribute('data-origin'); }
+        sel.value = key;
+      }
+      var saved = null;
+      try { saved = localStorage.getItem('bocOrigin'); } catch (e) {}
+      show(saved || sel.value);
+      sel.addEventListener('change', function() {
+        show(this.value);
+        try { localStorage.setItem('bocOrigin', this.value); } catch (e) {}
+      });
     })();
   </script>
 </body>

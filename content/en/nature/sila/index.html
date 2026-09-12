@@ -142,27 +142,96 @@ description: "Sila National Park is a unique natural enclave located in the hear
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Getting there</h2>
-<p class="boc-transport-summary"><span><em>Nearest airport:</em> Lamezia Terme (SUF) – approx. 90 km and 1 hr 25 min by car to Camigliatello Silano</span> <span><em>Railway station:</em> Cosenza FS (Vaglio Lise) – change to a Ferrovie della Calabria bus for Camigliatello Silano</span> <span><em>By car:</em> From Cosenza via the SS107 to Camigliatello Silano – approx. 36 km, usually 45–60 min</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>By plane</strong>
-    <p>Lamezia Terme (SUF) is the most convenient airport. In summer 2026, Ryanair flies here directly from Kraków, Wrocław and, seasonally, Warsaw-Modlin, as well as from Katowice from 2 June on Tuesdays, Thursdays and Saturdays; Wizz Air serves Katowice from 31 March on Tuesdays, Thursdays and Saturdays and Warsaw-Chopin from April on Mondays, Wednesdays and Fridays. In winter, flights from Poland usually require a change in Rome, Milan or Bergamo. Camigliatello Silano is approx. 90 km and around 1 hr 25 min by car from the airport; the Lamezia Airlink bus runs to Lamezia Terme Centrale roughly every 30 minutes, with a €1.80 supplement to a rail ticket.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>By car</strong>
-    <p>From Cosenza, take the SS107 Silana Crotonese towards Camigliatello Silano – the route is approx. 36 km and usually takes 45–60 minutes. From Lamezia Terme Airport or from northern Italy, use the A2 motorway, take the Cosenza exit and then join the SS107. In central Camigliatello, use the paid car park on Via Falcone e Borsellino; individual park attractions such as Cupone, Lorica and the Giganti della Sila require separate onward travel.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>By train</strong>
-    <p>The most practical rail station for the western side of Sila is Cosenza FS (Vaglio Lise), served by Trenitalia trains. Regular trains do not continue onto the plateau, but Trenitalia’s journey planner sells a combined train + Ferrovie della Calabria bus ticket when „Camigliatello Silano” is entered as the destination. The Treno della Sila is not a connection from Cosenza but a tourist attraction on a historic narrow-gauge railway – it runs between the Camigliatello area and San Nicola-Silvana Mansio, according to the operator’s calendar.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>By bus</strong>
-    <p>Ferrovie della Calabria bus line 385A runs from Cosenza FS to Camigliatello Silano, on the San Giovanni in Fiore – Camigliatello – Spezzano – Cosenza – Università route. It is the best public-transport option for reaching Camigliatello without a car, but it does not reach every trailhead and attraction in this large park. Departure times depend on the day and on the school and holiday calendar – check one specific connection in the Ferrovie della Calabria timetable before travelling.</p>
-  </div>
+<p class="boc-planner-summary">The nearest airport is Lamezia Terme (SUF) – about 90 km and 1 hr 25 min by car to Camigliatello Silano; the most practical rail station is Cosenza FS (Vaglio Lise), then a Ferrovie della Calabria bus.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-natura-sila-index-html">Where are you coming from?</label>
+  <select id="planner-content-pl-natura-sila-index-html" class="boc-planner-select">
+    <option value="suf">Lamezia Terme airport (SUF)</option>
+    <option value="reg">Reggio Calabria airport (REG)</option>
+    <option value="poland">From Poland – direct flights</option>
+    <option value="rome">From Rome or Naples</option>
+    <option value="nb-cosenza">From Cosenza</option>
+    <option value="nb-catanzaro">From Catanzaro</option>
+    <option value="nb-pizzo">From Pizzo</option>
+    <option value="nb-aspromonte">From Aspromonte</option>
+    <option value="nb-tropea">From Tropea</option>
+    <option value="nb-pollino">From Pollino</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="suf">
+    <h3 class="boc-planner-origin">Lamezia Terme airport (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2 and SS107</strong><span>About 90 km and 1 hr 25 min to Camigliatello: take the A2, exit for Cosenza, then SS107. Paid parking is available by Via Falcone e Borsellino.</span></li>
+      <li class="boc-t-bus"><strong>Lamezia Airlink</strong><span>Lamezia Airlink connects the airport with Lamezia Terme Centrale about every 30 minutes; the rail-ticket supplement is €1.80.</span></li>
+      <li class="boc-t-train"><strong>Trenitalia to Cosenza</strong><span>From Lamezia Terme Centrale, take a Trenitalia train to Cosenza FS (Vaglio Lise).</span></li>
+      <li class="boc-t-bus"><strong>Bus 385A</strong><span>Ferrovie della Calabria bus 385A runs from Cosenza FS to Camigliatello Silano; it does not reach every attraction in the park.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="reg">
+    <h3 class="boc-planner-origin">Reggio Calabria airport (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2 and SS107</strong><span>Take the A2 towards Cosenza, then SS107 to Camigliatello. Use the paid parking area by Via Falcone e Borsellino.</span></li>
+      <li class="boc-t-train"><strong>Regional train to Centrale</strong><span>Take a regional train from Reggio Calabria Aeroporto to Reggio Calabria Centrale, then continue towards Cosenza FS.</span></li>
+      <li class="boc-t-bus"><strong>Bus 385A</strong><span>Ferrovie della Calabria bus 385A runs from Cosenza FS to Camigliatello Silano.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">From Poland – direct flights</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Poland → SUF</strong><span>For summer 2026, choose SUF: Ryanair flies from KRK, WRO, seasonal WMI and KTW from 2 June (Tue/Thu/Sat); Wizz Air flies from KTW (Tue/Thu/Sat) and WAW (Mon/Wed/Fri).</span></li>
+      <li class="boc-t-car"><strong>Then as from SUF</strong><span>Then continue as from SUF: the fastest option is by car – about 90 km and 1 hr 25 min via the A2 and SS107 to Camigliatello.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">From Rome or Naples</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Train via Paola</strong><span>Take a Frecciarossa or Intercity train to Paola, then continue to Cosenza FS. The Tyrrhenian-route journey to Calabria takes about 4–4.5 hours from Rome and around 2 hours less from Naples.</span></li>
+      <li class="boc-t-bus"><strong>Bus 385A</strong><span>From Cosenza FS, take Ferrovie della Calabria bus 385A to Camigliatello Silano.</span></li>
+      <li class="boc-t-bus"><strong>FlixBus or MarinoBus</strong><span>Alternatively, take FlixBus or MarinoBus to Cosenza, then bus 385A to Camigliatello Silano.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-cosenza">
+    <h3 class="boc-planner-origin">From Cosenza</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via SS107</strong><span>About 36 km and 45–60 min via the SS107 Silana Crotonese to Camigliatello Silano. Paid parking is available by Via Falcone e Borsellino.</span></li>
+      <li class="boc-t-bus"><strong>Bus 385A</strong><span>Ferrovie della Calabria bus 385A runs from Cosenza via Spezzano and Camigliatello to San Giovanni in Fiore.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-catanzaro">
+    <h3 class="boc-planner-origin">From Catanzaro</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car to Camigliatello</strong><span>About 50 km by car to Camigliatello Silano. Use the paid parking area by Via Falcone e Borsellino once there.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-pizzo">
+    <h3 class="boc-planner-origin">From Pizzo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via Cosenza</strong><span>About 80 km by car to Camigliatello; once in Cosenza, continue on the SS107. Paid parking is available by Via Falcone e Borsellino.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-aspromonte">
+    <h3 class="boc-planner-origin">From Aspromonte</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2</strong><span>About 95 km by car to Camigliatello. Head towards Cosenza, then take the SS107 onto the Sila plateau.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-tropea">
+    <h3 class="boc-planner-origin">From Tropea</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via Cosenza</strong><span>About 110 km by car to Camigliatello; from Cosenza, continue on the SS107. Paid parking is available by Via Falcone e Borsellino.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-pollino">
+    <h3 class="boc-planner-origin">From Pollino</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via A2</strong><span>About 120 km by car to Camigliatello. Travel via Cosenza, then take the SS107 onto the Sila plateau.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Journey times are approximate. Timetables: Trenitalia, Ferrovie della Calabria, local operators.</p>
 </div>
 
 <div class="boc-nearby-box">

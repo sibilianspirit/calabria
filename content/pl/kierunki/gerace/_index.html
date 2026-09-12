@@ -169,27 +169,100 @@ description: "W sercu Kalabrii, zaledwie kilka kilometrów od brzegów Morza Jo�
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Lamezia Terme (SUF) – ok. 110 km, ok. 1 godz. 30 min autem</span> <span><em>Stacja kolejowa:</em> Locri – najbliższa stacja, ok. 10 km od Gerace</span> <span><em>Samochodem:</em> Z SUF przez A2, zjazd Rosarno, SS682 i SS106 – ok. 1 godz. 30 min</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Najpraktyczniejszym lotniskiem jest Lamezia Terme (SUF), oddalone od Gerace o ok. 110 km – samochodem jedzie się ok. 1 godz. 30 min. W sezonie letnim 2026 Ryanair lata tu z Krakowa, Wrocławia i Warszawy-Modlin, a z Katowic od 2 czerwca we wtorki, czwartki i soboty; Wizz Air oferuje Katowice od 31 marca we wtorki, czwartki i soboty oraz Warszawę-Chopina od kwietnia w poniedziałki, środy i piątki. Zimą zwykle potrzebna jest przesiadka w Rzymie, Mediolanie lub Bergamo. Bliższe lotnisko Reggio Calabria „Tito Minniti” (REG) leży ok. 100 km od Gerace, lecz Ryanair z Katowic lata tam tylko latem – ostatni lot w 2026 r. przypada 22 października, a zimą 2026/27 tej trasy nie ma.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Z lotniska Lamezia Terme jedź A2 w kierunku Reggio Calabria, zjedź na Rosarno i wybierz SS682 Jonio-Tirreno do Marina di Gioiosa Jonica. Następnie jedź SS106 w stronę Locri i podjedź do Gerace drogą SP1, dawną SS111 – cała trasa z lotniska ma ok. 110 km i zajmuje ok. 1 godz. 30 min. Historyczne centrum obejmuje ZTL, dlatego samochód najlepiej zostawić na miejskich parkingach, m.in. w lokalizacji Barbara, przy Via Largo Piana, Campo lub Calvario; są one połączone z centrum usługą navetta.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>Pociągiem</strong>
-    <p>Najbliższą stacją kolejową jest Locri, położona ok. 10 km od Gerace, na linii jońskiej. Z lotniska SUF najpierw dojedź autobusem Lamezia Airlink do Lamezia Terme Centrale – kursuje co ok. 30 min, a odcinek kosztuje 1,80 € przy bilecie łączonym kupionym do lub z „Lamezia Terme Aeroporto”. W wyszukiwarce Trenitalia wybierz jako cel „Gerace”: podróż obejmuje pociąg do Locri i autobus Autolinee Federico do Gerace, a za odcinek autobusowy doliczane jest 1,80 €; z lotniska warto planować ok. 3 godz. podróży, zależnie od przesiadki.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>Autobusem</strong>
-    <p>Odcinek Locri–Gerace obsługuje Autolinee Federico S.p.A., przede wszystkim linia 309 z odgałęzieniem do Gerace. Przy bilecie łączonym Trenitalia autobus odjeżdża z placu przed stacją Locri i dojeżdża do Gerace Borgo. Rozkład tej lokalnej linii jest ograniczony i zależy od dnia roboczego lub szkolnego, dlatego przed samodzielnym przejazdem autobusem sprawdź wyszukiwarkę przewoźnika; sam bilet autobusowy Locri–Gerace nie jest sprzedawany osobno w kanałach Trenitalia.</p>
-  </div>
+<p class="boc-planner-summary">Najbliższe lotnisko to Reggio Calabria (REG), ok. 100 km od Gerace; najbliższa stacja kolejowa znajduje się w Locri, ok. 10 km od borgo.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-gerace-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-kierunki-gerace-index-html" class="boc-planner-select">
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-locri">Z Locri</option>
+    <option value="nb-marina-di-locri">Z Marina di Locri</option>
+    <option value="nb-siderno">Z Siderno</option>
+    <option value="nb-caulonia">Z Caulonii</option>
+    <option value="nb-stilo">Ze Stilo</option>
+    <option value="nb-reggio-calabria">Z Reggio Calabria</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do Gerace</strong><span>Ok. 100 km do Gerace. W historycznym centrum obowiązuje ZTL; zostaw auto na parkingach Barbara, Largo Piana, Campo lub Calvario.</span></li>
+      <li class="boc-t-train"><strong>Aeroporto → Centrale</strong><span>Ze stacji Reggio Calabria Aeroporto dojedź pociągiem regionalnym do Reggio Calabria Centrale; alternatywą są autobusy ATAM lub taksówka.</span></li>
+      <li class="boc-t-train"><strong>Regionale do Locri</strong><span>Z Reggio Calabria Centrale jedź pociągiem regionalnym linią jońską do Locri – orientacyjnie ok. 1 godz. 15 min.</span></li>
+      <li class="boc-t-bus"><strong>Federico 309</strong><span>Z placu przed stacją Locri jedź Autolinee Federico, głównie linią 309, do przystanku Gerace Borgo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 i SS682</strong><span>Ok. 1 godz. 30 min i 110 km: A2 do zjazdu Rosarno, SS682 do Marina di Gioiosa, potem SS106 i SP1 do Gerace.</span></li>
+      <li class="boc-t-train"><strong>Airlink + pociąg</strong><span>Lamezia Airlink do Lamezia Terme Centrale kursuje co ok. 30 min. Dalej pociąg do Locri i autobus Federico – łącznie ok. 3 godz.</span></li>
+      <li class="boc-t-bus"><strong>Federico 309</strong><span>Z placu przed stacją Locri kursuje Autolinee Federico, głównie linia 309 z odgałęzieniem do Gerace Borgo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Wybierz SUF</strong><span>SUF ma najszerszą ofertę: Ryanair z KRK, WRO i WMI oraz KTW od 2 VI (wt/czw/sob); Wizz Air z KTW (wt/czw/sob) i WAW (pn/śr/pt).</span></li>
+      <li class="boc-t-plane"><strong>Opcja REG latem</strong><span>REG jest bliżej, ale Ryanair z Katowic lata tylko we wtorki i soboty latem; ostatni lot w 2026 r. przypada 22 października.</span></li>
+      <li class="boc-t-car"><strong>Dalej jak z SUF</strong><span>Z SUF najszybciej wynajętym autem: ok. 1 godz. 30 min przez A2, SS682, SS106 i SP1.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Pociąg do Reggio</strong><span>Frecciarossa lub Intercity z Rzymu do Reggio Calabria Centrale jedzie ok. 5–5,5 godz.; z Neapolu ok. 2 godz. krócej.</span></li>
+      <li class="boc-t-train"><strong>Regionale do Locri</strong><span>Z Reggio Calabria Centrale wybierz pociąg regionalny linii jońskiej do Locri – orientacyjnie ok. 1 godz. 15 min.</span></li>
+      <li class="boc-t-bus"><strong>Federico do borgo</strong><span>Z placu przed stacją Locri do Gerace Borgo jedzie autobus Autolinee Federico, przede wszystkim linia 309.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-locri">
+    <h3 class="boc-planner-origin">Z Locri</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem SP1</strong><span>Ok. 10 km drogą SP1, dawną SS111. Auto zostaw przed ZTL na parkingach Barbara, Largo Piana, Campo lub Calvario.</span></li>
+      <li class="boc-t-bus"><strong>Federico 309</strong><span>Autolinee Federico, głównie linia 309, odjeżdża z placu przed stacją Locri do Gerace Borgo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-marina-di-locri">
+    <h3 class="boc-planner-origin">Z Marina di Locri</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do borgo</strong><span>Ok. 15 km do Gerace. Przed strefą ZTL skorzystaj z parkingów Barbara, Largo Piana, Campo lub Calvario.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-siderno">
+    <h3 class="boc-planner-origin">Z Siderno</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do Gerace</strong><span>Ok. 18 km do Gerace. Wybierz parking przed ZTL: Barbara, Largo Piana, Campo lub Calvario.</span></li>
+      <li class="boc-t-train"><strong>Pociąg + Federico</strong><span>Pociągiem regionalnym do Locri jedzie się kilka minut; z placu przed stacją przesiądź się na autobus Federico do Gerace Borgo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-caulonia">
+    <h3 class="boc-planner-origin">Z Caulonii</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do Gerace</strong><span>Ok. 30 km do Gerace. Historyczne centrum jest objęte ZTL; parkuj przy Barbara, Largo Piana, Campo lub Calvario.</span></li>
+      <li class="boc-t-train"><strong>Pociąg + Federico</strong><span>Pociągiem regionalnym z Caulonia do Locri jest ok. 30 min; dalej autobus Autolinee Federico do Gerace Borgo.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-stilo">
+    <h3 class="boc-planner-origin">Ze Stilo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do Gerace</strong><span>Ok. 45 km do Gerace. Przed ZTL wybierz parking Barbara, Largo Piana, Campo lub Calvario.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">Z Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do Gerace</strong><span>Ok. 70 km do Gerace. W historycznym centrum obowiązuje ZTL; auto zostaw na parkingach Barbara, Largo Piana, Campo lub Calvario.</span></li>
+      <li class="boc-t-train"><strong>Regionale + Federico</strong><span>Pociągiem regionalnym z Reggio Calabria Centrale do Locri jedzie się ok. 1 godz. 15 min; dalej autobus Federico do Gerace Borgo.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <div class="boc-nearby-box">

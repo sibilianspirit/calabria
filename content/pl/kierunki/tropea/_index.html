@@ -200,27 +200,83 @@ description: "Tropea to urokliwe miasteczko położone na piaskowcowym klifie na
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Lamezia Terme (SUF) – ok. 60 km od Tropei, ok. 1 godz. jazdy autem</span> <span><em>Stacja kolejowa:</em> Tropea – stacja na linii regionalnej Lamezia Terme Centrale–Reggio Calabria Centrale przez Tropeę</span> <span><em>Samochodem:</em> Z lotniska SUF – ok. 1 godz.; A2, zjazd Pizzo Calabro, dalej SS522 do Tropei</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Najwygodniej przylecieć do Lamezia Terme (SUF), głównego lotniska Kalabrii, oddalonego od Tropei o ok. 60 km. W sezonie letnim 2026 Ryanair lata tu z Krakowa, Wrocławia i Warszawy-Modlin oraz z Katowic od 2 czerwca we wtorki, czwartki i soboty; Wizz Air – z Katowic od 31 marca we wtorki, czwartki i soboty oraz z Warszawy-Chopina od kwietnia w poniedziałki, środy i piątki. Zimą połączenie z Polski zwykle wymaga przesiadki w Rzymie, Mediolanie lub Bergamo.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Z lotniska Lamezia Terme do Tropei jedzie się zwykle ok. 1 godz. Trasa prowadzi autostradą A2 do zjazdu Pizzo Calabro, a następnie drogą SS522 w kierunku Tropei. Nie wjeżdżaj bez zezwolenia do ZTL w historycznym centrum – wjazdy kontrolują kamery; na dłuższy postój wybierz parking Parcheggio Rocca Nettuno przy Via Campo Inferiore albo miejsce noclegowe z parkingiem.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>Pociągiem</strong>
-    <p>Z lotniska pojedź autobusem Lamezia Airlink do stacji Lamezia Terme Centrale – przystanek lotniskowy znajduje się przy Viale Rodolfo Imbrogno, ok. 50 m od wyjścia z hali przylotów. Przy bilecie łączonym w wyszukiwarce Trenitalia wybierz „Lamezia Terme Aeroporto”; dopłata za autobus wynosi 1,80 €. Ze stacji Lamezia Terme Centrale kursują bezpośrednie pociągi regionalne do stacji Tropea, jadące zwykle ok. 50–65 min.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>Autobusem</strong>
-    <p>Bezpośrednie połączenie z lotniska do Tropei zapewnia Ferrovie della Calabria – linia 237, na trasie Lamezia Terme Aeroporto–Pizzo–Vibo Marina–Parghelia–Tropea–Ricadi–Spilinga. Autobus odjeżdża z przystanku przy lotnisku; połączenia regionalne Ferrovie della Calabria zasadniczo kursują od poniedziałku do soboty, z wyłączeniem świąt. FlixBus dojeżdża do Lamezia Terme z innych miast, ale nie jest bezpośrednim transferem do Tropei.</p>
-  </div>
+<p class="boc-planner-summary">Najbliższe lotnisko to Lamezia Terme (SUF) – ok. 60 km i ok. 1 godz. autem; Tropea ma stację kolejową na linii regionalnej Lamezia Terme Centrale–Reggio Calabria Centrale.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-tropea-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-kierunki-tropea-index-html" class="boc-planner-select">
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-capo-vaticano">Z Capo Vaticano</option>
+    <option value="nb-pizzo">Z Pizzo</option>
+    <option value="nb-scilla">Ze Scilli</option>
+    <option value="nb-reggio-calabria">Z Reggio Calabria</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 i SS522</strong><span>Ok. 60 km i 1 godz. A2 do zjazdu Pizzo Calabro, potem SS522. Nie wjeżdżaj do ZTL; parking Rocca Nettuno przy Via Campo Inferiore.</span></li>
+      <li class="boc-t-train"><strong>Airlink + pociąg regionalny</strong><span>Airlink do Lamezia Terme Centrale odjeżdża sprzed lotniska co ok. 30 min. Regionalny do Tropei jedzie bezpośrednio zwykle 50–65 min.</span></li>
+      <li class="boc-t-bus"><strong>Ferrovie della Calabria 237</strong><span>Bezpośrednia linia 237: Lamezia Terme Aeroporto–Pizzo–Vibo Marina–Parghelia–Tropea. Zwykle kursuje od poniedziałku do soboty, z wyjątkiem świąt.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 i SS522</strong><span>Ok. 1 godz. 35 min drogą A2 w kierunku północnym, potem SS522 do Tropei. Nie wjeżdżaj do ZTL; wybierz parking Rocca Nettuno.</span></li>
+      <li class="boc-t-train"><strong>Aeroporto → Centrale</strong><span>Ze stacji Reggio Calabria Aeroporto pojedź pociągiem regionalnym do Reggio Calabria Centrale.</span></li>
+      <li class="boc-t-train"><strong>Regionalny przez Tropeę</strong><span>Z Reggio Calabria Centrale kursują pociągi regionalne linią przez Tropeę; cała podróż od lotniska zajmuje orientacyjnie ok. 2 godz.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Wybierz lotnisko SUF</strong><span>SUF jest najbliżej Tropei. Latem 2026 Ryanair lata z KRK, WRO, WMI i KTW wt/czw/sob; Wizz Air z KTW wt/czw/sob oraz WAW pn/śr/pt.</span></li>
+      <li class="boc-t-car"><strong>Dalej jak z SUF</strong><span>Najszybciej wynajętym autem: ok. 60 km i 1 godz. trasą A2 oraz SS522 do Tropei.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Pociąg do Lamezia</strong><span>Frecciarossa lub Intercity z Rzymu do Lamezia Terme Centrale jadą ok. 4–4,5 godz.; z Neapolu podróż jest ok. 2 godz. krótsza.</span></li>
+      <li class="boc-t-train"><strong>Regionalny do Tropei</strong><span>W Lamezia Terme Centrale przesiądź się na bezpośredni pociąg regionalny do Tropei – zwykle 50–65 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-capo-vaticano">
+    <h3 class="boc-planner-origin">Z Capo Vaticano</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem drogą lokalną</strong><span>Ok. 15 min lokalną drogą wzdłuż wybrzeża do Tropei. W centrum nie wjeżdżaj bez zezwolenia do strefy ZTL.</span></li>
+      <li class="boc-t-train"><strong>Ricadi → Tropea</strong><span>Ze stacji Ricadi, najbliższej Capo Vaticano, regionalny do Tropei jedzie zwykle ok. 10 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-pizzo">
+    <h3 class="boc-planner-origin">Z Pizzo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem SS522</strong><span>Ok. 30 min drogą SS522 w kierunku Tropei. Na dłuższy postój wybierz parking Rocca Nettuno przy Via Campo Inferiore.</span></li>
+      <li class="boc-t-train"><strong>Regionalny przez wybrzeże</strong><span>Pociągi regionalne na linii przez Tropeę łączą Pizzo z Tropeą; przejazd trwa orientacyjnie ok. 30 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-scilla">
+    <h3 class="boc-planner-origin">Ze Scilli</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 i SS18</strong><span>Ok. 1 godz. 15 min drogami A2 i SS18, dalej w kierunku Tropei. Nie wjeżdżaj bez zezwolenia do ZTL w historycznym centrum.</span></li>
+      <li class="boc-t-train"><strong>Regionalny przez Tropeę</strong><span>Ze stacji Scilla kursują pociągi regionalne linią przez Tropeę; podróż trwa orientacyjnie ok. 1 godz. 10 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">Z Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 i SS522</strong><span>Ok. 1 godz. 30 min drogą A2 w kierunku północnym, potem SS522 do Tropei. Parkuj poza strefą ZTL, np. przy Rocca Nettuno.</span></li>
+      <li class="boc-t-train"><strong>Regionalny przez Tropeę</strong><span>Z Reggio Calabria Centrale pociąg regionalny do Tropei jedzie linią wybrzeżem; podróż trwa orientacyjnie ok. 1 godz. 45 min.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <div class="boc-nearby-box">

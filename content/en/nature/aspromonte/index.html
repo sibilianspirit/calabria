@@ -145,27 +145,94 @@ description: "Aspromonte National Park (Parco Nazionale dell'Aspromonte) is one 
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Getting there</h2>
-<p class="boc-transport-summary"><span><em>Nearest airport:</em> Lamezia Terme (SUF) – about 120 km and around 1 hr 30 min by car to Gambarie; Reggio Calabria (REG) is closer – about 30 km and around 40 min.</span> <span><em>Railway station:</em> Reggio Calabria Centrale – by Piazza Garibaldi; the ATAM 319 bus to Gambarie leaves from here.</span> <span><em>By car:</em> From Lamezia, take the A2 to the Reggio Calabria–Gallico exit, then follow SS 184 / Gallico–Gambarie.</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>By plane</strong>
-    <p>Lamezia Terme (SUF) is Calabria’s main airport and lies about 120 km from Gambarie – the drive usually takes around 1 hr 30 min. In summer 2026, Ryanair flies here from Kraków, Wrocław and Warsaw-Modlin seasonally, as well as from Katowice from 2 June on Tuesdays, Thursdays and Saturdays; Wizz Air flies from Katowice from 31 March on Tuesdays, Thursdays and Saturdays, and from Warsaw-Chopin from April on Mondays, Wednesdays and Fridays. In winter, flights from Poland usually require a connection in Rome, Milan or Bergamo. The closer Reggio Calabria “Tito Minniti” airport (REG) is about 30 km from Gambarie – Ryanair flies there from Katowice only in summer, on Tuesdays and Saturdays, with the last flight of the 2026 season on 22 October; the route does not operate in winter 2026/27. From SUF, the Lamezia Airlink bus runs about every 30 minutes to Lamezia Terme Centrale station; with a combined Trenitalia ticket, the supplement is €1.80 and the station to select is “Lamezia Terme Aeroporto”.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>By car</strong>
-    <p>A car is by far the most practical option, as the park covers a vast mountain area and many trails and attractions have no convenient public transport. From Lamezia Terme, take the A2 south to the Reggio Calabria–Gallico exit, then follow SS 184 / Gallico–Gambarie; the distance to central Gambarie is about 120 km and the drive takes around 1 hr 30 min. From Reggio Calabria, the journey to Gambarie usually takes about 40 minutes. It is best to leave the car in the public parking areas in central Gambarie, around Piazza Mangeruca, and continue on foot to nearby routes.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>By train</strong>
-    <p>The park has no railway station – for Gambarie, the most convenient rail gateway is Reggio Calabria Centrale, by Piazza Garibaldi. Trenitalia trains reach Reggio from Lamezia Terme Centrale, while long-distance services arrive from Italy’s main cities. From the station, change to the ATAM 319 bus to Gambarie; Bova Marina is on the Ionian line, but it is not a practical interchange point for Gambarie.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>By bus</strong>
-    <p>The ATAM 319 bus runs from Reggio Calabria to Gambarie on the Piazza Garibaldi – Santo Stefano in Aspromonte – Gambarie route. Its starting stop is at Piazza Garibaldi, next to Reggio Calabria Centrale station, and the journey takes approximately 1 hr 15–30 min. Services are limited and do not run every day, so check the current times in the ATAM app or on its website before travelling. Ferrovie della Calabria also operates line 1112, Melicuccà – Sinopoli – Sant’Eufemia d’Aspromonte – Gambarie, which is mainly useful when approaching from the western side of the massif.</p>
-  </div>
+<p class="boc-planner-summary">The nearest airport is Reggio Calabria (REG) – about 30 km and 40 minutes from Gambarie; the park has no railway station, with Reggio Calabria Centrale serving as the rail gateway.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-natura-aspromonte-index-html">Where are you coming from?</label>
+  <select id="planner-content-pl-natura-aspromonte-index-html" class="boc-planner-select">
+    <option value="reg">Reggio Calabria airport (REG)</option>
+    <option value="suf">Lamezia Terme airport (SUF)</option>
+    <option value="poland">From Poland – direct flights</option>
+    <option value="rome">From Rome or Naples</option>
+    <option value="nb-reggio-calabria">From Reggio Calabria</option>
+    <option value="nb-bova">From Bova</option>
+    <option value="nb-scilla">From Scilla</option>
+    <option value="nb-locri">From Locri</option>
+    <option value="nb-gerace">From Gerace</option>
+    <option value="nb-stilo">From Stilo</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="reg">
+    <h3 class="boc-planner-origin">Reggio Calabria airport (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive to Gambarie</strong><span>About 40 minutes to central Gambarie. Use the public parking areas near Piazza Mangeruca.</span></li>
+      <li class="boc-t-train"><strong>Aeroporto → Centrale</strong><span>Take a regional train from Reggio Calabria Aeroporto station to Reggio Calabria Centrale, by Piazza Garibaldi.</span></li>
+      <li class="boc-t-bus"><strong>ATAM 319</strong><span>From Piazza Garibaldi, take ATAM bus 319 via Santo Stefano in Aspromonte to Gambarie – around 1 hr 15–30 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="suf">
+    <h3 class="boc-planner-origin">Lamezia Terme airport (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 and SS 184 by car</strong><span>About 120 km and 1 hr 30 min: take the A2 south, exit at Reggio Calabria–Gallico, then follow SS 184 / Gallico–Gambarie.</span></li>
+      <li class="boc-t-bus"><strong>Lamezia Airlink</strong><span>The Lamezia Airlink bus runs from the airport to Lamezia Terme Centrale about every 30 minutes; the Trenitalia add-on costs €1.80.</span></li>
+      <li class="boc-t-train"><strong>Train + ATAM 319</strong><span>Take Trenitalia from Lamezia Terme Centrale to Reggio Calabria Centrale, then change near Piazza Garibaldi to ATAM 319 for Gambarie.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">From Poland – direct flights</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Katowice → REG</strong><span>REG is the closest option: Ryanair flies from Katowice on Tuesdays and Saturdays in summer only; the final 2026 seasonal flight is on 22 October.</span></li>
+      <li class="boc-t-plane"><strong>Flights to SUF</strong><span>Ryanair flies seasonally to SUF from Kraków, Wrocław and Warsaw-Modlin; Wizz Air flies from Katowice Tue/Thu/Sat and Warsaw-Chopin Mon/Wed/Fri.</span></li>
+      <li class="boc-t-car"><strong>Then as from REG</strong><span>Then continue as from REG airport – the fastest option is driving, about 40 minutes to Gambarie.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">From Rome or Naples</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Frecciarossa / Intercity</strong><span>The Tyrrhenian-line journey from Rome to Reggio Calabria Centrale takes about 5–5.5 hours; from Naples it is roughly 2 hours shorter.</span></li>
+      <li class="boc-t-bus"><strong>ATAM 319 from Centrale</strong><span>At Piazza Garibaldi beside the station, take ATAM 319 to Gambarie – approximately 1 hr 15–30 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-reggio-calabria">
+    <h3 class="boc-planner-origin">From Reggio Calabria</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive to Gambarie</strong><span>About 30 km and 40 minutes to Gambarie; use the public parking areas in the centre, near Piazza Mangeruca.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-bova">
+    <h3 class="boc-planner-origin">From Bova</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive through Aspromonte</strong><span>About 50 km by car to Gambarie. The park has no railway station, so driving is the most practical option.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-scilla">
+    <h3 class="boc-planner-origin">From Scilla</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive through Aspromonte</strong><span>About 65 km by car to Gambarie. The park has no railway station, so driving is the most practical option.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-locri">
+    <h3 class="boc-planner-origin">From Locri</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive through Aspromonte</strong><span>About 85 km by car to Gambarie. The park has no railway station, so driving is the most practical option.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-gerace">
+    <h3 class="boc-planner-origin">From Gerace</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive through Aspromonte</strong><span>About 90 km by car to Gambarie. The park has no railway station, so driving is the most practical option.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-stilo">
+    <h3 class="boc-planner-origin">From Stilo</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive through Aspromonte</strong><span>About 105 km by car to Gambarie. The park has no railway station, so driving is the most practical option.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Journey times are approximate. Timetables: Trenitalia, Ferrovie della Calabria, local operators.</p>
 </div>
 
 <div class="boc-nearby-box">

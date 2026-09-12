@@ -145,27 +145,96 @@ description: "Pollino National Park, the largest national park in Italy, captiva
 </div>
 </div>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Getting there</h2>
-<p class="boc-transport-summary"><span><em>Nearest airport:</em> Lamezia Terme (SUF) – about 140 km and around 1 hr 45 min by car to Castrovillari</span> <span><em>Railway station:</em> Sibari – about 30 km by road from Castrovillari; Sapri is the nearest station for Rotonda</span> <span><em>By car:</em> From SUF to Castrovillari via SS280 and the A2; use the Castrovillari-Frascineto or Morano Calabro-Castrovillari exit</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>By plane</strong>
-    <p>The most practical airport is Lamezia Terme (SUF), Calabria’s main airport – Castrovillari is about 140 km away, with a drive of around 1 hr 45 min. In the 2026 summer season, Ryanair flies to SUF from Kraków, Wrocław, Warsaw-Modlin (seasonally), and from Katowice from 2 June – on Tuesdays, Thursdays and Saturdays; Wizz Air flies from Katowice from 31 March – on Tuesdays, Thursdays and Saturdays – and from Warsaw-Chopin from April – on Mondays, Wednesdays and Fridays. In winter, flights from Poland usually require a connection in Rome, Milan or Bergamo.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>By car</strong>
-    <p>From Lamezia Terme Airport, take the SS280 to the A2 Autostrada del Mediterraneo, then head north. For Castrovillari and Morano Calabro, use the Castrovillari-Frascineto or Morano Calabro-Castrovillari exit; for Rotonda, the convenient exits are Lauria Sud, Laino Borgo and Campotenese. The park has no single central car park – leave your car in a marked car park at the chosen trailhead or in your accommodation town.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>By train</strong>
-    <p>There is no Trenitalia station inside the park or in Castrovillari. For Castrovillari, the most convenient rail gateway is Sibari, about 30 km away by road; for Rotonda, the nearest station is Sapri. From SUF Airport, take the Lamezia Airlink bus to Lamezia Terme Centrale – its stop is on Viale Rodolfo Imbrogno, about 50 metres from the arrivals exit; by selecting “Lamezia Terme Aeroporto” in Trenitalia, you can buy a combined ticket with a €1.80 bus supplement.</p>
-  </div>
-  <div class="boc-transport-item boc-t-bus">
-    <strong>By bus</strong>
-    <p>Busitalia operates between Sibari and Castrovillari on its Crotone–Salerno route – there are four services a day, stopping in both towns. Ferrovie della Calabria also runs line 377 from Cosenza to Castrovillari; the standard FdC timetable covers Monday to Saturday, excluding Sundays and public holidays. Buses reach the towns rather than the high-mountain trailheads – a car or a pre-arranged transfer is needed for access to the higher parts of the massif.</p>
-  </div>
+<p class="boc-planner-summary">The nearest airport is Lamezia Terme (SUF): about 140 km and 1 hr 45 min by car to Castrovillari. There is no railway station in the park; Sibari is the rail gateway for Castrovillari and Sapri for Rotonda.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-natura-pollino-index-html">Where are you coming from?</label>
+  <select id="planner-content-pl-natura-pollino-index-html" class="boc-planner-select">
+    <option value="suf">Lamezia Terme airport (SUF)</option>
+    <option value="reg">Reggio Calabria airport (REG)</option>
+    <option value="poland">From Poland – direct flights</option>
+    <option value="rome">From Rome or Naples</option>
+    <option value="nb-cosenza">From Cosenza</option>
+    <option value="nb-castrovillari">From Castrovillari</option>
+    <option value="nb-morano-calabro">From Morano Calabro</option>
+    <option value="nb-civita">From Civita</option>
+    <option value="nb-rotonda">From Rotonda</option>
+    <option value="nb-maratea">From Maratea</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="suf">
+    <h3 class="boc-planner-origin">Lamezia Terme airport (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>By car via SS280 and A2</strong><span>About 140 km and 1 hr 45 min to Castrovillari. Take SS280 then the northbound A2; exit at Castrovillari-Frascineto or Morano Calabro-Castrovillari.</span></li>
+      <li class="boc-t-car"><strong>Exits for Rotonda</strong><span>For Rotonda, use the Lauria Sud, Laino Borgo or Campotenese exit. Use signed parking by the trailhead or in your base town.</span></li>
+      <li class="boc-t-bus"><strong>Airlink to the station</strong><span>Lamezia Airlink links the terminal with Lamezia Terme Centrale about every 30 minutes. Select “Lamezia Terme Aeroporto” in Trenitalia; the bus supplement is €1.80.</span></li>
+      <li class="boc-t-bus"><strong>Sibari to Castrovillari</strong><span>Take the train to Sibari, then the Busitalia Crotone–Salerno service to Castrovillari. There are four daily services; higher trailheads require a transfer or car.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="reg">
+    <h3 class="boc-planner-origin">Reggio Calabria airport (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Aeroporto to Centrale</strong><span>Regional trains run from Reggio Calabria Aeroporto station to Reggio Calabria Centrale. From there, the most practical option is to continue with a hire car.</span></li>
+      <li class="boc-t-bus"><strong>ATAM into town</strong><span>ATAM city buses and taxis link the airport with Reggio Calabria. Use a car for the onward journey into Pollino.</span></li>
+      <li class="boc-t-car"><strong>Northbound on the A2</strong><span>Take the northbound A2: for Castrovillari and Morano use the Castrovillari-Frascineto or Morano Calabro-Castrovillari exit; for Rotonda use Lauria Sud, Laino Borgo or Campotenese.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">From Poland – direct flights</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Flights to SUF</strong><span>In summer 2026, Ryanair flies to SUF from KRK, WRO, WMI and KTW Tue/Thu/Sat; Wizz Air flies from KTW Tue/Thu/Sat and WAW Mon/Wed/Fri.</span></li>
+      <li class="boc-t-car"><strong>Then as from SUF</strong><span>Choose Lamezia Terme because it is the nearest airport: the fastest option is by car, about 140 km and 1 hr 45 min to Castrovillari via SS280 and the A2.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">From Rome or Naples</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Train to Lamezia</strong><span>Take a Frecciarossa or Intercity to Lamezia Terme Centrale: about 4–4.5 hours from Rome and roughly 2 hours less from Naples.</span></li>
+      <li class="boc-t-car"><strong>A2 to Castrovillari</strong><span>From the station, a hire car is most practical: take the northbound A2 and exit at Castrovillari-Frascineto or Morano Calabro-Castrovillari.</span></li>
+      <li class="boc-t-bus"><strong>Bus via Cosenza</strong><span>Alternatively, take FlixBus or MarinoBus to Cosenza, then Ferrovie della Calabria line 377 to Castrovillari. The line runs Monday–Saturday, excluding Sundays and public holidays.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-cosenza">
+    <h3 class="boc-planner-origin">From Cosenza</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>A2 to Castrovillari</strong><span>Take the northbound A2 and use the Castrovillari-Frascineto or Morano Calabro-Castrovillari exit. Continue by car for the park’s higher areas.</span></li>
+      <li class="boc-t-bus"><strong>FdC line 377</strong><span>Ferrovie della Calabria line 377 links Cosenza with Castrovillari from Monday to Saturday. A car or transfer is needed for high-mountain trailheads.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-castrovillari">
+    <h3 class="boc-planner-origin">From Castrovillari</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Trailhead parking</strong><span>Castrovillari is one of the park’s main gateways. Drive to your chosen starting point and use the signed parking area by the trailhead.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-morano-calabro">
+    <h3 class="boc-planner-origin">From Morano Calabro</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Local drive to trailheads</strong><span>Morano Calabro lies by one of Pollino’s gateways. Drive to your chosen access point and use the signed parking areas.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-civita">
+    <h3 class="boc-planner-origin">From Civita</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Local drive to trailheads</strong><span>From Civita, a car is the most convenient way to reach other parts of Pollino National Park. Park only in signed areas by roads and trailheads.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-rotonda">
+    <h3 class="boc-planner-origin">From Rotonda</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Local drive to trailheads</strong><span>Rotonda is the park headquarters and a convenient base for the western part of the massif. Drive to trailheads and use parking at the starting points.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-maratea">
+    <h3 class="boc-planner-origin">From Maratea</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Drive towards Rotonda</strong><span>The most convenient option is to drive towards Rotonda and Pollino’s western access points. A car is needed to reach the higher parts of the massif.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Journey times are approximate. Timetables: Trenitalia, Ferrovie della Calabria, local operators.</p>
 </div>
 
 <div class="boc-nearby-box">

@@ -182,27 +182,80 @@ description: "Reggio Calabria, największe miasto regionu Kalabria i strażnik C
 
 <p><!-- JAK DOJECHAĆ --></p>
 
-<div class="boc-transport-box">
+<div class="boc-transport-box boc-planner">
 <h2 class="boc-section-title">Jak dojechać</h2>
-<p class="boc-transport-summary"><span><em>Najbliższe lotnisko:</em> Lamezia Terme (SUF) – ok. 130 km od Reggio Calabria; Reggio Calabria (REG) – ok. 4 km od centrum</span> <span><em>Stacja kolejowa:</em> Reggio Calabria Centrale – główna stacja, przy centrum i Lungomare Falcomatà</span> <span><em>Samochodem:</em> Z Lamezia Terme do Reggio Calabria – ok. 130 km, zwykle 1 godz. 20 min–1 godz. 40 min autem</span></p>
-<div class="boc-transport-grid">
-  <div class="boc-transport-item boc-t-plane">
-    <strong>Samolotem</strong>
-    <p>Głównym lotniskiem Kalabrii jest Lamezia Terme (SUF), ok. 130 km od Reggio Calabria. Latem 2026 Ryanair lata tam z Krakowa, Wrocławia, Warszawy-Modlina i – od 2 czerwca – z Katowic, a Wizz Air z Katowic i Warszawy-Chopina; zimą najczęściej potrzebna jest przesiadka w Rzymie, Mediolanie lub Bergamo. Bliżej leży lotnisko Reggio Calabria (REG, „Tito Minniti”), ok. 4 km od centrum: Ryanair z Katowic lata tam we wtorki i soboty tylko do 22 października 2026, natomiast z Rzymu Fiumicino i Mediolanu dostępne są połączenia krajowe przez cały rok.</p>
-  </div>
-  <div class="boc-transport-item boc-t-car">
-    <strong>Samochodem</strong>
-    <p>Z lotniska Lamezia Terme jedź drogą SS280 do węzła Lamezia Terme, następnie autostradą A2 na południe; do Reggio Calabria jest ok. 130 km i zwykle 1 godz. 20 min–1 godz. 40 min jazdy. Do centrum prowadzi zjazd Reggio Centro/Calopinace. Na zwiedzanie śródmieścia wygodny jest Parcheggio Stazione Lido Nord przy Lungomare Falcomatà; podczas wydarzeń miejskich mogą obowiązywać czasowe ograniczenia wjazdu i parkowania.</p>
-  </div>
-  <div class="boc-transport-item boc-t-train">
-    <strong>Pociągiem</strong>
-    <p>Przy przylocie do SUF kup bilet do „Reggio Calabria Centrale”, wybierając jako stację początkową „Lamezia Terme Aeroporto”. Autobus Lamezia Airlink kursuje między lotniskiem a Lamezia Terme Centrale mniej więcej co 30 minut; przystanek przy Viale Rodolfo Imbrogno znajduje się ok. 50 m od wyjścia z przylotów, a dopłata do biletu kolejowego wynosi 1,80 €. Z Lamezia Terme Centrale do Reggio Calabria Centrale jadą pociągi regionalne, Intercity i Frecce – połączenia regionalne zajmują zwykle ok. 2 godz. 40 min, a szybsze składy mniej; z Roma Termini dostępne są bezpośrednie Frecciarossa i Intercity.</p>
-  </div>
-  <div class="boc-transport-item boc-t-ferry">
-    <strong>Promem</strong>
-    <p>Do Mesyny na Sycylii popłyniesz z Villa San Giovanni, na północ od Reggio Calabria. Promy Caronte &amp; Tourist kursują całą dobę, z gwarantowanymi odjazdami co 40 minut, a przeprawa trwa ok. 20 minut. Na trasie działają też promy Bluferries.</p>
-  </div>
+<p class="boc-planner-summary">Najbliżej leży lotnisko Reggio Calabria (REG): ok. 4 km i ok. 10 min od centrum; główna stacja to Reggio Calabria Centrale przy Lungomare Falcomatà.</p>
+<div class="boc-planner-control">
+  <label for="planner-content-pl-kierunki-reggio-calabria-index-html">Skąd jedziesz?</label>
+  <select id="planner-content-pl-kierunki-reggio-calabria-index-html" class="boc-planner-select">
+    <option value="reg">Lotnisko Reggio Calabria (REG)</option>
+    <option value="suf">Lotnisko Lamezia Terme (SUF)</option>
+    <option value="poland">Z Polski – loty bezpośrednie</option>
+    <option value="rome">Z Rzymu lub Neapolu</option>
+    <option value="nb-scilla">Ze Scilli</option>
+    <option value="nb-bova">Z Bovy</option>
+    <option value="nb-aspromonte">Z Parku Narodowego Aspromonte</option>
+    <option value="nb-gerace">Z Gerace</option>
+  </select>
 </div>
+<div class="boc-planner-panels">
+  <section class="boc-planner-panel is-active" data-origin="reg">
+    <h3 class="boc-planner-origin">Lotnisko Reggio Calabria (REG)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-taxi"><strong>Taksówką do centrum</strong><span>Ok. 4 km i zwykle ok. 10 min do centrum Reggio Calabria.</span></li>
+      <li class="boc-t-train"><strong>Pociąg regionalny</strong><span>Ze stacji Reggio Calabria Aeroporto jedź pociągiem regionalnym do Reggio Calabria Centrale, przy centrum i Lungomare.</span></li>
+      <li class="boc-t-bus"><strong>Autobusy ATAM</strong><span>Autobusy miejskie ATAM łączą lotnisko z miastem; wysiądź w rejonie centrum lub stacji Centrale.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="suf">
+    <h3 class="boc-planner-origin">Lotnisko Lamezia Terme (SUF)</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem SS280 i A2</strong><span>Ok. 130 km i 1 godz. 20 min–1 godz. 40 min drogami SS280 i A2 na południe; zjazd Reggio Centro/Calopinace.</span></li>
+      <li class="boc-t-car"><strong>Parking przy Lungomare</strong><span>Na zwiedzanie centrum wybierz Parcheggio Stazione Lido Nord przy Lungomare Falcomatà; podczas wydarzeń możliwe są ograniczenia.</span></li>
+      <li class="boc-t-train"><strong>Airlink + pociąg</strong><span>Lamezia Airlink do Centrale kursuje co ok. 30 min; potem pociąg do Reggio Calabria Centrale. Regionalny jedzie zwykle ok. 2 godz. 40 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="poland">
+    <h3 class="boc-planner-origin">Z Polski – loty bezpośrednie</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-plane"><strong>Katowice → REG</strong><span>Wybierz REG: jest najbliżej centrum. Ryanair z Katowic lata we wtorki i soboty do 22 października 2026.</span></li>
+      <li class="boc-t-taxi"><strong>Dalej jak z REG</strong><span>Dalej jak z lotniska REG: najszybciej taksówką, ok. 10 min do centrum.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="rome">
+    <h3 class="boc-planner-origin">Z Rzymu lub Neapolu</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-train"><strong>Frecciarossa lub Intercity</strong><span>Bezpośrednio do Reggio Calabria Centrale: z Rzymu ok. 5–5,5 godz., z Neapolu ok. 2 godz. krócej.</span></li>
+      <li class="boc-t-bus"><strong>FlixBus lub MarinoBus</strong><span>Autobusy FlixBus i MarinoBus kursują z Rzymu oraz Neapolu do Reggio Calabria.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-scilla">
+    <h3 class="boc-planner-origin">Ze Scilli</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem A2 lub SS18</strong><span>Ok. 20 min drogą A2 lub SS18 w kierunku Reggio Calabria.</span></li>
+      <li class="boc-t-train"><strong>Pociąg regionalny</strong><span>Ze stacji Scilla do Reggio Calabria Centrale, tą samą linią tyrreńską; zwykle ok. 25–35 min.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-bova">
+    <h3 class="boc-planner-origin">Z Bovy</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem do Reggio</strong><span>Ok. 45 min autem z Bovy do centrum Reggio Calabria.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-aspromonte">
+    <h3 class="boc-planner-origin">Z Parku Narodowego Aspromonte</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem z Aspromonte</strong><span>Ok. 30 min autem od najbliższych wejść do parku do Reggio Calabria; park nie ma własnej stacji kolejowej.</span></li>
+    </ul>
+  </section>
+  <section class="boc-planner-panel" data-origin="nb-gerace">
+    <h3 class="boc-planner-origin">Z Gerace</h3>
+    <ul class="boc-planner-steps">
+      <li class="boc-t-car"><strong>Autem przez wybrzeże jońskie</strong><span>Ok. 1,5 godz. autem z Gerace do Reggio Calabria. Gerace nie ma własnej stacji kolejowej.</span></li>
+    </ul>
+  </section>
+</div>
+<p class="boc-planner-note">Czasy przejazdu orientacyjne. Rozkłady: Trenitalia, Ferrovie della Calabria, przewoźnicy lokalni.</p>
 </div>
 
 <p><!-- W POBLIŻU --></p>

@@ -1841,3 +1841,20 @@ body:not(.is-home) .site-main {
   .boc-weather { grid-column: 1 / -1; }
   .boc-weather-days { grid-template-columns: repeat(6, 1fr); max-width: 420px; }
 }
+
+/* ── Facebook: stopka + ramka „Skomentuj” ── */
+.footer-social { display: inline-flex; align-items: center; gap: 0.5rem; margin-top: 0.9rem; color: #fff; text-decoration: none; font-size: 0.88rem; font-weight: 500; opacity: 0.85; transition: opacity 0.2s; }
+.footer-social:hover { opacity: 1; text-decoration: underline; }
+.footer-social .icon-fb { width: 22px; height: 22px; color: #fff; }
+.boc-fb-cta { display: flex; align-items: center; justify-content: space-between; gap: 1.2rem; flex-wrap: wrap; margin-top: 2.5rem; padding: 1.2rem 1.5rem; background: #EEF5F9; border: 1px solid #B9D2E0; border-left: 4px solid #1B4D6E; border-radius: 10px; }
+.boc-fb-cta-text { display: flex; flex-direction: column; gap: 0.2rem; flex: 1 1 280px; }
+.boc-fb-cta-text strong { font-family: 'Bodoni Moda', serif; font-size: 1.05rem; color: #1B4D6E; }
+.boc-fb-cta-text span { font-size: 0.88rem; color: #5a4f45; line-height: 1.45; }
+.boc-fb-cta-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.boc-fb-btn { display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.55rem 1rem; background: #1877F2; color: #fff !important; border: 1px solid #1877F2; border-radius: 6px; font-size: 0.85rem; font-weight: 600; text-decoration: none !important; white-space: nowrap; transition: background 0.2s, color 0.2s; }
+.boc-fb-btn:hover { background: #145FCC; border-color: #145FCC; }
+.boc-fb-btn .icon-fb { width: 18px; height: 18px; }
+.boc-fb-btn-light { background: #fff; color: #1B4D6E !important; border-color: #1B4D6E; }
+.boc-fb-btn-light:hover { background: #1B4D6E; color: #fff !important; }
+.page-content .boc-fb-cta + .author-box { margin-top: 1.2rem; }
+@media (max-width: 600px) { .boc-fb-cta { padding: 1rem 1.1rem; } .boc-fb-cta-actions { width: 100%; } .boc-fb-btn { flex: 1 1 auto; justify-content: center; } }

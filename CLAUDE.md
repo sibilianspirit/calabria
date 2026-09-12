@@ -234,6 +234,7 @@ No text, no watermarks, no people in foreground.
 - Licencja Open-Meteo: darmowa do użytku niekomercyjnego – przy wdrożeniu AdSense/affiliate rozważyć plan płatny albo Cloudflare Worker z cache
 
 ## Stan 2026-09-12 (3) – publikator FB + plan bloga
+- Strona FB: https://www.facebook.com/poznajkalabrie/ – parametr `facebook` w hugo.toml; użyty w stopce (`.footer-social`), ramce `boc-fb-cta` (partial fb-cta.html: „Skomentuj na Facebooku” + „Udostępnij”, pod treścią nad author-boxem, nie na o-nas/kontakt/wspolpraca) i w schema Organization `sameAs`
 - Auto-publikator Facebook: `.github/workflows/fb-daily-post.yml` (cron 18:00 UTC + ręczne `dry_run` / `pick`), skrypt `scripts/fb_publish.py`, testy `scripts/test_fb_publish.py`, stan `.fb-published.json` (commit bota po każdym poście), instrukcja tokenów `docs/FB_SETUP.md`
 - Pula: 80 stron z content/pl (bez homepage, listingów sekcji, kontakt/o-nas/wspolpraca); tekst posta z OpenRouter (chat completions, reasoning low), publikacja przez webhook Make.com; FB post = message + link (podgląd z Open Graph)
 - Format posta: zdjęcie hero (og:image) + podpis, link w pierwszym komentarzu. Scenariusz Make: Webhook → HTTP Get a file (image) → Facebook Pages Upload a Photo (File name stałe `zdjecie.webp`, Data z HTTP, caption=message) → Create a Comment (Post ID z modułu zdjęcia, text=comment). Po edycji scenariusza sprawdzić przełącznik „Immediately as data arrives” – Make wyłącza go przy zapisie. Odpowiedź webhooka to „Accepted” (bez id posta) – TODO: moduł Webhook response

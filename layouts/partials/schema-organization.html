@@ -7,6 +7,7 @@
   "logo" (printf "%simages/logo.png" .Site.BaseURL)
   "description" (cond (eq .Lang "pl") "Kompletny przewodnik po Kalabrii – południowe Włochy" "The complete guide to Calabria – southern Italy")
 }}
+{{ with .Site.Params.facebook }}{{ $schema = merge $schema (dict "sameAs" (slice .)) }}{{ end }}
 <script type="application/ld+json">
 {{ $schema | jsonify (dict "indent" "  ") | safeJS }}
 </script>

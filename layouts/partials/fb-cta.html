@@ -1,0 +1,16 @@
+{{/* Ramka „Skomentuj na Facebooku” + udostępnij – pod treścią, nad author-boxem. Pomijana na stronach informacyjnych. */}}
+{{ $fb := .Site.Params.facebook }}
+{{ $skip := slice "o-nas" "kontakt" "wspolpraca" "about" "contact" "partnership" }}
+{{ if and $fb .Section (not (in $skip .Section)) (in (slice "page" "section") .Kind) }}
+{{ $pl := eq .Lang "pl" }}
+<aside class="boc-fb-cta">
+  <div class="boc-fb-cta-text">
+    <strong>{{ if $pl }}Masz pytanie albo własne wskazówki do tego tematu?{{ else }}Have a question or your own tips on this topic?{{ end }}</strong>
+    <span>{{ if $pl }}Każdy artykuł publikujemy na naszej stronie na Facebooku – tam najszybciej odpowiadamy.{{ else }}Every article goes out on our Facebook page – that is where we answer fastest.{{ end }}</span>
+  </div>
+  <div class="boc-fb-cta-actions">
+    <a class="boc-fb-btn" href="{{ $fb }}" target="_blank" rel="noopener">{{ partial "icon-facebook.html" }} {{ if $pl }}Skomentuj na Facebooku{{ else }}Comment on Facebook{{ end }}</a>
+    <a class="boc-fb-btn boc-fb-btn-light" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}" target="_blank" rel="noopener nofollow">{{ if $pl }}Udostępnij{{ else }}Share{{ end }}</a>
+  </div>
+</aside>
+{{ end }}

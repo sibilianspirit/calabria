@@ -31,4 +31,5 @@ enableGitInfo = true
       unsafe = true
 
 [params]
+  facebook = "https://www.facebook.com/poznajkalabrie/"
   description = "Discover the best of Calabria – stunning beaches, ancient towns, and authentic Italian cuisine in southern Italy's hidden gem."

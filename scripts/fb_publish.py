@@ -171,7 +171,7 @@ def _with_retry(fn, attempts: int = 3, delays=(2, 4, 10)):
 
 def generate_fb_text(title: str, description: str, body: str, *, model: str | None = None) -> str:
     api_key = os.environ["OPENAI_API_KEY"]
-    model = model or os.environ.get("OPENAI_MODEL", DEFAULT_MODEL)
+    model = model or os.environ.get("OPENAI_MODEL") or DEFAULT_MODEL
     payload = {
         "model": model,
         "reasoning": {"effort": "low"},
@@ -192,6 +192,8 @@ def generate_fb_text(title: str, description: str, body: str, *, model: str | No
             json=payload,
             timeout=120,
         )
+        if r.status_code >= 400:
+            print(f"[openai] HTTP {r.status_code} (model={model}): {r.text[:500]}", file=sys.stderr)
         r.raise_for_status()
         data = r.json()
         if data.get("error"):

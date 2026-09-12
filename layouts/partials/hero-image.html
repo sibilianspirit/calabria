@@ -1,6 +1,5 @@
-{{/* Page Hero — city/section/article pages */}}
-{{ $section := "" }}
-{{ $sectionPL := "" }}
+{{/* Zwraca ścieżkę obrazu hero strony (slug → pierwszy <img> w treści → slug rodzica → domyślny dla sekcji).
+     Używany przez page-hero.html i og:image w baseof.html. */}}
 {{ $heroImage := "" }}
 {{ $pageSlug := .Slug }}
 
@@ -51,36 +50,38 @@
   "blog" "/images/wp-uploads/2026/03/najlepsze-plaze-blog.webp"
 }}
 
-{{/* Determine section from current section */}}
 {{ $sectionName := .Section }}
-{{ if or (eq $sectionName "destinations") (eq $sectionName "kierunki") }}
-  {{ $section = "DESTINATIONS" }}
-  {{ $sectionPL = "KIERUNKI" }}
-{{ else if or (eq $sectionName "nature") (eq $sectionName "natura") }}
-  {{ $section = "NATURE" }}
-  {{ $sectionPL = "NATURA" }}
-{{ else if or (eq $sectionName "cuisine") (eq $sectionName "kuchnia") }}
-  {{ $section = "CUISINE" }}
-  {{ $sectionPL = "KUCHNIA" }}
-{{ else if or (eq $sectionName "culture") (eq $sectionName "kultura") }}
-  {{ $section = "CULTURE" }}
-  {{ $sectionPL = "KULTURA" }}
-{{ else if or (eq $sectionName "practical") (eq $sectionName "praktyczne") }}
-  {{ $section = "PRACTICAL" }}
-  {{ $sectionPL = "PRAKTYCZNE" }}
-{{ else if eq $sectionName "blog" }}
-  {{ $section = "BLOG" }}
-  {{ $sectionPL = "BLOG" }}
+
+{{/* 1. Try exact slug match in imageMap */}}
+{{ with index $imageMap $pageSlug }}
+  {{ $heroImage = . }}
 {{ end }}
 
-{{ $heroImage = partial "hero-image.html" . }}
-
-<section class="page-hero{{ if $heroImage }} has-bg{{ end }}"{{ if $heroImage }} style="--hero-bg: url('{{ $heroImage }}')"{{ end }}>
-  <div class="container-wide">
-    {{ if $section }}
-    <div class="page-hero-kicker">{{ if eq $.Lang "pl" }}{{ $sectionPL }}{{ else }}{{ $section }}{{ end }} &middot; CALABRIA</div>
+{{/* 2. If no match, try to extract first <img> src from page content */}}
+{{ if not $heroImage }}
+  {{ $content := .RawContent }}
+  {{ if findRE `<img[^>]+src="([^"]+)"` $content }}
+    {{ $match := index (findRE `src="(/images/[^"]+)"` $content) 0 }}
+    {{ if $match }}
+      {{ $heroImage = replaceRE `src="([^"]+)"` "$1" $match }}
     {{ end }}
-    <h1>{{ .Title }}</h1>
-    <div class="page-hero-line"></div>
-  </div>
-</section>
+  {{ end }}
+{{ end }}
+
+{{/* 3. If still no match, try parent page slug (for attraction subpages under cities) */}}
+{{ if not $heroImage }}
+  {{ if .Parent }}
+    {{ with index $imageMap .Parent.Slug }}
+      {{ $heroImage = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* 4. Last fallback: section default image */}}
+{{ if not $heroImage }}
+  {{ with index $sectionFallback $sectionName }}
+    {{ $heroImage = . }}
+  {{ end }}
+{{ end }}
+
+{{ return $heroImage }}

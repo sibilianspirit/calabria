@@ -7,6 +7,29 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="{{ .Permalink }}">
+  {{- $base := .Site.BaseURL | strings.TrimRight "/" }}
+  {{- $ogImage := "" }}
+  {{- if .IsHome }}{{ $ogImage = "/images/hero-calabria.webp" }}{{ else }}{{ $ogImage = partial "hero-image.html" . }}{{ end }}
+  {{- if not $ogImage }}{{ $ogImage = "/images/hero-calabria.webp" }}{{ end }}
+  {{- if and $ogImage (not (hasPrefix $ogImage "http")) }}{{ $ogImage = printf "%s%s" $base $ogImage }}{{ end }}
+  {{- $ogTitle := cond .IsHome (printf "%s – %s" .Site.Title (cond (eq .Lang "pl") "Kompletny przewodnik po Kalabrii" "Complete Guide to Calabria")) .Title }}
+  {{- $ogDesc := .Description | default .Site.Params.description }}
+  <meta property="og:type" content="{{ if eq .Section "blog" }}article{{ else }}website{{ end }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:locale" content="{{ if eq .Lang "pl" }}pl_PL{{ else }}en_GB{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="{{ $ogTitle }}">
+  <meta property="og:description" content="{{ $ogDesc }}">
+  {{- if $ogImage }}
+  <meta property="og:image" content="{{ $ogImage }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ $ogImage }}">
+  {{- end }}
+  <meta name="twitter:title" content="{{ $ogTitle }}">
+  <meta name="twitter:description" content="{{ $ogDesc }}">
+  {{- range .Translations }}
+  <meta property="og:locale:alternate" content="{{ if eq .Lang "pl" }}pl_PL{{ else }}en_GB{{ end }}">
+  {{- end }}
   <meta name="google-site-verification" content="c2RDmRK6ok8KM46aO7ftlzPvl2RN5ZyyJ9UvK_fVh5w" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/css/style.css?v=40">

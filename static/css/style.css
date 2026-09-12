@@ -1302,10 +1302,34 @@ body:not(.is-home) .site-main {
   display: flex;
   flex-direction: column;
 }
+/* ikony wg trybu (klasa), fallback wg pozycji dla starych ramek */
 .boc-transport-item:nth-child(1) strong::before { content: '\2708'; }
 .boc-transport-item:nth-child(2) strong::before { content: '\01F686'; }
 .boc-transport-item:nth-child(3) strong::before { content: '\26F4'; }
 .boc-transport-item:nth-child(4) strong::before { content: '\01F697'; }
+.boc-transport-item.boc-t-plane strong::before { content: '\2708'; }
+.boc-transport-item.boc-t-car strong::before { content: '\01F697'; }
+.boc-transport-item.boc-t-train strong::before { content: '\01F686'; }
+.boc-transport-item.boc-t-bus strong::before { content: '\01F68C'; }
+.boc-transport-item.boc-t-ferry strong::before { content: '\26F4'; }
+.boc-transport-item.boc-t-walk strong::before { content: '\01F6B6'; }
+.boc-transport-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.6rem;
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: #2A2520;
+  line-height: 1.5;
+}
+.boc-transport-summary em {
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8C7B6B;
+  margin-right: 0.3rem;
+}
 .boc-transport-item strong::before {
   font-size: 1.4em;
   margin-right: 10px;

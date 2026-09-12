@@ -240,11 +240,24 @@ def publish_to_fb(message: str, link: str) -> str:
     return publish_via_graph(message, link)
 
 
+def og_image(page_url: str) -> str | None:
+    """Adres zdjęcia z og:image opublikowanej strony (do posta ze zdjęciem + link w komentarzu)."""
+    try:
+        r = requests.get(page_url, timeout=20, headers={"User-Agent": "bestofcalabria-fb-publisher"})
+        r.raise_for_status()
+        m = re.search(r'<meta property="og:image" content="([^"]+)"', r.text)
+        return m.group(1) if m else None
+    except Exception as exc:
+        print(f"[warn] og:image {page_url}: {exc}", file=sys.stderr)
+        return None
+
+
 def publish_via_webhook(message: str, link: str) -> str:
     url = os.environ["FB_WEBHOOK_URL"]
+    payload = {"message": message, "link": link, "image": og_image(link), "comment": f"Cały artykuł: {link}"}
 
     def call():
-        r = requests.post(url, json={"message": message, "link": link}, timeout=60)
+        r = requests.post(url, json=payload, timeout=60)
         if r.status_code >= 400:
             print(f"[webhook] HTTP {r.status_code}: {r.text[:300]}", file=sys.stderr)
         r.raise_for_status()

@@ -1,0 +1,54 @@
+name: FB Daily Post
+
+on:
+  schedule:
+    - cron: '0 18 * * *'   # 18:00 UTC = 19:00 CET zimą / 20:00 CEST latem
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run – bez publikacji na FB i bez commitu'
+        type: boolean
+        default: false
+      pick:
+        description: 'Wymuś stronę (np. kierunki/tropea/_index.html); puste = losowanie'
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: fb-daily-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Testy jednostkowe
+        run: python -m pytest scripts/ -q
+
+      - name: Publikacja
+        run: python scripts/fb_publish.py
+        env:
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          DRY_RUN: ${{ inputs.dry_run == true && 'true' || 'false' }}
+          PICK: ${{ inputs.pick }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}

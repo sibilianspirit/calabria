@@ -32,7 +32,7 @@
   {{- end }}
   <meta name="google-site-verification" content="c2RDmRK6ok8KM46aO7ftlzPvl2RN5ZyyJ9UvK_fVh5w" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/css/style.css?v=41">
+  <link rel="stylesheet" href="/css/style.css?v=42">
   {{ partial "schema-website.html" . }}
   {{ partial "schema-organization.html" . }}
 </head>
@@ -338,6 +338,18 @@
     </div>
   </footer>
 
+  {{ if not .IsHome }}
+  {{ $pl := eq .Lang "pl" }}
+  <div class="boc-float" aria-label="{{ if $pl }}Skróty{{ else }}Shortcuts{{ end }}">
+    <button type="button" class="boc-float-btn boc-float-weather" hidden aria-label="{{ if $pl }}Przejdź do pogody{{ else }}Go to weather{{ end }}">
+      <span class="boc-float-wx-icon"></span><span class="boc-float-wx-temp">{{ if $pl }}Pogoda{{ else }}Weather{{ end }}</span>
+    </button>
+    <button type="button" class="boc-float-btn boc-float-top" aria-label="{{ if $pl }}Wróć na górę strony{{ else }}Back to top{{ end }}" title="{{ if $pl }}Do góry{{ else }}Back to top{{ end }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+  </div>
+  {{ end }}
+
   <script>
     (function() {
       var header = document.getElementById('site-header');
@@ -482,6 +494,11 @@
         h += '</ol>';
         body.innerHTML = h;
         box.classList.add('is-loaded');
+        var chip = document.querySelector('.boc-float-weather');
+        if (chip) {
+          chip.querySelector('.boc-float-wx-icon').innerHTML = svg(c[1]);
+          chip.querySelector('.boc-float-wx-temp').textContent = r(cur.temperature_2m) + '°';
+        }
       }
       var key = 'bocWx:' + lat + ',' + lon;
       try {
@@ -499,6 +516,29 @@
         render(d);
         try { sessionStorage.setItem(key, JSON.stringify({ t: Date.now(), d: d })); } catch (e) {}
       }).catch(function() { body.innerHTML = '<p class="boc-weather-loading">' + T.err + '</p>'; });
+    })();
+    // Pływające skróty: „do góry” + skok do widgetu pogody (mobile)
+    (function() {
+      var wrap = document.querySelector('.boc-float');
+      if (!wrap) return;
+      var top = wrap.querySelector('.boc-float-top'), chip = wrap.querySelector('.boc-float-weather');
+      var wx = document.querySelector('.boc-weather'), wxVisible = false, ticking = false;
+      if (wx) chip.hidden = false;
+      function update() {
+        ticking = false;
+        var y = window.scrollY || window.pageYOffset;
+        top.classList.toggle('is-visible', y > 700);
+        if (wx) chip.classList.toggle('is-visible', y > 300 && !wxVisible);
+      }
+      window.addEventListener('scroll', function() {
+        if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+      }, { passive: true });
+      if (wx && 'IntersectionObserver' in window) {
+        new IntersectionObserver(function(e) { wxVisible = e[0].isIntersecting; update(); }).observe(wx);
+      }
+      top.addEventListener('click', function() { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+      if (wx) chip.addEventListener('click', function() { wx.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+      update();
     })();
   </script>
 </body>

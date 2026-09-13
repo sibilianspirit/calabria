@@ -1858,3 +1858,18 @@ body:not(.is-home) .site-main {
 .boc-fb-btn-light:hover { background: #1B4D6E; color: #fff !important; }
 .page-content .boc-fb-cta + .author-box { margin-top: 1.2rem; }
 @media (max-width: 600px) { .boc-fb-cta { padding: 1rem 1.1rem; } .boc-fb-cta-actions { width: 100%; } .boc-fb-btn { flex: 1 1 auto; justify-content: center; } }
+
+/* ── Pływające skróty: do góry + pogoda (boc-float) ── */
+.boc-float { position: fixed; right: calc(1rem + env(safe-area-inset-right, 0px)); bottom: calc(1rem + env(safe-area-inset-bottom, 0px)); z-index: 900; display: flex; flex-direction: column; align-items: flex-end; gap: 0.6rem; pointer-events: none; }
+.boc-float-btn { pointer-events: none; opacity: 0; transform: translateY(10px); transition: opacity 0.25s, transform 0.25s, background 0.2s; display: inline-flex; align-items: center; justify-content: center; border: 1px solid #1B4D6E; cursor: pointer; font-family: inherit; box-shadow: 0 4px 14px rgba(15,46,66,0.22); -webkit-tap-highlight-color: transparent; }
+.boc-float-btn.is-visible { opacity: 1; transform: none; pointer-events: auto; }
+.boc-float-top { width: 46px; height: 46px; border-radius: 50%; background: #1B4D6E; color: #fff; }
+.boc-float-top svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.boc-float-top:hover { background: #0F2E42; }
+.boc-float-weather { gap: 0.35rem; height: 40px; padding: 0 0.85rem 0 0.55rem; border-radius: 999px; background: #fff; color: #1B4D6E; font-size: 0.88rem; font-weight: 700; }
+.boc-float-weather .boc-wi { width: 24px; height: 24px; display: block; }
+.boc-float-wx-icon:empty { display: none; }
+.boc-float-weather[hidden] { display: none; }
+.boc-weather { scroll-margin-top: 90px; }
+@media (min-width: 961px) { .boc-float-weather { display: none; } }
+@media print { .boc-float { display: none; } }

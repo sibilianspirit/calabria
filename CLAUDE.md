@@ -241,3 +241,6 @@ No text, no watermarks, no people in foreground.
 - Sekrety GitHub: `OPENROUTER_API_KEY` (model openai/gpt-5.6-luna) i `FB_WEBHOOK_URL` (Make.com → Facebook Pages, bez konta dewelopera Meta) ustawione; publikator działa od 2026-09-12, pierwszy post: Tropea
 - Open Graph: og:image = obraz hero (partial `hero-image.html`), fallback hero-calabria.webp
 - Plan bloga: `docs/blog-content-plan-2026-2027.md` – 24 wpisy PL+EN, kalendarz 2/mies. paź 2026–wrz 2027, luki w Kierunkach (Scalea, Parghelia, Soverato, Lamezia)
+
+## Stan 2026-09-13 – pływające skróty
+- `.boc-float` w baseof.html (poza homepage): przycisk `.boc-float-top` („Do góry”, po 700 px scrolla) + `.boc-float-weather` (tylko ≤960 px i tylko gdy jest `.boc-weather`) – pigułka z ikoną i temperaturą z renderu widgetu, przewija do widgetu, chowa się gdy widget widoczny (IntersectionObserver); CSS v=42

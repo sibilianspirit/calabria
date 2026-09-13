@@ -244,3 +244,9 @@ No text, no watermarks, no people in foreground.
 
 ## Stan 2026-09-13 – pływające skróty
 - `.boc-float` w baseof.html (poza homepage): przycisk `.boc-float-top` („Do góry”, po 700 px scrolla) + `.boc-float-weather` (tylko ≤960 px i tylko gdy jest `.boc-weather`) – pigułka z ikoną i temperaturą z renderu widgetu, przewija do widgetu, chowa się gdy widget widoczny (IntersectionObserver); CSS v=42
+
+## Stan 2026-09-13 (2) – blog: pierwsze wpisy z planu
+- Napisane wpisy #1 „Kalabria – co zobaczyć? 25 miejsc” (`kalabria-co-zobaczyc` / `things-to-do-in-calabria`, date 2026-10-01) i #2 „Pogoda w Kalabrii miesiąc po miesiącu” (`pogoda-w-kalabrii` / `calabria-weather-by-month`, date 2026-10-15) – PL+EN jako .md w Downloads użytkownika, jeszcze NIE w content/
+- Format wpisu .md: frontmatter (title, slug, date, translationKey, image, description) + Markdown z surowym HTML (boc-toc, boc-faq-box, boc-sources-box, figure boc-photo); nagłówki `## Tytuł {#id}` pod kotwice spisu treści
+- Przyszła data = wpis niewidoczny do tego dnia (Hugo bez buildFuture)
+- TODO: wrzucić do content/pl/blog i content/en/blog, fact-check (fact-checker/), linki zwrotne z 2–3 stron encyklopedycznych

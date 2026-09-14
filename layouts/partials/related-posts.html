@@ -1,0 +1,19 @@
+{{/* Powiązane wpisy – do 3 najnowszych innych wpisów z bloga w tym samym języku. Pod author-boxem we wpisie. */}}
+{{ $posts := where (where .Site.RegularPages "Section" "blog") "RelPermalink" "!=" .RelPermalink }}
+{{ with first 3 $posts.ByDate.Reverse }}
+{{ $pl := eq $.Lang "pl" }}
+<aside class="boc-related">
+  <h2 class="boc-section-title">{{ if $pl }}Przeczytaj też{{ else }}Read next{{ end }}</h2>
+  <div class="boc-related-grid">
+    {{ range . }}
+    <a href="{{ .RelPermalink }}" class="blog-card">
+      {{ with .Params.image }}<img src="{{ . }}" alt="" loading="lazy">{{ end }}
+      <div class="blog-card-body">
+        <div class="blog-card-date">{{ partial "date-format.html" . }}</div>
+        <h3>{{ .Title }}</h3>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</aside>
+{{ end }}

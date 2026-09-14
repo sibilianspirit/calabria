@@ -250,3 +250,8 @@ No text, no watermarks, no people in foreground.
 - Format wpisu .md: frontmatter (title, slug, date, translationKey, image, description) + Markdown z surowym HTML (boc-toc, boc-faq-box, boc-sources-box, figure boc-photo); nagłówki `## Tytuł {#id}` pod kotwice spisu treści
 - Przyszła data = wpis niewidoczny do tego dnia (Hugo bez buildFuture)
 - TODO: linki zwrotne z 2–3 stron encyklopedycznych (Tropea, Jak dojechać, Plan na 7 dni); kolejne wpisy z planu: #3 Mapa Kalabrii, #9 Czy Kalabria jest bezpieczna + E1 Where is Calabria
+
+## Stan 2026-09-14 – powiązane wpisy na blogu
+- Partial `layouts/partials/related-posts.html` w `layouts/blog/single.html` pod author-boxem: sekcja „Przeczytaj też” / „Read next” – do 3 najnowszych innych wpisów z bloga w tym samym języku (bez tagów, sortowanie po dacie), karty `.blog-card` z `image:` z frontmattera
+- CSS `.boc-related` (v=43): 3 kolumny na desktopie, poziome karty z miniaturą 110×80 na ≤600 px; nadpisuje `.page-content h3` (kreska, niebieski)
+- Hugo server na /mnt/c w WSL nie wykrywa zmian w plikach – po edycji CSS/szablonów restartować serwer

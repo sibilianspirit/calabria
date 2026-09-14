@@ -1873,3 +1873,20 @@ body:not(.is-home) .site-main {
 .boc-weather { scroll-margin-top: 90px; }
 @media (min-width: 961px) { .boc-float-weather { display: none; } }
 @media print { .boc-float { display: none; } }
+
+/* ── Powiązane wpisy (boc-related) ── */
+.boc-related { margin-top: 2.5rem; }
+.page-content .boc-related .boc-section-title { margin-bottom: 1.2rem; }
+.boc-related-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.page-content .boc-related .blog-card { color: #2A2520; text-decoration: none; }
+.page-content .boc-related .blog-card img { height: 140px; margin: 0; border-radius: 10px; }
+.page-content .boc-related .blog-card-body { padding-top: 0.8rem; }
+.page-content .boc-related .blog-card h3 { font-size: 1.05rem; font-weight: 400; font-style: italic; color: #2A2520; margin: 0; padding-left: 0; border-left: 0; line-height: 1.3; }
+.page-content .boc-related .blog-card:hover h3 { color: #1B4D6E; }
+@media (max-width: 600px) {
+  .boc-related-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .page-content .boc-related .blog-card { flex-direction: row; align-items: center; gap: 0.9rem; }
+  .page-content .boc-related .blog-card:hover { transform: none; }
+  .page-content .boc-related .blog-card img { width: 110px; height: 80px; flex: 0 0 110px; border-radius: 8px; }
+  .page-content .boc-related .blog-card-body { padding-top: 0; }
+}

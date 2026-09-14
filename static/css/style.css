@@ -1538,6 +1538,8 @@ body:not(.is-home) .site-main {
   background: #FAF8F5;
 }
 .boc-info-table { width: 100%; border-collapse: collapse; }
+.page-content .boc-info-box .boc-info-table { margin: 0; }
+.boc-info-table td a { margin: 2px 0; }
 .boc-info-table tr { border-bottom: 1px solid #EDE8E1; }
 .boc-info-table tr:last-child { border-bottom: none; }
 .boc-info-table td { padding: 1rem 1.2rem; font-size: 0.9rem; vertical-align: middle; }

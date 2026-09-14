@@ -255,3 +255,10 @@ No text, no watermarks, no people in foreground.
 - Partial `layouts/partials/related-posts.html` w `layouts/blog/single.html` pod author-boxem: sekcja „Przeczytaj też” / „Read next” – do 3 najnowszych innych wpisów z bloga w tym samym języku (bez tagów, sortowanie po dacie), karty `.blog-card` z `image:` z frontmattera
 - CSS `.boc-related` (v=43): 3 kolumny na desktopie, poziome karty z miniaturą 110×80 na ≤600 px; nadpisuje `.page-content h3` (kreska, niebieski)
 - Hugo server na /mnt/c w WSL nie wykrywa zmian w plikach – po edycji CSS/szablonów restartować serwer
+
+## Stan 2026-09-14 (2) – Jak dojechać + Wynajem samochodu (PL+EN)
+- „Jak dojechać”: nowa sekcja „Loty z Polski” (tabela lato 2026 / zima 2026/27: KTW–REG Ryanair do 22.10.2026, skasowane na zimę; KTW–SUF Wizz+Ryanair, WAW Wizz, WMI Ryanair – sezonowe; KRK i WRO–SUF Ryanair także zimą; LOT NIE lata do SUF), przesiadki zimą, transfery z REG i SUF (ATAM 1,50 €, Airlink 1,80 €, taxi), koszt paliwa wg MIMIT ~2,10 €/l
+- „Wynajem samochodu”: wypożyczalnie wg SACAL (SUF 11 firm, REG tylko Noleggiare/Sicily by Car/Sixt ~250 m, CRV Avis/Violauto), sekcja porównywarek, kaucje/udział własny, kara AGCM za opłaty za mandaty, tabele czasów przejazdu z SUF/REG, parkingi Scilla/Tropea/Pizzo, ZTL Reggio/Cosenza, 3 nowe FAQ
+- Ramka linków = `boc-info-box` + `boc-info-table` (linki-przyciski, rel="nofollow noopener"); przy wdrożeniu afiliacji DiscoverCars/Rentalcars dodać `sponsored`. CSS v=44 (margin 0 tabeli w boc-info-box)
+- KTW–REG lata w poniedziałki i czwartki (potwierdzone przez użytkownika) – poprawione w 6 planerach PL+EN i na Jak dojechać. TODO: po 22.10.2026 zmienić wpisy Katowice→REG w planerach i na stronie (trasa skasowana na zimę)
+- Tytuły plan-7-dni / itinerary-7-days: `&ndash;` w YAML → „–” (encja wyświetlała się dosłownie w sidebarze)

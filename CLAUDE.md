@@ -12,11 +12,10 @@
 
 ---
 
-## WordPress API
-- URL: https://bestofcalabria.com/wp-json/wp/v2/
-- Login: `admin`
-- Hasło aplikacji: `JwGw oBQ1 yaHo hXeg oadm Kx86`
-- Przykład: `curl --user "admin:JwGw oBQ1 yaHo hXeg oadm Kx86" "https://bestofcalabria.com/wp-json/wp/v2/pages/ID?context=edit"`
+## Hosting i publikacja
+- Od 2026-03-17 strona to **Hugo + Cloudflare Pages** (repo github.com/sibilianspirit/calabria, auto-deploy z `main`); WordPress wyłączony – nie używać wp-json, ID stron ani bloków Gutenberg
+- Treść: `content/pl/` i `content/en/` (pliki .md/.html z frontmatterem); publikacja = build Hugo → commit → push
+- Środowisko: Windows 11, Claude Code z narzędziem PowerShell (główne) i Bash (Git for Windows); Hugo Extended natywnie na Windows (wcześniej w WSL)
 
 ---
 
@@ -38,21 +37,19 @@ Przykład: `/pl/kierunki/scilla/chianalea/` → `/destinations/scilla/chianalea/
 ## Workflow publikacji (dla każdej strony)
 
 1. Użytkownik podaje: treść PL + docelowy URL PL
-2. Znajdź ID strony PL: `GET /wp-json/wp/v2/pages?slug=SLUG&context=edit`
-3. Zaktualizuj treść PL: `PUT /wp-json/wp/v2/pages/ID` z `{"content": "...", "status": "publish"}`
-4. Przetłumacz treść na EN (zachowaj strukturę `boc-` CSS i Gutenberg blocks)
-5. Znajdź ID strony EN (mapowanie URL PL→EN jak powyżej)
-6. Zaktualizuj treść EN tak samo
+2. Edytuj plik w `content/pl/` (ścieżka wg URL)
+3. Przetłumacz treść na EN (zachowaj strukturę `boc-` CSS) i zapisz w odpowiedniku w `content/en/` (mapowanie URL PL→EN jak powyżej)
+4. Build Hugo → commit → push na `main`
 
 ---
 
 ## Szablon strony (format `boc-`)
 
-Wzorcowa strona: https://bestofcalabria.com/pl/kierunki/reggio-calabria/ (ID=2168)
+Wzorcowa strona: https://bestofcalabria.com/pl/kierunki/reggio-calabria/
 
 Sekcje obowiązkowe (w kolejności):
 ```
-[intro akapit — bez H1, tytuł jest w WP]
+[intro akapit — bez H1, tytuł jest we frontmatterze]
 [sekcje merytoryczne z H2 + akapity]
 [boc-faq-box — HTML block z <details>]
 [boc-attractions-box — karty atrakcji]
@@ -96,78 +93,6 @@ Sekcje obowiązkowe (w kolejności):
 - `.boc-faq-box` + `.boc-section-title` — sekcja FAQ z `<details>`
 - `.boc-nearby-box` + `.boc-nearby-grid` + `.boc-nearby-pill` + `.boc-dist` — w pobliżu
 
-### Ważne: bloki Gutenberg
-- Sekcje merytoryczne: `<!-- wp:paragraph -->` i `<!-- wp:heading -->`
-- Sekcje HTML (boc-boxes): `<!-- wp:html -->`
-
----
-
-## Mapa stron (kluczowe ID)
-
-### Polskie strony
-| URL | ID |
-|-----|----|
-| /pl/kierunki/reggio-calabria/ | 2168 |
-| /pl/kierunki/reggio-calabria/bronzy-z-riace/ | 2169 |
-| /pl/kierunki/reggio-calabria/lungomare/ | 2170 |
-| /pl/kierunki/reggio-calabria/museo-nazionale/ | 2171 |
-| /pl/kierunki/reggio-calabria/arena-dello-stretto/ | 2172 |
-| /pl/kierunki/tropea/ | 2173 |
-| /pl/kierunki/scilla/ | 2177 |
-| /pl/kierunki/pizzo/ | 2181 |
-| /pl/kierunki/bova/ | 2185 |
-| /pl/kierunki/gerace/ | 2187 |
-| /pl/kierunki/stilo/ | 2188 |
-| /pl/kierunki/cosenza/ | 2189 |
-| /pl/kierunki/catanzaro/ | 2190 |
-| /pl/kierunki/locri/ | 2191 |
-
-### Angielskie strony
-| URL | ID |
-|-----|----|
-| /destinations/reggio-calabria/ | 2030 |
-| /destinations/reggio-calabria/bronzi-di-riace/ | 2031 |
-| /destinations/reggio-calabria/lungomare/ | 2032 |
-| /destinations/reggio-calabria/museo-nazionale/ | 2033 |
-| /destinations/reggio-calabria/arena-dello-stretto/ | 2034 |
-| /destinations/tropea/ | 2035 |
-| /destinations/scilla/ | 2039 |
-| /destinations/pizzo/ | 2043 |
-| /destinations/bova/ | 2047 |
-| /destinations/gerace/ | 2049 |
-| /destinations/stilo/ | 2050 |
-| /destinations/cosenza/ | 2051 |
-| /destinations/catanzaro/ | 2052 |
-| /destinations/locri/ | 2053 |
-
----
-
-## Stan treści
-
-### Kierunki (/pl/kierunki/)
-| Strona | PL | EN |
-|--------|----|----|
-| Reggio Calabria | ✅ 2168 | ✅ 2030 |
-| Tropea | ✅ 2173 | ✅ 2035 |
-| Bova | ✅ 2185 | ✅ 2047 |
-| Catanzaro | ✅ 2190 | ✅ 2052 |
-| Scilla | ✅ 2177 | ✅ 2039 |
-| Pizzo | ✅ 2181 | ✅ 2043 |
-| Gerace | ✅ 2187 | ✅ 2049 |
-| Stilo | ✅ 2188 | ✅ 2050 |
-| Cosenza | ✅ 2189 | ✅ 2051 |
-| Locri | ✅ 2191 | ✅ 2053 |
-
-### Natura (/pl/natura/) — zlecenia w Supabase (2026-03-11)
-| Strona | Supabase ID | PL | EN |
-|--------|-------------|----|----|
-| Park Narodowy Aspromonte | 48a939d0-8072-425b-bdbd-e84a97adb1cd | ⏳ | ⏳ |
-| Park Narodowy Sila | b5909f0e-aefe-4a70-8f7a-c982ec1a8d1c | ⏳ | ⏳ |
-| Park Narodowy Pollino | aa9d6c90-928d-4e44-a4d5-deebbbe36389 | ✅ 2195 | ✅ 2057 |
-| Najlepsze plaże Kalabrii | 6eaa07ad-68c9-47c8-8150-f2ec8c291d7e | ✅ 2196 | ✅ 2058 |
-| Capo Vaticano | 3013a1c5-3cc0-4033-aa87-547950caf18b | ✅ 2197 | ✅ 2059 |
-| Costa Viola | b2708b71-1ec6-415f-a15d-03dfe2220626 | ✅ 2198 | ✅ 2060 |
-
 ---
 
 ## Generowanie obrazów (generate-image.js)
@@ -181,7 +106,7 @@ Sekcje obowiązkowe (w kolejności):
 - Model: `google/nano-banana-edit`, format 16:9
 - Użyj gdy masz realne zdjęcie miejsca i chcesz je zmodyfikować (oświetlenie, pora dnia, usunięcie elementów)
 
-Oba tryby: auto-upload do WP, wypisują gotowy blok Gutenberg. Obraz inline w treści (NIE featured image).
+Skrypt pochodzi z ery WordPressa (upload do WP media) – przed użyciem dostosować do Hugo (zapis do `static/images/`). Obraz inline w treści (NIE featured image).
 
 ### Styl promptu dla Kalabrii
 ```
@@ -190,13 +115,8 @@ Golden hour lighting, vivid Mediterranean colors, high detail.
 No text, no watermarks, no people in foreground.
 ```
 
-### Szablon bloku Gutenberg (wypisywany przez skrypt automatycznie)
-```
-<!-- wp:image {"id":MEDIA_ID,"sizeSlug":"large","linkDestination":"none","align":"center"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="URL" alt="ALT" class="wp-image-MEDIA_ID"/>
-<figcaption class="wp-element-caption"><em>Podpis.</em></figcaption></figure>
-<!-- /wp:image -->
-```
+### Obraz w treści
+Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i atrybucją `.boc-photo-credit`.
 
 ### Kiedy wstawiać obraz w treści
 - Wstaw po 2. lub 3. sekcji H2 (środek artykułu)
@@ -211,13 +131,14 @@ No text, no watermarks, no people in foreground.
 
 ---
 
-## Styl typograficzny\n- Używaj **półpauzy** (–) nie pauzy (—) — w tytułach, nagłówkach i treści\n- W HTML: `&ndash;` = półpauza (–), `&mdash;` = pauza (—) — używamy ndash\n\n## Notatki techniczne
-- Login WP: `admin` (nie `sibilian` jak w bas-3)
-- Strony to `pages`, NIE `posts`
-- Plugin językowy: **Polylang** — obie wersje to osobne strony WP powiązane przez Polylang
-- Flaga językowa pokazuje złą stronę? Sprawdź kosz WP — Polylang może się przyczepiać do usuniętych duplikatów
+## Styl typograficzny
+- Używaj **półpauzy** (–) nie pauzy (—) — w tytułach, nagłówkach i treści
+- W HTML: `&ndash;` = półpauza (–), `&mdash;` = pauza (—) — używamy ndash
+
+## Notatki techniczne
+- Wersje językowe: osobne pliki w `content/pl/` i `content/en/` powiązane przez `translationKey`
 - `google/nano-banana-edit`: output_format musi być `jpeg` (nie `jpg`) — `jpg` zwraca błąd
-- Zdjęcie podane jako URL lokalny → najpierw uploaduj do WP media, żeby dostać publiczny URL dla kie.ai
+- Zdjęcie podane jako URL lokalny → najpierw udostępnij publicznie (np. `static/images/` po deployu), żeby dostać URL dla kie.ai
 - Przy edycji zdjęcia ze stocków (Dreamstime itp.) — lepiej użyć czystego źródła (np. calabriastraordinaria.it)
 - Badolato (prowincja Catanzaro) — dobre zdjęcie reprezentatywne dla regionu Catanzaro
 
@@ -268,3 +189,10 @@ No text, no watermarks, no people in foreground.
 - Wizz timetable działa przez curl: wersja API z HTML strony głównej (`apiUrl:"https://be.wizzair.com/29.16.1/Api"` – zmienia się), `POST {apiUrl}/search/timetable` z `{"flightList":[{"departureStation","arrivalStation","from","to"}],"priceType":"regular","adultCount":1,...}`, okno ≤30 dni; `GET {apiUrl}/asset/map?languageCode=pl-pl` = siatka połączeń. `search/search` blokuje Kasada (429), po ~50 zapytaniach 503 – odczekać
 - Stan 14.09.2026: KTW–SUF wt/czw/sob, od 24.09 tylko wt/sob, ostatni lot 17.10 (lotniska w maju podawały 24.10; potwierdzone przez użytkownika w kalendarzu wizzair.com – 20–24.10 wyszarzone, nie „wyprzedane”), powrót 30.03.2027, od czerwca 2027 także nd; WAW–SUF pn/śr/pt do 23.10, powrót 29.03.2027. Zimą 2026/27 brak lotów Wizz z Polski
 - Tabela na Jak dojechać PL+EN poprawiona; planery (lato 2026: KTW wt/czw/sob, WAW pn/śr/pt) bez zmian
+
+## Stan 2026-09-15 – fact-check redaktorski + poprawki systemowe
+- Użytkownik robi własny fact-check stron PL (zrzut w Downloads/calabria-pl, manifest nazw) i odsyła pliki etapami; katalog błędów w pamięci `feedback_fact_check_errors.md`. Poprawki redaktora weryfikować u źródła – zdarzają się błędne (Parapezza, godziny zamku Ruffo)
+- Wgrane: Locri, Scilla, Stilo, Costa Viola (PL; do EN tylko merytoryka). Stilo: odległości wg OSRM, droga SS110 (nie SP9), Duomo = Santa Maria d’Ognissanti (nie św. Wawrzyniec) także na podstronach PL+EN
+- Planery „Z Rzymu lub Neapolu” w 16 stronach PL+EN przepisane wg rozkładu e656.net: FR/Italo oddzielnie od Intercity (Rzym–Reggio FR 5,5–6 h, IC 7,5–8,5 h; Rzym–Lamezia FR 4–4,5 h, IC 5,5–6,5 h; Rzym–Villa S.G. FR 5–5,5 h). Z Rzymu brak bezpośrednich pociągów do Scilli, Bagnary, Palmi; Cosenza przez Paolę (Lamezia–Cosenza bez bezpośrednich)
+- Spis treści: H2 nie dostają automatycznych id – dodano 107 brakujących id w 17 plikach PL+EN; każdy nowy boc-toc wymaga jawnych id
+- Włoskie nazwy muzeów w polskich zdaniach przetłumaczone i odmienione (Narodowe Muzeum Archeologiczne w Reggio Calabria); zostają w tytułach źródeł i filmów

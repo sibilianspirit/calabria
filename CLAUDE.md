@@ -196,3 +196,5 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Planery „Z Rzymu lub Neapolu” w 16 stronach PL+EN przepisane wg rozkładu e656.net: FR/Italo oddzielnie od Intercity (Rzym–Reggio FR 5,5–6 h, IC 7,5–8,5 h; Rzym–Lamezia FR 4–4,5 h, IC 5,5–6,5 h; Rzym–Villa S.G. FR 5–5,5 h). Z Rzymu brak bezpośrednich pociągów do Scilli, Bagnary, Palmi; Cosenza przez Paolę (Lamezia–Cosenza bez bezpośrednich)
 - Spis treści: H2 nie dostają automatycznych id – dodano 107 brakujących id w 17 plikach PL+EN; każdy nowy boc-toc wymaga jawnych id
 - Włoskie nazwy muzeów w polskich zdaniach przetłumaczone i odmienione (Narodowe Muzeum Archeologiczne w Reggio Calabria); zostają w tytułach źródeł i filmów
+- Do końca dnia wgrane także: Capo Vaticano, Tropea, Pizzo, Jak dojechać, Gerace, Bova, Cosenza, Pollino (ostatni commit 7a9cf18). Redaktor pracuje na starym zrzucie – planery i id nagłówków brać z bieżącego pliku. Konkatedra tylko na stronach głównych Gerace i Bovy (podstrony „katedra” zostają – decyzja użytkownika)
+- TODO: planer Pollino „Z Rzymu lub Neapolu” prowadzi przez Lamezię – sprawdzić wariant przez Sibari/Paolę

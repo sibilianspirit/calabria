@@ -83,7 +83,7 @@ Zimą kalabryjskie wybrzeże zapada w sen. Wiele hoteli i restauracji w kurortac
 
 Co robić zimą:
 
-- zwiedzać [Museo Archeologico Nazionale w Reggio](/pl/kierunki/reggio-calabria/museo-nazionale/) z Brązami z Riace, bez kolejek,
+- zwiedzać [Narodowe Muzeum Archeologiczne w Reggio](/pl/kierunki/reggio-calabria/museo-nazionale/) z Brązami z Riace, bez kolejek,
 - oglądać ośnieżoną Etnę z Lungomare w Reggio – przy dobrej widoczności widać ją doskonale,
 - jeździć na nartach na Sili (Camigliatello, Lorica) i w Gambarie w Aspromonte, jeśli spadnie śnieg.
 

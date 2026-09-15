@@ -175,7 +175,7 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 ## Stan 2026-09-14 – powiązane wpisy na blogu
 - Partial `layouts/partials/related-posts.html` w `layouts/blog/single.html` pod author-boxem: sekcja „Przeczytaj też” / „Read next” – do 3 najnowszych innych wpisów z bloga w tym samym języku (bez tagów, sortowanie po dacie), karty `.blog-card` z `image:` z frontmattera
 - CSS `.boc-related` (v=43): 3 kolumny na desktopie, poziome karty z miniaturą 110×80 na ≤600 px; nadpisuje `.page-content h3` (kreska, niebieski)
-- Hugo server na /mnt/c w WSL nie wykrywa zmian w plikach – po edycji CSS/szablonów restartować serwer
+- Hugo Extended 0.147.4 działa natywnie na Windows (winget, od 2026-09-15) – nie budować przez WSL (tam `hugo server` na /mnt/c nie wykrywał zmian)
 
 ## Stan 2026-09-14 (2) – Jak dojechać + Wynajem samochodu (PL+EN)
 - „Jak dojechać”: nowa sekcja „Loty z Polski” (tabela lato 2026 / zima 2026/27: KTW–REG Ryanair do 22.10.2026, skasowane na zimę; KTW–SUF Wizz+Ryanair, WAW Wizz, WMI Ryanair – sezonowe; KRK i WRO–SUF Ryanair także zimą; LOT NIE lata do SUF), przesiadki zimą, transfery z REG i SUF (ATAM 1,50 €, Airlink 1,80 €, taxi), koszt paliwa wg MIMIT ~2,10 €/l

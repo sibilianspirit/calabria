@@ -77,7 +77,7 @@ These are 2022–2025 averages from the Open-Meteo marine model for Tropea, Regg
 
 Coastal winters are mild: typically 14–16°C by day and 8–11°C at night. Frost by the sea is rare. **It is, however, the wettest and windiest time of year**, and during storms waves crash hard against the seafronts of Scilla and Tropea.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-plaza-pod-klifem.webp" alt="The beach below Tropea's cliff in winter" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>The beach at the foot of Tropea's cliff &ndash; packed in summer, completely empty in winter.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-plaza-pod-klifem.webp" alt="The beach below Tropea's cliff in winter" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>The beach at the foot of Tropea's cliff – packed in summer, completely empty in winter.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
 In winter the Calabrian coast goes into hibernation. Many hotels and restaurants in resort areas, especially Tropea and Capo Vaticano, close after the season. Cities such as Reggio Calabria, Cosenza and Catanzaro carry on as normal, though, and museums stay open.
 
@@ -101,7 +101,7 @@ Around Easter, many towns hold Holy Week processions and rituals – read more i
 
 Summer in Calabria is hot, sunny and dry. The average high in July and August is 29°C in Tropea and 31–32°C in Reggio and on the Ionian coast, but heatwaves above 35–38°C happen every year. Rain is rare and usually comes as short afternoon thunderstorms.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-lungomare-zmierzch.webp" alt="Lungomare Falcomatà in Reggio Calabria at dusk" loading="lazy" width="1280" height="1600"/><figcaption class="wp-element-caption"><em>Lungomare Falcomatà in the evening &ndash; street lamps, palm trees and the Strait of Messina behind.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-lungomare-zmierzch.webp" alt="Lungomare Falcomatà in Reggio Calabria at dusk" loading="lazy" width="1280" height="1600"/><figcaption class="wp-element-caption"><em>Lungomare Falcomatà in the evening – street lamps, palm trees and the Strait of Messina behind.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
 How to cope with the heat:
 

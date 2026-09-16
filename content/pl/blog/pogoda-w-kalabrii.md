@@ -77,7 +77,7 @@ Wartości to średnie z lat 2022–2025 z modelu morskiego Open-Meteo dla Tropei
 
 Zima na wybrzeżu jest łagodna: w dzień zwykle 14–16°C, w nocy 8–11°C. Przymrozki nad morzem zdarzają się rzadko. **To jednak najbardziej deszczowa i wietrzna pora roku**, a podczas sztormów fale z impetem rozbijają się o nabrzeża Scilli i Tropei.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-plaza-pod-klifem.webp" alt="Plaża pod klifem Tropei zimą" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Plaża u stóp klifu Tropei &ndash; latem zatłoczona, zimą zupełnie pusta.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-plaza-pod-klifem.webp" alt="Plaża pod klifem Tropei zimą" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Plaża u stóp klifu Tropei – latem zatłoczona, zimą zupełnie pusta.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
 Zimą kalabryjskie wybrzeże zapada w sen. Wiele hoteli i restauracji w kurortach, zwłaszcza w Tropei i na Capo Vaticano, zamyka się po sezonie. Miasta takie jak Reggio Calabria, Cosenza czy Catanzaro żyją jednak normalnie, a muzea są otwarte.
 
@@ -101,7 +101,7 @@ W okresie Wielkanocy w wielu miejscowościach odbywają się procesje i obrzędy
 
 Lato w Kalabrii jest gorące, słoneczne i suche. Średnie maksimum w lipcu i sierpniu to 29°C w Tropei i 31–32°C w Reggio i na wybrzeżu jońskim, ale fale upałów z temperaturami powyżej 35–38°C zdarzają się co roku. Deszcz pada rzadko, najczęściej w formie krótkich burz popołudniowych.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-lungomare-zmierzch.webp" alt="Lungomare Falcomatà w Reggio Calabria o zmierzchu" loading="lazy" width="1280" height="1600"/><figcaption class="wp-element-caption"><em>Lungomare Falcomatà wieczorem &ndash; latarnie, palmy i Cieśnina Mesyńska w tle.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-lungomare-zmierzch.webp" alt="Lungomare Falcomatà w Reggio Calabria o zmierzchu" loading="lazy" width="1280" height="1600"/><figcaption class="wp-element-caption"><em>Lungomare Falcomatà wieczorem – latarnie, palmy i Cieśnina Mesyńska w tle.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
 Jak przetrwać upał:
 

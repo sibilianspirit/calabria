@@ -42,7 +42,7 @@ Dlatego lista jest ułożona geograficznie, a nie według „rankingu”. Numery
 
 To najpopularniejsza część Kalabrii i dla wielu osób pierwszy kontakt z regionem. Najbliższe lotnisko to Lamezia Terme, a wzdłuż wybrzeża sprawnie kursują pociągi regionalne. Kulinarnie to królestwo słodkiej czerwonej cebuli (*cipolla rossa di Tropea*) oraz pikantnej, smarownej kiełbasy *'nduja* z pobliskiej Spilingi.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-santa-maria-widok.webp" alt="Santa Maria dell'Isola i plaża w Tropei z punktu widokowego" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Klasyczny widok Tropei &ndash; sanktuarium Santa Maria dell'Isola na skale i plaża poniżej.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-santa-maria-widok.webp" alt="Santa Maria dell'Isola i plaża w Tropei z punktu widokowego" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Klasyczny widok Tropei – sanktuarium Santa Maria dell'Isola na skale i plaża poniżej.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
 **1. Tropea.** Stare miasto wznosi się na piaskowcowym klifie, a u jego stóp ciągną się plaże oblewane krystalicznym Morzem Tyrreńskim. [Tropea](/pl/kierunki/tropea/) w 2021 roku zdobyła prestiżowy tytuł Borgo dei Borghi, a jej normańska katedra z XII wieku kryje czczoną przez mieszkańców ikonę Madonny di Romania. Wieczorem przejdź na punkt widokowy Belvedere Piazza del Cannone – przy dobrej przejrzystości powietrza na horyzoncie widać dymiący stożek Stromboli.
 
@@ -58,7 +58,7 @@ To najpopularniejsza część Kalabrii i dla wielu osób pierwszy kontakt z regi
 
 Na południe od Palmi wybrzeże staje się strome, a morze przybiera o zachodzie słońca fioletowe odcienie. Dalej zaczyna się Cieśnina Mesyńska z hipnotyzującym widokiem na Sycylię.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/scilla-chianalea-od-morza.webp" alt="Chianalea di Scilla od strony morza przy silnym wietrze" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Chianalea od strony wody &ndash; zimowe fale rozbijają się tuż pod domami.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/scilla-chianalea-od-morza.webp" alt="Chianalea di Scilla od strony morza przy silnym wietrze" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Chianalea od strony wody – zimowe fale rozbijają się tuż pod domami.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
 **6. Costa Viola.** [Fioletowe Wybrzeże](/pl/natura/costa-viola/) ciągnie się od Palmi przez Bagnarę po Scillę. To krajobraz tarasowych winnic zawieszonych nad urwiskami, kameralnych plaż i punktów widokowych przy starej drodze krajowej.
 
@@ -68,7 +68,7 @@ Na południe od Palmi wybrzeże staje się strome, a morze przybiera o zachodzie
 
 **9. Narodowe Muzeum Archeologiczne i Brązy z Riace.** W [muzeum w Reggio Calabria](/pl/kierunki/reggio-calabria/museo-nazionale/) stoją [Brązy z Riace](/pl/kierunki/reggio-calabria/bronzy-z-riace/) – dwa perfekcyjnie zachowane greckie posągi wojowników z V wieku p.n.e., wyłowione z morza w 1972 roku. **To jeden z tych zabytków, dla których warto przyjechać do Kalabrii nawet poza sezonem plażowym.**
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-braz-a-riace.webp" alt="Brąz A z Riace w Narodowym Muzeum Archeologicznym w Reggio Calabria" loading="lazy" width="1280" height="1600"/><figcaption class="wp-element-caption"><em>Brąz A &ndash; młodszy z wojowników, z bujnymi lokami i opaską na głowie.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-braz-a-riace.webp" alt="Brąz A z Riace w Narodowym Muzeum Archeologicznym w Reggio Calabria" loading="lazy" width="1280" height="1600"/><figcaption class="wp-element-caption"><em>Brąz A – młodszy z wojowników, z bujnymi lokami i opaską na głowie.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
 **10. Lungomare Falcomatà.** [Promenada w Reggio](/pl/kierunki/reggio-calabria/lungomare/) ma około 1,7 km długości i biegnie wzdłuż Cieśniny. Najlepiej przyjść tu o zachodzie słońca, kiedy po drugiej stronie wody zapalają się światła Mesyny, a przy dobrej pogodzie widać majestatyczną Etnę. To także pas wybrzeża słynący z uprawy bergamotki – niezwykle aromatycznego cytrusa, z którego produkuje się perfumy i lokalne likiery.
 

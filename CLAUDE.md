@@ -133,7 +133,8 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 
 ## Styl typograficzny
 - Używaj **półpauzy** (–) nie pauzy (—) — w tytułach, nagłówkach i treści
-- W HTML: `&ndash;` = półpauza (–), `&mdash;` = pauza (—) — używamy ndash
+- **Od 2026-09-16: w `content/` piszemy czyste znaki UTF-8, nie encje HTML** – półpauza to `–`, nie `&ndash;`; tak samo `ó`, `„ ”`, `à/ò/é`, `€`, `°`. Powód: encje wyciekały jako goły tekst do RSS (`&amp;ndash;`) i do JSON-LD (`&ndash;`) – w kanałach i danych strukturalnych czytelnik/robot widział dosłowne „&ndash;”. Cały katalog przekonwertowany jednym przebiegiem (169 plików, 6174 encje)
+- Nadal zostawiamy encje składniowe i niewidoczne: `&amp;` `&lt;` `&gt;` `&quot;` `&nbsp;` `&#39;` `&#x27;` (te ostatnie w atrybutach)
 
 ## Notatki techniczne
 - Wersje językowe: osobne pliki w `content/pl/` i `content/en/` powiązane przez `translationKey`
@@ -207,5 +208,5 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Wnioski: propozycje redaktora przyjmować wybiórczo, każdą liczbę sprawdzać w OSRM/u źródła – bywają zaniżone albo niepewne
 - Reggio Calabria (5f1b524): PL+EN – usunięte frazesy (perły/palimpsest/z popiołów), Sztaufowie, fikusy wielkolistne (Ficus magnolioides ≠ magnolia), fata morgana małą literą, „ponad 13,5 mld euro”, 120 000 miejsc pracy zamiast ULA, port bez „TEU”, PRG/PSC zastąpione ogólną formułą; Greko = górskie wioski Bovesii. Zweryfikowane: Bova→Reggio 53 km/64 min (Bova Marina 43 km/48 min), pociąg SUF→Reggio 1 godz. 35 min–1 godz. 45 min (FR i szybkie R), wolne regionalne do 2 godz. 45 min (Trenitalia lefrecce API, nie 2 godz. 40 min ani 1 godz. 20 min z redakcji). Nazwa muzeum zostaje po polsku wbrew redakcji (decyzja z 15.09)
 - Dziedzictwo bizantyjskie (5d6bdaa): PL+EN – normański podbój zamiast „normandzkiej konkwisty”, nazwy jednostek administracyjnych małą literą (egzarchat Rawenny, katepanat Italii), Matka Boża Hodegetria, „nieuczyniony ludzką ręką”, baptysterium, Bovie/Bovy (odmiana), Centrum Informacyjne zamiast „Centrum Wizytowe”. Dodane: akapit o Gerace (kolumny z reużycia z Lokroi Epizephyrioi), SS106 Jonica, szlak 4–5 dni zamiast 2–3. Zweryfikowane: Bivongi San Giovanni Theristis – od 2008 mnisi Rumuńskiego Kościoła Prawosławnego (99-letnia koncesja gminy), od 1994 wcześniej mnisi z Athosu (it.wikipedia)
-- W pliku PL dziedzictwa bizantyjskiego były encje `&oacute;` i kotwice z polskimi znakami (jedna zepsuta: `wsp-oacute-lnoty`) – encje rozkodowane do znaków, id nagłówków przepisane na ASCII. `&ndash;` zostaje zgodnie z konwencją projektu. Warto sprawdzić pozostałe pliki pod kątem tych samych błędów
+- W pliku PL dziedzictwa bizantyjskiego były encje `&oacute;` i kotwice z polskimi znakami (jedna zepsuta: `wsp-oacute-lnoty`) – encje rozkodowane do znaków, id nagłówków przepisane na ASCII. Encje w całym `content/` rozkodowane osobnym commitem – patrz sekcja „Styl typograficzny”
 - TODO nadal otwarte: planer Pollino „Z Rzymu lub Neapolu” przez Lamezię – sprawdzić wariant przez Sibari/Paolę

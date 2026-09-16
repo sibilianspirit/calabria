@@ -42,7 +42,7 @@ That is why the list is ordered by geography rather than as a ranking. The numbe
 
 This is Calabria's most popular stretch and, for many visitors, their first taste of the region. The nearest airport is Lamezia Terme, and regional trains run efficiently along the coast. In food terms, this is the land of sweet red onions (*cipolla rossa di Tropea*) and spicy, spreadable *'nduja* sausage from nearby Spilinga.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-santa-maria-widok.webp" alt="Santa Maria dell'Isola and the beach in Tropea seen from a viewpoint" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>The classic view of Tropea &ndash; the Santa Maria dell'Isola sanctuary on its rock with the beach below.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-santa-maria-widok.webp" alt="Santa Maria dell'Isola and the beach in Tropea seen from a viewpoint" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>The classic view of Tropea – the Santa Maria dell'Isola sanctuary on its rock with the beach below.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
 **1. Tropea.** The old town rises on a sandstone cliff, with beaches washed by the clear Tyrrhenian Sea below. [Tropea](/destinations/tropea/) was named Borgo dei Borghi in 2021, and its 12th-century Norman cathedral holds the icon of the Madonna di Romania. In the evening, walk to the Belvedere at Piazza del Cannone – on a clear day Stromboli rises on the horizon.
 
@@ -58,7 +58,7 @@ This is Calabria's most popular stretch and, for many visitors, their first tast
 
 South of Palmi the coastline turns steep, and at sunset the sea takes on violet tones. Further on, the Strait of Messina opens up with Sicily on the other side.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/scilla-chianalea-od-morza.webp" alt="Chianalea di Scilla seen from the sea on a windy day" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Chianalea from the water &ndash; winter waves breaking right below the houses.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/scilla-chianalea-od-morza.webp" alt="Chianalea di Scilla seen from the sea on a windy day" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Chianalea from the water – winter waves breaking right below the houses.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
 **6. Costa Viola.** The [Violet Coast](/nature/costa-viola/) runs from Palmi through Bagnara to Scilla – terraced vineyards above sheer drops, small beaches and viewpoints along the old coastal road.
 
@@ -68,7 +68,7 @@ South of Palmi the coastline turns steep, and at sunset the sea takes on violet 
 
 **9. The National Archaeological Museum and the Riace Bronzes.** The [museum in Reggio Calabria](/destinations/reggio-calabria/museo-nazionale/) is home to the [Riace Bronzes](/destinations/reggio-calabria/bronzi-di-riace/) – two Greek warrior statues from the 5th century BC, recovered from the sea in 1972. **They are one of the few sights that justify a trip to Calabria even outside beach season.**
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-braz-a-riace.webp" alt="Riace Bronze A in the National Archaeological Museum of Reggio Calabria" loading="lazy" width="1280" height="1600"/><figcaption class="wp-element-caption"><em>Bronze A &ndash; the younger warrior, with thick curls and a headband.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-braz-a-riace.webp" alt="Riace Bronze A in the National Archaeological Museum of Reggio Calabria" loading="lazy" width="1280" height="1600"/><figcaption class="wp-element-caption"><em>Bronze A – the younger warrior, with thick curls and a headband.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
 **10. Lungomare Falcomatà.** [Reggio's seafront promenade](/destinations/reggio-calabria/lungomare/) runs for about 1.7 km along the Strait. Come at sunset, when the lights of Messina switch on across the water and, on clear days, Etna comes into view. This stretch of coast is also famous for bergamot – a highly aromatic citrus used in perfumes and local liqueurs.
 

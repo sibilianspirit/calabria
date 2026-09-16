@@ -198,3 +198,11 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Włoskie nazwy muzeów w polskich zdaniach przetłumaczone i odmienione (Narodowe Muzeum Archeologiczne w Reggio Calabria); zostają w tytułach źródeł i filmów
 - Do końca dnia wgrane także: Capo Vaticano, Tropea, Pizzo, Jak dojechać, Gerace, Bova, Cosenza, Pollino (ostatni commit 7a9cf18). Redaktor pracuje na starym zrzucie – planery i id nagłówków brać z bieżącego pliku. Konkatedra tylko na stronach głównych Gerace i Bovy (podstrony „katedra” zostają – decyzja użytkownika)
 - TODO: planer Pollino „Z Rzymu lub Neapolu” prowadzi przez Lamezię – sprawdzić wariant przez Sibari/Paolę
+
+## Stan 2026-09-16 – fact-check redaktorski: Pollino (2), Catanzaro, Sila
+- Wgrane PL+EN: Pollino (druga tura, d83c7e9), Catanzaro (691d04c, e6e116b), Sila (7bc0a27)
+- Zjazd A2 oficjalnie **Frascineto – Castrovillari** (nie Castrovillari-Frascineto) – poprawione w planerach i `fact-checker/planner/natura__pollino.json`
+- Catanzaro: centrum na trzech wzgórzach (Tre Colli, doliny Fiumarella i Corace), NIE na cyplu; dodany Il Cavatore (Giuseppe Rito 1951–1954, odsłonięta II 1956); usunięta bergamotka i dwa niezwiązane źródła; Reggio → Catanzaro 1 godz. 50 min – 2 godz. (OSRM 157 km/111 min)
+- Sila: odmiana „Sili” w całym tekście; wiewiórka kalabryjska *Sciurus meridionalis* = odrębny gatunek (2017); Monte Paleparto 1481 m; odległości od Camigliatello wg OSRM – Catanzaro 130 km (nie 50; 50 dotyczyło Sili Piccola), Pizzo 120, Tropea 145, Pollino 100, Aspromonte 210 (było błędne 95)
+- Wnioski: propozycje redaktora przyjmować wybiórczo, każdą liczbę sprawdzać w OSRM/u źródła – bywają zaniżone albo niepewne
+- TODO nadal otwarte: planer Pollino „Z Rzymu lub Neapolu” przez Lamezię – sprawdzić wariant przez Sibari/Paolę

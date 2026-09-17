@@ -248,3 +248,8 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - **Błąd redaktora**: Palazzo Marincola di San Floro to pałac **XVI-wieczny**, nie XIX-wieczny; związek z przemysłem jedwabniczym niepotwierdzony – nie dodany. Instytut dla głuchoniemych i drukarnia – potwierdzone w karcie usług
 - Diamante ← Catanzaro wg OSRM **136 km / ok. 2 godz. 15 min** (w tekście było 175–190, redaktor 130)
 - Bilety wg FAI: całe muzeum 8 € / ulgowy 6 €, dwie sale 6/4 €, wystawa czasowa 4/3 €; Mendini (wejście, księgarnia, czytelnia, od 2009) i Fabre „L'uomo che misura le nuvole” (1998) w parku – potwierdzone
+
+## Stan 2026-09-17 (2) – fact-check redaktorski: San Giovannello (Gerace)
+- PL+EN: „perła” → „bizantyjski zabytek”, nagłówek „Morfologia… intencjonalnej niedoskonałości” → „Architektura i forma budowli” (nowe id), sanacja → konserwacja, dach dwuspadowy (wł. *a capanna*), usunięty powtórzony katolikon, Kasa Południa, Soprintendenza z objaśnieniem, miasto metropolitalne małą literą
+- **Nie przyjęte z redakcji**: „griko” (to dialekt Salento – zostaje greko / greka kalabryjska); droga „SP1” – z Locri do Gerace prowadzi **SS111** (it.wikipedia); wysokość „470 m” – it.wikipedia podaje 500 m, wpisane „blisko 500 m”; daty skanu 2023 i fotogrametrii 2024 zostają
+- Barlaam nauczycielem Petrarki **i Boccaccia** – zostaje (it.wikipedia, epigraf w Gerace); OSRM Locri → Gerace 9,3 km / 14 min

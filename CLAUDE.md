@@ -242,3 +242,9 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Imiona: Roger de Hauteville (wł. Ruggero d’Altavilla), Atanazy Chalkeopulos (gr. Χαλκεόπουλος; redaktor pisał „Chalkiopoulos” i odmieniał włoskie „Ruggera”), Hagia Kyriake (św. Cyriaki)
 - Gobelin: sygnowany przez Jana Leyniersa, ok. 1673–1680, projekt Le Bruna; temat – epizod z mitu o Meleagrze, identyfikacja sceny niepewna (źródła: spotkanie z Ojneusem / pożegnanie z Kastorem). Informacji o zamówieniu przez Fouqueta NIE dodawać – Fouquet upadł w 1661
 - Nie przyjęte: „Jerozolima Południa” (niezweryfikowany przydomek; zostało „miasto stu kościołów”), „1059–1062” zamiast 1062, frazesy „prawdziwa gratka” / „miejsce, którego nie można pominąć”, encje `&ndash;` z tekstu redaktora
+
+## Stan 2026-09-17 – fact-check redaktorski: Muzeum MARCA (Catanzaro)
+- PL+EN: nagłówek „dialog modernizmu z tradycją” → „nowe życie zabytkowego pałacu”; FAQ bez włoskich wtrąceń (scivoli/rampe, ascensore, parcheggio riservato); Mimmo Rotella/Paladino odmienione (Mimma Rotelli), w Tavernie, w Polistenie
+- **Błąd redaktora**: Palazzo Marincola di San Floro to pałac **XVI-wieczny**, nie XIX-wieczny; związek z przemysłem jedwabniczym niepotwierdzony – nie dodany. Instytut dla głuchoniemych i drukarnia – potwierdzone w karcie usług
+- Diamante ← Catanzaro wg OSRM **136 km / ok. 2 godz. 15 min** (w tekście było 175–190, redaktor 130)
+- Bilety wg FAI: całe muzeum 8 € / ulgowy 6 €, dwie sale 6/4 €, wystawa czasowa 4/3 €; Mendini (wejście, księgarnia, czytelnia, od 2009) i Fabre „L'uomo che misura le nuvole” (1998) w parku – potwierdzone

@@ -251,5 +251,12 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 
 ## Stan 2026-09-17 (2) – fact-check redaktorski: San Giovannello (Gerace)
 - PL+EN: „perła” → „bizantyjski zabytek”, nagłówek „Morfologia… intencjonalnej niedoskonałości” → „Architektura i forma budowli” (nowe id), sanacja → konserwacja, dach dwuspadowy (wł. *a capanna*), usunięty powtórzony katolikon, Kasa Południa, Soprintendenza z objaśnieniem, miasto metropolitalne małą literą
-- **Nie przyjęte z redakcji**: „griko” (to dialekt Salento – zostaje greko / greka kalabryjska); droga „SP1” – z Locri do Gerace prowadzi **SS111** (it.wikipedia); wysokość „470 m” – it.wikipedia podaje 500 m, wpisane „blisko 500 m”; daty skanu 2023 i fotogrametrii 2024 zostają
+- **Nie przyjęte z redakcji**: „griko” (to dialekt Salento – zostaje greko / greka kalabryjska); wysokość „470 m” – it.wikipedia podaje 500 m, wpisane „blisko 500 m”; daty skanu 2023 i fotogrametrii 2024 zostają
+- Droga Locri → Gerace to **SP1 (dawna SS111)** – redaktor miał rację; najpierw błędnie wpisane SS111, poprawione przy planie 7 dni (OSM/OSRM, strona Gerace _index)
 - Barlaam nauczycielem Petrarki **i Boccaccia** – zostaje (it.wikipedia, epigraf w Gerace); OSRM Locri → Gerace 9,3 km / 14 min
+
+## Stan 2026-09-17 (3) – fact-check redaktorski: Kalabria w 7 dni
+- PL+EN: kalki „Tirrenian”, „miradory”, „klejnot”, „czubek buta”; ’nduja z apostrofem; opis tartufo di Pizzo; Mesyna (nie Messyna); fata morgana małą literą; Santa Maria dell'Isola = sanktuarium
+- Trasy wg OSRM: **SUF → Tropea 55 km / 62 min przez SS18 i dawną SS522 (SP95), bez A2**; Scilla → Reggio 23 km / 22 min; Bova → Gerace 74 km / 85 min; **Gerace → Stilo 58 km / 61 min** (było 70); **Stilo → SUF 100 km / 1 godz. 45 min** (było 130 km, 1,5–2 h). Reggio → Bova zostaje „około godziny” (53 km / 64 min) – redaktor proponował 1 h 15
+- **„Najpiękniejszy kilometr Włoch” to fałszywy cytat D'Annunzia** (it.wikipedia wg historyka Agazio Trombetty: poeta nie był w Reggio; frazę rozpowszechnił Nando Martellini w radiu 27.03.1955) – opisane jako legenda
+- Rada „tankuj diesel” zastąpiona self/fai da te vs servito; FAQ: bez auta centra Bovy, Gerace i Stilo praktycznie niedostępne; SS110 Stilo–Serra kręta

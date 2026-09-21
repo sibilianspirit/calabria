@@ -279,3 +279,9 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Skan kotwic po każdej edycji: 0 martwych `href="#"` na zmienionych stronach. Zasada bez zmian: id z polskimi znakami zostają, nowe id tylko przy zmianie nagłówka
 - Pliki od redaktora bywają starszą wersją niż repo (blog Plaże miał jeszcze 780 km) – zawsze diff zdanie po zdaniu
 - TODO: „W pobliżu” na innych stronach Cosenzy – czasy pieszo z zamku sprawdzić; EN plaże Locri bez miecznika/sardeli i pinakes z Reggio (do decyzji)
+
+## Stan 2026-09-21 (3) – fact-check redaktorski: 'nduja + weryfikacja MAB
+- PL+EN wgrane: 'nduja (b9165c3); zamek Cosenza – MAB Bilotti ok. 25 min pieszo (f89cb7d, 1,9 km wg OSM `routed-foot`; publiczny OSRM `router.project-osrm.org` z profilem foot zwraca czasy samochodowe – nie używać do pieszych)
+- Współrzędne it.wikipedia: zamek 39,2866 N / 16,2576 E, MAB 39,2969 N / 16,2543 E (Nominatim błędnie geokoduje „Castello Normanno-Svevo, Cosenza” i „Corso Mazzini” – brać z it.wikipedia API `prop=coordinates`)
+- 'nduja: odmiana Spilinga → Spilindze, biernik „'nduję”, dopełniacz „'ndui”; guanciale = policzek (nie podgardle – błąd redaktora); pizza z caciocavallo/provolą silaną zamiast gorgonzoli; fileja z linkiem do /pl/kuchnia/makaron-fileja/. Daty Sagra della 'Nduja (49. ed. 8.08.2025, 50. ed. 8.08.2026) wg komunikatu gminy – zostają
+- TODO nadal: „W pobliżu” innych stron Cosenzy (czasy pieszo), EN plaże Locri bez miecznika/sardeli i pinakes z Reggio

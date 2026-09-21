@@ -7,7 +7,7 @@ image: "/images/own/tropea-santa-maria-widok.webp"
 description: "Kalabria – co zobaczyć? 25 najciekawszych miejsc regionu: Tropea, Scilla, Brązy z Riace, Gerace, Sila, Pollino i Aspromonte. Mapa regionów i porady."
 ---
 
-Kalabria nie ma jednego „obowiązkowego” zabytku, który przyćmiewałby resztę, co paradoksalnie utrudnia planowanie podróży. Region ma ponad 800 km wybrzeża, trzy parki narodowe, greckie ruiny, bizantyjskie kościoły i miasteczka wczepione w strome zbocza. **Jeśli zastanawiasz się, co zobaczyć w Kalabrii, zacznij od podzielenia regionu na pięć części** – od Tropei i Wybrzeża Bogów, przez Cieśninę Mesyńską, po wybrzeże jońskie i góry. Poniżej znajdziesz 25 miejsc, które naprawdę warto wpisać do planu, razem z podpowiedzią, ile czasu na nie potrzeba.
+Kalabria nie ma jednego „obowiązkowego” zabytku, który przyćmiewałby resztę, co paradoksalnie utrudnia planowanie podróży. Region ma blisko 790 km wybrzeża, trzy parki narodowe, greckie ruiny, bizantyjskie kościoły i miasteczka wczepione w strome zbocza. **Jeśli zastanawiasz się, co zobaczyć w Kalabrii, zacznij od podzielenia regionu na pięć części** – od Tropei i Wybrzeża Bogów, przez Cieśninę Mesyńską, po wybrzeże jońskie i góry. Poniżej znajdziesz 25 miejsc, które naprawdę warto wpisać do planu, razem z podpowiedzią, ile czasu na nie potrzeba.
 
 <div class="boc-toc">
 <p class="boc-toc-title">Spis treści</p>
@@ -40,13 +40,13 @@ Dlatego lista jest ułożona geograficznie, a nie według „rankingu”. Numery
 
 ## Wybrzeże Bogów – Tropea, Capo Vaticano i Pizzo {#wybrzeze-bogow}
 
-To najpopularniejsza część Kalabrii i dla wielu osób pierwszy kontakt z regionem. Najbliższe lotnisko to Lamezia Terme, a wzdłuż wybrzeża sprawnie kursują pociągi regionalne. Kulinarnie to królestwo słodkiej czerwonej cebuli (*cipolla rossa di Tropea*) oraz pikantnej, smarownej kiełbasy *'nduja* z pobliskiej Spilingi.
+To najpopularniejsza część Kalabrii i dla wielu osób pierwszy kontakt z regionem. Najbliższe lotnisko to Lamezia Terme, a wzdłuż wybrzeża sprawnie kursują pociągi regionalne. Kulinarnie to królestwo słodkiej czerwonej cebuli (*cipolla rossa di Tropea*) oraz pikantnej, smarownej kiełbasy *'nduja* z pobliskiej Spilingi – najczęściej podaje się ją na chrupiącej bruschetcie lub z lokalnym serem *caciocavallo*.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-santa-maria-widok.webp" alt="Santa Maria dell'Isola i plaża w Tropei z punktu widokowego" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Klasyczny widok Tropei – sanktuarium Santa Maria dell'Isola na skale i plaża poniżej.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
-**1. Tropea.** Stare miasto wznosi się na piaskowcowym klifie, a u jego stóp ciągną się plaże oblewane krystalicznym Morzem Tyrreńskim. [Tropea](/pl/kierunki/tropea/) w 2021 roku zdobyła prestiżowy tytuł Borgo dei Borghi, a jej normańska katedra z XII wieku kryje czczoną przez mieszkańców ikonę Madonny di Romania. Wieczorem przejdź na punkt widokowy Belvedere Piazza del Cannone – przy dobrej przejrzystości powietrza na horyzoncie widać dymiący stożek Stromboli.
+**1. Tropea.** Stare miasto wznosi się na piaskowcowym klifie, a u jego stóp ciągną się plaże oblewane czystymi wodami Morza Tyrreńskiego. [Tropea](/pl/kierunki/tropea/) w 2021 roku zdobyła prestiżowy tytuł Borgo dei Borghi, a jej normańska katedra z XII wieku kryje czczoną przez mieszkańców ikonę Madonny di Romania. Wieczorem przejdź na punkt widokowy Belvedere Piazza del Cannone – przy dobrej przejrzystości powietrza na horyzoncie widać dymiący stożek Stromboli.
 
-**2. Santa Maria dell'Isola.** [Sanktuarium na skale](/pl/kierunki/tropea/santa-maria-dell-isola/) to wizytówka Kalabrii. Korzenie tego miejsca sięgają pustelni mnichów bazyliańskich, a na dziedziniec kościoła prowadzą schody wykute w skale.
+**2. Santa Maria dell'Isola.** [Sanktuarium na skale](/pl/kierunki/tropea/santa-maria-dell-isola/) to jeden z najbardziej rozpoznawalnych symboli Kalabrii. Korzenie tego miejsca sięgają pustelni mnichów bazyliańskich, a na dziedziniec kościoła prowadzą schody wykute w skale.
 
 **3. Capo Vaticano.** Przylądek w gminie Ricadi to spektakularne klify, ukryte zatoczki i punkt widokowy przy latarni morskiej. [Capo Vaticano](/pl/natura/capo-vaticano/) słynie z plaż Grotticelle i Praia i Focu, choć wiele z najpiękniejszych zatok najlepiej podziwiać z pokładu łodzi.
 
@@ -56,7 +56,7 @@ To najpopularniejsza część Kalabrii i dla wielu osób pierwszy kontakt z regi
 
 ## Costa Viola i Cieśnina Mesyńska – Scilla i Reggio {#ciesnina-mesynska}
 
-Na południe od Palmi wybrzeże staje się strome, a morze przybiera o zachodzie słońca fioletowe odcienie. Dalej zaczyna się Cieśnina Mesyńska z hipnotyzującym widokiem na Sycylię.
+Na południe od Palmi wybrzeże staje się strome, a morze przybiera o zachodzie słońca fioletowe odcienie. Dalej zaczyna się Cieśnina Mesyńska z panoramą Sycylii po drugiej stronie. Warto pamiętać, że Reggio Calabria ma własne lotnisko (Tito Minniti), co czyni to miasto dobrym punktem startowym do zwiedzania południa.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/scilla-chianalea-od-morza.webp" alt="Chianalea di Scilla od strony morza przy silnym wietrze" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Chianalea od strony wody – zimowe fale rozbijają się tuż pod domami.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
@@ -108,7 +108,7 @@ Północ Kalabrii to przede wszystkim potężne masywy górskie: zalesiony płas
 
 **21. Catanzaro i most Bisantis.** Stolica regionu wznosi się na wzgórzu rozdartym głęboką doliną, między górami a Morzem Jońskim. [Most Bisantis](/pl/kierunki/catanzaro/most-bisantis/) z 1962 roku, o imponującym łuku o rozpiętości 231 m, jest inżynieryjnym symbolem miasta.
 
-**22. Cosenza.** Zabytkowe centrum [Cosenzy](/pl/kierunki/cosenza/) wspina się na strome wzgórze zwieńczone [zamkiem normańsko-szwabskim](/pl/kierunki/cosenza/zamek/). W nowej części miasta główny deptak Corso Mazzini zamieniono w muzeum pod gołym niebem – [MAB](/pl/kierunki/cosenza/mab-bilotti/) prezentuje rzeźby m.in. Salvadora Dalego czy Giorgio de Chirico.
+**22. Cosenza.** Zabytkowe centrum [Cosenzy](/pl/kierunki/cosenza/) wspina się na strome wzgórze zwieńczone [zamkiem normańsko-szwabskim](/pl/kierunki/cosenza/zamek/). W nowej części miasta główny deptak Corso Mazzini zamieniono w muzeum pod gołym niebem – [MAB](/pl/kierunki/cosenza/mab-bilotti/) prezentuje rzeźby m.in. Salvadora Dalego czy Giorgia de Chirico.
 
 **23. Park Narodowy Pollino.** [Pollino](/pl/natura/pollino/) to największy park narodowy we Włoszech, obejmujący ponad 192 tys. hektarów. Symbolem tych gór jest *pino loricato* – rzadka sosna bośniacka rosnąca na wapiennych graniach, której kora przypomina rzymską zbroję. Latem ogromną popularnością cieszy się rafting w głębokich wąwozach rzeki Lao.
 
@@ -128,10 +128,10 @@ Najczęstszy błąd turystów to próba zobaczenia całej Kalabrii z jednego hot
 
 - **Pierwszy raz, 7 dni:** Tropea (Wybrzeże Bogów, Pizzo) + Reggio Calabria (Scilla, Brązy z Riace, Aspromonte). Gotowa trasa znajduje się w naszym [planie na 7 dni](/pl/praktyczne/plan-7-dni/).
 - **Historia i Wielka Grecja:** Reggio Calabria + Locri (Gerace, Locri Epizefiri, Stilo, Kaulon).
-- **Góry i chłodniejsze lato:** Camigliatello Silano (Sila) + Cosenza + jeden dzień w Pollino.
+- **Góry i chłodniejsze lato:** Camigliatello Silano (Sila) + Cosenza + jeden dzień w masywie Pollino.
 - **Wakacje z biurem na północy:** Scalea jako baza, wycieczki do Diamante, Arcomagno i na rafting rzeką Lao.
 
-Bez samochodu zobaczysz głównie miejsca położone na nadmorskich liniach kolejowych: Tropeę, Pizzo, Scillę, Reggio, Locri i Catanzaro Lido. Wyprawa w góry, do Gerace, Pentedattilo czy Le Castella wymaga już auta – o specyfice lokalnych dróg przeczytasz w poradniku o [wynajmie samochodu w Kalabrii](/pl/praktyczne/wynajem-samochodu/). Jak dotrzeć do regionu, opisujemy w przewodniku [jak dojechać do Kalabrii](/pl/praktyczne/jak-dojechac/).
+Bez samochodu zobaczysz głównie miejsca położone na nadmorskich liniach kolejowych. Pociągi regionalne sprawnie łączą Tropeę, Pizzo, Scillę i Reggio Calabria. Linia biegnąca wzdłuż wybrzeża jońskiego (do Locri czy Catanzaro Lido) jest wolniejsza i rzadziej obsługiwana, ale pozwala dotrzeć do głównych miast wschodu. Wyprawa w góry, do Gerace, Pentedattilo czy Le Castella wymaga już auta – o specyfice lokalnych dróg przeczytasz w poradniku o [wynajmie samochodu w Kalabrii](/pl/praktyczne/wynajem-samochodu/). Jak dotrzeć do regionu, opisujemy w przewodniku [jak dojechać do Kalabrii](/pl/praktyczne/jak-dojechac/).
 
 Na koniec kwestia pogody: lipiec i sierpień to gwarantowany upał i tłumy na plażach, za to w górach panują wtedy idealne warunki. Na intensywne zwiedzanie miast i stanowisk archeologicznych zdecydowanie najlepsze są maj, czerwiec, wrzesień i październik.
 
@@ -139,7 +139,7 @@ Na koniec kwestia pogody: lipiec i sierpień to gwarantowany upał i tłumy na p
 <h2 class="boc-section-title">Najczęściej zadawane pytania</h2>
 <details><summary>Co warto zobaczyć w Kalabrii w tydzień?</summary><p>W tydzień najlepiej połączyć Wybrzeże Bogów i południe regionu: Tropeę, Capo Vaticano i Pizzo, a następnie przenieść się do Scilli i Reggio Calabria (Brązy z Riace), planując też jednodniowy wypad w góry Aspromonte. Taki plan wymaga dwóch baz noclegowych.</p></details>
 <details><summary>Jakie jest najpiękniejsze miasteczko w Kalabrii?</summary><p>Najczęściej wymienia się Tropeę (tytuł Borgo dei Borghi 2021), Scillę z rybacką dzielnicą Chianalea oraz średniowieczne Gerace. Tropea i Scilla leżą bezpośrednio nad morzem, natomiast Gerace wznosi się na potężnej skale kilka kilometrów od wybrzeża jońskiego.</p></details>
-<details><summary>Czy da się zwiedzać Kalabrię bez samochodu?</summary><p>Częściowo tak. Pociągi regionalne sprawnie łączą Tropeę, Pizzo, Scillę, Reggio Calabria i główne miasta wybrzeża jońskiego. Parki narodowe, Gerace, Pentedattilo i Le Castella są jednak bardzo trudno dostępne komunikacją publiczną.</p></details>
+<details><summary>Czy da się zwiedzać Kalabrię bez samochodu?</summary><p>Częściowo tak. Pociągi regionalne sprawnie łączą Tropeę, Pizzo, Scillę i Reggio Calabria. Dojazd do głównych miast wybrzeża jońskiego jest możliwy, ale zajmuje więcej czasu. Parki narodowe, Gerace, Pentedattilo i Le Castella są jednak bardzo trudno dostępne komunikacją publiczną.</p></details>
 <details><summary>Ile dni potrzeba na Kalabrię?</summary><p>Na najważniejsze miejsca południa wystarczy 7 dni. Na niespieszne objechanie całego regionu, włączając w to wybrzeże jońskie oraz góry Sila i Pollino, zaplanuj 12–14 dni i co najmniej trzy bazy noclegowe.</p></details>
 <details><summary>Kiedy najlepiej zwiedzać Kalabrię?</summary><p>Na aktywne zwiedzanie najlepsze są maj, czerwiec, wrzesień i październik – jest ciepło, ale bez sierpniowego upału i tłumów. Lipiec i sierpień to z kolei idealny czas na plażowanie oraz ucieczkę w chłodniejsze góry Sila i Pollino.</p></details>
 </div>

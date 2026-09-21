@@ -7,7 +7,7 @@ image: "/images/own/tropea-santa-maria-widok.webp"
 description: "Things to do in Calabria: 25 places worth the trip, from Tropea and Scilla to the Riace Bronzes, Gerace, Sila, Pollino and Aspromonte, grouped by area."
 ---
 
-Calabria has no single headline sight that would overshadow everything else – which, paradoxically, makes it harder to plan. The region has more than 800 km of coastline, three national parks, Greek ruins, Byzantine churches and villages dug into steep hillsides. **If you are wondering what to do in Calabria, start by dividing the region into five areas** – from Tropea and the Coast of the Gods, through the Strait of Messina, to the Ionian coast and the mountains. Below are 25 places that genuinely deserve a spot in your plans, with a note on how much time each area needs.
+Calabria has no single headline sight that would overshadow everything else – which, paradoxically, makes it harder to plan. The region has nearly 790 km of coastline, three national parks, Greek ruins, Byzantine churches and villages dug into steep hillsides. **If you are wondering what to do in Calabria, start by dividing the region into five areas** – from Tropea and the Coast of the Gods, through the Strait of Messina, to the Ionian coast and the mountains. Below are 25 places that genuinely deserve a spot in your plans, with a note on how much time each area needs.
 
 <div class="boc-toc">
 <p class="boc-toc-title">Contents</p>
@@ -40,13 +40,13 @@ That is why the list is ordered by geography rather than as a ranking. The numbe
 
 ## Coast of the Gods – Tropea, Capo Vaticano and Pizzo {#coast-of-the-gods}
 
-This is Calabria's most popular stretch and, for many visitors, their first taste of the region. The nearest airport is Lamezia Terme, and regional trains run efficiently along the coast. In food terms, this is the land of sweet red onions (*cipolla rossa di Tropea*) and spicy, spreadable *'nduja* sausage from nearby Spilinga.
+This is Calabria's most popular stretch and, for many visitors, their first taste of the region. The nearest airport is Lamezia Terme, and regional trains run efficiently along the coast. In food terms, this is the land of sweet red onions (*cipolla rossa di Tropea*) and spicy, spreadable *'nduja* sausage from nearby Spilinga, most often served on crunchy bruschetta or with local *caciocavallo* cheese.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-santa-maria-widok.webp" alt="Santa Maria dell'Isola and the beach in Tropea seen from a viewpoint" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>The classic view of Tropea – the Santa Maria dell'Isola sanctuary on its rock with the beach below.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
 **1. Tropea.** The old town rises on a sandstone cliff, with beaches washed by the clear Tyrrhenian Sea below. [Tropea](/destinations/tropea/) was named Borgo dei Borghi in 2021, and its 12th-century Norman cathedral holds the icon of the Madonna di Romania. In the evening, walk to the Belvedere at Piazza del Cannone – on a clear day Stromboli rises on the horizon.
 
-**2. Santa Maria dell'Isola.** The [sanctuary on the rock](/destinations/tropea/santa-maria-dell-isola/) is the most photographed view in Calabria. The site began as a hermitage for Basilian monks, and you reach the church up steps cut into the rock.
+**2. Santa Maria dell'Isola.** The [sanctuary on the rock](/destinations/tropea/santa-maria-dell-isola/) is one of the most recognisable symbols of Calabria. The site began as a hermitage for Basilian monks, and you reach the church up steps cut into the rock.
 
 **3. Capo Vaticano.** This headland in the municipality of Ricadi is all cliffs, coves and a viewpoint by the lighthouse. [Capo Vaticano](/nature/capo-vaticano/) is known for the Grotticelle and Praia i Focu beaches, and many of its bays are best seen from a boat.
 
@@ -56,7 +56,7 @@ This is Calabria's most popular stretch and, for many visitors, their first tast
 
 ## Costa Viola and the Strait of Messina – Scilla and Reggio {#strait-of-messina}
 
-South of Palmi the coastline turns steep, and at sunset the sea takes on violet tones. Further on, the Strait of Messina opens up with Sicily on the other side.
+South of Palmi the coastline turns steep, and at sunset the sea takes on violet tones. Further on, the Strait of Messina opens up with Sicily on the other side. Reggio Calabria has its own airport (Tito Minniti), which makes the city a good starting point for exploring the south.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/scilla-chianalea-od-morza.webp" alt="Chianalea di Scilla seen from the sea on a windy day" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Chianalea from the water – winter waves breaking right below the houses.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
@@ -131,7 +131,7 @@ The most common mistake is trying to see all of Calabria from one hotel. **It wo
 - **Mountains and a cooler summer:** Camigliatello Silano (Sila) + Cosenza + a day in Pollino.
 - **Package holiday in the north:** Scalea as a base, with trips to Diamante, the Arcomagno and the Lao river.
 
-Without a car you will mostly see places on the railway: Tropea, Pizzo, Scilla, Reggio, Locri and Catanzaro Lido. The mountains, Gerace, Pentedattilo and Le Castella all need a car – see our guide to [car rental in Calabria](/practical/car-rental/). For flights and transfers, read [how to get to Calabria](/practical/getting-there/).
+Without a car you will mostly see places on the coastal railway lines. Regional trains connect Tropea, Pizzo, Scilla and Reggio Calabria efficiently. The line along the Ionian coast (to Locri or Catanzaro Lido) is slower and less frequent, but reaches the main towns of the east. The mountains, Gerace, Pentedattilo and Le Castella all need a car – see our guide to [car rental in Calabria](/practical/car-rental/). For flights and transfers, read [how to get to Calabria](/practical/getting-there/).
 
 Finally, the weather: July and August bring heat and crowded beaches, which is when the mountains are at their best. For towns and archaeological sites, May, June, September and October are ideal.
 
@@ -139,7 +139,7 @@ Finally, the weather: July and August bring heat and crowded beaches, which is w
 <h2 class="boc-section-title">Frequently asked questions</h2>
 <details><summary>What should I see in Calabria in a week?</summary><p>In a week, combine the Coast of the Gods with the south: Tropea, Capo Vaticano and Pizzo, then Scilla, Reggio Calabria with the Riace Bronzes and a day trip into Aspromonte. This plan works best with two bases.</p></details>
 <details><summary>What is the most beautiful town in Calabria?</summary><p>The names that come up most often are Tropea (Borgo dei Borghi 2021), Scilla with its Chianalea quarter and medieval Gerace. Tropea and Scilla are on the sea; Gerace sits on a rock a few kilometres inland from the Ionian coast.</p></details>
-<details><summary>Can you visit Calabria without a car?</summary><p>Partly. Regional trains connect Tropea, Pizzo, Scilla, Reggio Calabria and the towns of the Ionian coast. The national parks, Gerace, Pentedattilo and Le Castella are hard to reach by public transport, though.</p></details>
+<details><summary>Can you visit Calabria without a car?</summary><p>Partly. Regional trains connect Tropea, Pizzo, Scilla and Reggio Calabria efficiently. The main towns of the Ionian coast can be reached too, but it takes longer. The national parks, Gerace, Pentedattilo and Le Castella are hard to reach by public transport, though.</p></details>
 <details><summary>How many days do you need in Calabria?</summary><p>Seven days is enough for the highlights of the south. For the whole region, including the Ionian coast, Sila and Pollino, allow 12–14 days and at least three bases.</p></details>
 <details><summary>When is the best time to visit Calabria?</summary><p>For sightseeing, May, June, September and October are best – warm, without the August heat and crowds. July and August suit beach holidays and the Sila and Pollino mountains.</p></details>
 </div>

@@ -310,3 +310,8 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Winda (*ascensore*) Piazza San Rocco ↔ Marina Grande: otwarta 14.07.2021, wejście przez tunel od promenady (przy barze Zanzibar), sezonowa, we wrześniu 2025 zamknięta – ceny nie podajemy (1 € z 2021 niezweryfikowane na 2026)
 - Rzeźba Scylli: Francesco Triglia, odsłonięta 26.07.2013, po budowie windy przeniesiona na zwieńczenie szybu
 - **Nie przyjęte**: „szkoła wenecka” zamiast Mazzola (discoverscilla przypisuje figurę Giovanniemu Battiście Mazzolowi); „bilet kilka euro” – zostaje konkretna cena 3 € i godziny zamku, przeredagowane bez stylu raportu
+
+## Stan 2026-09-23 (2) – fact-check redaktorski: katedra w Catanzaro
+- PL+EN (ff7d635): tytuł bez „w sercu Kalabrii”; kalki „Catanzaro Cathedral”, centro storico, rione → dzielnica; archidiecezja/diecezja małą literą; description przepisany (był ucięty „…”)
+- Sekcja o katedrach w Sienie i Pizie (zapychacz) usunięta wraz ze źródłami Siena i UNESCO (link „Just a moment...”); w jej miejsce konkatedra w Squillace: XI w., fundacja Rogera I, zniszczona 1783, ponowna konsekracja 6.05.1798, bazylika mniejsza 2015 (it.wikipedia); Catanzaro → Squillace 25 km / ok. 30 min (OSRM)
+- **Przesada redaktora**: obraz Wniebowzięcia (ok. 5 × 2,5 m, szkoła neapolitańska, 1750) przeniesiony do MARCA 11.06.2025 – potwierdzone (SABAP), ale wg catanzaroinforma.it z 13.09.2026 konserwacja czeka jeszcze na przetarg, więc nie „ogląda się jej na żywo”; w FAQ opisane ostrożnie. Dzień otwarty pracowni 26.09.2026

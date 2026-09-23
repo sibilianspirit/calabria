@@ -385,3 +385,9 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Dojazd Reggio → Bova: „około godziny (ok. 55 km), SS106 + SP24” (OSRM 53 km / 64 min); było 1 h 15–1 h 30 i 55–65 km – redaktor uznał te wartości za poprawne
 - **normański vs normandzki** (decyzja użytkownika): *normański* = Normanowie (podboje, zamki, katedry, styl – cała Kalabria), *normandzki* = region Normandia (Wyspy Normandzkie, cydr normandzki). Zamienione sitewide w `content/pl` (38 wystąpień w 5 plikach: zamek w Gerace – tytuł i 4 id nagłówków ASCII `normanski`, Catanzaro, Scilla, Stilo, lista Kierunki); w polskim tekście nie ma już „normandzki”, 0 martwych kotwic
 - Do decyzji: „greko kalabryjski” w Magna Graecia (FAQ) i Dziedzictwie grekanickim
+
+## Stan 2026-09-23 (14) – fact-check redaktorski: Festiwal czerwonej cebuli (Tropea/Ricadi)
+- PL+EN (bd8d6e8): tytuł „Festiwal czerwonej cebuli z Tropei” (nie „w Tropei” – festiwal jest w Ricadi), description przepisany (był ucięty „…”), „Powrót do Tropei”; typologie → formy sprzedaży z objaśnieniem (cipollotto, consumo fresco, da serbo = warkocze *trecce*); dżem → konfitura; słoność sera zamiast „wytrawności”; pełne nazwy gmin IGP Fiumefreddo Bruzio, Belmonte Calabro; objaśnione wyścigi w workach, *giganti* i *camejiuzzu di fuoco* (trzcinowy „ognisty wielbłąd” z fajerwerkami)
+- **Słodycz**: usunięta „wysoka zawartość cukru” – słodycz wynika głównie z niskiej zawartości kwasu pirogronowego (brak ostrości). Tezy redaktora, że wyższy cukier to „mit”, nie przyjęto wprost – źródła włoskie są niezgodne (cookist: „nie tylko więcej cukru, ale i mniej kwasu”)
+- **Błąd redaktora**: „w Ricadi jest tylko jedna stacja” – w gminie są dwie: Ricadi i Santa Domenica; Tropea → Ricadi pociągiem ok. 10 min, kursy rzadkie
+- Nie przyjęte: anegdota o starszych Kalabryjczykach gryzących cebulę jak jabłko (niezweryfikowalna), Caciocavallo Silano DOP na stoiskach sagry (niepotwierdzone)

@@ -323,3 +323,10 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Hełmy: redaktor przypisał pewny hełm koryncki tylko B – wg it.wikipedia na hełm u A wskazują włosy wymodelowane pod nakryciem i ślady mocowania; potylica B pasuje do podniesionego hełmu albo obszernego nakrycia głowy. Opisane ostrożnie dla obu
 - Cokoły antysejsmiczne z marmuru kararyjskiego zaprojektowane przez ENEA (2013, pierwsze takie zastosowanie) – potwierdzone, zastąpiły „antysejsmiczną podłogę”
 - Nie przyjęte: nazwa muzeum w alt (zostaje polska, decyzja z 15.09), frazesy „absolutny fundament”, „absolutnie najwyższy poziom”, „na sam koniec włoskiego buta”; usunięcie Centro di Restauro we Florencji i ostrożnych sformułowań o atrybucjach; pewnik o komorze mikroklimatycznej (it.wikipedia potwierdza ją tylko dla 2013). Strona muzeum `come-arrivare` odrzucała połączenia (ECONNREFUSED)
+
+## Stan 2026-09-23 (4) – fact-check redaktorski: Cattolica di Stilo
+- PL+EN (dfe7249): odmiana Cattoliki/Cattolicę/Cattolice (id nagłówków bez zmian), „w Kalabrii” zamiast „w regionie Kalabria”, oczka na kostce, katholikon w intro zamiast powtórzonego akapitu o nazwie, św. Jan Theristis (Żniwiarz), apsydy bema/prothesis/diakonikon, arabskie inskrypcje (odkryte 1997) także w tekście głównym, description przepisany (był ucięty „…”)
+- **Błędy redaktora**: wzór cegieł to fryz ząbkowy *a dente di sega*, NIE jodełka *spina di pesce* (błąd był też w oryginale); zamknięcie przed otwarciem 29.07.2026 trwało niemal 10 miesięcy, nie „niemal rok”; Orsi przeprowadził pierwszą nowoczesną restaurację 1912–1927 (it.wikipedia), nie „ponowne odkrycie”; autobus lokalny ze stacji niepotwierdzony – zostało „samochód lub taksówka”
+- Potwierdzone: prace z PNRR (burze, bariery architektoniczne, park Clarisse – finestresullarte.info); „jedna kolumna do góry nogami” → w podstawach kolumn odwrócone kapitele
+- Droga Monasterace Marina → Stilo: w OSM nazwa „Strada Provinciale 9”, ref SS110 – na stronie „SS110 (oznaczana też jako SP9)”, ok. 13 km
+- Heredoki w Bash z długim tekstem nadal się sypią – skrypty i pliki pisać narzędziem Write

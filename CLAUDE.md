@@ -330,3 +330,9 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Potwierdzone: prace z PNRR (burze, bariery architektoniczne, park Clarisse – finestresullarte.info); „jedna kolumna do góry nogami” → w podstawach kolumn odwrócone kapitele
 - Droga Monasterace Marina → Stilo: w OSM nazwa „Strada Provinciale 9”, ref SS110 – na stronie „SS110 (oznaczana też jako SP9)”, ok. 13 km
 - Heredoki w Bash z długim tekstem nadal się sypią – skrypty i pliki pisać narzędziem Write
+
+## Stan 2026-09-23 (5) – fact-check redaktorski: Makaron fileja
+- PL+EN (a98b3d5): „tego dania spróbować” (dopełniacz), wymowa bez odniesienia do angielskiego „yes” w PL (w EN zostaje), tyrreńskim, semolina zamiast „mąki semolowej”, świderek zamiast „śruby”, ragù z koziny, „Wersje smakowe”, „doskonale łączy się z gęstymi sosami”, lody tartufo di Pizzo; description przepisany (był ucięty „…”)
+- **Sagra doprecyzowana**: redaktor pisał o „słynnej Sagra della Fileja” – nie ma jednej; wpisana Sagra di Fileja e Ceci w Pannaconi (gmina Cessaniti, 36. edycja 6.08.2026, źródło sagreautentiche.it) oraz sagry w Filandari i Briatico
+- Potwierdzone: Pecorino del Monte Poro DOP – rozporządzenie wykonawcze 2020/974 z 6.07.2020 (Dz.U. UE L 215 z 7.07.2020)
+- Nie przyjęte: wino Cirò Rosso do filei (Cirò to prowincja Crotone, nie Vibo – bez lokalnego związku)

@@ -343,3 +343,10 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Dodane: trzęsienie ziemi 1854 zawaliło trzecie piętro, nieodbudowane (it.wikipedia); grafiki Boccioniego ze zbioru Lydii Winston Malbin, w galerii od 1996; Preti (Il Cavalier Calabrese, ur. w Tavernie), Boccioni ur. w Reggio Calabria
 - SUF → Palazzo Arnone wg OSRM 67 km / 58 min – „około godziny” zamiast 50 min. Strony cultura.gov.it i musei.calabria.beniculturali.it odrzucały połączenia (ECONNREFUSED)
 - TODO: po 1.10.2026 sprawdzić, kto obsługuje autobusy miejskie w Cosenzy (Cometra?) i zaktualizować strony Cosenzy
+
+## Stan 2026-09-23 (7) – Galleria Nazionale di Cosenza, druga tura
+- PL+EN (adb85a8): redaktor przysłał tę samą redakcję co w (6) – większość była już wgrana; nowe poprawki po diffie
+- **Błąd w tekście, redaktor miał rację**: bastiony to nie XVII w. – pierwszy wzniesiono w 1747 r., cztery narożne w 1758 r. z woli gubernatora, po pożarach z 1734 i 1747 (it.wikipedia). Budynek przekazano ministerstwu kultury w latach 80. XX w.
+- Potwierdzone i dodane: rysunki przygotowawcze do „Śmiechu” (*La risata*, 1911, MoMA); egzemplarz „Unikalnych form ciągłości w przestrzeni”; wystawy czasowe (Rembrandt 2019, Hokusai/Hiroshige 2022, Manet 2023) zamiast wypełniacza w sekcji „Wydarzenia”
+- Nazwa w polskich zdaniach: „Galeria Narodowa w Cosenzy” (odmieniana; tytuł strony zostaje włoski); 3 nagłówki H2 z nowymi id ASCII; usunięte „skarbnica kultury”, „kulturowy pomost”
+- Nie przyjęte: „w Cosenzie” (poprawnie: Cosenzy), Paola → Cosenza 25 min (zostaje 22 min), autobusy AMACO jako zalecany dojazd (spółka jest w upadłości)

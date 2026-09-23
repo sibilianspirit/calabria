@@ -350,3 +350,8 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Potwierdzone i dodane: rysunki przygotowawcze do „Śmiechu” (*La risata*, 1911, MoMA); egzemplarz „Unikalnych form ciągłości w przestrzeni”; wystawy czasowe (Rembrandt 2019, Hokusai/Hiroshige 2022, Manet 2023) zamiast wypełniacza w sekcji „Wydarzenia”
 - Nazwa w polskich zdaniach: „Galeria Narodowa w Cosenzy” (odmieniana; tytuł strony zostaje włoski); 3 nagłówki H2 z nowymi id ASCII; usunięte „skarbnica kultury”, „kulturowy pomost”
 - Nie przyjęte: „w Cosenzie” (poprawnie: Cosenzy), Paola → Cosenza 25 min (zostaje 22 min), autobusy AMACO jako zalecany dojazd (spółka jest w upadłości)
+
+## Stan 2026-09-23 (8) – fact-check redaktorski: Tradycja połowu miecznika (Scilla)
+- PL+EN (b96c2dd): wypływają w morze, maszt/wieża kratownicowa zamiast kalki *traliccio*, pomost dziobowy, Mesyna, w Chianalei, w Bagnarze Calabrze, lokalnych sagr, palangari objaśnione (sznury haczykowe), „filar nadmorskiej kuchni”, „Powrót do Scilli”; description przepisany (był ucięty „…”)
+- Dodane i potwierdzone (culturalimentare/ICCD, cibotoday, clicksicilia): harpunuje się najpierw samicę, bo samiec zostaje przy partnerce; *cardata da cruci* = wielokrotny krzyż wydrapywany paznokciami na prawym policzku/skrzelach; św. Marek = patron harpunników
+- **Przesada redaktora**: „potwierdzona reguła biologiczna” – źródła opisują to jako tradycję rybacką, nie wynik badań; na stronie „reguła z wielopokoleniowej obserwacji”. Inwokacja: zostaje zapis z karty ICCD „San Marcu è binirittu”, wariant redaktora „San Marcu binirittu!” podany obok. „Scylli i Mesyny” odrzucone (Scylla = potwór) – jest „dzisiejszej Scilli i Mesyny”; „szlachetny przeciwnik” przeniesiony do opisu cardaty (tak podają źródła)

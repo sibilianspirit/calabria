@@ -366,3 +366,10 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - **Redaktor miał rację**: ze Spiaggia del Cannone (przy molo, osłonięta Scoglio di San Leonardo) nie ma widoku na Santa Maria dell'Isola – jest widok na San Leonardo i port (tropea-tourism.com)
 - **Błędy redaktora**: „gruboziarnisty piasek” – tropea-tourism o Rotondzie: „sabbia molto sottile”, zostało „jasny piasek” (zamiast „biały”); „pociąg z lotniska Lamezia” – lotnisko nie ma stacji: pociąg z Lamezia Terme Centrale niecała godzina, z lotniska z autobusem ok. 1 godz. 10–20 min
 - Okres kąpielowy 1.05–31.10 potwierdzony dla 2025; dla 2026 dekrety regionu (4816, 5441) dotyczą klasyfikacji wód – na stronie „ostatnio od 1 maja do 31 października”
+
+## Stan 2026-09-23 (11) – fact-check redaktorski: Muzeum Archeologiczne w Reggio (MArRC)
+- PL+EN (0502e1a): „relikt Porticello” → wrak w Porticello (wł. *relitto*), Głowa z Bazylei / Głowa Filozofa z włoskim w nawiasie, Lokroi Epizephyrioi i Locri już nie jako dwie kolonie, powtórzenia w intro, historii i na poziomie E usunięte, chronologia gmachu uporządkowana (1932–1941, zbiory wywiezione w czasie wojny, 1954 częściowe otwarcie, 1959 inauguracja, 2009 zamknięcie, XII 2013 Brązy), najbogatsza zamiast najistotniejszej, Wielka Grecja zamiast Magna Graecia, audioprzewodnik; description przepisany (był ucięty „…”)
+- Dodane wg it.wikipedia: Palazzo Piacentini to pierwszy we Włoszech gmach zaprojektowany od podstaw jako muzeum; Orsi zaproponował muzeum po trzęsieniu 1908
+- Źródło „Palazzo di Giustizia | Turismo Roma” usunięte (Calderini, nie Piacentini) i zastąpione it.wikipedia Palazzo Piacentini
+- Dojazd: listy kilkunastu linii ATAM zastąpione liniami 27/28 z lotniska + pociąg ze stacji Reggio di Calabria Aeroporto do Lido
+- **Nie przyjęte**: włoska nazwa muzeum w polskich zdaniach (zostaje „Narodowe Muzeum Archeologiczne”, decyzja z 15.09); encje `&ndash;`/`&euro;` z pliku redaktora; uogólnienie godzin wolontariuszy TCI („wybrane dni”) – zostały konkretne dni wg strony muzeum z prośbą o sprawdzenie; ocena „bez sensu jeździć autobusami” złagodzona. Strona muzeum nadal nie odpowiada na curl

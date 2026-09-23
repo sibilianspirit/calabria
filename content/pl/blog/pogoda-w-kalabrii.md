@@ -7,7 +7,7 @@ image: "/images/own/tropea-plaza-pod-klifem.webp"
 description: "Pogoda w Kalabrii miesiąc po miesiącu: temperatura powietrza i morza, opady, różnice między wybrzeżami a górami. Kiedy jechać na plażę, a kiedy zwiedzać."
 ---
 
-Kalabria ma klimat śródziemnomorski, ale „pogoda w Kalabrii” to w praktyce co najmniej trzy różne strefy klimatyczne. **Na wybrzeżu lato jest gorące i suche, zima łagodna i deszczowa, a w masywach Sila i Pollino zimą leży śnieg.** W tym przewodniku znajdziesz średnie temperatury powietrza i morza dla każdego miesiąca, różnice między Morzem Tyrreńskim a Jońskim oraz podpowiedź, kiedy jechać na plażę, a kiedy na zwiedzanie. Liczby pochodzą z historycznych danych pogodowych z ostatnich dziesięciu lat, a nie z podkoloryzowanych folderów biur podróży.
+Kalabria leży w strefie klimatu śródziemnomorskiego, ale „pogoda w Kalabrii” to w praktyce co najmniej trzy różne strefy klimatyczne. **Na wybrzeżu lato jest gorące i suche, zima łagodna i deszczowa, a w masywach Sila i Pollino zimą regularnie leży śnieg.** W tym przewodniku znajdziesz średnie temperatury powietrza i morza dla każdego miesiąca, różnice między wybrzeżem Morza Tyrreńskiego a Jońskiego oraz podpowiedź, kiedy jechać na plażę, a kiedy nastawić się na zwiedzanie. Liczby pochodzą z historycznych danych pogodowych z ostatnich dziesięciu lat, a nie z podkoloryzowanych folderów biur podróży.
 
 <div class="boc-toc">
 <p class="boc-toc-title">Spis treści</p>
@@ -26,16 +26,16 @@ Kalabria ma klimat śródziemnomorski, ale „pogoda w Kalabrii” to w praktyce
 
 ## Klimat Kalabrii w skrócie {#klimat-kalabrii-w-skrocie}
 
-Kalabria leży między dwoma morzami, a jej środek zajmują góry sięgające prawie 2000 m n.p.m. Ten układ decyduje o pogodzie bardziej niż sama szerokość geograficzna.
+Kalabria leży między dwoma morzami – Tyrreńskim i Jońskim – a jej środek zajmują góry: Sila i Aspromonte sięgają prawie 2000 m n.p.m., a masyw Pollino na północy przekracza 2200 m (Serra Dolcedorme, 2267 m). Ten układ decyduje o pogodzie bardziej niż sama szerokość geograficzna.
 
-- **Wybrzeże tyrreńskie** (Tropea, Pizzo, Scalea) jest nieco chłodniejsze latem i bardziej deszczowe jesienią i zimą – to ono jako pierwsze przyjmuje uderzenie frontów atmosferycznych z zachodu.
+- **Wybrzeże tyrreńskie** (Tropea, Pizzo, Scalea) jest nieco chłodniejsze latem i bardziej deszczowe jesienią i zimą – to ono jako pierwsze przyjmuje fronty atmosferyczne nadciągające znad Morza Tyrreńskiego.
 - **Wybrzeże jońskie** (Soverato, Locri, Catanzaro Lido) ma najgorętsze i najsuchsze lato, ale jesienią zdarzają się tu gwałtowne ulewy.
-- **Okolice Reggio Calabria** i Cieśniny Mesyńskiej są najcieplejsze zimą i najbardziej suche w lipcu. Z kolei na nizinie wokół lotniska Lamezia Terme latem bywa wyjątkowo duszno.
-- **Góry** (Sila, Pollino, Aspromonte) mają klimat bliższy Europie Środkowej: zimą mróz i śnieg, latem przyjemne 20–24°C.
+- **Okolice Reggio Calabria** i Cieśniny Mesyńskiej są najcieplejsze zimą i najbardziej suche w lipcu. Z kolei na równinie Sant'Eufemia (wł. *Piana di Sant'Eufemia*), wokół lotniska Lamezia Terme, latem bywa wyjątkowo duszno.
+- **W górach** (Sila, Pollino, Aspromonte) klimat jest bliższy środkowoeuropejskiemu: zimą mróz i śnieg, latem przyjemne 20–24°C.
 
 ## Pogoda w Kalabrii – tabela miesiąc po miesiącu {#tabela-miesiac-po-miesiacu}
 
-Poniżej średnie maksymalne i minimalne temperatury dzienne oraz suma opadów w miesiącu. Dane to średnia z lat 2016–2025 z historycznego archiwum Open-Meteo (reanaliza pogodowa). W poszczególne dni może być znacznie cieplej – w lipcu i sierpniu 35°C nie jest w Kalabrii niczym wyjątkowym.
+Poniżej średnie maksymalne i minimalne temperatury dzienne oraz suma opadów w miesiącu. Dane to średnia z lat 2016–2025 z historycznego archiwum Open-Meteo (reanaliza pogodowa). W poszczególnych dniach może być znacznie cieplej – w lipcu i sierpniu 35°C nie jest w Kalabrii niczym wyjątkowym.
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Miesiąc</th><th>Tropea (Tyrreńskie)</th><th>Reggio Calabria</th><th>Soverato (Jońskie)</th><th>Opady Tropea</th></tr>
@@ -57,7 +57,7 @@ Najważniejszy wniosek z tabeli: **najwięcej deszczu spada w listopadzie, a naj
 
 ## Temperatura morza – kiedy woda jest ciepła {#temperatura-morza}
 
-Dla wielu osób to kluczowa kwestia. Morze nagrzewa się wolniej niż powietrze, ale też dłużej trzyma ciepło – dlatego wrzesień jest dla pływania lepszy niż czerwiec.
+Dla wielu turystów to kluczowa kwestia. Morze nagrzewa się wolniej niż powietrze, ale też dłużej trzyma ciepło – dlatego wrzesień jest dla pływania lepszy niż czerwiec.
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Miesiąc</th><th>Temperatura wody</th><th>Kąpiel</th></tr>
@@ -79,52 +79,52 @@ Zima na wybrzeżu jest łagodna: w dzień zwykle 14–16°C, w nocy 8–11°C. P
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-plaza-pod-klifem.webp" alt="Plaża pod klifem Tropei zimą" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Plaża u stóp klifu Tropei – latem zatłoczona, zimą zupełnie pusta.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
-Zimą kalabryjskie wybrzeże zapada w sen. Wiele hoteli i restauracji w kurortach, zwłaszcza w Tropei i na Capo Vaticano, zamyka się po sezonie. Miasta takie jak Reggio Calabria, Cosenza czy Catanzaro żyją jednak normalnie, a muzea są otwarte.
+Zimą kalabryjskie wybrzeże pustoszeje. Wiele hoteli i restauracji w kurortach, zwłaszcza w Tropei i na Capo Vaticano, zamyka się po sezonie. Miasta takie jak Reggio Calabria, Cosenza czy Catanzaro żyją jednak normalnie, a muzea są otwarte.
 
 Co robić zimą:
 
 - zwiedzać [Narodowe Muzeum Archeologiczne w Reggio](/pl/kierunki/reggio-calabria/museo-nazionale/) z Brązami z Riace, bez kolejek,
-- oglądać ośnieżoną Etnę z Lungomare w Reggio – przy dobrej widoczności widać ją doskonale,
-- jeździć na nartach na Sili (Camigliatello, Lorica) i w Gambarie w Aspromonte, jeśli spadnie śnieg.
+- oglądać ośnieżoną Etnę z bulwaru Lungomare Falcomatà w Reggio – przy dobrej widoczności wulkan widać bardzo wyraźnie,
+- jeździć na nartach na płaskowyżu Sila (Camigliatello, Lorica) i w Gambarie w masywie Aspromonte, jeśli spadnie śnieg.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-etna-ciesnina.webp" alt="Ośnieżona Etna widziana z Reggio Calabria przez Cieśninę Mesyńską" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Zimą z Lungomare widać ośnieżony stożek Etny po drugiej stronie cieśniny.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
 ## Wiosna (marzec–maj) {#wiosna}
 
-Marzec jest jeszcze kapryśny: około 16°C w dzień i sporo deszczu, zwłaszcza na wybrzeżu tyrreńskim. Od kwietnia pogoda się stabilizuje, a opady spadają o połowę. Wiosną zaczyna się też sezon kitesurferów: na plaży w Gizzerii koło Lamezia Terme wieje regularny wiatr termiczny, a na Punta Pellaro pod Reggio – wiatr z Cieśniny.
+Marzec jest jeszcze kapryśny: około 16°C w dzień i sporo deszczu, zwłaszcza na wybrzeżu tyrreńskim. Od kwietnia pogoda się stabilizuje, a opady spadają o połowę. Wiosną zaczyna się też sezon kitesurferów: na plaży w Gizzerii Lido koło Lamezia Terme wieje regularny wiatr termiczny, a na Punta Pellaro pod Reggio – niemal stały wiatr z Cieśniny Mesyńskiej.
 
-**Maj to jeden z najlepszych miesięcy na zwiedzanie Kalabrii.** Temperatura w dzień dochodzi do 22–23°C, kwitną łąki w Aspromonte i na Sili, a plaże są jeszcze puste. Morze ma jednak dopiero 19–20°C, więc kąpiel jest orzeźwiająca. Wiosna to idealny czas na zwiedzanie miasteczek i stanowisk archeologicznych: Gerace, Stilo czy Locri Epizefiri.
+**Maj to jeden z najlepszych miesięcy na zwiedzanie Kalabrii.** Temperatura w dzień dochodzi do 22–23°C, kwitną łąki w Aspromonte i na płaskowyżu Sila, a plaże są jeszcze puste. Morze ma jednak dopiero 19–20°C, więc kąpiel jest orzeźwiająca. Wiosna to idealny czas na zwiedzanie miasteczek i stanowisk archeologicznych: Gerace, Stilo czy Locri Epizefiri.
 
 W okresie Wielkanocy w wielu miejscowościach odbywają się procesje i obrzędy Wielkiego Tygodnia – więcej o nich przeczytasz w tekście o [tradycjach i festiwalach Kalabrii](/pl/kultura/tradycje-i-festiwale/).
 
 ## Lato (czerwiec–sierpień) {#lato}
 
-Lato w Kalabrii jest gorące, słoneczne i suche. Średnie maksimum w lipcu i sierpniu to 29°C w Tropei i 31–32°C w Reggio i na wybrzeżu jońskim, ale fale upałów z temperaturami powyżej 35–38°C zdarzają się co roku. Deszcz pada rzadko, najczęściej w formie krótkich burz popołudniowych.
+Lato w Kalabrii jest gorące, słoneczne i suche. Średnie maksimum w lipcu i sierpniu to 29°C w Tropei i 31–32°C w Reggio oraz na wybrzeżu jońskim, ale fale upałów z temperaturami powyżej 35–38°C zdarzają się co roku. Deszcz pada rzadko, najczęściej w formie krótkich burz popołudniowych.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-lungomare-zmierzch.webp" alt="Lungomare Falcomatà w Reggio Calabria o zmierzchu" loading="lazy" width="1280" height="1600"/><figcaption class="wp-element-caption"><em>Lungomare Falcomatà wieczorem – latarnie, palmy i Cieśnina Mesyńska w tle.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
 Jak przetrwać upał:
 
-- **zwiedzaj rano i wieczorem** – między 13:00 a 17:00 wiele sklepów i tak jest zamkniętych,
+- **zwiedzaj rano i wieczorem** – między 13:00 a 17:00 wiele sklepów i tak jest zamkniętych na przerwę popołudniową,
 - wybieraj noclegi z klimatyzacją, zwłaszcza w miastach (Reggio, Cosenza, Catanzaro),
 - na najgorętsze dni zaplanuj wycieczkę w góry: na Sili w lipcu jest średnio 24°C w dzień,
 - śledź komunikaty o upałach i pożarach – ostrzeżenia wydaje regionalne centrum [ARPACAL](https://www.allertacal.it/).
 
-Czerwiec to złoty środek: morze jest już ciepłe, a turystów wciąż niewielu. Sierpień, szczególnie okolice Ferragosto (15 sierpnia), to szczyt sezonu. Plaże w Tropei i na Capo Vaticano pękają w szwach, ceny noclegów są najwyższe, stolik w restauracji trzeba rezerwować z wyprzedzeniem, a na nadmorskiej drodze SS18 tworzą się gigantyczne korki. Więcej o najlepszych miejscach na kąpiel znajdziesz w naszym zestawieniu [plaż Kalabrii](/pl/plaze/).
+Czerwiec to złoty środek: morze jest już ciepłe, a turystów wciąż niewielu. Sierpień, szczególnie okolice Ferragosto (15 sierpnia), to szczyt sezonu. Plaże w Tropei i na Capo Vaticano są zatłoczone, ceny noclegów są najwyższe, stolik w restauracji trzeba rezerwować z wyprzedzeniem, a na nadmorskiej drodze SS18 tworzą się gigantyczne korki. Więcej o najlepszych miejscach na kąpiel znajdziesz w naszym zestawieniu [plaż Kalabrii](/pl/plaze/).
 
-Czasem nad Kalabrię dociera scirocco – gorący wiatr z Afryki, który przynosi zapylone powietrze i uczucie potężnej duchoty.
+Czasem nad Kalabrię dociera scirocco – gorący wiatr z Afryki, który przynosi pył znad Sahary i uczucie potężnej duchoty.
 
 ## Jesień (wrzesień–listopad) {#jesien}
 
-Wrzesień to wciąż lato: 26–28°C w dzień i morze o temperaturze około 26°C. **Dla wielu osób to najlepszy miesiąc na wakacje w Kalabrii** – woda jest najcieplejsza w roku, a włoscy turyści wyjeżdżają po pierwszym tygodniu miesiąca. Pod koniec września pojawiają się pierwsze jesienne burze.
+Wrzesień w Kalabrii to wciąż lato: 26–28°C w dzień i morze o temperaturze około 26°C. **Dla wielu osób to najlepszy miesiąc na wakacje w Kalabrii** – woda jest najcieplejsza w roku, a włoscy turyści wyjeżdżają po pierwszym tygodniu miesiąca, przed początkiem roku szkolnego. Pod koniec września pojawiają się pierwsze jesienne burze.
 
-Październik jest ciepły (22–23°C) i nadal pozwala na kąpiele, bo morze ma 23–24°C. Trzeba jednak liczyć się z deszczowymi dniami, a na wybrzeżu jońskim – z krótkimi, ale intensywnymi ulewami. W Soverato październik jest średnio najbardziej mokrym miesiącem jesieni. Część obiektów plażowych kończy sezon już w drugiej połowie września.
+Październik jest ciepły (22–23°C) i nadal pozwala na kąpiele, bo morze ma 23–24°C. Trzeba jednak liczyć się z deszczowymi dniami, a na wybrzeżu jońskim – z krótkimi, ale intensywnymi ulewami. W Soverato październik jest średnio najbardziej mokrym miesiącem jesieni. Część płatnych kąpielisk (wł. *lidi*) kończy sezon już w drugiej połowie września.
 
 Listopad to najbardziej deszczowy miesiąc roku w większości regionu. Na wycieczki warto wtedy wybierać miasta i muzea, a w górach zaczyna się sezon na grzyby i kasztany.
 
 ## Pogoda w górach – Sila, Pollino, Aspromonte {#gory-sila-pollino-aspromonte}
 
-Góry Kalabrii to zupełnie inny świat. Na płaskowyżu Sila, w Camigliatello Silano na wysokości około 1270 m n.p.m., średnie temperatury wyglądają tak:
+W górach Kalabrii klimat jest zupełnie inny. Na płaskowyżu Sila, w Camigliatello Silano na wysokości około 1270 m n.p.m., średnie temperatury wyglądają tak:
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Pora roku</th><th>Camigliatello Silano (Sila)</th><th>Cosenza (dolina)</th></tr>
@@ -136,7 +136,7 @@ Góry Kalabrii to zupełnie inny świat. Na płaskowyżu Sila, w Camigliatello S
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/natura-sila-1.webp" alt="Lago Arvo w Lorice z zieloną łąką nad wodą" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Lago Arvo w Lorice otacza zielona łąka, a nad spokojną wodą wznoszą się łagodne, zalesione zbocza.</em><span class="boc-photo-credit">Fot. <a href="https://commons.wikimedia.org/w/index.php?curid=11418006" rel="nofollow noopener" target="_blank">Motorpferd</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a>, Wikimedia Commons</span></figcaption></figure>
 
-Różnica między Cosenzą a Silą to około 8°C, choć dzieli je zaledwie około 40 minut jazdy drogą SS107. Dlatego mieszkańcy Kalabrii uciekają latem w góry, a zimą w [Parku Narodowym Sila](/pl/natura/sila/) ruszają wyciągi narciarskie. Podobnie jest w [Pollino](/pl/natura/pollino/) i [Aspromonte](/pl/natura/aspromonte/) – w góry nawet latem zabierz cieplejsze ubranie i kurtkę przeciwdeszczową, bo popołudniowe burze są tu częste.
+Różnica temperatur między Cosenzą a płaskowyżem Sila to średnio około 8°C, choć dzieli je zaledwie około 40 minut jazdy krętą drogą SS107. Dlatego mieszkańcy Kalabrii uciekają latem w góry, a zimą w [Parku Narodowym Sila](/pl/natura/sila/) ruszają wyciągi narciarskie. Podobnie jest w masywach [Pollino](/pl/natura/pollino/) i [Aspromonte](/pl/natura/aspromonte/) – w góry nawet latem zabierz cieplejsze ubranie i kurtkę przeciwdeszczową, bo popołudniowe burze są tu częste.
 
 Pogodę na najbliższe dni dla gór i wybrzeża sprawdzisz w widgecie w bocznej kolumnie naszych stron o miejscowościach i parkach.
 
@@ -159,9 +159,9 @@ Jeśli masz wolny wybór, celuj w **drugą połowę maja lub pierwszą połowę 
 <h2 class="boc-section-title">Najczęściej zadawane pytania</h2>
 <details><summary>Jaka jest pogoda w Kalabrii we wrześniu?</summary><p>We wrześniu na wybrzeżu jest średnio 26–28°C w dzień i około 20–21°C w nocy. Morze ma około 26°C, czyli jest cieplejsze niż w czerwcu. Pod koniec miesiąca mogą pojawić się pierwsze burze.</p></details>
 <details><summary>Jaką temperaturę ma woda w morzu w Kalabrii?</summary><p>Morze ma 15–17°C od stycznia do kwietnia, 23–25°C w czerwcu, 27–28°C w lipcu i sierpniu, około 26°C we wrześniu i 23–24°C w październiku (średnie z lat 2022–2025).</p></details>
-<details><summary>Kiedy jest najcieplej w Kalabrii?</summary><p>Najcieplejsze są lipiec i sierpień: średnie maksimum to 29°C w Tropei i 31–32°C w Reggio Calabria i na wybrzeżu jońskim. W czasie fal upałów temperatura przekracza 35°C.</p></details>
+<details><summary>Kiedy jest najcieplej w Kalabrii?</summary><p>Najcieplejsze są lipiec i sierpień: średnie maksimum to 29°C w Tropei i 31–32°C w Reggio Calabria oraz na wybrzeżu jońskim. W czasie fal upałów temperatura przekracza 35°C.</p></details>
 <details><summary>Czy w październiku można się kąpać w Kalabrii?</summary><p>Tak. W październiku morze ma średnio 23–24°C, a w dzień jest 22–23°C. Trzeba liczyć się z kilkoma deszczowymi dniami i z tym, że część obiektów plażowych jest już zamknięta.</p></details>
-<details><summary>Czy w Kalabrii pada śnieg?</summary><p>Na wybrzeżu praktycznie nie. W górach – na Sili, w Pollino i Aspromonte – śnieg pada regularnie zimą, a w Camigliatello Silano średnia temperatura minimalna w styczniu spada poniżej zera.</p></details>
+<details><summary>Czy w Kalabrii pada śnieg?</summary><p>Na wybrzeżu praktycznie nie. W górach – na płaskowyżu Sila, w masywach Pollino i Aspromonte – śnieg pada regularnie zimą, a w Camigliatello Silano średnia temperatura minimalna w styczniu spada poniżej zera.</p></details>
 </div>
 
 <div class="boc-sources-box">

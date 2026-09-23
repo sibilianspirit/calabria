@@ -7,7 +7,7 @@ image: "/images/own/tropea-plaza-pod-klifem.webp"
 description: "Calabria weather by month: air and sea temperatures, rainfall, and how the coasts differ from the mountains. When to go for beaches and when for sightseeing."
 ---
 
-Calabria has a Mediterranean climate, but "Calabria weather" really covers at least three different climate zones. **On the coast, summers are hot and dry and winters mild and rainy, while the Sila and Pollino massifs get snow in winter.** This guide gives you average air and sea temperatures for every month, explains how the Tyrrhenian and Ionian coasts differ, and suggests when to go for the beach and when for sightseeing. The figures come from ten years of historical weather data, not from rose-tinted holiday brochures.
+Calabria has a Mediterranean climate, but "Calabria weather" really covers at least three different climate zones. **On the coast, summers are hot and dry and winters mild and rainy, while the Sila and Pollino massifs regularly get snow in winter.** This guide gives you average air and sea temperatures for every month, explains how the Tyrrhenian and Ionian coasts differ, and suggests when to go for the beach and when for sightseeing. The figures come from ten years of historical weather data, not from rose-tinted holiday brochures.
 
 <div class="boc-toc">
 <p class="boc-toc-title">Contents</p>
@@ -26,11 +26,11 @@ Calabria has a Mediterranean climate, but "Calabria weather" really covers at le
 
 ## Calabria's climate at a glance {#calabria-climate-at-a-glance}
 
-Calabria lies between two seas, with mountains of almost 2,000 m running down its middle. That layout shapes the weather more than latitude does.
+Calabria lies between two seas – the Tyrrhenian and the Ionian – with mountains running down its middle: the Sila and Aspromonte reach almost 2,000 m, and the Pollino massif in the north tops 2,200 m (Serra Dolcedorme, 2,267 m). That layout shapes the weather more than latitude does.
 
-- **The Tyrrhenian coast** (Tropea, Pizzo, Scalea) is slightly cooler in summer and wetter in autumn and winter – it takes the first hit from weather fronts moving in from the west.
+- **The Tyrrhenian coast** (Tropea, Pizzo, Scalea) is slightly cooler in summer and wetter in autumn and winter – it is the first to catch weather fronts moving in from the Tyrrhenian Sea.
 - **The Ionian coast** (Soverato, Locri, Catanzaro Lido) has the hottest, driest summers, but autumn can bring sudden downpours.
-- **The Reggio Calabria area** around the Strait of Messina is the mildest in winter and the driest in July. By contrast, the lowland around Lamezia Terme airport can feel oppressively muggy in summer.
+- **The Reggio Calabria area** around the Strait of Messina is the mildest in winter and the driest in July. By contrast, the Sant'Eufemia plain (*Piana di Sant'Eufemia*) around Lamezia Terme airport can feel oppressively muggy in summer.
 - **The mountains** (Sila, Pollino, Aspromonte) feel closer to central Europe: frost and snow in winter, a pleasant 20–24°C in summer.
 
 ## Calabria weather – month-by-month table {#month-by-month-table}
@@ -79,19 +79,19 @@ Coastal winters are mild: typically 14–16°C by day and 8–11°C at night. Fr
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-plaza-pod-klifem.webp" alt="The beach below Tropea's cliff in winter" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>The beach at the foot of Tropea's cliff – packed in summer, completely empty in winter.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
-In winter the Calabrian coast goes into hibernation. Many hotels and restaurants in resort areas, especially Tropea and Capo Vaticano, close after the season. Cities such as Reggio Calabria, Cosenza and Catanzaro carry on as normal, though, and museums stay open.
+In winter the Calabrian coast empties out. Many hotels and restaurants in resort areas, especially Tropea and Capo Vaticano, close after the season. Cities such as Reggio Calabria, Cosenza and Catanzaro carry on as normal, though, and museums stay open.
 
 What to do in winter:
 
 - visit the [National Archaeological Museum in Reggio](/destinations/reggio-calabria/museo-nazionale/) and the Riace Bronzes without queues,
-- watch snow-capped Etna from Reggio's Lungomare – on clear days the view is excellent,
-- ski on the Sila (Camigliatello, Lorica) or at Gambarie in Aspromonte, snow permitting.
+- watch snow-capped Etna from Reggio's Lungomare Falcomatà – on clear days the volcano stands out sharply,
+- ski on the Sila plateau (Camigliatello, Lorica) or at Gambarie in Aspromonte, snow permitting.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/reggio-etna-ciesnina.webp" alt="Snow-capped Etna seen from Reggio Calabria across the Strait of Messina" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>In winter the snowy cone of Etna is visible from the Lungomare across the Strait.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
 ## Spring (March–May) {#spring}
 
-March is still changeable: around 16°C by day and plenty of rain, especially on the Tyrrhenian coast. From April the weather settles and rainfall halves. Spring also brings the kitesurfing season: a steady thermal wind blows on the beach at Gizzeria near Lamezia Terme, and the Strait wind at Punta Pellaro near Reggio.
+March is still changeable: around 16°C by day and plenty of rain, especially on the Tyrrhenian coast. From April the weather settles and rainfall halves. Spring also brings the kitesurfing season: a steady thermal wind blows on the beach at Gizzeria Lido near Lamezia Terme, and an almost constant wind from the Strait of Messina at Punta Pellaro near Reggio.
 
 **May is one of the best months for sightseeing in Calabria.** Daytime temperatures reach 22–23°C, the meadows of Aspromonte and Sila are in bloom, and the beaches are still empty. The sea is only 19–20°C, though, so swimming is bracing. Spring is the ideal time to visit hill towns and archaeological sites such as Gerace, Stilo and Locri Epizefiri.
 
@@ -110,21 +110,21 @@ How to cope with the heat:
 - plan a mountain day for the hottest spells: the Sila averages 24°C in July,
 - keep an eye on heat and wildfire warnings issued by the regional centre [ARPACAL](https://www.allertacal.it/).
 
-June is the sweet spot: the sea is already warm and there are still few visitors. August, especially around Ferragosto (15 August), is peak season. The beaches of Tropea and Capo Vaticano are bursting at the seams, accommodation prices are at their highest, restaurant tables need booking well ahead, and the SS18 coastal road gets badly jammed. For the best spots, see our round-up of [Calabria's beaches](/nature/beaches/).
+June is the sweet spot: the sea is already warm and there are still few visitors. August, especially around Ferragosto (15 August), is peak season. The beaches of Tropea and Capo Vaticano are packed, accommodation prices are at their highest, restaurant tables need booking well ahead, and the SS18 coastal road gets badly jammed. For the best spots, see our round-up of [Calabria's beaches](/nature/beaches/).
 
-Now and then the scirocco reaches Calabria – a hot wind from Africa that brings dusty air and a heavy, oppressive feel.
+Now and then the scirocco reaches Calabria – a hot wind from Africa that brings Saharan dust and a heavy, oppressive feel.
 
 ## Autumn (September–November) {#autumn}
 
-September is still summer: 26–28°C by day and the sea at around 26°C. **For many people it is the best month for a holiday in Calabria** – the water is at its warmest and Italian holidaymakers leave after the first week. The first autumn storms tend to arrive towards the end of the month.
+September is still summer: 26–28°C by day and the sea at around 26°C. **For many people it is the best month for a holiday in Calabria** – the water is at its warmest and Italian holidaymakers leave after the first week, before the school year starts. The first autumn storms tend to arrive towards the end of the month.
 
-October is warm (22–23°C) and still good for swimming, with the sea at 23–24°C. Expect some rainy days, though, and on the Ionian coast short but intense downpours. In Soverato, October is on average the wettest month of autumn. Some beach establishments close for the season in the second half of September.
+October is warm (22–23°C) and still good for swimming, with the sea at 23–24°C. Expect some rainy days, though, and on the Ionian coast short but intense downpours. In Soverato, October is on average the wettest month of autumn. Some paid beach clubs (*lidi*) close for the season in the second half of September.
 
 November is the wettest month of the year across most of the region. It is a time for cities and museums, while in the mountains the season for mushrooms and chestnuts begins.
 
 ## Mountain weather – Sila, Pollino, Aspromonte {#mountain-weather}
 
-Calabria's mountains are a different world. On the Sila plateau, in Camigliatello Silano at around 1,270 m, average temperatures look like this:
+The mountains have a completely different climate. On the Sila plateau, in Camigliatello Silano at around 1,270 m, average temperatures look like this:
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Month</th><th>Camigliatello Silano (Sila)</th><th>Cosenza (valley)</th></tr>
@@ -136,7 +136,7 @@ Calabria's mountains are a different world. On the Sila plateau, in Camigliatell
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/natura-sila-1.webp" alt="Lago Arvo in Lorica with a green meadow by the water" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Lago Arvo in Lorica is ringed by meadows, with gentle wooded slopes rising above the calm water.</em><span class="boc-photo-credit">Photo: <a href="https://commons.wikimedia.org/w/index.php?curid=11418006" rel="nofollow noopener" target="_blank">Motorpferd</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a>, Wikimedia Commons</span></figcaption></figure>
 
-The Sila is about 8°C cooler than Cosenza, even though they are only about 40 minutes apart on the SS107. That is why Calabrians head for the hills in summer, while in winter the ski lifts open in [Sila National Park](/nature/sila/). The same goes for [Pollino](/nature/pollino/) and [Aspromonte](/nature/aspromonte/) – even in summer, pack warmer clothes and a rain jacket, as afternoon storms are common.
+The Sila is about 8°C cooler than Cosenza, even though they are only about 40 minutes apart on the winding SS107. That is why Calabrians head for the hills in summer, while in winter the ski lifts open in [Sila National Park](/nature/sila/). The same goes for [Pollino](/nature/pollino/) and [Aspromonte](/nature/aspromonte/) – even in summer, pack warmer clothes and a rain jacket, as afternoon storms are common.
 
 You can check the forecast for the coming days, for both mountains and coast, in the sidebar widget on our destination and park pages.
 

@@ -435,3 +435,7 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - **Redaktor miał rację**: „góry sięgające prawie 2000 m” – Pollino przekracza 2200 m (Serra Dolcedorme 2267 m); Sila i Aspromonte „prawie 2000 m” zostają obok
 - Potwierdzone: Cosenza → Camigliatello 33 km / 38 min (OSRM) – „około 40 minut” zostaje
 - **Nie przyjęte**: „efekt Venturiego/zjawisko dyszowe” na Punta Pellaro (źródło turismo.reggiocal mówi tylko o stałym wietrze – jest „niemal stały wiatr z Cieśniny”); „Museo Archeologico Nazionale” w PL (zostaje polska nazwa); „wydaje się być na wyciągnięcie ręki”, „zatłoczone do granic możliwości”, „oferują warunki” (kalki/banały); wyjazd Włochów „wraz z rozpoczęciem roku szkolnego” (szkoła rusza w połowie września – jest „przed początkiem roku szkolnego”)
+
+## Stan 2026-09-24 – spis treści w złym miejscu (Scilla, Locri)
+- PL+EN (5481865): w Scilli i Locri `boc-toc` stał w środku tekstu (po 2–3 sekcjach H2) i wymieniał tylko sekcje za sobą – przeniesiony pod intro, przed pierwszy H2, z pełną listą sekcji (Scilla 5, Locri 7)
+- Skan całego `public/` (TOC przed pierwszym H2 treści, wszystkie H2 z id w TOC, H2 bez id): poza tymi 4 stronami 0 błędów

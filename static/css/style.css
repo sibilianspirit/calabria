@@ -1377,23 +1377,28 @@ body:not(.is-home) .site-main {
   border-radius: 8px;
   transition: all 0.2s;
 }
+.page-content a.boc-nearby-pill:hover,
 .boc-nearby-pill:hover {
   background: #1B4D6E;
   color: #fff;
   border-color: #1B4D6E;
   transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(27, 77, 110, 0.18);
   text-decoration: none;
 }
 .boc-nearby-pill .boc-dist {
+  flex-shrink: 0;
+  max-width: 60%;
   font-size: 0.75rem;
   color: #9A8E82;
   background: #FAF8F5;
   padding: 3px 8px;
   border-radius: 4px;
   margin-left: 0.5rem;
+  transition: all 0.2s;
 }
-.boc-nearby-pill:hover .boc-dist { color: #1B4D6E; background: #fff; }
-.boc-nearby-static:hover { background: #fff; color: #2A2520; border-color: #E0D8CE; transform: none; }
+.boc-nearby-pill:hover .boc-dist { color: #fff; background: #C75B39; }
+.boc-nearby-static:hover { background: #fff; color: #2A2520; border-color: #E0D8CE; transform: none; box-shadow: none; }
 .boc-nearby-static:hover .boc-dist { color: #9A8E82; background: #FAF8F5; }
 
 /* ── BOC TABLE OF CONTENTS ── */

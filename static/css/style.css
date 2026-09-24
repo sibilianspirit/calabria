@@ -1393,6 +1393,8 @@ body:not(.is-home) .site-main {
   margin-left: 0.5rem;
 }
 .boc-nearby-pill:hover .boc-dist { color: #1B4D6E; background: #fff; }
+.boc-nearby-static:hover { background: #fff; color: #2A2520; border-color: #E0D8CE; transform: none; }
+.boc-nearby-static:hover .boc-dist { color: #9A8E82; background: #FAF8F5; }
 
 /* ── BOC TABLE OF CONTENTS ── */
 .boc-toc {

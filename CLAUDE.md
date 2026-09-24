@@ -439,3 +439,7 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 ## Stan 2026-09-24 – spis treści w złym miejscu (Scilla, Locri)
 - PL+EN (5481865): w Scilli i Locri `boc-toc` stał w środku tekstu (po 2–3 sekcjach H2) i wymieniał tylko sekcje za sobą – przeniesiony pod intro, przed pierwszy H2, z pełną listą sekcji (Scilla 5, Locri 7)
 - Skan całego `public/` (TOC przed pierwszym H2 treści, wszystkie H2 z id w TOC, H2 bez id): poza tymi 4 stronami 0 błędów
+
+## Stan 2026-09-24 (2) – zaślepki w ramkach „W pobliżu”
+- 30 pigułek `boc-nearby-pill` z `href="#"` (Scilla, Locri, Gerace, Pizzo PL+EN) przewijało stronę do góry/w przypadkowe miejsce. Miejsca mające stronę w serwisie podlinkowane (plaża Locri, termy Acconia, Capo Vaticano), pozostałe (Villa San Giovanni, Bagnara, Palmi, Pentedattilo, Punta Pezzo, Siderno, Roccella, Caulonia, Vibo, Lamezia) → `<span class="boc-nearby-pill boc-nearby-static">` bez efektu hover; CSS v=45
+- Zasada: w „W pobliżu” nigdy `href="#"` – link do istniejącej strony albo `span.boc-nearby-static`. W `public/` 0 wystąpień `href="#"`

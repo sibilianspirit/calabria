@@ -442,4 +442,5 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 
 ## Stan 2026-09-24 (2) – zaślepki w ramkach „W pobliżu”
 - 30 pigułek `boc-nearby-pill` z `href="#"` (Scilla, Locri, Gerace, Pizzo PL+EN) przewijało stronę do góry/w przypadkowe miejsce. Miejsca mające stronę w serwisie podlinkowane (plaża Locri, termy Acconia, Capo Vaticano), pozostałe (Villa San Giovanni, Bagnara, Palmi, Pentedattilo, Punta Pezzo, Siderno, Roccella, Caulonia, Vibo, Lamezia) → `<span class="boc-nearby-pill boc-nearby-static">` bez efektu hover; CSS v=45
+- Hover kafelka (v=46): `.page-content a:hover` (terakota) nadpisywał biały tekst na granacie – dodany selektor `.page-content a.boc-nearby-pill:hover`; plakietka odległości po najechaniu terakotowa z białym tekstem, `max-width: 60%` zamiast łamania „20 km”
 - Zasada: w „W pobliżu” nigdy `href="#"` – link do istniejącej strony albo `span.boc-nearby-static`. W `public/` 0 wystąpień `href="#"`

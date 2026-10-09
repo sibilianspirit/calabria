@@ -1,7 +1,7 @@
 ---
 title: "Mapa Kalabrii – atrakcje, wybrzeża, lotniska i odległości"
 slug: "mapa-kalabrii"
-date: 2026-11-01
+date: 2026-10-07
 translationKey: "blog-mapa-kalabrii"
 image: "/images/maps/mapa-kalabrii.webp"
 description: "Mapa Kalabrii z miejscowościami, lotniskami i parkami narodowymi. Pięć prowincji, nazwy wybrzeży oraz tabele odległości i czasów przejazdu z lotnisk."

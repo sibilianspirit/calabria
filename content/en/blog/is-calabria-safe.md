@@ -1,7 +1,7 @@
 ---
 title: "Is Calabria safe for tourists? The 'Ndrangheta, crime figures and common sense"
 slug: "is-calabria-safe"
-date: 2026-11-15
+date: 2026-10-08
 translationKey: "blog-czy-kalabria-jest-bezpieczna"
 image: "/images/own/scilla-chianalea-z-gory.webp"
 description: "Is Calabria safe to visit? Police crime figures for all five provinces, the 'Ndrangheta without the myths, plus roads, wildfires, the sea and emergency numbers."

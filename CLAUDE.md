@@ -458,3 +458,8 @@ Format jak we wpisach blogowych: `<figure class="boc-photo">` z `<figcaption>` i
 - Stan serwisu 9.10.2026: Senuto Base 2.0 – TOP10 3, TOP50 20, widoczność 12 (plan z 12.09 podawał 0/3 z bazy standardowej – nieporównywalne); publikator FB codziennie od 23.09 bez błędów; bestofcalabria.com nie ma projektu w Ahrefs (GSC stamtąd niedostępne)
 - Ryanair, lista tras z API `views/locate/searchWidget/routes/en/airport/{SUF|REG|CRV}` (9.10.2026): SUF 29 kierunków (m.in. KTW, KRK, WMI, WRO, STN), REG 13 (KTW, STN), CRV 5
 - TODO: w dniu publikacji dodać linki zwrotne z Jak dojechać / Wynajem samochodu / Plan 7 dni do nowych wpisów (wcześniej dawałyby 404); zaległe linki zwrotne do #1 i #2; kolejne z planu: #14 'Nduja przepisy, #22 Co przywieźć (grudzień)
+
+## Stan 2026-10-09 (2) – publikacja wpisów #3, #9, E1
+- OPUBLIKOWANE na polecenie użytkownika („publikuj, 7, 8, 9”) bez osobnej redakcji: Mapa Kalabrii / Map of Calabria – date 2026-10-07; Czy Kalabria jest bezpieczna / Is Calabria safe – 2026-10-08; Where is Calabria (EN) – 2026-10-09
+- Linki zwrotne dodane akapitem przed FAQ: Jak dojechać i Plan 7 dni → mapa; Wynajem samochodu → bezpieczeństwo + mapa (PL+EN; Getting there także → Where is Calabria)
+- Nadal otwarte: publikator FB nie widzi wpisów .md; zaległe linki zwrotne do #1 i #2; uwagi „do sprawdzenia” z sesji (MSZ/Odyseusz, status NUE 112)

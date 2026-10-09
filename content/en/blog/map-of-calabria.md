@@ -1,7 +1,7 @@
 ---
 title: "Map of Calabria: towns, coasts, airports and distances"
 slug: "map-of-calabria"
-date: 2026-11-01
+date: 2026-10-07
 translationKey: "blog-mapa-kalabrii"
 image: "/images/maps/map-of-calabria.webp"
 description: "A map of Calabria with its towns, airports and national parks. The five provinces, the named coasts, and tables of real driving distances and times."

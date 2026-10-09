@@ -1,7 +1,7 @@
 ---
 title: "Czy Kalabria jest bezpieczna? 'Ndrangheta, statystyki i zdrowy rozsądek"
 slug: "czy-kalabria-jest-bezpieczna"
-date: 2026-11-15
+date: 2026-10-08
 translationKey: "blog-czy-kalabria-jest-bezpieczna"
 image: "/images/own/scilla-chianalea-z-gory.webp"
 description: "Czy Kalabria jest bezpieczna dla turystów? Statystyki przestępczości wszystkich pięciu prowincji, 'Ndrangheta bez mitów, drogi, pożary, morze i numery alarmowe."

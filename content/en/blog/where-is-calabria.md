@@ -1,7 +1,7 @@
 ---
 title: "Where is Calabria? Map, coasts and how to get there"
 slug: "where-is-calabria"
-date: 2026-11-15
+date: 2026-10-09
 translationKey: "blog-where-is-calabria"
 image: "/images/own/tropea-santa-maria-od-plazy.webp"
 description: "Where is Calabria in Italy? The toe of the boot explained: map, neighbouring regions, distances from Rome, Naples and Sicily, and how to get there by air and rail."

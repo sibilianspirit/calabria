@@ -25,6 +25,7 @@ Thumbs.db
 !static/images/wp-uploads/**/*.webp
 !static/images/commons/*.webp
 !static/images/own/*.webp
+!static/images/maps/*.webp
 !static/images/logo-bergamot.svg
 
 # Python

@@ -58,7 +58,7 @@ Calabria's two coasts feel like different regions.
 
 **The Tyrrhenian coast (west)** is the one in the photographs: cliffs, coves and towns built on rock above the sea. Its best-known stretch is the Costa degli Dei, the Coast of the Gods, around [Tropea](/destinations/tropea/), [Pizzo](/destinations/pizzo/) and [Capo Vaticano](/nature/capo-vaticano/). Further south, the [Costa Viola](/nature/costa-viola/) leads to [Scilla](/destinations/scilla/) and the Strait of Messina; further north, the Riviera dei Cedri runs past Diamante and Scalea towards Basilicata.
 
-**The Ionian coast (east and south)** is flatter, quieter and far longer: wide beaches, fewer resorts and hill towns set back from the sea – [Gerace](/destinations/gerace/), [Stilo](/destinations/stilo/), [Bova](/destinations/bova/). This was the shore of Magna Graecia, the Greek colonies of southern Italy, and the ruins of Locri Epizephyrii and Kaulon stand beside the coast road.
+**The Ionian coast (east and south)** is flatter, quieter and far longer: wide beaches, fewer resorts and hill towns set back from the sea – [Gerace](/destinations/gerace/), [Stilo](/destinations/stilo/), [Bova](/destinations/bova/). This was the shore of Magna Graecia, the Greek colonies of southern Italy, and the ruins of Locri Epizefiri and Kaulon stand beside the coast road.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-santa-maria-od-plazy.webp" alt="Santa Maria dell'Isola on its rock in Tropea" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Tropea on the Tyrrhenian coast – the sanctuary of Santa Maria dell'Isola seen from the beach.</em><span class="boc-photo-credit">Photo: Best of Calabria</span></figcaption></figure>
 
@@ -102,7 +102,7 @@ Driving times are without stops (OpenStreetMap/OSRM, October 2026). The road sou
 
 ## How to get to Calabria {#getting-there}
 
-**By air.** The main airport is Lamezia Terme (SUF), in the middle of the region and about an hour's drive from Tropea. Reggio Calabria (REG) serves the south; Crotone (CRV) has a handful of mostly domestic routes. As of October 2026, Ryanair's route list includes London Stansted to both Lamezia Terme and Reggio Calabria – a flight of roughly three hours – but many routes are seasonal, so check the dates. From elsewhere, the usual way is a connection in Rome or Milan; ITA Airways flies from Rome Fiumicino to Lamezia and Reggio.
+**By air.** The main airport is Lamezia Terme (SUF), in the middle of the region and about an hour's drive from Tropea. Reggio Calabria (REG) serves the south; Crotone (CRV) has a handful of mostly domestic routes. As of October 2026, Ryanair's route list includes London Stansted to both Lamezia Terme and Reggio Calabria – a flight of roughly three hours – but many routes are seasonal, so check the dates. From elsewhere, the usual way is a domestic connection through Rome or Milan.
 
 **By train.** High-speed Frecciarossa and Italo trains run down the Tyrrhenian coast from Rome and Naples. Rome to Lamezia Terme takes about 4 to 4½ hours and Rome to Reggio Calabria about 5½ to 6 hours; slower Intercity trains add around two hours. For Tropea, change at Lamezia Terme or Rosarno to a regional train.
 

@@ -7,7 +7,7 @@ image: "/images/maps/mapa-kalabrii.webp"
 description: "Mapa Kalabrii z miejscowościami, lotniskami i parkami narodowymi. Pięć prowincji, nazwy wybrzeży oraz tabele odległości i czasów przejazdu z lotnisk."
 ---
 
-Kalabria to wąski, górzysty półwysep długości około 250 km – czubek włoskiego buta, oblany z zachodu Morzem Tyrreńskim, a ze wschodu Jońskim. **Na mapie wszystko wydaje się blisko, ale przejazd z północnego krańca regionu do Reggio Calabria zajmuje autostradą trzy i pół godziny, a z Tropei do Gerace – mimo 50 km w linii prostej – ponad półtorej.** Poniżej znajdziesz mapę z najważniejszymi miejscowościami, podział na prowincje i wybrzeża oraz tabele realnych odległości drogowych.
+Kalabria to wąski, górzysty półwysep długości około 250 km – czubek włoskiego buta, oblany z zachodu Morzem Tyrreńskim, a ze wschodu Jońskim. **Na mapie wszystko wydaje się blisko, ale przejazd z północnego krańca regionu do Reggio Calabria zajmuje autostradą trzy i pół godziny, a z Tropei do Gerace – mimo 50 km w linii prostej – ponad półtorej godziny.** Poniżej znajdziesz mapę z najważniejszymi miejscowościami, podział na prowincje i wybrzeża oraz tabele realnych odległości drogowych.
 
 <div class="boc-toc">
 <p class="boc-toc-title">Spis treści</p>
@@ -32,7 +32,7 @@ Jak czytać mapę:
 
 - **trójkąty** to trzy lotniska: Lamezia Terme (SUF), Reggio Calabria (REG) i Crotone (CRV),
 - **granatowe punkty** to stolice prowincji, **czerwone** – miejscowości i atrakcje, o których piszemy w serwisie,
-- **pomarańczowa linia** to bezpłatna autostrada A2, kręgosłup regionu po stronie tyrreńskiej,
+- **pomarańczowa linia** to bezpłatna autostrada A2, kręgosłup regionu: na północy biegnie środkiem lądu przez Cosenzę, a od Lamezii na południe – bliżej wybrzeża tyrreńskiego,
 - **jasnobrązowa linia** to droga SS106 Jonica, która biegnie wzdłuż całego wybrzeża jońskiego.
 
 Opisy poszczególnych miejsc znajdziesz w zestawieniu [Kalabria – co zobaczyć? 25 miejsc](/pl/blog/kalabria-co-zobaczyc/).
@@ -57,7 +57,7 @@ Kształt regionu ma praktyczne konsekwencje. Niemal wszędzie do morza jest blis
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Prowincja</th><th>Położenie</th><th>Co tu znajdziesz</th></tr>
-<tr><td><strong>Cosenza</strong></td><td>północ, od morza do morza – największa</td><td><a href="/pl/kierunki/cosenza/">Cosenza</a>, <a href="/pl/natura/pollino/">Pollino</a>, <a href="/pl/natura/sila/">Sila</a>, Scalea, Diamante, Rossano</td></tr>
+<tr><td><strong>Cosenza</strong></td><td>północ, od morza do morza – największa</td><td><a href="/pl/kierunki/cosenza/">Cosenza</a>, <a href="/pl/natura/pollino/">Pollino</a>, <a href="/pl/natura/sila/">Sila</a>, Scalea, Diamante, Corigliano-Rossano</td></tr>
 <tr><td><strong>Crotone</strong></td><td>wschód, nad Morzem Jońskim</td><td>Crotone, Capo Colonna, Le Castella</td></tr>
 <tr><td><strong>Catanzaro</strong></td><td>środek, przesmyk między morzami</td><td><a href="/pl/kierunki/catanzaro/">Catanzaro</a>, Soverato, lotnisko Lamezia Terme</td></tr>
 <tr><td><strong>Vibo Valentia</strong></td><td>zachód, nad Morzem Tyrreńskim – najmniejsza</td><td><a href="/pl/kierunki/tropea/">Tropea</a>, <a href="/pl/kierunki/pizzo/">Pizzo</a>, <a href="/pl/natura/capo-vaticano/">Capo Vaticano</a></td></tr>
@@ -78,7 +78,7 @@ Odcinki kalabryjskiego wybrzeża mają własne, turystyczne nazwy. Warto je zna�
 
 **Morze Jońskie (wschód i południe)** – długie, szerokie plaże, mniej zabudowy i mniej turystów:
 
-- **Costa dei Gelsomini** (Wybrzeże Jaśminowe) – okolice Locri, Siderno i Roccelli Joniki, pod murami Gerace.
+- **Costa dei Gelsomini** (Wybrzeże Jaśminowe) – okolice Locri, Siderno i Roccelli Joniki; Gerace stoi na wzgórzu około 10 km w głąb lądu od Locri.
 - **Costa degli Aranci** (Wybrzeże Pomarańczowe) – Zatoka Squillace z Soverato i Catanzaro Lido.
 - **Costa dei Saraceni** – okolice Crotone, z rezerwatem morskim Capo Rizzuto i zamkiem Le Castella.
 - **Costa degli Achei** – równina Sibari i Rossano na północnym wschodzie.
@@ -96,7 +96,7 @@ Które plaże wybrać, podpowiadamy w zestawieniu [plaż Kalabrii](/pl/plaze/).
 - **Serre** – niższe, gęsto zalesione pasmo między przesmykiem Catanzaro a Aspromonte, z kartuzją w Serra San Bruno i [wodospadami Marmarico](/pl/kierunki/stilo/wodospady-marmarico/).
 - **[Aspromonte](/pl/natura/aspromonte/)** – południowy kraniec półwyspu, ze szczytem Montalto (1956 m) i greckojęzycznymi wioskami okolic Bovy.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/natura-pollino-1.webp" alt="Pino loricato o świcie na grani Pollino" loading="lazy" width="1600" height="1067"/><figcaption class="wp-element-caption"><em>Pino loricato na grani w masywie Pollino – północna granica Kalabrii biegnie przez góry wyższe niż Tatry Zachodnie.</em><span class="boc-photo-credit">Fot. <a href="https://commons.wikimedia.org/w/index.php?curid=137772875" rel="nofollow noopener" target="_blank">Calogero77</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a>, Wikimedia Commons</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/natura-pollino-1.webp" alt="Sosna bośniacka o świcie na grani Pollino" loading="lazy" width="1600" height="1067"/><figcaption class="wp-element-caption"><em>Sosna bośniacka (pino loricato) na grani w masywie Pollino – północna granica Kalabrii biegnie przez góry wyższe niż Tatry Zachodnie.</em><span class="boc-photo-credit">Fot. <a href="https://commons.wikimedia.org/w/index.php?curid=137772875" rel="nofollow noopener" target="_blank">Calogero77</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a>, Wikimedia Commons</span></figcaption></figure>
 
 ## Lotniska i odległości od nich {#lotniska}
 
@@ -128,11 +128,11 @@ Z lotniska w Crotone do miasta i do Le Castella jest po około 15 km, do Catanza
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Trasa</th><th>Odległość</th><th>Czas przejazdu</th><th>Którędy</th></tr>
-<tr><td>Tropea – Scilla</td><td>83 km</td><td>ok. 1 godz. 15 min</td><td>SS18, A2</td></tr>
-<tr><td>Tropea – Reggio Calabria</td><td>103 km</td><td>ok. 1 godz. 30 min</td><td>SS18, A2</td></tr>
-<tr><td>Tropea – Gerace</td><td>86 km</td><td>ok. 1 godz. 40 min</td><td>przez góry, SS682</td></tr>
-<tr><td>Tropea – Cosenza</td><td>117 km</td><td>ok. 1 godz. 40 min</td><td>A2</td></tr>
-<tr><td>Scalea – Tropea</td><td>172 km</td><td>ok. 3 godz.</td><td>SS18, A2</td></tr>
+<tr><td>Tropea – Scilla</td><td>83 km</td><td>ok. 1 godz. 15 min</td><td>drogi lokalne, A2</td></tr>
+<tr><td>Tropea – Reggio Calabria</td><td>103 km</td><td>ok. 1 godz. 30 min</td><td>drogi lokalne, A2</td></tr>
+<tr><td>Tropea – Gerace</td><td>86 km</td><td>ok. 1 godz. 40 min</td><td>drogi lokalne do Rosarno, potem przez góry drogą SS682</td></tr>
+<tr><td>Tropea – Cosenza</td><td>117 km</td><td>ok. 1 godz. 40 min</td><td>dawna SS522, A2</td></tr>
+<tr><td>Scalea – Tropea</td><td>172 km</td><td>ok. 3 godz.</td><td>SS18, A2, dawna SS522</td></tr>
 <tr><td>Reggio Calabria – Locri</td><td>110 km</td><td>ok. 1 godz. 30 min</td><td>SS106</td></tr>
 <tr><td>Reggio Calabria – Catanzaro</td><td>157 km</td><td>ok. 1 godz. 50 min</td><td>A2, SS280</td></tr>
 <tr><td>Reggio Calabria – Cosenza</td><td>185 km</td><td>ok. 2 godz. 10 min</td><td>A2</td></tr>
@@ -142,13 +142,14 @@ Z lotniska w Crotone do miasta i do Le Castella jest po około 15 km, do Catanza
 <tr><td>cała Kalabria autostradą A2 (Laino Borgo – Reggio Calabria)</td><td>292 km</td><td>ok. 3 godz. 30 min</td><td>A2</td></tr>
 </tbody></table></figure>
 
-Trzy drogi, które warto zapamiętać:
+Cztery drogi, które warto zapamiętać:
 
 - **A2 „Autostrada del Mediterraneo”** – bezpłatna, biegnie z Salerno do Reggio Calabria przez Cosenzę i Lamezię. Na południu to niemal wyłącznie tunele i wiadukty.
 - **SS106 Jonica** – jedyna droga wzdłuż wybrzeża jońskiego. Na wielu odcinkach jednojezdniowa, prowadzi przez środek miejscowości; średnia prędkość jest tu wyraźnie niższa niż na A2.
-- **SS18 Tirrena Inferiore** – stara droga wzdłuż wybrzeża tyrreńskiego; w sierpniu korkuje się w okolicach Pizzo, Tropei i Scalei.
+- **SS18 Tirrena Inferiore** – stara droga wzdłuż wybrzeża tyrreńskiego; w sierpniu korkuje się między innymi w okolicach Scalei i Pizzo. Tropeę omija: do miasta i na Capo Vaticano zjeżdża się z niej nadmorską drogą prowincjonalną, dawną SS522 (34 km od rozjazdu Angitola przez Pizzo i Briatico), równie zatłoczoną w sezonie.
+- **SS682 Jonio-Tirreno** – najszybsze połączenie obu wybrzeży na południu: 39 km od węzła Rosarno na A2 do Grotteria Mare na SS106, z tunelem Limina długości 3,2 km. Tędy jedzie się z Tropei do Gerace i Locri.
 
-Pociągi jeżdżą dwiema liniami wzdłuż obu wybrzeży. Linia tyrreńska (Neapol – Paola – Lamezia – Reggio) jest szybka i obsługiwana także przez pociągi Frecciarossa i Italo; linia jońska jest w większości jednotorowa i wolna. Plan podróży bez samochodu ułatwi planer dojazdu na stronach poszczególnych miast.
+Pociągi jeżdżą dwiema liniami wzdłuż obu wybrzeży. Linia tyrreńska (Neapol – Paola – Lamezia – Reggio) jest szybka i obsługiwana także przez pociągi Frecciarossa i Italo; linia jońska jest w większości jednotorowa i wolna. Uwaga na Tropeę: szybkie pociągi jadą w głębi lądu przez stację Vibo Valentia-Pizzo, a nadmorską odnogę przez Pizzo, Tropeę i Ricadi obsługują pociągi regionalne – przesiadka w Lamezia Terme Centrale albo w Rosarno. Plan podróży bez samochodu ułatwi planer dojazdu na stronach poszczególnych miast.
 
 ## Jak daleko z Rzymu, Neapolu i Bari {#dojazd-z-polnocy}
 
@@ -186,8 +187,8 @@ Gotową trasę objazdową znajdziesz w tekście [Kalabria w 7 dni](/pl/praktyczn
 <details><summary>Jak duża jest Kalabria?</summary><p>Kalabria ma 15 222 km² powierzchni i około 1,82 mln mieszkańców. Region ma około 250 km długości, a w najwęższym miejscu – na przesmyku Catanzaro – zaledwie około 30 km szerokości.</p></details>
 <details><summary>Ile prowincji ma Kalabria?</summary><p>Pięć: Cosenza, Crotone, Catanzaro, Vibo Valentia i Reggio Calabria (formalnie miasto metropolitalne). Stolicą regionu jest Catanzaro.</p></details>
 <details><summary>Które lotnisko w Kalabrii wybrać?</summary><p>Lamezia Terme (SUF) leży pośrodku regionu i ma najwięcej połączeń – to najlepszy wybór na Tropeę, Pizzo, Cosenzę i wybrzeże jońskie w okolicach Soverato. Reggio Calabria (REG) jest wygodniejsze, jeśli celem są Scilla, Bova, Gerace lub Sycylia.</p></details>
-<details><summary>Ile się jedzie z lotniska Lamezia Terme do Tropei?</summary><p>Samochodem około godziny – to 55 km drogą SS18 i dawną SS522. W sierpniu przejazd może trwać dłużej.</p></details>
-<details><summary>Ile kilometrów jest z Tropei do Reggio Calabria?</summary><p>Około 103 km. Przejazd drogą SS18 i autostradą A2 zajmuje mniej więcej półtorej godziny.</p></details>
+<details><summary>Ile się jedzie z lotniska Lamezia Terme do Tropei?</summary><p>Samochodem około godziny – to 55 km drogą SS18 i dawną SS522 (dziś droga prowincjonalna). W sierpniu przejazd może trwać dłużej.</p></details>
+<details><summary>Ile kilometrów jest z Tropei do Reggio Calabria?</summary><p>Około 103 km. Przejazd drogami lokalnymi i autostradą A2 zajmuje mniej więcej półtorej godziny.</p></details>
 </div>
 
 <div class="boc-sources-box">
@@ -200,6 +201,8 @@ Gotową trasę objazdową znajdziesz w tekście [Kalabria w 7 dni](/pl/praktyczn
   <li><a href="https://www.istat.it/" target="_blank" rel="noopener nofollow">ISTAT</a> <span class="boc-source-note">– włoski urząd statystyczny</span></li>
   <li><a href="https://www.parcopollino.gov.it/" target="_blank" rel="noopener nofollow">Parco Nazionale del Pollino</a> <span class="boc-source-note">– parcopollino.gov.it</span></li>
   <li><a href="https://calabriastraordinaria.it/" target="_blank" rel="noopener nofollow">Calabria Straordinaria</a> <span class="boc-source-note">– oficjalny serwis turystyczny regionu, nazwy wybrzeży</span></li>
-  <li><a href="https://www.stradeanas.it/" target="_blank" rel="noopener nofollow">ANAS</a> <span class="boc-source-note">– zarządca dróg A2, SS106 i SS18</span></li>
+  <li><a href="https://it.wikipedia.org/wiki/Strada_statale_522_di_Tropea" target="_blank" rel="noopener nofollow">Wikipedia – Strada statale 522 di Tropea</a> <span class="boc-source-note">– przebieg i status drogi do Tropei</span></li>
+  <li><a href="https://it.wikipedia.org/wiki/Strada_statale_682_Jonio-Tirreno" target="_blank" rel="noopener nofollow">Wikipedia – Strada statale 682 Jonio-Tirreno</a> <span class="boc-source-note">– przebieg drogi i tunel Limina</span></li>
+  <li><a href="https://www.stradeanas.it/" target="_blank" rel="noopener nofollow">ANAS</a> <span class="boc-source-note">– zarządca dróg A2, SS106, SS18 i SS682</span></li>
 </ul>
 </div>

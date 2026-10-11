@@ -7,7 +7,7 @@ image: "/images/own/scilla-chianalea-z-gory.webp"
 description: "Czy Kalabria jest bezpieczna dla turystów? Statystyki przestępczości wszystkich pięciu prowincji, 'Ndrangheta bez mitów, drogi, pożary, morze i numery alarmowe."
 ---
 
-Kalabria ma opinię regionu mafii i ta opinia nie wzięła się znikąd: to stąd pochodzi ’Ndrangheta, jedna z najpotężniejszych organizacji przestępczych w Europie. **Dla turysty liczy się jednak coś innego – ryzyko kradzieży, napadu czy oszustwa – a pod tym względem Kalabria wypada lepiej niż Rzym, Florencja, Mediolan czy Wenecja.** W tym tekście zestawiamy policyjne statystyki dla wszystkich pięciu prowincji, wyjaśniamy, czym ’Ndrangheta jest, a czym nie jest, i opisujemy zagrożenia, które w praktyce częściej psują wakacje: drogi, upał, pożary i morze.
+Kalabria ma opinię regionu mafijnego i ta opinia nie wzięła się znikąd: to stąd pochodzi ’Ndrangheta, jedna z najpotężniejszych organizacji przestępczych w Europie. **Dla turysty liczy się jednak coś innego – ryzyko kradzieży, napadu czy oszustwa – a pod tym względem Kalabria wypada lepiej niż Rzym, Florencja, Mediolan czy Wenecja.** W tym tekście zestawiamy policyjne statystyki dla wszystkich pięciu prowincji, wyjaśniamy, czym ’Ndrangheta jest, a czym nie jest, i opisujemy zagrożenia, które w praktyce częściej psują wakacje: drogi, upał, pożary i morze.
 
 <div class="boc-toc">
 <p class="boc-toc-title">Spis treści</p>
@@ -26,9 +26,9 @@ Kalabria ma opinię regionu mafii i ta opinia nie wzięła się znikąd: to stą
 
 ## Krótka odpowiedź {#krotka-odpowiedz}
 
-Tak, Kalabria jest bezpieczna dla turystów – pod warunkiem takiej samej ostrożności, jaką zachowuje się w każdym innym regionie Włoch. W ogólnokrajowym rankingu przestępczości dziennika „Il Sole 24 Ore” żadna z pięciu kalabryjskich prowincji nie mieści się w pierwszej czterdziestce, a w kategorii kradzieży kieszonkowych wszystkie zajmują miejsca w ostatniej piętnastce na 106 prowincji.
+Tak, Kalabria jest bezpieczna dla turystów – pod warunkiem zachowania takiej samej ostrożności jak w każdym innym regionie Włoch. W ogólnokrajowym rankingu przestępczości dziennika „Il Sole 24 Ore” żadna z pięciu kalabryjskich prowincji nie mieści się w pierwszej czterdziestce, a w kategorii kradzieży kieszonkowych wszystkie zajmują miejsca w ostatniej piętnastce na 106 prowincji.
 
-Zorganizowana przestępczość istnieje i poważnie ciąży na gospodarce regionu, ale jej ofiarami są lokalni przedsiębiorcy, samorządy i rywalizujące klany, nie przyjezdni. Turysta ma w Kalabrii do czynienia z innymi ryzykami: krętymi drogami, sierpniowym upałem, pożarami lasów i prądami morskimi.
+Zorganizowana przestępczość istnieje i poważnie ciąży na gospodarce regionu, ale jej ofiarami są lokalni przedsiębiorcy, samorządy i rywalizujące klany, nie przyjezdni. Turysta ma w Kalabrii do czynienia z innymi zagrożeniami: krętymi drogami, sierpniowym upałem, pożarami lasów i prądami morskimi.
 
 ## Co mówią statystyki przestępczości {#statystyki}
 
@@ -54,7 +54,7 @@ Kilka wniosków z tych liczb:
 - **Rozbojów jest kilka razy mniej niż w dużych miastach.** Prowincja Catanzaro ma najniższy wskaźnik we Włoszech.
 - **Włamania do mieszkań** – wszystkie pięć prowincji mieści się w ostatniej dwunastce rankingu.
 
-Statystyki mają też ciemniejszą stronę i uczciwie trzeba ją pokazać. W liczbie zgłoszonych usiłowań zabójstwa prowincja Crotone jest pierwsza w kraju, a Vibo Valentia i Reggio Calabria mieszczą się w pierwszej piętnastce. W kradzieżach samochodów Catanzaro (15. miejsce) i Reggio Calabria (17.) są wyraźnie powyżej średniej. W zgłoszeniach podpaleń i pożarów Crotone i Cosenza zajmują drugie i trzecie miejsce.
+Statystyki mają też ciemniejszą stronę i uczciwie trzeba ją pokazać. Pod względem liczby zgłoszonych usiłowań zabójstwa prowincja Crotone jest pierwsza w kraju, a Vibo Valentia i Reggio Calabria mieszczą się w pierwszej piętnastce. Pod względem kradzieży samochodów Catanzaro (15. miejsce) i Reggio Calabria (17.) są wyraźnie powyżej średniej, a pod względem zgłoszeń podpaleń i pożarów Crotone i Cosenza zajmują drugie i trzecie miejsce.
 
 Jest też zastrzeżenie metodologiczne: ranking liczy przestępstwa zgłoszone, a nie popełnione. Wymuszenia haraczy czy lichwa są na południu Włoch zgłaszane rzadko, więc ich skali indeks nie oddaje. Na liczbę kradzieży i rozbojów, które dotyczą turystów, ten efekt wpływa jednak w niewielkim stopniu.
 
@@ -72,7 +72,7 @@ Kilka faktów pomagających zachować proporcje:
 - **Przemoc jest wewnętrzna.** Ofiarami zabójstw i zamachów są członkowie klanów, a naciskom podlegają lokalni przedsiębiorcy i urzędnicy. Najgłośniejsza zbrodnia ostatnich dekad – zabójstwo sześciu osób 15 sierpnia 2007 r. – wydarzyła się w niemieckim Duisburgu i była epizodem wojny dwóch klanów z San Luca.
 - **Porwania dla okupu to przeszłość.** W latach 70. i 80. w masywie Aspromonte przetrzymywano uprowadzonych z północy Włoch. Proceder wygasł w latach 90.
 
-Dla turysty mafia jest w praktyce niewidoczna. Nie ma „dzielnic, do których się nie wchodzi”, a przyjezdni nie są celem – spokój w miejscowościach wypoczynkowych leży w interesie wszystkich, którzy na turystyce zarabiają. Miasteczka Aspromonte kojarzone z klanami, jak San Luca czy Platì, są zwyczajnymi górskimi miejscowościami; prowadzi przez nie droga do sanktuarium w Polsi i na szlaki [Parku Narodowego Aspromonte](/pl/natura/aspromonte/).
+Dla turysty mafia jest w praktyce niewidoczna. Nie ma „dzielnic, do których się nie wchodzi”, a przyjezdni nie są celem – spokój w miejscowościach wypoczynkowych leży w interesie wszystkich, którzy na turystyce zarabiają. Miasteczka Aspromonte kojarzone z klanami, jak San Luca czy Platì, są dla przyjezdnego zwyczajnymi górskimi miejscowościami, tyle że bez zaplecza turystycznego. Z San Luca wychodzi droga do sanktuarium w Polsi i na szlaki [Parku Narodowego Aspromonte](/pl/natura/aspromonte/), ale tu kłopotem jest stan drogi, nie mafia: od lat trwa jej przebudowa i w czerwcu 2026 r. samochodem dało się dojechać tylko do miejsca zwanego Cano, a ostatnie około 8 km pokonywało się pieszo górskimi ścieżkami. Koniec prac zapowiadano najwcześniej na grudzień 2027 r. – przed wyjazdem sprawdź, czy droga jest przejezdna.
 
 Jeśli chcesz, aby twoje pieniądze trafiały we właściwe ręce, szukaj produktów spółdzielni gospodarujących na majątkach skonfiskowanych mafii: oliwy i przetworów z marką Libera Terra (spółdzielnia Valle del Marro na równinie Gioia Tauro) oraz wyrobów grupy GOEL z okolic Locri.
 
@@ -109,7 +109,7 @@ Trasy i realne czasy przejazdów między miastami znajdziesz w tekstach [jak doj
 
 **Trzęsienia ziemi.** Kalabria jest jednym z najbardziej aktywnych sejsmicznie regionów Europy – wszystkie jej gminy zaliczono do dwóch najwyższych stref zagrożenia w czterostopniowej włoskiej skali. Trzęsienie z 28 grudnia 1908 r. zniszczyło Reggio Calabria i Mesynę, a seria wstrząsów z 1783 r. – dużą część południowej Kalabrii; dlatego w tylu miastach zabudowa jest stosunkowo młoda. Silne wstrząsy zdarzają się rzadko, słabe – regularnie i zwykle bez szkód. W hotelu sprawdź drogę ewakuacji, a po odczuwalnym wstrząsie wyjdź na otwartą przestrzeń, z dala od fasad.
 
-**Ulewy.** Jesienią, zwłaszcza na wybrzeżu jońskim, krótkie nawałnice zamieniają suche przez większość roku koryta rzek (*fiumare*) w rwące potoki. Regionalne ostrzeżenia w czterech kolorach publikuje ARPACAL; przy alercie pomarańczowym i czerwonym odpuść trasy w wąwozach i wzdłuż rzek. Więcej o sezonowości opadów piszemy w tekście [Pogoda w Kalabrii miesiąc po miesiącu](/pl/blog/pogoda-w-kalabrii/).
+**Ulewy.** Jesienią, zwłaszcza na wybrzeżu jońskim, krótkie nawałnice zamieniają suche przez większość roku koryta rzek (*fiumare*) w rwące potoki. Latem to samo robią burze w górach: 20 sierpnia 2018 r. nagła fala w wąwozie Raganello w masywie Pollino zabiła dziesięć osób. Regionalne ostrzeżenia w czterech kolorach publikuje ARPACAL; przy alercie pomarańczowym i czerwonym odpuść trasy w wąwozach i wzdłuż rzek. Więcej o sezonowości opadów piszemy w tekście [Pogoda w Kalabrii miesiąc po miesiącu](/pl/blog/pogoda-w-kalabrii/).
 
 **Upał.** W lipcu i sierpniu fale upałów z temperaturami 35–38°C zdarzają się co roku. Zwiedzanie planuj na rano i wieczór, a w południe rób to, co miejscowi – przerwę.
 
@@ -117,8 +117,8 @@ Trasy i realne czasy przejazdów między miastami znajdziesz w tekstach [jak doj
 
 Kalabryjskie morze jest na ogół spokojne i czyste, ale ma swoje pułapki.
 
-- **Flagi.** Na płatnych kąpieliskach (*lidi*) obowiązuje system flag: czerwona oznacza zakaz kąpieli. Na plażach wolnych (*spiaggia libera*) ratowników najczęściej nie ma.
-- **Prądy.** W Cieśninie Mesyńskiej – między [Scillą](/pl/kierunki/scilla/), Villa San Giovanni a Reggio – prądy pływowe zmieniają kierunek kilka razy na dobę i bywają bardzo silne. Kąp się blisko brzegu i nie wypływaj za boje.
+- **Flagi.** Na płatnych kąpieliskach (*lidi*) obowiązuje system flag: czerwona oznacza zakaz kąpieli. Na plażach ogólnodostępnych (*spiagge libere*) ratowników najczęściej nie ma.
+- **Prądy.** W Cieśninie Mesyńskiej – na odcinku od [Scilli](/pl/kierunki/scilla/) przez Villa San Giovanni po Reggio – prądy pływowe zmieniają kierunek kilka razy na dobę i bywają bardzo silne. Kąp się blisko brzegu i nie wypływaj za boje.
 - **Dno.** Na żwirowych plażach i w skalistych zatokach wybrzeża tyrreńskiego dno potrafi opadać stromo już kilka metrów od brzegu – przed wejściem do wody z dziećmi sprawdź, jak wygląda zejście. Łagodniejsze są zwykle szerokie, piaszczyste plaże, na przykład w [Tropei](/pl/kierunki/tropea/) i na wybrzeżu jońskim.
 - **Skały i jeżowce.** W zatokach ze skalistym dnem przydają się buty do wody.
 
@@ -130,7 +130,7 @@ Zestawienie kąpielisk z opisem dna i dojścia znajdziesz w przewodniku po [pla�
 
 Publiczna służba zdrowia jest słabą stroną regionu. Kalabrii od lat brakuje lekarzy – od 2023 r. w tutejszych szpitalach pracują medycy sprowadzeni z Kuby, latem 2026 r. było ich ponad 200. Dla turysty oznacza to długie kolejki na izbach przyjęć (*pronto soccorso*) i ograniczoną liczbę oddziałów w małych szpitalach; poważniejsze przypadki trafiają do Reggio Calabria, Catanzaro lub Cosenzy.
 
-- Zabierz **Europejską Kartę Ubezpieczenia Zdrowotnego (EKUZ)** – uprawnia do leczenia w publicznych placówkach na takich zasadach jak Włochów, czyli z dopłatami (*ticket*) do części świadczeń.
+- Zabierz **Europejską Kartę Ubezpieczenia Zdrowotnego (EKUZ)** – uprawnia do leczenia w publicznych placówkach na tych samych zasadach, na jakich leczą się Włosi, czyli z dopłatami (*ticket*) do części świadczeń.
 - Dokup prywatne ubezpieczenie podróżne obejmujące transport medyczny do kraju – EKUZ go nie pokrywa.
 - Apteki (*farmacia*) są dobrze zaopatrzone, a farmaceuci doradzają w drobnych dolegliwościach. Stałe leki weź z zapasem.
 - Woda z kranu jest w większości miejscowości zdatna do picia, choć latem w kurortach zdarzają się przerwy w dostawach.
@@ -139,13 +139,15 @@ Publiczna służba zdrowia jest słabą stroną regionu. Kalabrii od lat brakuje
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Numer</th><th>Służba</th></tr>
-<tr><td>112</td><td>europejski numer alarmowy (karabinierzy)</td></tr>
+<tr><td>112</td><td>jednolity europejski numer alarmowy – operator centrali w Catanzaro przekazuje zgłoszenie policji, karabinierom, pogotowiu lub straży pożarnej</td></tr>
 <tr><td>118</td><td>pogotowie ratunkowe</td></tr>
 <tr><td>115</td><td>straż pożarna (<em>Vigili del Fuoco</em>)</td></tr>
 <tr><td>113</td><td>policja państwowa</td></tr>
 <tr><td>1530</td><td>straż przybrzeżna (<em>Guardia Costiera</em>) – wypadki na morzu</td></tr>
 <tr><td>1515</td><td>pożary lasów i zagrożenia środowiskowe</td></tr>
 </tbody></table></figure>
+
+Jednolity numer 112 uruchomiono w Kalabrii w grudniu 2023 r. i w kolejnych miesiącach rozszerzano na cały region; pozostałe numery nadal działają.
 
 Kradzież dokumentów zgłoś na posterunku karabinierów lub policji i poproś o kopię protokołu (*denuncia*) – będzie potrzebna do ubezpieczenia i do wyrobienia paszportu tymczasowego. Kalabria podlega Wydziałowi Konsularnemu Ambasady RP w Rzymie. Przed wyjazdem warto zarejestrować podróż w serwisie MSZ Odyseusz.
 
@@ -176,6 +178,9 @@ Jeśli dopiero planujesz wyjazd, zajrzyj do zestawienia [25 miejsc, które warto
   <li><a href="https://www.isprambiente.gov.it/it/news/aggiornamento-incendi-2025-in-italia-aumentano-le-superfici-in-fumo-e-gli-impatti-sulle-foreste-rispetto-al-2024-sono-sedici-le-regioni-colpite-da-incendi" target="_blank" rel="noopener nofollow">ISPRA – Aggiornamento incendi 2025 in Italia</a> <span class="boc-source-note">– powierzchnia pożarów w Kalabrii</span></li>
   <li><a href="https://www.agi.it/cronaca/news/2021-08-09/foreste-vetuste-aspromonte-minacciate-incendi-aspromonte-13526480/" target="_blank" rel="noopener nofollow">AGI – Le Foreste Vetuste dell'Aspromonte minacciate dagli incendi</a> <span class="boc-source-note">– pożary z sierpnia 2021</span></li>
   <li><a href="https://www.regione.calabria.it/wp-content/uploads/2017/06/deliberagr_47_2004.pdf" target="_blank" rel="noopener nofollow">Regione Calabria – Delibera G.R. n. 47/2004</a> <span class="boc-source-note">– klasyfikacja sejsmiczna gmin</span></li>
+  <li><a href="https://www.avvenire.it/attualita/ll-paradosso-del-santuario-di-polsi-riapre-al-culto-ma-i-fedeli-arrivano-solo-a-piedi_110216" target="_blank" rel="noopener nofollow">Avvenire – Il paradosso del Santuario di Polsi</a> <span class="boc-source-note">– stan drogi do sanktuarium, 27.06.2026</span></li>
+  <li><a href="https://tg24.sky.it/cronaca/2026/05/22/tragedia-gole-raganello-sentenza" target="_blank" rel="noopener nofollow">Sky TG24 – Tragedia Gole del Raganello</a> <span class="boc-source-note">– powódź błyskawiczna z 20.08.2018 i wyrok z maja 2026</span></li>
+  <li><a href="https://www.interno.gov.it/it/notizie/attivo-calabria-112-nue-piantedosi-catanzaro-linaugurazione" target="_blank" rel="noopener nofollow">Ministero dell'Interno – Attivo in Calabria il 112 NUE</a> <span class="boc-source-note">– jednolity numer alarmowy w Kalabrii</span></li>
   <li><a href="https://www.allertacal.it/" target="_blank" rel="noopener nofollow">ARPACAL – Centro Funzionale Multirischi</a> <span class="boc-source-note">– regionalne ostrzeżenia pogodowe</span></li>
   <li><a href="https://it.euronews.com/salute/2026/07/10/calabria-regione-piu-povera-ditalia-si-affida-ai-medici-cubani-malgrado-pressioni-usa" target="_blank" rel="noopener nofollow">Euronews – La Calabria si affida ai medici cubani</a> <span class="boc-source-note">– lekarze z Kuby w kalabryjskich szpitalach, lipiec 2026</span></li>
 </ul>

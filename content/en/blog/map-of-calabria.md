@@ -32,7 +32,7 @@ How to read the map:
 
 - **triangles** mark the three airports: Lamezia Terme (SUF), Reggio Calabria (REG) and Crotone (CRV),
 - **navy dots** are provincial capitals, **red dots** the towns and sights we write about on this site,
-- **the orange line** is the toll-free A2 motorway, the backbone of the region on the Tyrrhenian side,
+- **the orange line** is the toll-free A2 motorway, the backbone of the region: in the north it runs inland through Cosenza, and from Lamezia southwards closer to the Tyrrhenian coast,
 - **the light brown line** is the SS106 Jonica, which runs the full length of the Ionian coast.
 
 For a description of each place, see [Things to do in Calabria: 25 places worth the trip](/blog/things-to-do-in-calabria/).
@@ -57,7 +57,7 @@ The shape of the region has practical consequences. The sea is never far away, b
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Province</th><th>Location</th><th>What you will find there</th></tr>
-<tr><td><strong>Cosenza</strong></td><td>the north, coast to coast – the largest</td><td><a href="/destinations/cosenza/">Cosenza</a>, <a href="/nature/pollino/">Pollino</a>, <a href="/nature/sila/">Sila</a>, Scalea, Diamante, Rossano</td></tr>
+<tr><td><strong>Cosenza</strong></td><td>the north, coast to coast – the largest</td><td><a href="/destinations/cosenza/">Cosenza</a>, <a href="/nature/pollino/">Pollino</a>, <a href="/nature/sila/">Sila</a>, Scalea, Diamante, Corigliano-Rossano</td></tr>
 <tr><td><strong>Crotone</strong></td><td>the east, on the Ionian Sea</td><td>Crotone, Capo Colonna, Le Castella</td></tr>
 <tr><td><strong>Catanzaro</strong></td><td>the middle, the isthmus between the seas</td><td><a href="/destinations/catanzaro/">Catanzaro</a>, Soverato, Lamezia Terme airport</td></tr>
 <tr><td><strong>Vibo Valentia</strong></td><td>the west, on the Tyrrhenian Sea – the smallest</td><td><a href="/destinations/tropea/">Tropea</a>, <a href="/destinations/pizzo/">Pizzo</a>, <a href="/nature/capo-vaticano/">Capo Vaticano</a></td></tr>
@@ -78,7 +78,7 @@ Stretches of the Calabrian coast have their own tourist names. They are worth kn
 
 **The Ionian Sea (east and south)** – long, wide beaches, less development and fewer tourists:
 
-- **Costa dei Gelsomini** (Jasmine Coast) – around Locri, Siderno and Roccella Jonica, below the walls of Gerace.
+- **Costa dei Gelsomini** (Jasmine Coast) – around Locri, Siderno and Roccella Jonica; Gerace sits on a hill about 10 km inland from Locri.
 - **Costa degli Aranci** (Orange Coast) – the Gulf of Squillace, with Soverato and Catanzaro Lido.
 - **Costa dei Saraceni** – around Crotone, with the Capo Rizzuto marine reserve and the castle of Le Castella.
 - **Costa degli Achei** – the Sibari plain and Rossano in the north-east.
@@ -96,7 +96,7 @@ The middle of the region is filled with mountains – plains make up only about 
 - **Serre** – a lower, densely wooded range between the Isthmus of Catanzaro and the Aspromonte, with the charterhouse of Serra San Bruno and the [Marmarico waterfalls](/destinations/stilo/marmarico-waterfalls/).
 - **[Aspromonte](/nature/aspromonte/)** – the southern tip of the peninsula, with the summit of Montalto (1,956 m) and the Greek-speaking villages around Bova.
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/natura-pollino-1.webp" alt="Pino loricato at dawn on a Pollino ridge" loading="lazy" width="1600" height="1067"/><figcaption class="wp-element-caption"><em>A pino loricato on a ridge in the Pollino massif – Calabria's northern border runs through mountains more than 900 m higher than Ben Nevis.</em><span class="boc-photo-credit">Photo: <a href="https://commons.wikimedia.org/w/index.php?curid=137772875" rel="nofollow noopener" target="_blank">Calogero77</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a>, Wikimedia Commons</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/natura-pollino-1.webp" alt="Bosnian pine at dawn on a Pollino ridge" loading="lazy" width="1600" height="1067"/><figcaption class="wp-element-caption"><em>A Bosnian pine (pino loricato) on a ridge in the Pollino massif – Calabria's northern border runs through mountains more than 900 m higher than Ben Nevis.</em><span class="boc-photo-credit">Photo: <a href="https://commons.wikimedia.org/w/index.php?curid=137772875" rel="nofollow noopener" target="_blank">Calogero77</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" rel="nofollow noopener" target="_blank">CC BY-SA 4.0</a>, Wikimedia Commons</span></figcaption></figure>
 
 ## Airports and distances from them {#airports}
 
@@ -128,11 +128,11 @@ From Crotone airport it is about 15 km to the city and to Le Castella, just unde
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Route</th><th>Distance</th><th>Driving time</th><th>Via</th></tr>
-<tr><td>Tropea – Scilla</td><td>83 km</td><td>about 1 h 15 min</td><td>SS18, A2</td></tr>
-<tr><td>Tropea – Reggio Calabria</td><td>103 km</td><td>about 1 h 30 min</td><td>SS18, A2</td></tr>
-<tr><td>Tropea – Gerace</td><td>86 km</td><td>about 1 h 40 min</td><td>across the mountains, SS682</td></tr>
-<tr><td>Tropea – Cosenza</td><td>117 km</td><td>about 1 h 40 min</td><td>A2</td></tr>
-<tr><td>Scalea – Tropea</td><td>172 km</td><td>about 3 h</td><td>SS18, A2</td></tr>
+<tr><td>Tropea – Scilla</td><td>83 km</td><td>about 1 h 15 min</td><td>local roads, A2</td></tr>
+<tr><td>Tropea – Reggio Calabria</td><td>103 km</td><td>about 1 h 30 min</td><td>local roads, A2</td></tr>
+<tr><td>Tropea – Gerace</td><td>86 km</td><td>about 1 h 40 min</td><td>local roads to Rosarno, then across the mountains on the SS682</td></tr>
+<tr><td>Tropea – Cosenza</td><td>117 km</td><td>about 1 h 40 min</td><td>former SS522, A2</td></tr>
+<tr><td>Scalea – Tropea</td><td>172 km</td><td>about 3 h</td><td>SS18, A2, former SS522</td></tr>
 <tr><td>Reggio Calabria – Locri</td><td>110 km</td><td>about 1 h 30 min</td><td>SS106</td></tr>
 <tr><td>Reggio Calabria – Catanzaro</td><td>157 km</td><td>about 1 h 50 min</td><td>A2, SS280</td></tr>
 <tr><td>Reggio Calabria – Cosenza</td><td>185 km</td><td>about 2 h 10 min</td><td>A2</td></tr>
@@ -142,13 +142,14 @@ From Crotone airport it is about 15 km to the city and to Le Castella, just unde
 <tr><td>all of Calabria on the A2 (Laino Borgo – Reggio Calabria)</td><td>292 km</td><td>about 3 h 30 min</td><td>A2</td></tr>
 </tbody></table></figure>
 
-Three roads worth remembering:
+Four roads worth remembering:
 
 - **The A2 “Autostrada del Mediterraneo”** – toll-free, running from Salerno to Reggio Calabria via Cosenza and Lamezia. In the south it is almost nothing but tunnels and viaducts.
 - **The SS106 Jonica** – the only road along the Ionian coast. Single carriageway for long stretches and running through the middle of towns; average speeds are well below those on the A2.
-- **The SS18 Tirrena Inferiore** – the old road along the Tyrrhenian coast; in August it clogs up around Pizzo, Tropea and Scalea.
+- **The SS18 Tirrena Inferiore** – the old road along the Tyrrhenian coast; in August it clogs up around Scalea and Pizzo, among other places. It bypasses Tropea: the town and Capo Vaticano are reached on the coastal provincial road, the former SS522 (34 km from the Angitola junction via Pizzo and Briatico), which is just as busy in season.
+- **The SS682 Jonio-Tirreno** – the fastest link between the two coasts in the south: 39 km from the Rosarno junction on the A2 to Grotteria Mare on the SS106, with the 3.2 km Limina tunnel. This is the way from Tropea to Gerace and Locri.
 
-Trains run on two lines along the two coasts. The Tyrrhenian line (Naples – Paola – Lamezia – Reggio) is fast and also carries Frecciarossa and Italo services; the Ionian line is mostly single-track and slow. If you are travelling without a car, the journey planner on each town page will help.
+Trains run on two lines along the two coasts. The Tyrrhenian line (Naples – Paola – Lamezia – Reggio) is fast and also carries Frecciarossa and Italo services; the Ionian line is mostly single-track and slow. One catch for Tropea: fast trains run inland through Vibo Valentia-Pizzo station, while the coastal branch through Pizzo, Tropea and Ricadi is served by regional trains – change at Lamezia Terme Centrale or Rosarno. If you are travelling without a car, the journey planner on each town page will help.
 
 ## How far from Rome, Naples and Bari {#from-the-north}
 
@@ -186,8 +187,8 @@ For a ready-made touring route, see [Calabria in 7 days](/practical/itinerary-7-
 <details><summary>How big is Calabria?</summary><p>Calabria covers 15,222 km² and has about 1.82 million residents. The region is about 250 km long and, at its narrowest point on the Isthmus of Catanzaro, only about 30 km wide.</p></details>
 <details><summary>How many provinces does Calabria have?</summary><p>Five: Cosenza, Crotone, Catanzaro, Vibo Valentia and Reggio Calabria (formally a metropolitan city). The regional capital is Catanzaro.</p></details>
 <details><summary>Which airport in Calabria should I fly to?</summary><p>Lamezia Terme (SUF) is in the middle of the region and has the most routes – the best choice for Tropea, Pizzo, Cosenza and the Ionian coast around Soverato. Reggio Calabria (REG) is more convenient for Scilla, Bova, Gerace or Sicily.</p></details>
-<details><summary>How long is the drive from Lamezia Terme airport to Tropea?</summary><p>About an hour by car – 55 km on the SS18 and the former SS522. In August it can take longer.</p></details>
-<details><summary>How far is Tropea from Reggio Calabria?</summary><p>About 103 km. The drive on the SS18 and the A2 motorway takes roughly an hour and a half.</p></details>
+<details><summary>How long is the drive from Lamezia Terme airport to Tropea?</summary><p>About an hour by car – 55 km on the SS18 and the former SS522 (now a provincial road). In August it can take longer.</p></details>
+<details><summary>How far is Tropea from Reggio Calabria?</summary><p>About 103 km. The drive on local roads and the A2 motorway takes roughly an hour and a half.</p></details>
 </div>
 
 <div class="boc-sources-box">
@@ -200,6 +201,8 @@ For a ready-made touring route, see [Calabria in 7 days](/practical/itinerary-7-
   <li><a href="https://www.istat.it/" target="_blank" rel="noopener nofollow">ISTAT</a> <span class="boc-source-note">– Italian national statistics office</span></li>
   <li><a href="https://www.parcopollino.gov.it/" target="_blank" rel="noopener nofollow">Parco Nazionale del Pollino</a> <span class="boc-source-note">– parcopollino.gov.it</span></li>
   <li><a href="https://calabriastraordinaria.it/en" target="_blank" rel="noopener nofollow">Calabria Straordinaria</a> <span class="boc-source-note">– the region's official tourism website, names of the coasts</span></li>
-  <li><a href="https://www.stradeanas.it/" target="_blank" rel="noopener nofollow">ANAS</a> <span class="boc-source-note">– operator of the A2, SS106 and SS18</span></li>
+  <li><a href="https://it.wikipedia.org/wiki/Strada_statale_522_di_Tropea" target="_blank" rel="noopener nofollow">Wikipedia – Strada statale 522 di Tropea</a> <span class="boc-source-note">– route and status of the road to Tropea</span></li>
+  <li><a href="https://it.wikipedia.org/wiki/Strada_statale_682_Jonio-Tirreno" target="_blank" rel="noopener nofollow">Wikipedia – Strada statale 682 Jonio-Tirreno</a> <span class="boc-source-note">– route and the Limina tunnel</span></li>
+  <li><a href="https://www.stradeanas.it/" target="_blank" rel="noopener nofollow">ANAS</a> <span class="boc-source-note">– operator of the A2, SS106, SS18 and SS682</span></li>
 </ul>
 </div>

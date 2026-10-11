@@ -72,7 +72,7 @@ Some facts that help keep a sense of proportion:
 - **The violence is internal.** Murders and attacks target clan members, while local business owners and officials come under pressure. The most notorious crime of recent decades – the killing of six people on 15 August 2007 – happened in Duisburg, Germany, as part of a feud between two clans from San Luca.
 - **Kidnapping for ransom belongs to the past.** In the 1970s and 1980s, hostages taken in northern Italy were held in the Aspromonte mountains. The practice died out in the 1990s.
 
-For a visitor, the mafia is in practice invisible. There are no no-go neighbourhoods, and outsiders are not targets – calm in the resort towns suits everyone who earns a living from tourism. The Aspromonte villages associated with the clans, such as San Luca and Platì, are ordinary mountain settlements; the road to the sanctuary of Polsi and the trails of the [Aspromonte National Park](/nature/aspromonte/) runs through them.
+For a visitor, the mafia is in practice invisible. There are no no-go neighbourhoods, and outsiders are not targets – calm in the resort towns suits everyone who earns a living from tourism. The Aspromonte villages associated with the clans, such as San Luca and Platì, are to a visitor ordinary mountain settlements, just without tourist facilities. The road to the sanctuary of Polsi and the trails of the [Aspromonte National Park](/nature/aspromonte/) starts from San Luca, but the problem there is the road, not the mafia: it has been under reconstruction for years, and in June 2026 cars could get only as far as a place called Cano, with the last 8 km or so covered on foot along mountain paths. The works were due to finish in December 2027 at the earliest – check whether the road is open before you set off.
 
 If you would like your money to end up in the right hands, look for products from cooperatives that farm land confiscated from the mafia: olive oil and preserves under the Libera Terra label (the Valle del Marro cooperative on the Gioia Tauro plain) and goods from the GOEL group near Locri.
 
@@ -109,7 +109,7 @@ For routes and realistic driving times between towns, see [getting to Calabria](
 
 **Earthquakes.** Calabria is one of the most seismically active regions in Europe – every one of its municipalities falls into the top two hazard zones of Italy's four-tier classification. The earthquake of 28 December 1908 destroyed Reggio Calabria and Messina, and the sequence of 1783 devastated much of southern Calabria, which is why so many towns have relatively recent buildings. Strong quakes are rare; weak ones are regular and usually harmless. At your hotel, check the evacuation route, and after a tremor you can feel, move to open ground away from building fronts.
 
-**Storms.** In autumn, especially on the Ionian coast, short cloudbursts turn riverbeds that are dry for most of the year (*fiumare*) into torrents. Regional warnings in four colours are issued by ARPACAL; under an orange or red alert, skip routes through gorges and along rivers. For more on seasonal rainfall, see [Calabria weather by month](/blog/calabria-weather-by-month/).
+**Storms.** In autumn, especially on the Ionian coast, short cloudbursts turn riverbeds that are dry for most of the year (*fiumare*) into torrents. Summer storms in the mountains do the same: on 20 August 2018 a sudden surge in the Raganello gorge in the Pollino massif killed ten people. Regional warnings in four colours are issued by ARPACAL; under an orange or red alert, skip routes through gorges and along rivers. For more on seasonal rainfall, see [Calabria weather by month](/blog/calabria-weather-by-month/).
 
 **Heat.** Heatwaves with temperatures of 35–38°C occur every July and August. Plan sightseeing for the morning and evening, and at midday do what the locals do – take a break.
 
@@ -117,7 +117,7 @@ For routes and realistic driving times between towns, see [getting to Calabria](
 
 The sea in Calabria is generally calm and clean, but it has its traps.
 
-- **Flags.** Paid beach clubs (*lidi*) use a flag system: red means no swimming. Free beaches (*spiaggia libera*) usually have no lifeguards.
+- **Flags.** Paid beach clubs (*lidi*) use a flag system: red means no swimming. Free beaches (*spiagge libere*) usually have no lifeguards.
 - **Currents.** In the Strait of Messina – between [Scilla](/destinations/scilla/), Villa San Giovanni and Reggio – tidal currents reverse several times a day and can be very strong. Swim close to shore and stay inside the buoys.
 - **The seabed.** On the pebble beaches and in the rocky coves of the Tyrrhenian coast, the seabed can shelve steeply just a few metres out – check the way in before taking children into the water. Wide sandy beaches, such as those in [Tropea](/destinations/tropea/) and along the Ionian coast, tend to be gentler.
 - **Rocks and sea urchins.** In coves with a rocky bottom, water shoes are useful.
@@ -139,13 +139,15 @@ Public healthcare is the region's weak point. Calabria has been short of doctors
 
 <figure class="wp-block-table"><table><tbody>
 <tr><th>Number</th><th>Service</th></tr>
-<tr><td>112</td><td>European emergency number (Carabinieri)</td></tr>
+<tr><td>112</td><td>single European emergency number – an operator at the Catanzaro call centre passes the call to the police, Carabinieri, ambulance or fire service</td></tr>
 <tr><td>118</td><td>ambulance</td></tr>
 <tr><td>115</td><td>fire brigade (<em>Vigili del Fuoco</em>)</td></tr>
 <tr><td>113</td><td>state police</td></tr>
 <tr><td>1530</td><td>coastguard (<em>Guardia Costiera</em>) – emergencies at sea</td></tr>
 <tr><td>1515</td><td>forest fires and environmental emergencies</td></tr>
 </tbody></table></figure>
+
+The single 112 number was switched on in Calabria in December 2023 and extended to the whole region over the following months; the other numbers still work.
 
 Report stolen documents at a Carabinieri or police station and ask for a copy of the report (*denuncia*) – you will need it for your insurer and for an emergency travel document. Your embassy in Rome handles consular matters for Calabria.
 
@@ -175,6 +177,9 @@ If you are still at the planning stage, have a look at our list of [25 places wo
   <li><a href="https://www.isprambiente.gov.it/it/news/aggiornamento-incendi-2025-in-italia-aumentano-le-superfici-in-fumo-e-gli-impatti-sulle-foreste-rispetto-al-2024-sono-sedici-le-regioni-colpite-da-incendi" target="_blank" rel="noopener nofollow">ISPRA – Aggiornamento incendi 2025 in Italia</a> <span class="boc-source-note">– area burned in Calabria</span></li>
   <li><a href="https://www.agi.it/cronaca/news/2021-08-09/foreste-vetuste-aspromonte-minacciate-incendi-aspromonte-13526480/" target="_blank" rel="noopener nofollow">AGI – Le Foreste Vetuste dell'Aspromonte minacciate dagli incendi</a> <span class="boc-source-note">– the fires of August 2021</span></li>
   <li><a href="https://www.regione.calabria.it/wp-content/uploads/2017/06/deliberagr_47_2004.pdf" target="_blank" rel="noopener nofollow">Regione Calabria – Delibera G.R. n. 47/2004</a> <span class="boc-source-note">– seismic classification of municipalities</span></li>
+  <li><a href="https://www.avvenire.it/attualita/ll-paradosso-del-santuario-di-polsi-riapre-al-culto-ma-i-fedeli-arrivano-solo-a-piedi_110216" target="_blank" rel="noopener nofollow">Avvenire – Il paradosso del Santuario di Polsi</a> <span class="boc-source-note">– state of the road to the sanctuary, 27 June 2026</span></li>
+  <li><a href="https://tg24.sky.it/cronaca/2026/05/22/tragedia-gole-raganello-sentenza" target="_blank" rel="noopener nofollow">Sky TG24 – Tragedia Gole del Raganello</a> <span class="boc-source-note">– the flash flood of 20 August 2018 and the May 2026 verdict</span></li>
+  <li><a href="https://www.interno.gov.it/it/notizie/attivo-calabria-112-nue-piantedosi-catanzaro-linaugurazione" target="_blank" rel="noopener nofollow">Ministero dell'Interno – Attivo in Calabria il 112 NUE</a> <span class="boc-source-note">– the single emergency number in Calabria</span></li>
   <li><a href="https://www.allertacal.it/" target="_blank" rel="noopener nofollow">ARPACAL – Centro Funzionale Multirischi</a> <span class="boc-source-note">– regional weather warnings</span></li>
   <li><a href="https://it.euronews.com/salute/2026/07/10/calabria-regione-piu-povera-ditalia-si-affida-ai-medici-cubani-malgrado-pressioni-usa" target="_blank" rel="noopener nofollow">Euronews – La Calabria si affida ai medici cubani</a> <span class="boc-source-note">– Cuban doctors in Calabrian hospitals, July 2026</span></li>
 </ul>

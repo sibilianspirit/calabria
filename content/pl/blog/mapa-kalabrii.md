@@ -147,7 +147,7 @@ Cztery drogi, które warto zapamiętać:
 - **A2 „Autostrada del Mediterraneo”** – bezpłatna, biegnie z Salerno do Reggio Calabria przez Cosenzę i Lamezię. Na południu to niemal wyłącznie tunele i wiadukty.
 - **SS106 Jonica** – jedyna droga wzdłuż wybrzeża jońskiego. Na wielu odcinkach jednojezdniowa, prowadzi przez środek miejscowości; średnia prędkość jest tu wyraźnie niższa niż na A2.
 - **SS18 Tirrena Inferiore** – stara droga wzdłuż wybrzeża tyrreńskiego; w sierpniu korkuje się między innymi w okolicach Scalei i Pizzo. Tropeę omija: do miasta i na Capo Vaticano zjeżdża się z niej nadmorską drogą prowincjonalną, dawną SS522 (34 km od rozjazdu Angitola przez Pizzo i Briatico), równie zatłoczoną w sezonie.
-- **SS682 Jonio-Tirreno** – najszybsze połączenie obu wybrzeży na południu: 39 km od węzła Rosarno na A2 do Grotteria Mare na SS106, z tunelem Limina długości 3,2 km. Tędy jedzie się z Tropei do Gerace i Locri.
+- **SS682 Jonio-Tirreno** – droga łącząca oba wybrzeża na południu: 39 km od węzła Rosarno na A2 do Grotteria Mare na SS106, z tunelem Limina długości 3,2 km. Tędy jedzie się z Tropei do Gerace i Locri.
 
 Pociągi jeżdżą dwiema liniami wzdłuż obu wybrzeży. Linia tyrreńska (Neapol – Paola – Lamezia – Reggio) jest szybka i obsługiwana także przez pociągi Frecciarossa i Italo; linia jońska jest w większości jednotorowa i wolna. Uwaga na Tropeę: szybkie pociągi jadą w głębi lądu przez stację Vibo Valentia-Pizzo, a nadmorską odnogę przez Pizzo, Tropeę i Ricadi obsługują pociągi regionalne – przesiadka w Lamezia Terme Centrale albo w Rosarno. Plan podróży bez samochodu ułatwi planer dojazdu na stronach poszczególnych miast.
 

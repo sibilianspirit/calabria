@@ -147,7 +147,7 @@ Four roads worth remembering:
 - **The A2 “Autostrada del Mediterraneo”** – toll-free, running from Salerno to Reggio Calabria via Cosenza and Lamezia. In the south it is almost nothing but tunnels and viaducts.
 - **The SS106 Jonica** – the only road along the Ionian coast. Single carriageway for long stretches and running through the middle of towns; average speeds are well below those on the A2.
 - **The SS18 Tirrena Inferiore** – the old road along the Tyrrhenian coast; in August it clogs up around Scalea and Pizzo, among other places. It bypasses Tropea: the town and Capo Vaticano are reached on the coastal provincial road, the former SS522 (34 km from the Angitola junction via Pizzo and Briatico), which is just as busy in season.
-- **The SS682 Jonio-Tirreno** – the fastest link between the two coasts in the south: 39 km from the Rosarno junction on the A2 to Grotteria Mare on the SS106, with the 3.2 km Limina tunnel. This is the way from Tropea to Gerace and Locri.
+- **The SS682 Jonio-Tirreno** – the road linking the two coasts in the south: 39 km from the Rosarno junction on the A2 to Grotteria Mare on the SS106, with the 3.2 km Limina tunnel. This is the way from Tropea to Gerace and Locri.
 
 Trains run on two lines along the two coasts. The Tyrrhenian line (Naples – Paola – Lamezia – Reggio) is fast and also carries Frecciarossa and Italo services; the Ionian line is mostly single-track and slow. One catch for Tropea: fast trains run inland through Vibo Valentia-Pizzo station, while the coastal branch through Pizzo, Tropea and Ricadi is served by regional trains – change at Lamezia Terme Centrale or Rosarno. If you are travelling without a car, the journey planner on each town page will help.
 

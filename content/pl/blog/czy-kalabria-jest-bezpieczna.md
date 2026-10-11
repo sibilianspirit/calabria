@@ -101,7 +101,7 @@ Statystycznie najgroźniejszą rzeczą, jaką zrobisz w Kalabrii, będzie jazda 
 
 Trasy i realne czasy przejazdów między miastami znajdziesz w tekstach [jak dojechać do Kalabrii](/pl/praktyczne/jak-dojechac/) i [Kalabria w 7 dni](/pl/praktyczne/plan-7-dni/).
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/praktyczne-wynajem-samochodu-1.webp" alt="Wiadukt Sfalassà na autostradzie A2 w Kalabrii." loading="lazy" width="1600" height="1291"/><figcaption class="wp-element-caption"><em>Wiadukt Sfalassà koło Bagnary Calabra – autostrada A2 na południu regionu to niemal wyłącznie tunele i wiadukty.</em><span class="boc-photo-credit">Fot. <a href="https://commons.wikimedia.org/w/index.php?curid=26047876" rel="nofollow noopener" target="_blank">Glabb</a>, domena publiczna, Wikimedia Commons</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/praktyczne-wynajem-samochodu-1.webp" alt="Wiadukt Sfalassà na autostradzie A2 w Kalabrii." loading="lazy" width="1600" height="1291"/><figcaption class="wp-element-caption"><em>Wiadukt Sfalassà koło Bagnara Calabra – autostrada A2 na południu regionu to niemal wyłącznie tunele i wiadukty.</em><span class="boc-photo-credit">Fot. <a href="https://commons.wikimedia.org/w/index.php?curid=26047876" rel="nofollow noopener" target="_blank">Glabb</a>, domena publiczna, Wikimedia Commons</span></figcaption></figure>
 
 ## Pożary, trzęsienia ziemi i ulewy {#pozary-trzesienia-ulewy}
 

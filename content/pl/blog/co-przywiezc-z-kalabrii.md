@@ -108,7 +108,7 @@ Dojrzewające sery i wędliny można bez ograniczeń przewozić między krajami 
 - **Pecorino Crotonese DOP** – owczy ser z okolic Crotone, o wyraźnym, słonym smaku.
 - **Soppressata, capocollo, salsiccia i pancetta di Calabria** – cztery wędliny z oznaczeniem DOP. Soppressata to lekko spłaszczona wędlina z grubo siekanej wieprzowiny, capocollo – dojrzewająca karkówka.
 
-Na wybrzeżu jońskim zobaczysz też słoiki z sardellą (zwaną *rosamarina*) – ostrą pastą rybną z peperoncino. Dawniej robiono ją z narybku sardynek, którego połów jest dziś w Unii Europejskiej zakazany. Słoiki w sklepach powstają więc z innego surowca, często z importowanej ryby lodowej (*pesce ghiaccio*) – gatunek znajdziesz na etykiecie.
+Na wybrzeżu jońskim zobaczysz też słoiki z sardellą (zwaną *rosamarina*) – ostrą pastą rybną z peperoncino. Dawniej robiono ją z narybku sardynek, którego połów jest dziś w Unii Europejskiej zakazany. Słoiki w sklepach powstają więc z innego surowca – gatunek ryby znajdziesz na etykiecie.
 
 ## Oliwa, wino i amaro {#oliwa-wino-amaro}
 
@@ -122,13 +122,13 @@ Na wybrzeżu jońskim zobaczysz też słoiki z sardellą (zwaną *rosamarina*) �
 
 ## Nie tylko jedzenie – ceramika z Seminary {#ceramika}
 
-Seminara, miasteczko w głębi lądu niedaleko Palmi, od stuleci słynie z ceramiki; w połowie XVIII w. działały tu co najmniej 23 pracownie. Tutejsi garncarze wytwarzają między innymi barwnie szkliwione dzbany, butle w kształcie ryb oraz *babbaluti* – naczynia o ludzkich, celowo groteskowych twarzach, które według tradycji odstraszały złe duchy. Wyroby z Seminary sprzedają też sklepy z rękodziełem w [Scilli](/pl/kierunki/scilla/), Tropei i Reggio Calabria. Ceramikę zawiń w ubrania i zabierz do bagażu podręcznego.
+Seminara, miasteczko w głębi lądu niedaleko Palmi, od stuleci słynie z ceramiki; w połowie XVIII w. działały tu co najmniej 23 pracownie. Tutejsi garncarze wytwarzają między innymi barwnie szkliwione dzbany, butle w kształcie ryb oraz *babbaluti* – naczynia o ludzkich, celowo groteskowych twarzach, które według tradycji odstraszały złe duchy. Ceramikę zawiń w ubrania i zabierz do bagażu podręcznego.
 
 ## Jak to przewieźć samolotem {#samolot}
 
 **Bagaż podręczny.** Na lotniskach w Unii Europejskiej obowiązuje zasada: płyny, żele i pasty tylko w pojemnikach do 100 ml, w jednej przezroczystej torebce o pojemności do litra. Kontrola traktuje jak płyn wszystko, co da się rozsmarować lub wylać: konfiturę, miód, oliwę, pasty warzywne i rybne, miękkie sery i oczywiście alkohol. Kilka dużych włoskich lotnisk z nowymi skanerami zniosło w 2025 r. limit 100 ml, ale lotnisk w Lamezia Terme i Reggio Calabria na tej liście nie ma – przyjmij więc, że limit obowiązuje.
 
-Jedynym lokalnym wyjątkiem jest ’nduja: od 9 marca 2024 r. wolno ją wnieść na pokład przy wylocie z trzech kalabryjskich lotnisk. Decyzja nie określa limitu ilości, a na lotniskach przesiadkowych nie obowiązuje – przy podróży z przesiadką bezpieczniej nadać ’nduję w bagażu rejestrowanym.
+Jedynym lokalnym wyjątkiem jest ’nduja: od 9 marca 2024 r. wolno ją wnieść na pokład przy wylocie z trzech kalabryjskich lotnisk. Komunikaty z marca 2024 r. nie podają limitu ilości, a na lotniskach przesiadkowych wyjątek nie obowiązuje – przy podróży z przesiadką bezpieczniej nadać ’nduję w bagażu rejestrowanym. Przed wylotem warto potwierdzić na lotnisku, że zasada się nie zmieniła.
 
 Bez przeszkód przejdą produkty stałe: twarde sery, wędliny w kawałku, suszone peperoncino, cebula, figi, torrone i lukrecja.
 
@@ -171,6 +171,7 @@ Jeżeli chcesz wiedzieć, jak te produkty smakują na miejscu, zajrzyj do tekstu
   <li><a href="https://www.timesofisrael.com/in-calabria-rabbis-and-farmers-continue-a-2000-year-old-etrog-tradition/" target="_blank" rel="noopener nofollow">The Times of Israel</a> <span class="boc-source-note">– cedrat z Kalabrii i święto Sukkot</span></li>
   <li><a href="https://www.meteoweb.eu/2024/03/aeroporti-calabria-nduja-bagagli-a-mano/1001383515/" target="_blank" rel="noopener nofollow">MeteoWeb – ’nduja w bagażu podręcznym</a> <span class="boc-source-note">– zgoda ENAC dla lotnisk Kalabrii, 9.03.2024</span></li>
   <li><a href="https://www.enac.gov.it/passeggeri/cosa-portare-bordo/trasporto-di-lag-liquidi-aerosol-gel/" target="_blank" rel="noopener nofollow">ENAC – przewóz płynów, aerozoli i żeli</a> <span class="boc-source-note">– zasady bagażu podręcznego we Włoszech</span></li>
+  <li><a href="https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/dgr-68-en-2.3.b.pdf" target="_blank" rel="noopener nofollow">IATA – Dangerous Goods Regulations, tabela 2.3.B</a> <span class="boc-source-note">– alkohol w bagażu pasażera (do 5 l przy mocy 24–70 proc.)</span></li>
   <li><a href="https://europa.eu/youreurope/citizens/travel/carry/meat-dairy-animal/index_pl.htm" target="_blank" rel="noopener nofollow">Your Europe – przewóz produktów pochodzenia zwierzęcego</a> <span class="boc-source-note">– europa.eu</span></li>
   <li><a href="https://europa.eu/youreurope/citizens/travel/carry/alcohol-tobacco-cash/index_pl.htm" target="_blank" rel="noopener nofollow">Your Europe – alkohol, tytoń i gotówka</a> <span class="boc-source-note">– europa.eu</span></li>
 </ul>

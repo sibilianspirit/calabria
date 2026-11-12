@@ -108,7 +108,7 @@ Within the European Union, aged cheeses and cured meats can be carried between m
 - **Pecorino Crotonese DOP** – a sheep’s milk cheese from the Crotone area with a pronounced, salty flavour.
 - **Soppressata, capocollo, salsiccia and pancetta di Calabria** – four cured meats with PDO status. Soppressata is a slightly flattened salami of coarsely chopped pork; capocollo is cured pork neck.
 
-On the Ionian coast you will also see jars of sardella (also called *rosamarina*) – a hot fish paste with peperoncino. It used to be made from sardine fry, which may no longer be fished in the European Union. The jars in the shops are therefore made from something else, often imported icefish (*pesce ghiaccio*) – the species is stated on the label.
+On the Ionian coast you will also see jars of sardella (also called *rosamarina*) – a hot fish paste with peperoncino. It used to be made from sardine fry, which may no longer be fished in the European Union. The jars in the shops are therefore made from something else – the species is stated on the label.
 
 ## Olive oil, wine and amaro {#oil-wine-amaro}
 
@@ -122,13 +122,13 @@ On the Ionian coast you will also see jars of sardella (also called *rosamarina*
 
 ## Beyond food – Seminara ceramics {#ceramics}
 
-Seminara, a small inland town near Palmi, has been known for its pottery for centuries; in the mid-18th century at least 23 workshops were active here. Its potters make brightly glazed jugs, fish-shaped flasks and *babbaluti* – vessels with human, deliberately grotesque faces which, according to tradition, kept evil spirits away. Craft shops in [Scilla](/destinations/scilla/), Tropea and Reggio Calabria sell Seminara ware too. Wrap ceramics in clothes and carry them in your hand luggage.
+Seminara, a small inland town near Palmi, has been known for its pottery for centuries; in the mid-18th century at least 23 workshops were active here. Its potters make brightly glazed jugs, fish-shaped flasks and *babbaluti* – vessels with human, deliberately grotesque faces which, according to tradition, kept evil spirits away. Wrap ceramics in clothes and carry them in your hand luggage.
 
 ## How to fly it home {#flying}
 
 **Hand luggage.** The standard rule at EU airports is that liquids, gels and pastes must be in containers of no more than 100 ml, in a single transparent bag of up to one litre. Security treats anything you can spread or pour as a liquid: jam, honey, olive oil, vegetable and fish pastes, soft cheeses and, of course, alcohol. A few large Italian airports with new scanners lifted the 100 ml limit in 2025, but Lamezia Terme and Reggio Calabria are not on that list – so assume the limit applies.
 
-The one local exception is ’nduja: since 9 March 2024 it has been allowed on board on departure from the three Calabrian airports. The decision sets no quantity limit, and it does not apply at connecting airports – if you are changing planes, it is safer to check your ’nduja in.
+The one local exception is ’nduja: since 9 March 2024 it has been allowed on board on departure from the three Calabrian airports. The March 2024 announcements mention no quantity limit, and the exception does not apply at connecting airports – if you are changing planes, it is safer to check your ’nduja in. It is worth confirming at the airport before you fly that the rule has not changed.
 
 Solid products go through without trouble: hard cheeses, whole cured meats, dried peperoncino, onions, figs, torrone and liquorice.
 
@@ -171,6 +171,8 @@ To find out how these products taste where they are made, see our [Calabrian foo
   <li><a href="https://www.timesofisrael.com/in-calabria-rabbis-and-farmers-continue-a-2000-year-old-etrog-tradition/" target="_blank" rel="noopener nofollow">The Times of Israel</a> <span class="boc-source-note">– Calabrian citrons and Sukkot</span></li>
   <li><a href="https://www.meteoweb.eu/2024/03/aeroporti-calabria-nduja-bagagli-a-mano/1001383515/" target="_blank" rel="noopener nofollow">MeteoWeb – ’nduja in hand luggage</a> <span class="boc-source-note">– ENAC approval for Calabria’s airports, 9 March 2024</span></li>
   <li><a href="https://www.enac.gov.it/passeggeri/cosa-portare-bordo/trasporto-di-lag-liquidi-aerosol-gel/" target="_blank" rel="noopener nofollow">ENAC – liquids, aerosols and gels</a> <span class="boc-source-note">– hand luggage rules in Italy</span></li>
+  <li><a href="https://www.iata.org/contentassets/6fea26dd84d24b26a7a1fd5788561d6e/dgr-68-en-2.3.b.pdf" target="_blank" rel="noopener nofollow">IATA – Dangerous Goods Regulations, Table 2.3.B</a> <span class="boc-source-note">– alcohol in passenger baggage (up to 5 l at 24–70% ABV)</span></li>
+  <li><a href="https://www.gov.uk/bringing-food-into-great-britain/meat-dairy-fish-animal-products" target="_blank" rel="noopener nofollow">GOV.UK – bringing food into Great Britain</a> <span class="boc-source-note">– rules for travellers from the EU</span></li>
   <li><a href="https://europa.eu/youreurope/citizens/travel/carry/meat-dairy-animal/index_en.htm" target="_blank" rel="noopener nofollow">Your Europe – carrying animal products</a> <span class="boc-source-note">– europa.eu</span></li>
   <li><a href="https://europa.eu/youreurope/citizens/travel/carry/alcohol-tobacco-cash/index_en.htm" target="_blank" rel="noopener nofollow">Your Europe – alcohol, tobacco and cash</a> <span class="boc-source-note">– europa.eu</span></li>
 </ul>

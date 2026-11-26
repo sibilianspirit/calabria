@@ -103,6 +103,8 @@ Stan 2026-10-09: #1 i #2 opublikowane 14.09.2026; #3, #9 i E1 napisane i wgrane 
 
 Stan 2026-11-12: #3, #9 i E1 opublikowane 7–9.10.2026; #14 ’Nduja przepisy (11.11.2026) i #22 Co przywieźć (12.11.2026) opublikowane PL+EN jako pliki `.md`, przed terminem z kalendarza (grudzień).
 
+Stan 2026-11-26: #6 TUI Magic Life Calabria – okolica (25.11.2026, PL+EN) i #7 Kalabria z biurem podróży (26.11.2026, tylko PL) opublikowane jako pliki `.md`, przed terminem z kalendarza (styczeń). Następne: #5 Lotnisko Lamezia, #13 Gdzie spać.
+
 ## 5. Luki poza blogiem (nowe strony w Kierunkach)
 
 Te miejscowości mają własny wolumen i turystów z Polski, a serwis ich nie ma. Blog może o nich pisać, ale docelowo potrzebują pełnych stron w `/pl/kierunki/` z planerem dojazdu i widgetem pogody:

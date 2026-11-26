@@ -82,13 +82,13 @@ Latem parkingi przy plaży zapełniają się przed południem. Jeśli jedziesz s
 
 Jedenaście kilometrów za Tropeą wybrzeże wysuwa się w morze granitowym przylądkiem. [Capo Vaticano](/pl/natura/capo-vaticano/) to punkt widokowy przy latarni morskiej i kilka małych plaż pod klifem, z których najbardziej znana jest Grotticelle. Z resortu jedzie się tu około godziny, dlatego przylądek najlepiej połączyć z Tropeą w jedną całodniową wycieczkę: rano plaża na Capo Vaticano, po południu miasto.
 
-W drodze powrotnej można zboczyć w głąb płaskowyżu Monte Poro. Najpierw mija się Spilingę, skąd pochodzi [’nduja](/pl/kuchnia/nduja/), a kilka kilometrów dalej leży Zungri. Zwiedza się tam osadę skalną – kilkadziesiąt pomieszczeń wykutych w piaskowcu – z niewielkim muzeum życia wiejskiego.
+W drodze powrotnej można zboczyć w głąb płaskowyżu Monte Poro. Najpierw mija się Spilingę, skąd pochodzi [’nduja](/pl/kuchnia/nduja/), a kilka kilometrów dalej leży Zungri. Zwiedza się tam osadę skalną – domostwa wykute w piaskowcu – z niewielkim muzeum życia wiejskiego.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/natura-capo-vaticano-2.webp" alt="Klify i zatoki Capo Vaticano nad turkusowym morzem" loading="lazy" width="1536" height="1024"/><figcaption class="wp-element-caption"><em>Zatoki pod klifem Capo Vaticano.</em><span class="boc-photo-credit">Fot. <a href="https://commons.wikimedia.org/w/index.php?curid=18164363" rel="nofollow noopener" target="_blank">CTHOE</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a>, Wikimedia Commons</span></figcaption></figure>
 
 ## Na dwie–trzy godziny: jezioro, platan i termy {#blisko}
 
-Tych miejsc nie ma w programach wycieczek fakultatywnych, a leżą najbliżej resortu.
+Te miejsca rzadko trafiają do programów wycieczek fakultatywnych, a leżą najbliżej resortu.
 
 **Jezioro Angitola (9 km).** Sztuczny zbiornik z 1966 r., od 1975 r. oaza przyrody pod opieką WWF, wpisana na listę obszarów wodno-błotnych o znaczeniu międzynarodowym. Zimują tu i odpoczywają w czasie przelotów ptaki wodne – czaple, kormorany, błotniaki, bywa rybołów. Przed przyjazdem sprawdź, czy oaza przyjmuje zwiedzających.
 

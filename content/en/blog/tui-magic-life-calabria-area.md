@@ -82,13 +82,13 @@ In summer the car parks by the beach fill up before noon. If you are driving, se
 
 Eleven kilometres beyond Tropea the coast pushes out to sea in a granite headland. [Capo Vaticano](/nature/capo-vaticano/) is a viewpoint by the lighthouse and a handful of small beaches under the cliff, the best known being Grotticelle. The drive from the resort takes about an hour, so the cape is best combined with Tropea in a single day out: the beach at Capo Vaticano in the morning, the town in the afternoon.
 
-On the way back you can turn inland onto the Monte Poro plateau. First you pass Spilinga, the home of [’nduja](/cuisine/nduja/), and a few kilometres further on is Zungri. It has a rock settlement to visit – several dozen chambers cut into the sandstone – with a small museum of rural life.
+On the way back you can turn inland onto the Monte Poro plateau. First you pass Spilinga, the home of [’nduja](/cuisine/nduja/), and a few kilometres further on is Zungri. It has a rock settlement to visit – dwellings cut into the sandstone – with a small museum of rural life.
 
 <figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/commons/natura-capo-vaticano-2.webp" alt="Cliffs and coves of Capo Vaticano above a turquoise sea" loading="lazy" width="1536" height="1024"/><figcaption class="wp-element-caption"><em>Coves below the cliffs of Capo Vaticano.</em><span class="boc-photo-credit">Photo: <a href="https://commons.wikimedia.org/w/index.php?curid=18164363" rel="nofollow noopener" target="_blank">CTHOE</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0" rel="nofollow noopener" target="_blank">CC BY-SA 3.0</a>, Wikimedia Commons</span></figcaption></figure>
 
 ## Two or three hours out: a lake, a plane tree and hot springs {#nearby}
 
-These places are not on the excursion programmes, yet they are the closest to the resort.
+These places rarely make it onto excursion programmes, yet they are the closest to the resort.
 
 **Lake Angitola (9 km).** A reservoir created in 1966, a nature reserve run by WWF since 1975 and a wetland of international importance. Water birds winter here and rest on migration – herons, cormorants, harriers and the occasional osprey. Check before you go whether the reserve is open to visitors.
 

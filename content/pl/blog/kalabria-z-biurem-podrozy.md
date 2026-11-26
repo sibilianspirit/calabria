@@ -7,7 +7,7 @@ image: "/images/own/tropea-santa-maria-widok.webp"
 description: "Wakacje w Kalabrii z biurem podróży: w których miejscowościach są hotele Itaki, Rainbow i TUI, ile jedzie się z lotniska Lamezia Terme i co zwiedzić z każdego kurortu."
 ---
 
-W katalogach biur podróży Kalabria to jedna pozycja, a na mapie – ponad 300 km z północy na południe i dwa różne wybrzeża. **Hotel opisany jako „Kalabria” może leżeć pół godziny albo ponad dwie godziny od lotniska Lamezia Terme, a od tego zależy, czy podczas tygodniowego urlopu zobaczysz Tropeę.** Sprawdziliśmy, w których miejscowościach Itaka, Rainbow i TUI mają hotele na lato 2027, i wskazaliśmy, co da się z każdego rejonu zwiedzić w jeden dzień. Oferta zmienia się z tygodnia na tydzień – opisujemy stan z listopada 2026 r.
+W katalogach biur podróży Kalabria to jedna pozycja, a na mapie – blisko 300 km autostradą z północy na południe i dwa różne wybrzeża. **Hotel opisany jako „Kalabria” może leżeć pół godziny albo ponad dwie godziny od lotniska Lamezia Terme, a od tego zależy, czy podczas tygodniowego urlopu zobaczysz Tropeę.** Sprawdziliśmy, w których miejscowościach Itaka, Rainbow i TUI mają hotele na lato 2027, i wskazaliśmy, co da się z każdego rejonu zwiedzić w jeden dzień. Oferta zmienia się z tygodnia na tydzień – opisujemy stan z listopada 2026 r.
 
 <div class="boc-toc">
 <p class="boc-toc-title">Spis treści</p>
@@ -35,13 +35,13 @@ Prawie wszystkie wyjazdy z Polski zaczynają się na lotnisku Lamezia Terme, po�
 <tr><td>Wybrzeże jońskie</td><td>Simeri Mare, Montepaone Lido, Marina di Sibari</td><td>49–144 km, 50 min – 2 godz.</td><td>Jońskie</td></tr>
 </tbody></table></figure>
 
-<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-santa-maria-widok.webp" alt="Santa Maria dell'Isola i plaża w Tropei z punktu widokowego" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Tropea – z hoteli na Costa degli Dei dojedziesz tu w kilkanaście minut, ze Scalei w trzy godziny.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
+<figure class="wp-block-image aligncenter size-large boc-photo"><img src="/images/own/tropea-santa-maria-widok.webp" alt="Santa Maria dell'Isola i plaża w Tropei z punktu widokowego" loading="lazy" width="1600" height="1200"/><figcaption class="wp-element-caption"><em>Tropea – z hoteli na Costa degli Dei dojedziesz tu w kwadrans–pół godziny, ze Scalei w trzy godziny.</em><span class="boc-photo-credit">Fot. Best of Calabria</span></figcaption></figure>
 
 ## Costa degli Dei – Tropea i Capo Vaticano {#costa-degli-dei}
 
 Wybrzeże Bogów, czyli 55 km brzegu między Pizzo a Nicoterą, to rejon, w którym polskie biura mają najwięcej hoteli. Większość leży w gminie Ricadi, przy przylądku [Capo Vaticano](/pl/natura/capo-vaticano/): TUI ma tu kilkanaście obiektów (w tym TUI BLUE Tropea), Itaka – między innymi hotele Calabrisella i La Conchiglia, a Rainbow – Hotel Grotticelle i Agave Blu. Kolejne znajdziesz w Parghelii, Zambrone i samej Tropei.
 
-To zwykle niewielkie hotele i wioski wakacyjne na zboczu nad morzem albo tuż przy plaży. Wiele plaż to niewielkie, piaszczyste zatoki między skałami, a woda szybko robi się głęboka.
+To zwykle niewielkie hotele i wioski wakacyjne na zboczu nad morzem albo tuż przy plaży. Wiele plaż to niewielkie, piaszczyste zatoki między skałami.
 
 **Co zwiedzić.** [Tropea](/pl/kierunki/tropea/) leży od hoteli w Ricadi około kwadransa jazdy, a wzdłuż wybrzeża biegnie lokalna linia kolejowa ze stacjami w Zambrone, Parghelii, Tropei i Ricadi – pociągi regionalne jeżdżą rzadko, ale pozwalają dostać się do miasta bez auta. Warto też zobaczyć punkt widokowy przy latarni Capo Vaticano, [Pizzo](/pl/kierunki/pizzo/) z tartufo i zamkiem Murata (z Tropei 30 km), Spilinga, w której powstaje [’nduja](/pl/kuchnia/nduja/), oraz rejs na Wyspy Liparyjskie z portu w Tropei. Na cały dzień warto pojechać do [Scilli](/pl/kierunki/scilla/) i [Reggio Calabria](/pl/kierunki/reggio-calabria/) – takie wycieczki sprzedają też rezydenci. Plaże opisujemy w tekście [Plaże Costa degli Dei](/pl/kierunki/pizzo/plaze-costa-degli-dei/).
 
@@ -77,7 +77,7 @@ Scalea, Praia a Mare i Diamante mają stacje na głównej linii kolejowej Salern
 
 ## Wybrzeże jońskie – Simeri Mare, Soverato, Sibari {#jonskie}
 
-Po drugiej stronie regionu plaże są długie, szerokie i mniej zatłoczone, a morze zwykle spokojniejsze. Hotele to przeważnie duże wioski wakacyjne z animacjami, nastawione na rodziny.
+Po drugiej stronie regionu plaże są długie, szerokie i mniej zatłoczone. Hotele to przeważnie duże wioski wakacyjne z animacjami, nastawione na rodziny.
 
 **Simeri Mare i okolice Soverato.** Do Simeri Mare, gdzie działają TH Simeri i VOI Floriana Resort, jedzie się z lotniska niespełna godzinę – w tym miejscu Kalabria jest najwęższa. TUI ma też hotel w Montepaone Lido pod Soverato. Stąd blisko do [Catanzaro](/pl/kierunki/catanzaro/) i do Squillace z ruinami zamku. Z Soverato do [Stilo](/pl/kierunki/stilo/) z bizantyjską [Cattolicą](/pl/kierunki/stilo/cattolica/) jest 43 km (niecała godzina), a do Serra San Bruno z kartuzją – 35 km. Dalej na wschód, w stronę Crotone, leży Le Castella z aragońską twierdzą na wysepce połączonej z brzegiem wąską groblą.
 
@@ -93,7 +93,7 @@ Jeśli tydzień na leżaku to za mało, biura mają też programy ze zwiedzaniem
 
 **Rainbow – „Rodzinna przygoda – Kalabria”.** Program dla rodzin z dziećmi, z hotelem na tyrreńskim wybrzeżu i wycieczkami do Tropei, na Capo Vaticano, do Pizzo i na Wyspy Liparyjskie.
 
-Rezydenci obu biur sprzedają też na miejscu jednodniowe wycieczki fakultatywne – najczęściej do Tropei z Capo Vaticano i Pizzo, do Reggio Calabria ze Scillą oraz rejs na Stromboli.
+Biura sprzedają też na miejscu jednodniowe wycieczki fakultatywne – najczęściej do Tropei z Capo Vaticano i Pizzo, do Reggio Calabria ze Scillą oraz rejs na Stromboli.
 
 ## Loty: czarter czy na własną rękę {#loty}
 
